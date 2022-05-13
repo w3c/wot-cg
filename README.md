@@ -19,7 +19,7 @@
 The W3C WoT Community Group wants to build a community around the recommendations and notes published by the WoT 
 [Working Group](https://www.w3.org/WoT/wg/) and [Interest Group](https://www.w3.org/WoT/ig/).
 
-[Join the WoT CG!](https://www.w3.org/community/wp-login.php?redirect_to=%2Fcommunity%2Fwot%2Fjoin)
+[Join the WoT CG!](https://www.w3.org/community/wot/join)
 
 ## Resources
 
