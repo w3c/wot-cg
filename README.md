@@ -1,6 +1,6 @@
 <p align="center">
 
-<a href="https://www.w3.org/WoTw">
+<a href="https://www.w3.org/WoT">
 <img alt="W3CWoT" src="https://www.w3.org/WoT/IG/wiki/images/8/8f/WOT-hz.svg" width="300" />
 </a>
 </p>
