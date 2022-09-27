@@ -5,6 +5,7 @@ If you have online versions, you can link them here in reverse chronological ord
 
 ## Online Presentation Slides
 
+- [Internal Meeting 1](https://docs.google.com/presentation/d/1n8LRt6jGC9kKc910RFQANBtgsiw66Vf584Q2a3ns85s/edit?usp=sharing) | [PDF](./2022-08-WoTCG-InternalMeeting1-AguzziKorkan.pdf)
 - [How to build a community by Philipp-Alexander Blum](https://github.com/bind-systems/wot-cg-0-how-to-build-a-community) | [PDF](https://github.com/bind-systems/wot-cg-0-how-to-build-a-community/blob/master/assets/wot-cg-0-how-to-build-a-community.pdf)
 - [wot-rust introduction by Luca Barbato](https://docs.google.com/presentation/d/17Uod5HT5Se_XMt0cE-X12ud-DdwrzoAnDEovT4JFZx8/edit?usp=sharing) | [PDF](./2022-09-WoTCG-wot_rust-Barbato.pdf)
 - [W3C WoT Meetup 0](https://docs.google.com/presentation/d/1u8OlKdJnq4bqRTtJ4lP2rwVph_Vl_fuvxYi2iZy9sz8/edit?usp=sharing) | [PDF](./2022-09-WoTCG-Meetup0-AguzziKorkan.pdf)
