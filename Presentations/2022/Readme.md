@@ -5,7 +5,9 @@ If you have online versions, you can link them here in reverse chronological ord
 
 ## Online Presentation Slides
 
-- [W3C WoT Meetup 1 - Digital Twins with Eclipse Ditto and Web of Things](https://www.eclipse.org/ditto/slides/2022_10_ditto-and-wot/) | [PDF](2022-10-WoTCG-Meeting1-EclipseDitto-and-WoT-Jaeckle.pdf)
+- [W3C WoT Meetup 1 - Digital Twin Ideas Fady Salama - PDF](./2022/2022-10-WoTCG-Meetup1-DigitalTwins-Salama.pdf)
+- [W3C WoT Meetup 1 - Intro](https://docs.google.com/presentation/d/1iOCkNmtA10AuDTyHKswk26siCU2AAGNOzQsUm15BQYw/edit?usp=sharing) | [PDF](./2022-10-WoTCG-Meetup1-AguzziKorkan.pdf)
+- [W3C WoT Meetup 1 - Digital Twins with Eclipse Ditto and Web of Things](https://www.eclipse.org/ditto/slides/2022_10_ditto-and-wot/) | [PDF](2022-10-WoTCG-Meetup1-EclipseDitto-and-WoT-Jaeckle.pdf)
 - [Internal Meeting 1](https://docs.google.com/presentation/d/1n8LRt6jGC9kKc910RFQANBtgsiw66Vf584Q2a3ns85s/edit?usp=sharing) | [PDF](./2022-08-WoTCG-InternalMeeting1-AguzziKorkan.pdf)
 - [How to build a community by Philipp-Alexander Blum](https://github.com/bind-systems/wot-cg-0-how-to-build-a-community) | [PDF](https://github.com/bind-systems/wot-cg-0-how-to-build-a-community/blob/master/assets/wot-cg-0-how-to-build-a-community.pdf)
 - [wot-rust introduction by Luca Barbato](https://docs.google.com/presentation/d/17Uod5HT5Se_XMt0cE-X12ud-DdwrzoAnDEovT4JFZx8/edit?usp=sharing) | [PDF](./2022-09-WoTCG-wot_rust-Barbato.pdf)
