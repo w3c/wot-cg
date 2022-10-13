@@ -19,3 +19,26 @@ becomes
 ```html
 <h1>WoT CG at TPAC 2022</h1>
 ```
+
+- Adding Meeting Title
+
+If forgotten during the meeting, the minutes will contain `(MEETING TITLE)` in `<h1>` and in the title attribute.
+
+Even if the meeting title is present, it is better to double check that it starts with `W3C WoT CG`
+
+- Changing acronyms of people to their names
+
+When taking minutes, we generally use a shorter version for people's names, e.g. `fb: I think we should do this` when a 
+participant named `Foo Bar` is speaking.
+When the minutes are published, it would look more professional to have full names, i.e. `Foo Bar: I think we should do this`
+Some common replacements we have seen so far (people who have joined more than 1 meeting and spoke):
+  - ca: OR cris: -> Cristiano Aguzzi:
+  - ege: OR ek: -> Ege Korkan:
+  - mc: OR mm: -> Michael McCool:
+  - kaz: OR ka: -> Kazuyuki Ashimura:
+  - pb: OR philipp: OR citrullin:-> Philipp Blum:
+  - sk: -> Sebastian Kaebisch:
+  - tm: OR mizushima: -> Tomoaki Mizushima:
+  - daniel: -> Daniel Peintner:
+  - bf: -> Ben Francis
+  - lb: OR lu_zero: -> Luca Barbato
