@@ -11,7 +11,8 @@ A manual or automatic post processing takes place to do the following:
 - Removing mention of draft: 
 
 ```html
-<h1>WoT CG at TPAC 2022</h1>
+<h1>– DRAFT –<br>
+WoT CG at TPAC 2022</h1>
 ```
 
 becomes 
@@ -42,3 +43,5 @@ Some common replacements we have seen so far (people who have joined more than 1
   - daniel: -> Daniel Peintner:
   - bf: -> Ben Francis
   - lb: OR lu_zero: -> Luca Barbato
+  
+ - Correct typos. This will probably be manual. I have used a spell check but there are too many acronyms and surnames to handle (add exceptions). Maybe a smarter spell checker is needed to automate this.
