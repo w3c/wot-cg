@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<title>W3C WoT CG - Online Meetup 0 – 22 September 2022</title>
+<meta name="viewport" content="width=device-width">
+<link rel="stylesheet" type="text/css" title="2018" href="22_09_2022-minutes_files/public.css">
+<link rel="alternate stylesheet" type="text/css" title="2004" href="22_09_2022-minutes_files/base.css">
+<link rel="alternate stylesheet" type="text/css" title="2004" href="22_09_2022-minutes_files/public_002.css">
+<link rel="alternate stylesheet" type="text/css" title="2004" href="22_09_2022-minutes_files/minutes-style.css">
+<link rel="alternate stylesheet" type="text/css" title="Fancy" href="22_09_2022-minutes_files/fancy.css">
+<link rel="alternate stylesheet" type="text/css" title="Typewriter" href="22_09_2022-minutes_files/tt-member.css">
+</head>
+
+<body data-new-gr-c-s-check-loaded="8.904.0" data-gr-ext-installed="">
+<header>
+<p><a href="https://www.w3.org/"><img src="22_09_2022-minutes_files/W3C.svg" alt="W3C" width="72" height="48" border="0"></a></p>
+
+<h1>W3C WoT CG - Online Meetup 0</h1>
+<h2>22 September 2022</h2>
+
+<nav id="links">
+<a href="https://www.w3.org/2022/09/22-wot-cg-irc"><img alt="IRC log." title="IRC log" src="22_09_2022-minutes_files/text-plain.png"></a>
+</nav>
+</header>
+
+<div id="prelims">
+<div id="attendees">
+<h2>Attendees</h2>
+<dl class="intro">
+<dt>Present</dt><dd>Alexander_Power, Andrea_Saracino, Ben_Francis, 
+Christian_Glomb, Cristiano_Aguzzi, Daniel_Peintner, Dave_Raggett, Ege, 
+Jan_Romann, Joao_L_Souza, Kaz_Ashimura, Kunihiko_Toumura, Luca_Barbato, 
+Luca_Roffia, Michael_McCool, Peter_Patel_Schneider, Philipp_Blum, 
+Sebastian_Kaebisch, Simone_Persiani, Thomas_Jaeckle, tzafeir</dd>
+<dt>Regrets</dt><dd>-</dd>
+<dt>Chair</dt><dd>-</dd>
+<dt>Scribe</dt><dd>Ege</dd>
+</dl>
+</div>
+
+<nav id="toc">
+<h2>Contents</h2>
+<ol>
+<li><a href="#t01">wot-rust presentation</a>
+<ol>
+<li><a href="#t02">wot-serve</a></li>
+<li><a href="#t03">wot discovery</a></li>
+<li><a href="#t04">what is next</a></li>
+<li><a href="#t05">questions</a></li>
+</ol>
+</li>
+<li><a href="#t06">Philipp Blum's Presentation</a>
+<ol>
+<li><a href="#t07">demo</a></li>
+<li><a href="#t08">questions</a></li>
+</ol>
+</li>
+<li><a href="#t09">video platform choice</a></li>
+</ol>
+</nav>
+</div>
+
+<main id="meeting" class="meeting">
+<h2>Meeting minutes</h2>
+<section><p id="x007" class="irc"><cite>&lt;benfrancis&gt;</cite> Hi lu_zero!</p>
+<p id="x018" class="phone s01"><cite>Cristiano Aguzzi:</cite> welcome everyone to our first meetup</p>
+<p id="x019" class="phone s01"><cite>Cristiano Aguzzi:</cite> I am one of the co-chairs, did phd on wot and cto of vaimee</p>
+<p id="x021" class="phone s02"><cite>Ege Korkan:</cite> I am research scientist at siemens in munich<br>
+<span id="x022">… welcome to our newest members as well</span></p>
+<p id="x023" class="phone s01"><cite>Cristiano Aguzzi:</cite> these meetups are open to the public</p>
+<p id="x030" class="phone s01"><cite>Cristiano Aguzzi:</cite> we will also have live events in the future in specific topics</p>
+<p id="x031" class="phone s01"><cite>Cristiano Aguzzi:</cite> here are the logistics information</p>
+<p id="x032" class="summary">slides are available at <a href="https://docs.google.com/presentation/d/1u8OlKdJnq4bqRTtJ4lP2rwVph_Vl_fuvxYi2iZy9sz8/edit?usp=sharing">https://<wbr>docs.google.com/<wbr>presentation/<wbr>d/<wbr>1u8OlKdJnq4bqRTtJ4lP2rwVph_Vl_fuvxYi2iZy9sz8/<wbr>edit?usp=sharing</a></p>
+</section>
+
+<section>
+<h3 id="t01">wot-rust presentation</h3>
+<p id="x036" class="phone s03"><cite>Luca Barbato:</cite> I did open source development, now I am doing mostly rust based implementations</p>
+<p id="x037" class="phone s03"><cite>Luca Barbato:</cite> now I am working on sifis home, a trustworthy home project in the eu</p>
+<p id="x046" class="phone s03"><cite>Luca Barbato:</cite> we do not want single point of failure, like an MQTT broker<br>
+<span id="x047">… we want open standards</span><br>
+<span id="x048">… we want to guide people to write better software as well</span><br>
+<span id="x049">… we are encouraging use of rust, it has a nice solution to memory faults</span><br>
+<span id="x050">… the language prevents you from that</span><br>
+<span id="x051">… a bit like java, write once, run everywhere</span><br>
+<span id="x052">… the way wot works first our specific needs</span></p>
+<p id="x057" class="phone s03"><cite>Luca Barbato:</cite> we want each device to present its capabilities<br>
+<span id="x058">… which is what wot does, self description</span><br>
+<span id="x059">… there are some risks with physical device, like an oven</span><br>
+<span id="x060">… you can forget to turn it off, which means fire hazard or electricity bill problem</span></p>
+<p id="x063" class="phone s03"><cite>Luca Barbato:</cite> we have done a first demo with webthings-rust<br>
+<span id="x064">… but we did not want to impose our needs to others</span></p>
+<p id="x066" class="phone s03"><cite>Luca Barbato:</cite> So we have started developing our own stack</p>
+<p id="x072" class="phone s03"><cite>Luca Barbato:</cite> we have some rust crates already<br>
+<span id="x073">… we have done the network discovery side of the wot discovery spec</span><br>
+<span id="x074">… we also have a wot-td crate that allows writing tds in rust, in a type safe way</span><br>
+<span id="x075">… so you can build it in a structured but flexible way</span><br>
+<span id="x076">… the validation happens in compile time</span><br>
+<span id="x077">… (should be moved up) sifis home is at <a href="https://www.sifis-home.eu/">https://<wbr>www.sifis-home.eu/</a> with the github repository <a href="https://github.com/sifis-home">https://<wbr>github.com/<wbr>sifis-home</a></span></p>
+<p id="x078" class="phone s03"><cite>Luca Barbato:</cite> we like the flexibility of tds</p>
+<h4 id="t02">wot-serve</h4>
+<p id="x083" class="phone s03"><cite>Luca Barbato:</cite> it is an extension of wot-td<br>
+<span id="x084">… you can build the rules</span><br>
+<span id="x085">… it also does the mdns advertisement</span><br>
+<span id="x086">… this is in the same level as webthings rust but we did it in another way</span></p>
+<h4 id="t03">wot discovery</h4>
+<p id="x089" class="phone s03"><cite>Luca Barbato:</cite> what we are doing now is very much WIP<br>
+<span id="x090">… we do not want to implement sparql ourselves since it is quite complex</span></p>
+<h4 id="t04">what is next</h4>
+<p id="x092" class="phone s03"><cite>Luca Barbato:</cite> we will implement a consumer as well</p>
+<h4 id="t05">questions</h4>
+<p id="x096" class="phone s04"><cite>Sebastian Kaebisch:</cite> we would like to invite you to a plugfest, we can check interoperability</p>
+<p id="x097" class="phone s03"><cite>Luca Barbato:</cite> yes please</p>
+<p id="x104" class="phone s05"><cite>Kazuyuki Ashimura:</cite> I am WoT team contact<br>
+<span id="x105">… I completly agree to invite you to plugfest</span><br>
+<span id="x106">… I think you should present it in a WG call as well, we can invite you</span><br>
+<span id="x107">… in addition, your implementation has a new code base so it would help a lot with the implementation report</span></p>
+<p id="x111" class="phone s06"><cite>Michael McCool:</cite> this is great.<br>
+<span id="x112">… are you using Thing Models?</span><br>
+<span id="x113">… since you are building TDs programatically, maybe you can use TMs as templates?</span></p>
+<p id="x117" class="phone s03"><cite>Luca Barbato:</cite> sifis has stereotypes, and restrictive<br>
+<span id="x118">… this is 2 months of work and we are open for interop testing</span></p>
+<p id="x119" class="phone s06"><cite>Michael McCool:</cite> helping with the discovery testing would be really nice</p>
+<p id="x122" class="phone s07"><cite>Ben Francis:</cite> do you have plans to implement wot profile?<br>
+<span id="x123">… when you implement the consumer, which protocols do you plan to support?</span></p>
+<p id="x129" class="phone s03"><cite>Luca Barbato:</cite> we are planning to support http sse<br>
+<span id="x130">… we will explore other protocols later but for now HTTP</span><br>
+<span id="x131">… maybe coap in the future, but in the very future</span><br>
+<span id="x132">… for http, axiom gave us the building blocks</span><br>
+<span id="x133">… for coap, more work is needed</span><br>
+<span id="x134">… for mqtt, we have philosophical problem since the broker is a single point of failure</span></p>
+</section>
+
+<section>
+<h3 id="t06">Philipp Blum's Presentation</h3>
+<p id="x136" class="phone s01"><cite>Cristiano Aguzzi:</cite> he contributes to the wg and has experience in other fields as well</p>
+<p id="x137" class="phone s08"><cite>Philipp Blum:</cite> thanks for reviving the group</p>
+<p id="x148" class="phone s08"><cite>Philipp Blum:</cite> did blogs, youtube videos and tv commercials<br>
+<span id="x149">… fell in love with constrained devices when working with big data devices</span><br>
+<span id="x150">… lack of infrastructure was the main interesting point for me</span><br>
+<span id="x151">… we want to have tools for collaboration</span><br>
+<span id="x152">… we need more validation and verification infrastructure</span><br>
+<span id="x153">… and place to give support to the community</span><br>
+<span id="x154">… so I have a domain that can support different services</span><br>
+<span id="x155">… there is RAM and Storage servers</span><br>
+<span id="x156">… we have data safety in 4 levels</span></p>
+<p id="x157" class="irc"><cite>&lt;Sebastian_&gt;</cite> I need to go. Great meeting!</p>
+<p id="x159" class="phone s08"><cite>Philipp Blum:</cite> we have done an initial kubernetes setup with CI CD<br>
+<span id="x160">… it would be nice to have a single user management system and chat services</span></p>
+<h4 id="t07">demo</h4>
+<p id="x164" class="phone s08"><cite>Philipp Blum:</cite> we have discourse running as well, not sure about signing up service</p>
+<h4 id="t08">questions</h4>
+<p id="x167" class="phone s02"><cite>Ege Korkan:</cite> what about the future? how to maintain it after one year?</p>
+<p id="x169" class="phone s08"><cite>Philipp Blum:</cite> we have 3 people working on it<br>
+<span id="x170">… but we need to scale it down a bit later on</span></p>
+<p id="x171" class="phone s02"><cite>Ege Korkan:</cite> 1 year from now?</p>
+<p id="x172" class="phone s08"><cite>Philipp Blum:</cite> I have started 2 months ago</p>
+<p id="x176" class="phone s07"><cite>Ben Francis:</cite> I would be cautious with supporting a community</p>
+<p id="x177" class="phone s07"><cite>Ben Francis:</cite> why did you decide to self host it?</p>
+<p id="x179" class="phone s08"><cite>Philipp Blum:</cite> it is complicated for the end user, from my experience in admin roles in discord servers<br>
+<span id="x180">… we cannot send people 50 different links for different aspects</span></p>
+<p id="x183" class="phone s02"><cite>Ege Korkan:</cite> we can have a focused discussion on this</p>
+</section>
+
+<section>
+<h3 id="t09">video platform choice</h3>
+<p id="x185" class="phone s01"><cite>Cristiano Aguzzi:</cite> we have this list of available platforms</p>
+<p id="x186" class="phone s01"><cite>Cristiano Aguzzi:</cite> we can also use different platforms for different purposes</p>
+<p id="x187" class="phone s08"><cite>Philipp Blum:</cite> (from the chat) teams is good for now</p>
+<p id="x188" class="phone s09"><cite>tj:</cite> (from the chat) teams is great</p>
+<p id="x190" class="irc"><cite>&lt;cris_&gt;</cite> <a href="https://www.w3.org/groups/cg/wot/calendar">https://<wbr>www.w3.org/<wbr>groups/<wbr>cg/<wbr>wot/<wbr>calendar</a></p>
+<p id="x192" class="phone s10"><cite>Kazuyuki Ashimura:</cite> please talk with the whole CG about what should be done as a starting point</p>
+</section>
+</main>
+
+
+<address>Minutes manually created (not a transcript), formatted by <a href="https://w3c.github.io/scribe2/scribedoc.html">scribe.perl</a> version 192 (Tue Jun 28 16:55:30 2022 UTC).</address>
+
+<div class="diagnostics">
+<h2>Diagnostics</h2>
+<p class="warning">Succeeded: s/ca;/Cristiano Aguzzi/</p>
+<p class="warning">Succeeded: s/akc k/</p>
+<p class="warning">Succeeded: s/your imp/in addition, your imp/</p>
+<p class="warning">Maybe present: bf, ca, ek, ka, kaz, lb, mm, pb, sk, tj</p>
+</div>
+
+
+</body><grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration></html>
