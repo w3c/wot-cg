@@ -40,7 +40,7 @@ Some common replacements we have seen so far (people who have joined more than 1
   - pb: OR philipp: OR citrullin:-> Philipp Blum:
   - sk: -> Sebastian Kaebisch:
   - tm: OR mizushima: -> Tomoaki Mizushima:
-  - daniel: -> Daniel Peintner:
+  - dp: -> Daniel Peintner:
   - bf: -> Ben Francis
   - lb: OR lu_zero: -> Luca Barbato
   
