@@ -46,5 +46,5 @@ This repository will contain information about the events but not active work on
 
 ## Contact
 
-Please open issues or email the chairs.
-The structure is still to come.
+Please open issues or email the chairs. You can also use our [Office Hours](https://github.com/w3c/wot-cg/discussions/16) and directly talk with group representatives. 
+
