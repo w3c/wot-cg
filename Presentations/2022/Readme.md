@@ -5,6 +5,7 @@ If you have online versions, you can link them here in reverse chronological ord
 
 ## Online Presentation Slides
 
+- [W3C WoT Meetup 2 - Intro](https://docs.google.com/presentation/d/13jKtDYPREKXW9e0BM_6bA__aocjGkEq37DxuQ3bMBDY/edit?usp=sharing) | [PDF](./2022-12-WoTCG-Meetup2-AguzziKorkan.pdf)
 - [Internal Meeting 2](https://docs.google.com/presentation/d/1jzoB5sbe7ad_HtIMuPKkaxlPOSTiiyhXrmQcSdMJD0k/edit?usp=sharing) | [PDF](./2022-10-WoTCG-InternalMeeting2-AguzziKorkan.pdf)
 - [W3C WoT Meetup 1 - Digital Twin Ideas Fady Salama - PDF](./2022/2022-10-WoTCG-Meetup1-DigitalTwins-Salama.pdf)
 - [W3C WoT Meetup 1 - Intro](https://docs.google.com/presentation/d/1iOCkNmtA10AuDTyHKswk26siCU2AAGNOzQsUm15BQYw/edit?usp=sharing) | [PDF](./2022-10-WoTCG-Meetup1-AguzziKorkan.pdf)
