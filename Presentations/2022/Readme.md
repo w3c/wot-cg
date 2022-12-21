@@ -5,6 +5,8 @@ If you have online versions, you can link them here in reverse chronological ord
 
 ## Online Presentation Slides
 
+- W3C WoT Meetup 3 - Netzo | [PDF](.2022/2022-12-WoTCG-Meetup3-Netzo-Edge-Computing.pdf)
+- [W3C WoT Meetup 2 - Intro](https://docs.google.com/presentation/d/1fEB38kNR4yICol825EdXD-7ULjxSy0ZO_KozXiMCaSQ/edit?usp=sharing) | [PDF](./2022-12-WoTCG-Meetup3-AguzziKorkan.pdf)
 - W3C WoT Meetup 2 - Magenta Zuhause App | [PDF](./2022-08-WoTCG-Meetup2-MagentaZuhauseApp-Winkler.pdf) | [Powerpoint](./2022-08-WoTCG-Meetup2-MagentaZuhauseApp-Winkler.pptx)
 - [W3C WoT Meetup 2 - Intro](https://docs.google.com/presentation/d/13jKtDYPREKXW9e0BM_6bA__aocjGkEq37DxuQ3bMBDY/edit?usp=sharing) | [PDF](./2022-12-WoTCG-Meetup2-AguzziKorkan.pdf)
 - [Internal Meeting 2](https://docs.google.com/presentation/d/1jzoB5sbe7ad_HtIMuPKkaxlPOSTiiyhXrmQcSdMJD0k/edit?usp=sharing) | [PDF](./2022-10-WoTCG-InternalMeeting2-AguzziKorkan.pdf)
