@@ -9,8 +9,11 @@
   <a href="https://twitter.com/W3C_WoT">
     <img src="https://img.shields.io/twitter/follow/W3C_WoT.svg?label=follow+W3C_WoT" alt="twitter account" >
   </a>
-  <a href="https://packagephobia.now.sh/result?p=rollup">
+  <a href="https://img.shields.io/stackexchange/stackoverflow/t/web-of-things?style=plastic">
     <img src="https://img.shields.io/stackexchange/stackoverflow/t/web-of-things?style=plastic" alt="stackoverflow page" >
+  </a>
+  <a href="https://discord.gg/RJNYJsEgnb">
+     <img src="https://img.shields.io/badge/Discord-7289DA?logo=discord&logoColor=white&label=wot" alt="discord chat">
   </a>
 </p>
 
