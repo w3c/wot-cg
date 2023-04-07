@@ -27,10 +27,11 @@ The W3C WoT Community Group wants to build a community around the recommendation
 ## Resources
 
 - [Official WoT CG Page](https://www.w3.org/community/wot/)
+- [CG Calendar](https://www.w3.org/groups/cg/wot/calendar)
 - [CG Charter](https://www.w3.org/community/wot/charter/)
+- [Chat](https://discord.gg/RJNYJsEgnb)
 - [Official Page of W3C WoT](https://www.w3.org/WoT)
 - [Official Twitter Account of W3C WoT](https://twitter.com/W3C_WoT)
-<!-- - Chat platform -->
 
 ### Other W3C WoT Repositories
 
