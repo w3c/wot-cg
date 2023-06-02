@@ -5,6 +5,8 @@ If you have online versions, you can link them here in reverse chronological ord
 
 ## Online Presentation Resources
 
+- W3C WoT Meetup 8 - Advantages and Challenges of Web of Things for Digital Twins - Schaeffler | [Video](https://www.youtube.com/watch?v=kPfdqGYvBVM) | [PDF](./2023-05-WoTCG-Meetup8-Kuestner_Schaeffler.pdf)
+- [W3C WoT Meetup 8 - Intro](https://docs.google.com/presentation/d/1j1trj42kzy7FWaYR3xne39Ic_PJqjszjEmXIww7x_qU/edit?usp=sharing) | [PDF](./2023-05-WoTCG-Meetup8-AguzziKorkan.pdf)
 - W3C WoT Meetup 7 - Web Scale Agents with WoT and No-Code Applications in IoT - IntellIoT, Simon Mayer | [Video](https://www.youtube.com/watch?v=iqNX9DgFaBM) | [PDF](./2023-04-WoTCG-Meetup7-Mayer-IntellIoT.pdf)
 - [W3C WoT Meetup 7 - Intro](https://docs.google.com/presentation/d/1Sqr3uJ_6lLoOGJ9z6Uttg5akKNZcB945yaponz26Uz0/edit?usp=sharing) | [PDF](./2023-04-WoTCG-Meetup7-AguzziKorkan.pdf)
 - W3C WoT Meetup 6 - Automated Industrial Asset Onboarding Using Open Standards - Microsoft, Siemens, evosoft | [Video](https://youtu.be/xFnrWOeh3pc) | [PDF](./2023-04-WoTCG-Meetup6-Siemens-Microsoft.pdf)
