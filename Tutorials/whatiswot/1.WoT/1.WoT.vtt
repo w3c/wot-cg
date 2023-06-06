@@ -1,0 +1,110 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:04.889 
+[pause 5.5s]
+
+00:00:04.889 --> 00:00:10.293 
+Hello! Welcome to the "What is WoT" video series. [pause strong]
+
+00:00:10.306 --> 00:00:19.867 
+Throughout this video series, we will explain the Web of Things, its applications, and tools for newcomers. [pause x-strong]
+
+00:00:19.867 --> 00:00:26.145 
+We structured this video series in two stages. First, introduce the concepts
+
+00:00:26.145 --> 00:00:32.422 
+from basics to advanced. Then, support them with demos and applications.
+
+00:00:32.428 --> 00:00:37.226 
+This is to learn Web of Things and speed up the learning process.
+
+00:00:37.588 --> 00:00:42.665 
+Each video is short, so you can learn Web of Things bit by bit.
+
+00:00:42.767 --> 00:00:48.001 
+At any time, you can come back and use the videos as a reference.
+
+00:00:48.001 --> 00:00:53.677 
+This video series is not only consisting of material to watch [pause 0.1s] but is also
+
+00:00:53.677 --> 00:00:59.352 
+supported with code snippets that you can work on and try by yourself. [pause x-weak]
+
+00:00:59.352 --> 00:01:03.053 
+At the end of the series, you will have all the
+
+00:01:03.053 --> 00:01:06.754 
+tools in your belt to build Web of Things applications.
+
+00:01:06.754 --> 00:01:12.680 
+With all these tools, you can build actual software such as dashboards, [pause weak]
+
+00:01:12.680 --> 00:01:15.367 
+protocol proxies, [pause x-strong]
+
+00:01:15.352 --> 00:01:19.884 
+[pause x-strong]smart internet-connected devices, [pause medium]
+
+00:01:19.884 --> 00:01:24.547 
+mash ups of Web of Things devices and services, [pause x-strong]
+
+00:01:24.544 --> 00:01:28.177 
+[pause weak]in many domains such as Smart Homes, [pause x-weak]
+
+00:01:28.177 --> 00:01:30.852 
+and Factory Automation [pause medium]
+
+00:01:30.852 --> 00:01:36.673 
+[pause weak] Since you came across this video series, we assume that you heard a bit
+
+00:01:36.673 --> 00:01:42.495 
+about the Web of Things and Thing Description. But let us give a brief introduction.
+
+00:01:42.487 --> 00:01:46.658 
+Before we explain Web of Things, lets first talk about the
+
+00:01:46.658 --> 00:01:50.828 
+difference between the Web of Things and Internet of Things.
+
+00:01:50.828 --> 00:01:59.926 
+While Internet of Things focuses on technologies for connecting devices to the Internet, Web of Things leverages Internet of
+
+00:01:59.926 --> 00:02:09.024 
+Things and aims to provide interoperability between Things using established architectural ideas for the Web and web technologies.
+
+00:02:09.024 --> 00:02:12.766 
+[pause weak]So lets talk about a thing and thing description
+
+00:02:13.051 --> 00:02:17.240 
+[pause x-weak]In the Web of Things Architecture, a Thing is defined
+
+00:02:17.240 --> 00:02:21.429 
+as an abstraction of an Internet of Things device or service.
+
+00:02:21.429 --> 00:02:26.142 
+And Thing Description provides descriptive metadata for a Thing.
+
+00:02:26.142 --> 00:02:33.000 
+Web of Things provides a set of standardized technology building blocks that help to
+
+00:02:33.000 --> 00:02:39.859 
+streamline Internet of Things application development by following the well-known and successful Web paradigm.
+
+00:02:39.859 --> 00:02:47.191 
+With the architecture enabled by the Web of Things, flexibility and interoperability increases especially
+
+00:02:47.191 --> 00:02:54.523 
+in cross-domain applications, as well as enabling the reuse of established standards and tools.
+
+00:02:54.651 --> 00:03:01.528 
+What can be achieved with the Web of Things is endless. We feel your excitement to learn and
+
+00:03:01.528 --> 00:03:08.405 
+develop the WoT applications If you are ready to dive into world of WoT, let's start this journey!
+
+00:03:08.442 --> 00:03:14.989 
+In the next video, we will talk about Payloads and Headers. If you already know the
+
+00:03:14.989 --> 00:03:21.536 
+basics, you can skip the introduction and directly move to general Web of Things videos.
+

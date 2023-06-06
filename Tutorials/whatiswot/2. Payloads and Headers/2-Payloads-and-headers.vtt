@@ -1,0 +1,116 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:06.304 
+[pause x-weak]Hello! In this video, we will introduce payloads and headers in detail.
+
+00:00:06.304 --> 00:00:13.949 
+Since in the Web of Things, there are smart devices exchanging data via protocols which separate the data into headers
+
+00:00:13.949 --> 00:00:21.594 
+and payloads, It is important to understand the difference and how they are relevant for the Web of Things.
+
+00:00:21.602 --> 00:00:29.107 
+[pause weak]This is an introductory series that presents technologies and standards relevant to the WoT.
+
+00:00:29.107 --> 00:00:35.682 
+If you want to skip directly to the tutorials on the WoT standards, click the link in cards.
+
+00:00:35.921 --> 00:00:38.842 
+So lets start with what is a payload? [pause x-weak]
+
+00:00:38.839 --> 00:00:44.407 
+In computing, the payload is the part of transmitted data that is the actual
+
+00:00:44.407 --> 00:00:49.975 
+intended message of the application and nothing to do with the protocol itself.
+
+00:00:49.975 --> 00:00:56.646 
+It is also called the body of the message. It is not mandatory in most protocols.
+
+00:00:56.646 --> 00:01:02.866 
+[pause x-weak]We can approach with an analogy, where we consider protocols as a truck.
+
+00:01:02.866 --> 00:01:07.737 
+[pause weak]and we can think of the parcel contents as the payloads of a
+
+00:01:07.737 --> 00:01:12.608 
+protocol, since a payload should not tell what it should be done by itself.
+
+00:01:12.608 --> 00:01:17.533 
+The parcel contents also do not contain any information about their
+
+00:01:17.533 --> 00:01:22.457 
+destination, the truck being transported, or the color of the truck.
+
+00:01:22.457 --> 00:01:25.259 
+Now, let us introduce what is a header
+
+00:01:25.259 --> 00:01:31.112 
+[pause weak]The header is part of a message that can and should be understood by the
+
+00:01:31.112 --> 00:01:36.965 
+protocol stack. All the information that the payload should not contain, goes to the header.
+
+00:01:36.965 --> 00:01:45.017 
+Let's continue with the parcel truck example. In that example, the header would be the etiquette on the parcel.
+
+00:01:45.017 --> 00:01:51.543 
+This is what an HTTP header can look like. A header can contain
+
+00:01:51.543 --> 00:01:58.069 
+information like request context, response context, status and it can indicate payload type.
+
+00:01:58.069 --> 00:02:05.268 
+[pause x-strong]There are different payload types such as [pause x-weak] JSON,
+
+00:02:05.268 --> 00:02:12.466 
+[pause x-strong]XML, [pause x-strong]CBOR [pause x-strong]Text[pause x-strong]Audio and video and more.
+
+00:02:12.466 --> 00:02:16.160 
+So let us show you an example of JSON payload.
+
+00:02:16.160 --> 00:02:20.093 
+This is a temperature payload, a single number.
+
+00:02:20.093 --> 00:02:23.382 
+And this is a configuration payload.
+
+00:02:23.382 --> 00:02:30.148 
+It is a JSON object consisting of key value pairs desiredUnit and updateInterval. .
+
+00:02:30.148 --> 00:02:36.532 
+The temperature payload is sent from the sensor and the configuration is sent to the sensor.
+
+00:02:36.532 --> 00:02:41.737 
+[pause weak]In the next video series, we will talk in detail, about
+
+00:02:41.737 --> 00:02:46.942 
+JSON. But first let us explain why is JSON so important?
+
+00:02:46.942 --> 00:02:53.253 
+Because JSON is very relevant in the scope of the Web of Things, payloads
+
+00:02:53.253 --> 00:02:59.565 
+are preferred mostly in JSON. Also, many other API and configuration files use JSON.
+
+00:02:59.565 --> 00:03:05.924 
+It is light-weight compared to XML and human readable compared to CBOR. You can see
+
+00:03:05.924 --> 00:03:12.283 
+the difference in the representation of the same data in JSON, XML, and CBOR.
+
+00:03:12.283 --> 00:03:17.273 
+It is well-established and has a schema language called JSON Schema.
+
+00:03:17.273 --> 00:03:22.263 
+It can be used to describe and validate JSON data.
+
+00:03:22.263 --> 00:03:28.022 
+[pause x-weak]Here, you can see an example of a TD in JSON format. We will go
+
+00:03:28.022 --> 00:03:33.780 
+later into the details of how a TD should be structured and understood. [pause strong]
+
+00:03:33.780 --> 00:03:40.414 
+[pause x-strong]In the next video, we will talk about JSON and what it is in detail.
+
