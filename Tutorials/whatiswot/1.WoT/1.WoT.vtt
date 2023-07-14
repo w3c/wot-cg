@@ -1,13 +1,10 @@
 WEBVTT
 
-00:00:00.000 --> 00:00:04.889 
-[pause 5.5s]
-
 00:00:04.889 --> 00:00:10.293 
-Hello! Welcome to the "What is WoT" video series. [pause strong]
+Hello! Welcome to the "What is WoT" video series.
 
 00:00:10.306 --> 00:00:19.867 
-Throughout this video series, we will explain the Web of Things, its applications, and tools for newcomers. [pause x-strong]
+Throughout this video series, we will explain the Web of Things, its applications, and tools for newcomers.
 
 00:00:19.867 --> 00:00:26.145 
 We structured this video series in two stages. First, introduce the concepts
@@ -25,10 +22,10 @@ Each video is short, so you can learn Web of Things bit by bit.
 At any time, you can come back and use the videos as a reference.
 
 00:00:48.001 --> 00:00:53.677 
-This video series is not only consisting of material to watch [pause 0.1s] but is also
+This video series is not only consisting of material to watch but is also
 
 00:00:53.677 --> 00:00:59.352 
-supported with code snippets that you can work on and try by yourself. [pause x-weak]
+supported with code snippets that you can work on and try by yourself.
 
 00:00:59.352 --> 00:01:03.053 
 At the end of the series, you will have all the
@@ -37,25 +34,25 @@ At the end of the series, you will have all the
 tools in your belt to build Web of Things applications.
 
 00:01:06.754 --> 00:01:12.680 
-With all these tools, you can build actual software such as dashboards, [pause weak]
+With all these tools, you can build actual software such as dashboards,
 
 00:01:12.680 --> 00:01:15.367 
-protocol proxies, [pause x-strong]
+protocol proxies,
 
 00:01:15.352 --> 00:01:19.884 
-[pause x-strong]smart internet-connected devices, [pause medium]
+smart internet-connected devices,
 
 00:01:19.884 --> 00:01:24.547 
-mash ups of Web of Things devices and services, [pause x-strong]
+mash ups of Web of Things devices and services,
 
 00:01:24.544 --> 00:01:28.177 
-[pause weak]in many domains such as Smart Homes, [pause x-weak]
+in many domains such as Smart Homes,
 
 00:01:28.177 --> 00:01:30.852 
-and Factory Automation [pause medium]
+and Factory Automation
 
 00:01:30.852 --> 00:01:36.673 
-[pause weak] Since you came across this video series, we assume that you heard a bit
+Since you came across this video series, we assume that you heard a bit
 
 00:01:36.673 --> 00:01:42.495 
 about the Web of Things and Thing Description. But let us give a brief introduction.
@@ -73,13 +70,13 @@ While Internet of Things focuses on technologies for connecting devices to the I
 Things and aims to provide interoperability between Things using established architectural ideas for the Web and web technologies.
 
 00:02:09.024 --> 00:02:12.766 
-[pause weak]So lets talk about a thing and thing description
+So lets talk about a thing and thing description
 
 00:02:13.051 --> 00:02:17.240 
-[pause x-weak]In the Web of Things Architecture, a Thing is defined
+In the Web of Things Architecture, a Thing is defined as
 
 00:02:17.240 --> 00:02:21.429 
-as an abstraction of an Internet of Things device or service.
+an abstraction of an Internet of Things device or service.
 
 00:02:21.429 --> 00:02:26.142 
 And Thing Description provides descriptive metadata for a Thing.
