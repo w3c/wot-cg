@@ -2,9 +2,9 @@
 
 Our slots:
 
-- Thursday 11:30-13:00
-- Friday 11:30-13:00
-- Friday 17:00-18:30
+1. Thursday 11:30-13:00
+2. Friday 11:30-13:00
+3. Friday 17:00-18:30
 
 ## Agendas
 
@@ -14,7 +14,7 @@ Time: Thursday 11:30-13:00
 - 11:30 - 11:45 Introductions of Participants
 - 11:45 - 12:15 Explaining Web of Things
 - 12:15 - 12:45 Hands-on
-- 12:45 - 13:00 Wrap and Discussions
+- 12:45 - 13:00 Wrap-up and Discussions
 
 ### Slot 2
 Time: Friday 11:30-13:00
@@ -22,7 +22,7 @@ Time: Friday 11:30-13:00
 - 11:30 - 11:45 Introductions of Participants
 - 11:45 - 12:00 Short Introduction to Web of Things
 - 12:00 - 12:15 Introducing WoT CG
-- 12:15 - 13:00 Discussion with WoT WG (joint session)
+- 12:15 - 13:00 Discussion with WoT WG (joint session) (requires confirmation from WoT WG)
   - Binding Contributions from CG Participants
   - Feedback from CG Participants to Use Cases, WG documents
   - Overal agreement on scope
@@ -30,4 +30,4 @@ Time: Friday 11:30-13:00
 ### Slot 3
 Time: Friday 17:00-18:30
 
-- 17:00 - 18:00 Further discussion with WoT WG (joint session) (Tentative)
+- 17:00 - 18:30 Alternative slot for WoT WG Discussion (requires confirmation from WoT WG)
