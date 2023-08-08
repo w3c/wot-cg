@@ -24,6 +24,20 @@ The W3C WoT Community Group wants to build a community around the recommendation
 
 [Join the WoT CG!](https://www.w3.org/community/wot/join)
 
+## Meetings
+
+### Internal Meetings
+- Time: Every first Monday of the month at 5pm CET. [Example Event in our Calendar](https://www.w3.org/events/meetings/0b0a4962-9dba-4213-903a-582509710914/20230904T170000/).
+- Topic: The work of the CG and take decisions to accomplish our next goals, such as meetups, infrastructure, and increasing WoT adoption and awareness.
+
+### Office Hours
+- Time: Every Thursday at 9am or 5pm CET, alternating every week. We switch between the two to allow participation from any timezone. See [our calendar](https://www.w3.org/groups/cg/wot/calendar/) for meeting information.
+- Topic: Questions and answers from the community about the Web of Things on any topic such as help with implementations, unclear parts of specifications, architectural questions.
+
+### Meetups
+- Time: Ideally on Thursday 4pm CET when there is a speaker ready.
+- Topic: Explaining and showcasing a WoT implementation, project, product.
+
 ## Resources
 
 - [Official WoT CG Page](https://www.w3.org/community/wot/)
