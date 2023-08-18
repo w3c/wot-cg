@@ -1,0 +1,49 @@
+
+
+Hello! Welcome to the "What is WoT" tutorial series. 
+
+Throughout this tutorial series, we will explain the Web of Things, its applications, and tools for newcomers. 
+
+We structured this tutorial series in two stages. First, introduce the concepts from basics to advanced. Then, support them with demos and applications.
+
+This is to learn Web of Things and speed up the learning process.
+
+Each video is short, so you can learn Web of Things bit by bit.
+
+At any time, you can come back and use the videos as a reference.
+
+This tutorial series is not only consisting of material to watch  but is also supported with code snippets that you can work on and try by yourself. 
+
+At the end of the series, you will have all the tools in your belt to build Web of Things applications.
+
+With all these tools, you can build actual software such as dashboards, 
+
+protocol proxies, 
+
+smart internet-connected devices, 
+
+mash ups of Web of Things devices and services, 
+
+in many domains such as Smart Homes, 
+
+and Factory Automation 
+
+ Since you came across this tutorial series, we assume that you heard a bit about the Web of Things and Thing Description. But let us give a brief introduction.
+
+Before we explain Web of Things, lets first talk about the difference between Internet of Things and  the Web of Things.
+While Internet of Things focuses on technologies for connecting devices to the Internet,  Web of Things leverages Internet of Things  and aims to provide interoperability between Things using established architectural ideas for the Web and web technologies.
+
+So lets talk about a thing and thing description
+
+In the Web of Things Architecture, a Thing is defined as an abstraction of an Internet of Things  device or service.
+
+And Thing Description provides descriptive metadata for a Thing.
+
+Web of Things provides a set of standardized technology building blocks that help to streamline Internet of Things application development by following the well-known and successful Web paradigm.
+
+With the architecture enabled by the Web of Things, flexibility and interoperability increases especially in cross-domain applications, as well as enabling the reuse of established standards and tools.
+
+What can be achieved with the Web of Things is endless. We feel your excitement to learn and develop the WoT applications If you are ready to dive into world of WoT, let's start this journey!
+
+In the next video, we will talk about Payloads and Headers. If you already know the basics, you can skip the introduction and directly move to general Web of Things videos.
+
