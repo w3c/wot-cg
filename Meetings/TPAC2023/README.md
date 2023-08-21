@@ -25,7 +25,7 @@ Time: Friday 11:30-13:00
 - 12:15 - 13:00 Discussion with WoT WG (joint session) (requires confirmation from WoT WG)
   - Binding Contributions from CG Participants
   - Feedback from CG Participants to Use Cases, WG documents
-  - Overal agreement on scope
+  - Overall agreement on scope
   
 ### Slot 3
 Time: Friday 17:00-18:30

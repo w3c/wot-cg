@@ -1,0 +1,22 @@
+{
+  "name": "wot-quickstart",
+  "version": "1.0.0",
+  "description": "a simple WoT project to quickly start a Consumer application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "wot",
+    "iot",
+    "tutorial"
+  ],
+  "author": "w3c wot cg",
+  "license": "MIT",
+  "dependencies": {
+    "@node-wot/binding-coap": "^0.8.7",
+    "@node-wot/binding-http": "^0.8.7",
+    "@node-wot/binding-mqtt": "^0.8.7",
+    "@node-wot/core": "^0.8.7"
+  }
+}
