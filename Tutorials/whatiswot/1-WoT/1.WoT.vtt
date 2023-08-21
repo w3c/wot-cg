@@ -1,107 +1,107 @@
 WEBVTT
 
-00:00:04.889 --> 00:00:10.293 
-Hello! Welcome to the "What is WoT" video series.
+00:00:04.889 --> 00:00:09.904 
+Hello! Welcome to the "What is WoT" tutorial series.
 
-00:00:10.306 --> 00:00:19.867 
-Throughout this video series, we will explain the Web of Things, its applications, and tools for newcomers.
+00:00:09.918 --> 00:00:18.381 
+Throughout this tutorial series, we will explain the Web of Things, its applications, and tools for newcomers.
 
-00:00:19.867 --> 00:00:26.145 
-We structured this video series in two stages. First, introduce the concepts
+00:00:18.381 --> 00:00:24.232 
+We structured this tutorial series in two stages. First, introduce the concepts
 
-00:00:26.145 --> 00:00:32.422 
+00:00:24.232 --> 00:00:30.084 
 from basics to advanced. Then, support them with demos and applications.
 
-00:00:32.428 --> 00:00:37.226 
+00:00:30.090 --> 00:00:34.888 
 This is to learn Web of Things and speed up the learning process.
 
-00:00:37.588 --> 00:00:42.665 
+00:00:35.250 --> 00:00:40.327 
 Each video is short, so you can learn Web of Things bit by bit.
 
-00:00:42.767 --> 00:00:48.001 
+00:00:40.428 --> 00:00:45.663 
 At any time, you can come back and use the videos as a reference.
 
-00:00:48.001 --> 00:00:53.677 
-This video series is not only consisting of material to watch but is also
+00:00:45.663 --> 00:00:50.846 
+This tutorial series is not only consisting of material to watch but is also
 
-00:00:53.677 --> 00:00:59.352 
+00:00:50.846 --> 00:00:56.030 
 supported with code snippets that you can work on and try by yourself.
 
-00:00:59.352 --> 00:01:03.053 
+00:00:56.030 --> 00:00:59.731 
 At the end of the series, you will have all the
 
-00:01:03.053 --> 00:01:06.754 
+00:00:59.731 --> 00:01:03.432 
 tools in your belt to build Web of Things applications.
 
-00:01:06.754 --> 00:01:12.680 
+00:01:03.432 --> 00:01:10.208 
 With all these tools, you can build actual software such as dashboards,
 
-00:01:12.680 --> 00:01:15.367 
+00:01:10.208 --> 00:01:13.501 
 protocol proxies,
 
-00:01:15.352 --> 00:01:19.884 
+00:01:13.486 --> 00:01:18.018 
 smart internet-connected devices,
 
-00:01:19.884 --> 00:01:24.547 
+00:01:18.018 --> 00:01:23.034 
 mash ups of Web of Things devices and services,
 
-00:01:24.544 --> 00:01:28.177 
+00:01:23.031 --> 00:01:26.664 
 in many domains such as Smart Homes,
 
-00:01:28.177 --> 00:01:30.852 
+00:01:26.664 --> 00:01:29.339 
 and Factory Automation
 
-00:01:30.852 --> 00:01:36.673 
-Since you came across this video series, we assume that you heard a bit
+00:01:29.339 --> 00:01:34.796 
+Since you came across this tutorial series, we assume that you heard a bit
 
-00:01:36.673 --> 00:01:42.495 
+00:01:34.796 --> 00:01:40.253 
 about the Web of Things and Thing Description. But let us give a brief introduction.
 
-00:01:42.487 --> 00:01:46.658 
+00:01:40.245 --> 00:01:44.076 
 Before we explain Web of Things, lets first talk about the
 
-00:01:46.658 --> 00:01:50.828 
-difference between the Web of Things and Internet of Things.
+00:01:44.076 --> 00:01:47.907 
+difference between Internet of Things and the Web of Things.
 
-00:01:50.828 --> 00:01:59.926 
+00:01:47.907 --> 00:01:56.908 
 While Internet of Things focuses on technologies for connecting devices to the Internet, Web of Things leverages Internet of
 
-00:01:59.926 --> 00:02:09.024 
+00:01:56.908 --> 00:02:05.908 
 Things and aims to provide interoperability between Things using established architectural ideas for the Web and web technologies.
 
-00:02:09.024 --> 00:02:12.766 
+00:02:05.908 --> 00:02:09.214 
 So lets talk about a thing and thing description
 
-00:02:13.051 --> 00:02:17.240 
+00:02:09.498 --> 00:02:13.159 
 In the Web of Things Architecture, a Thing is defined as
 
-00:02:17.240 --> 00:02:21.429 
+00:02:13.159 --> 00:02:16.820 
 an abstraction of an Internet of Things device or service.
 
-00:02:21.429 --> 00:02:26.142 
+00:02:16.820 --> 00:02:21.533 
 And Thing Description provides descriptive metadata for a Thing.
 
-00:02:26.142 --> 00:02:33.000 
+00:02:21.533 --> 00:02:28.392 
 Web of Things provides a set of standardized technology building blocks that help to
 
-00:02:33.000 --> 00:02:39.859 
+00:02:28.392 --> 00:02:35.250 
 streamline Internet of Things application development by following the well-known and successful Web paradigm.
 
-00:02:39.859 --> 00:02:47.191 
+00:02:35.250 --> 00:02:42.582 
 With the architecture enabled by the Web of Things, flexibility and interoperability increases especially
 
-00:02:47.191 --> 00:02:54.523 
+00:02:42.582 --> 00:02:49.914 
 in cross-domain applications, as well as enabling the reuse of established standards and tools.
 
-00:02:54.651 --> 00:03:01.528 
+00:02:50.042 --> 00:02:56.919 
 What can be achieved with the Web of Things is endless. We feel your excitement to learn and
 
-00:03:01.528 --> 00:03:08.405 
+00:02:56.919 --> 00:03:03.796 
 develop the WoT applications If you are ready to dive into world of WoT, let's start this journey!
 
-00:03:08.442 --> 00:03:14.989 
+00:03:03.833 --> 00:03:10.380 
 In the next video, we will talk about Payloads and Headers. If you already know the
 
-00:03:14.989 --> 00:03:21.536 
+00:03:10.380 --> 00:03:16.927 
 basics, you can skip the introduction and directly move to general Web of Things videos.
 

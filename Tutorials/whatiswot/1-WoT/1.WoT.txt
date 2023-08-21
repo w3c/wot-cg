@@ -1,10 +1,10 @@
 
 
-Hello! Welcome to the "What is WoT" video series. 
+Hello! Welcome to the "What is WoT" tutorial series. 
 
-Throughout this video series, we will explain the Web of Things, its applications, and tools for newcomers. 
+Throughout this tutorial series, we will explain the Web of Things, its applications, and tools for newcomers. 
 
-We structured this video series in two stages. First, introduce the concepts from basics to advanced. Then, support them with demos and applications.
+We structured this tutorial series in two stages. First, introduce the concepts from basics to advanced. Then, support them with demos and applications.
 
 This is to learn Web of Things and speed up the learning process.
 
@@ -12,7 +12,7 @@ Each video is short, so you can learn Web of Things bit by bit.
 
 At any time, you can come back and use the videos as a reference.
 
-This video series is not only consisting of material to watch  but is also supported with code snippets that you can work on and try by yourself. 
+This tutorial series is not only consisting of material to watch  but is also supported with code snippets that you can work on and try by yourself. 
 
 At the end of the series, you will have all the tools in your belt to build Web of Things applications.
 
@@ -28,10 +28,10 @@ in many domains such as Smart Homes,
 
 and Factory Automation 
 
- Since you came across this video series, we assume that you heard a bit about the Web of Things and Thing Description. But let us give a brief introduction.
+ Since you came across this tutorial series, we assume that you heard a bit about the Web of Things and Thing Description. But let us give a brief introduction.
 
-Before we explain Web of Things, lets first talk about the difference between the Web of Things and Internet of Things.
-While Internet of Things focuses on technologies for connecting devices to the Internet, Web of Things leverages Internet of Things  and aims to provide interoperability between Things using established architectural ideas for the Web and web technologies.
+Before we explain Web of Things, lets first talk about the difference between Internet of Things and  the Web of Things.
+While Internet of Things focuses on technologies for connecting devices to the Internet,  Web of Things leverages Internet of Things  and aims to provide interoperability between Things using established architectural ideas for the Web and web technologies.
 
 So lets talk about a thing and thing description
 
