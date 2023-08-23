@@ -2,9 +2,9 @@
 
 Our slots:
 
-1. Thursday 11:30-13:00
-2. Friday 11:30-13:00
-3. Friday 17:00-18:30
+1. Thursday 14th of September: 11:30-13:00
+2. Friday 15th of September:  11:30-13:00
+3. Friday 15th of September: 17:00-18:30
 
 ## Agendas
 
