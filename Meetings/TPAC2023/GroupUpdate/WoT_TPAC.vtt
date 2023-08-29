@@ -1,0 +1,110 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:09.023 
+Hello, welcome to the introduction video of Web of Things
+
+00:00:09.023 --> 00:00:14.427 
+Since you came across this video, we assume that you heard a bit about
+
+00:00:14.427 --> 00:00:19.830 
+the Web of Things and Thing Description. But let us give a brief introduction.
+
+00:00:19.830 --> 00:00:24.591 
+First, let's talk about the difference between IoT and WoT.
+
+00:00:24.591 --> 00:00:32.645 
+While IoT focuses on technologies for connecting devices to the Internet, WoT leverages IoT and aims
+
+00:00:32.645 --> 00:00:40.699 
+to provide interoperability between Things using established architectural ideas for the Web and web technologies.
+
+00:00:40.699 --> 00:00:45.630 
+So lets talk about a Thing and Thing Description.
+
+00:00:45.630 --> 00:00:51.178 
+In the WoT Architecture, a Thing is defined as an abstraction of an
+
+00:00:51.178 --> 00:00:56.726 
+IoT device or service. And TD provides descriptive metadata for a Thing.
+
+00:00:56.726 --> 00:01:02.662 
+WoT provides a set of standardized technology building blocks that help to
+
+00:01:02.662 --> 00:01:08.598 
+streamline IoT application development by following the well-known and successful Web paradigm.
+
+00:01:08.598 --> 00:01:16.276 
+With the architecture enabled by the Web of Things, flexibility and interoperability increases, especially
+
+00:01:16.276 --> 00:01:23.954 
+in cross-domain applications, as well as enabling the reuse of established standards and tools.
+
+00:01:23.954 --> 00:01:30.670 
+If you want to learn more, we are developing a tutorial series called “What is WoT?”
+
+00:01:30.670 --> 00:01:39.072 
+Throughout this tutorial series, we will explain the Web of Things, its applications and tools for newcomers.
+
+00:01:40.604 --> 00:01:44.395 
+This is to learn WoT and speed up the learning process.
+
+00:01:44.393 --> 00:01:49.652 
+Each video is short, so you can learn WoT bit by bit.
+
+00:01:49.652 --> 00:01:54.886 
+At any time, you can come back and use the videos as a reference.
+
+00:01:54.886 --> 00:02:00.228 
+This tutorial series is not only consisting of material to watch, but is also
+
+00:02:00.228 --> 00:02:05.570 
+supported with code snippets that you can work on and try by yourself.
+
+00:02:05.570 --> 00:02:12.516 
+At the end of the series, you will have all the tools in your belt to build WoT applications.
+
+00:02:12.516 --> 00:02:18.114 
+With all these tools, you can build actual software such as dashboards,
+
+00:02:18.114 --> 00:02:22.875 
+protocol proxies and translators,
+
+00:02:22.873 --> 00:02:26.190 
+smart internet-connected devices,
+
+00:02:26.194 --> 00:02:30.264 
+mash ups of WoT devices and services,
+
+00:02:30.264 --> 00:02:34.309 
+in many domains such as Smart Homes,
+
+00:02:34.309 --> 00:02:37.722 
+and Factory Automation.
+
+00:02:39.328 --> 00:02:45.993 
+What can be achieved with the WoT is endless. We feel your excitement to learn and develop
+
+00:02:45.993 --> 00:02:52.657 
+the WoT applications If you are ready to dive into world of WoT, let's start this journey!
+
+00:02:52.657 --> 00:02:59.020 
+For the rest of the series, make sure to follow the W 3 C WoT Community Group,
+
+00:02:59.020 --> 00:03:03.600 
+And we have multiple options to stay in touch with Web of Things:
+
+00:03:03.600 --> 00:03:06.224 
+You can join the Discord server.
+
+00:03:06.224 --> 00:03:13.340 
+You can find how companies use WoT via the presentations on the YouTube channel.
+
+00:03:13.340 --> 00:03:18.502 
+Also you can join one of the office hours happening every Thursday.
+
+00:03:18.502 --> 00:03:24.013 
+You can visit w3 dot org/wot to learn more about WoT. If
+
+00:03:24.013 --> 00:03:29.524 
+you want to contribute you can join WoT community group too.
+
