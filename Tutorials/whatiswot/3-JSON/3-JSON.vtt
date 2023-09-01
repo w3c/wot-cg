@@ -1,0 +1,100 @@
+WEBVTT
+
+NOTE https://murf.ai/share/lloyg2oe
+
+00:00:00.000 --> 00:00:06.737 
+In this video, we will take a closer look at JSON. Since it is the most used
+
+00:00:06.737 --> 00:00:13.475 
+payload format in the Web of Things , as well as the way Thing Descriptions are represented.
+
+00:00:13.475 --> 00:00:17.837 
+So, let’s start with what is JSON.
+
+00:00:17.837 --> 00:00:22.312 
+JSON is a lightweight data-interchange format.
+
+00:00:24.771 --> 00:00:29.633 
+It is easy for humans to read and write
+
+00:00:29.633 --> 00:00:34.676 
+and easy for machines to parse and generate.
+
+00:00:34.676 --> 00:00:43.428 
+Let’s take a look at how parsing and generating happens. We can parse a JSON to visualize
+
+00:00:43.428 --> 00:00:52.180 
+the data such as temperature or we can send data, such as form content as JSON.
+
+00:00:52.180 --> 00:00:55.112 
+Let’s look at the quick facts about the JSON.
+
+00:00:55.112 --> 00:01:05.281 
+It was standardized by ECMA and I E T F in around 2013, the current version is 2017 [RFC 8259]
+
+00:01:05.273 --> 00:01:12.048 
+It is used for data exchange but also for configuration files and It can be
+
+00:01:12.048 --> 00:01:18.823 
+translated to other popular formats in both ways like XML, YAML, and other formats.
+
+00:01:18.823 --> 00:01:24.266 
+Even though JSON stands for Java Script Object Notation, it does
+
+00:01:24.266 --> 00:01:29.708 
+not only consist of objects but also allows primitive types.
+
+00:01:29.708 --> 00:01:35.236 
+The confusion comes from the very early versions of JSON which only included
+
+00:01:35.236 --> 00:01:40.765 
+objects and would not allow the primitive types to exist on their own.
+
+00:01:40.765 --> 00:01:49.540 
+However, now JSON accepts objects and it has 5 primitive types that are also accepted on their own.
+
+00:01:49.540 --> 00:02:03.852 
+Lets look closer to these primitive types; String, Number, Boolean, and null.
+
+00:02:03.852 --> 00:02:09.968 
+JSON is built on two structures. First one is name value pairs .
+
+00:02:09.968 --> 00:02:18.551 
+In various programming languages, this can be called an object, struct, dictionary, hash table or keyed list.
+
+00:02:18.551 --> 00:02:24.565 
+Second one is ordered list of values. An array of different types is allowed too.
+
+00:02:24.565 --> 00:02:30.579 
+In most programming languages, this can be called as an array, vector, list, or sequence.
+
+00:02:30.579 --> 00:02:39.804 
+They are also called key value pairs. Keys are always strings and always start and end with quotation marks.
+
+00:02:39.804 --> 00:02:42.915 
+Now we can look closer at a JSON Object.
+
+00:02:42.915 --> 00:02:49.896 
+This is an example data sent by a humidity sensor. In between 2 curly brackets, we see
+
+00:02:49.896 --> 00:02:56.878 
+the name and value pairs that show the data structure and the data itself sent by the sensor.
+
+00:02:56.878 --> 00:03:01.734 
+We showed that JSON Arrays can consist of different primitive types before. With
+
+00:03:01.734 --> 00:03:06.590 
+JSON arrays it is also possible to list objects in it too.
+
+00:03:06.590 --> 00:03:12.703 
+Lets look at an example, in between 2 square brackets we list 2 JSON
+
+00:03:12.703 --> 00:03:18.815 
+objects. The data in the array is aggregated sensor values from the different sensors.
+
+00:03:18.815 --> 00:03:23.253 
+In this video we made the introduction to JSON.
+
+00:03:23.253 --> 00:03:31.465 
+In the next video, we will explain JSON types in detail and show the usage of JSON in practice.
+

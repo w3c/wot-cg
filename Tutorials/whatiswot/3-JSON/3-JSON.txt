@@ -1,0 +1,46 @@
+In this video, we will take a closer look at JSON. Since it is the most used payload format in the Web of Things , as well as the way Thing Descriptions are represented. 
+
+So, let’s start with what is JSON. 
+
+JSON is a lightweight data-interchange format. 
+
+It is easy for humans to read and write 
+
+and easy for machines to parse and generate. 
+
+Let’s take a look at how parsing and generating happens. We can parse a JSON to visualize the data such as temperature or we can send data, such as form content as JSON. 
+
+Let’s look at the quick facts about the JSON.  
+
+It was standardized by ECMA and I E T F in around 2013, the current version is 2017 [RFC 8259]
+
+It is used for data exchange but also for configuration files and It can be translated to other popular formats in both ways like XML,  YAML, and other formats.
+
+Even though JSON stands for Java Script Object Notation, it does not only consist of objects but also allows primitive types.
+
+The confusion comes from the very early versions of JSON which only included objects and would not allow the primitive types to exist on their own.
+
+However, now JSON accepts objects and it has 5 primitive types that are also accepted on their own.
+
+Lets look closer to these primitive types; String,  Number,  Boolean,   and null. 
+
+JSON is built on two structures.  First one is name value pairs .
+
+In various programming languages, this can be called an object, struct, dictionary, hash table or keyed list.
+
+Second one is ordered list of values. An array of different types is allowed too. In most programming languages, this can be called as an array, vector, list, or sequence.
+
+They are also called key value pairs. Keys are always strings and always start and end with quotation marks.
+
+Now we can look closer at a JSON Object.
+
+ This is an example data sent by a humidity sensor. In between 2 curly brackets, we see the name and value pairs that show the data structure and the data itself sent by the sensor.  
+
+We showed that JSON Arrays can consist of different primitive types before.  With JSON arrays it is also possible to list objects in it too.
+
+Lets look at an example, in between 2 square brackets we list 2 JSON objects. The data in the array is aggregated sensor values from the different sensors.
+
+In this video we made the introduction to JSON.
+
+In the next video, we will explain JSON types in detail and show the usage of JSON in practice.
+
