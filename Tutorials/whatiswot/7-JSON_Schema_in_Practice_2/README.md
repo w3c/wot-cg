@@ -12,6 +12,3 @@ JSON Schema 2
     - oneOf
     - not
 - If-then-else
-
-
-
