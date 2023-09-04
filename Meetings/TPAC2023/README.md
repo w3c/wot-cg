@@ -6,6 +6,11 @@ Our slots:
 2. Friday 15th of September:  11:30-13:00
 3. Friday 15th of September: 17:00-18:30
 
+Joint Meetings:
+
+- Autonomous Agents on the Web Community Group: Monday 11th of September, 11:30. [Event Link](https://www.w3.org/events/meetings/c7370f67-cf02-42df-a6ab-1c8a7b9b92a1/)
+- WoT Working Group: Thursday 14th of September, 11:30-13:00 (our slot 2). [Event Link](https://www.w3.org/events/meetings/b9a57d94-1dd0-44dd-aa7e-90b510b4f98a/)
+
 ## Agendas
 
 ### Slot 1
