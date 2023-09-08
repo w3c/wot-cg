@@ -5,6 +5,8 @@
 - package.json with dependencies: This will install the dependencies needed
 - index.js with boilerplate: You should fill this with your own code.
 
+You can clone this repository or download a zipped version of this folder from <https://drive.google.com/file/d/1eH-31qffru7nw-ccC2_8PK92hSIlYmit/view?usp=sharing>
+
 ### Prerequisites
 
 - Node.js 18: You can install via the [official download page](https://nodejs.org/en/download).
