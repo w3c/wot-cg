@@ -32,7 +32,7 @@ Event link: https://www.w3.org/events/meetings/b9a57d94-1dd0-44dd-aa7e-90b510b4f
 - 12:15 - 13:00 Discussion with WoT WG (joint session) (requires confirmation from WoT WG)
   - Binding Contributions from CG Participants
   - Feedback from CG Participants to Use Cases, WG documents
-  - Overal agreement on scope
+  - Overall agreement on scope
   
 ### Slot 3
 Time: Friday 17:00-18:30
