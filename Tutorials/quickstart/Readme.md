@@ -26,3 +26,7 @@ We have three WoT Things provided:
 You can interact with them over the Internet and send requests.
 You should read their Thing Description to understand how to interact with them.
 The Node.js based library, node-wot, simplifies this process and will be installed as a dependency.
+
+## Self-hosting the Things
+
+If you want, you can also self-host the Things used in this tutorial. They are available in the Eclipse Thingweb project at <https://github.com/eclipse-thingweb/node-wot/tree/master/examples/quickstart>.
