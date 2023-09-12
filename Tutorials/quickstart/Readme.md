@@ -2,7 +2,7 @@
 
 ## Resources and Prerequisites
 
-- package.json with dependencies: This will install the dependencies needed. PL
+- package.json with dependencies: This will install the dependencies needed. Please use `npm install` to install the dependencies.
 - index.js with boilerplate: You should fill this with your own code.
 
 You can clone this repository or download a zipped version of this folder from <https://drive.google.com/file/d/1eH-31qffru7nw-ccC2_8PK92hSIlYmit/view?usp=sharing>
@@ -17,7 +17,7 @@ You can clone this repository or download a zipped version of this folder from <
 
 ## Task
 
-Write a script that brews the coffee of your choice when you arrive home if it is earlier than 9 am but later than 6am.
+Write a script that brews the coffee of your choice when you arrive home if it is earlier than 13:00 but later than 5:00.
 
 We have three WoT Things provided:
 
