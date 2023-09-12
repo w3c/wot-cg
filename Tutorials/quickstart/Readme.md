@@ -1,5 +1,7 @@
 # Web of Things Quick Start Tutorial
 
+This is a hands-on tutorial to teach simple Web of Things 
+
 ## Resources and Prerequisites
 
 - package.json with dependencies: This will install the dependencies needed. Please use `npm install` to install the dependencies.
@@ -17,7 +19,7 @@ You can clone this repository or download a zipped version of this folder from <
 
 ## Task
 
-Write a script that brews the coffee of your choice when you arrive home if it is earlier than 13:00 but later than 5:00.
+Write a script that brews the coffee of your choice when you pass in front of the kitchen if it is earlier than 13:00 but later than 5:00.
 
 We have three WoT Things provided:
 
