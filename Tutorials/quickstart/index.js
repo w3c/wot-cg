@@ -16,7 +16,7 @@ let wotHelper = new Helpers(servient);
 const WoT = await servient.start();
 
 const coffeeMachineTD = await wotHelper
-  .fetch("https://zion.vaimee.com/things/urn:uuid:6823008a-032a-4e82-af03-7cb40231fbfe")
+  .fetch("https://zion.vaimee.com/things/urn:uuid:7ba2bca0-a7f6-47b3-bdce-498caa33bbaf")
 // Alternatively, this Thing self-hosts its TD at http://plugfest.thingweb.io:8081/coffee-machine that you can fetch
 const presenceSensorTD = await wotHelper
   .fetch("https://zion.vaimee.com/things/urn:uuid:0a028f8e-8a91-4aaf-a346-9a48d440fd7c")
