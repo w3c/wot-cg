@@ -19,7 +19,7 @@ Event link: https://www.w3.org/events/meetings/8f45241f-43d7-4e26-8ec5-bf3de676d
 
 - 11:30 - 11:45 Introductions of Participants
 - 11:45 - 12:15 Explaining Web of Things - [Slides](https://docs.google.com/presentation/d/11vr0c7hZ-_PcCj3w0qubTS6I2w8sFh3o-C32QjdJ5LA/edit?usp=sharing)
-- 12:15 - 12:45 Hands-on - [Instructions](https://github.com/w3c/wot-cg/tree/egekorkan-patch-2/Tutorials/quickstart)
+- 12:15 - 12:45 Hands-on - [Instructions](https://github.com/w3c/wot-cg/blob/main/Tutorials/quickstart/Readme.md)
 - 12:45 - 13:00 Wrap-up and Discussions
 
 ### Slot 2
