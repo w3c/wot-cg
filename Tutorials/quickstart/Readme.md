@@ -19,9 +19,13 @@ You can clone this repository or download a zipped version of this folder from <
 
 ## Task
 
-Write a script that brews the coffee of your choice when you pass in front of the kitchen if it is earlier than 13:00 but later than 5:00.
+You want to automate a small part of your home. The room setup can be seen in the illustration below.
+![Quickstart Setup](./quickstart-setup.svg)
 
-We have three WoT Things provided:
+Each morning, when you wake up and go towards the kitchen area, you want the coffee to be brewed automatically.
+Your task is to write a script that brews the coffee of your choice when you pass in front the presence sensor in the kitchen if it is earlier than 13:00 but later than 5:00.
+
+We have three WoT Things that are hosted by the Eclipse Thingweb project. Their TDs are linked below:
 
 - Coffee Machine - [TD Link](https://zion.vaimee.com/things/urn:uuid:6823008a-032a-4e82-af03-7cb40231fbfe)
 - Presence Sensor - [TD Link](https://zion.vaimee.com/things/urn:uuid:0a028f8e-8a91-4aaf-a346-9a48d440fd7c)
@@ -29,11 +33,11 @@ We have three WoT Things provided:
 
 You can interact with them over the Internet and send requests.
 You should read their Thing Description to understand how to interact with them.
-The Node.js based library, node-wot, simplifies this process and will be installed as a dependency.
+The Node.js based library, [node-wot](https://github.com/eclipse-thingweb/node-wot), simplifies this process and will be installed as a dependency.
 
 ## Solution
 
-A solution will be provided after TPAC.
+A solution will be provided after W3C TPAC 2023.
 
 ## Self-hosting the Things
 
