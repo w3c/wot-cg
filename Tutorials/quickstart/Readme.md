@@ -1,6 +1,6 @@
 # Web of Things Quick Start Tutorial
 
-This is a hands-on tutorial to teach simple Web of Things 
+This is a hands-on tutorial to teach simple Web of Things concepts. It involves interacting with different WoT Things over the Internet via different protocols.
 
 ## Resources and Prerequisites
 
