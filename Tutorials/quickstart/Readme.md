@@ -27,7 +27,7 @@ Your task is to write a script that brews the coffee of your choice when you pas
 
 We have three WoT Things that are hosted by the Eclipse Thingweb project. Their TDs are linked below:
 
-- Coffee Machine - [TD Link](https://zion.vaimee.com/things/urn:uuid:6823008a-032a-4e82-af03-7cb40231fbfe)
+- Coffee Machine - [TD Link](https://zion.vaimee.com/things/urn:uuid:7ba2bca0-a7f6-47b3-bdce-498caa33bbaf)
 - Presence Sensor - [TD Link](https://zion.vaimee.com/things/urn:uuid:0a028f8e-8a91-4aaf-a346-9a48d440fd7c)
 - Smart Clock - [TD Link](https://zion.vaimee.com/things/urn:uuid:913cf8cb-3687-4d98-8d2f-f6f27cfc7162)
 
