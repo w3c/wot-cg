@@ -19,6 +19,7 @@ let wotHelper = new Helpers(servient);
 (async () => {
   const WoT = await servient.start();
 
+  // we will fetch the TDs of the devices
   const coffeeMachineTD = await wotHelper.fetch(
     "https://zion.vaimee.com/things/urn:uuid:7ba2bca0-a7f6-47b3-bdce-498caa33bbaf"
   );
@@ -30,6 +31,7 @@ let wotHelper = new Helpers(servient);
     "https://zion.vaimee.com/things/urn:uuid:913cf8cb-3687-4d98-8d2f-f6f27cfc7162"
   );
 
+  // consuming TDs allows creates a software object, which allows us to execute functions on them
   const coffeeMachineThing = await WoT.consume(coffeeMachineTD);
   const presenceSensorThing = await WoT.consume(presenceSensorTD);
   const smartClockThing = await WoT.consume(smartClockTD);

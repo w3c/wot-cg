@@ -7,7 +7,7 @@ This is a hands-on tutorial to teach simple Web of Things concepts. It involves 
 - package.json with dependencies: This will install the dependencies needed. Please use `npm install` to install the dependencies.
 - index.js with boilerplate: You should fill this with your own code.
 
-You can clone this repository or download a zipped version of this folder from <https://drive.google.com/file/d/1a-j7hIKto9X5746ATDZkf2Z_pIqgG8ao/view?usp=sharing>
+You can clone this repository or download a zipped version of this folder from <https://drive.google.com/file/d/1bjh-jStlg-BnkixRlbSmv9k5FVjsB8pU/view?usp=sharing>
 
 ### Prerequisites
 
