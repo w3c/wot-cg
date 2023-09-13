@@ -34,6 +34,9 @@ We have three WoT Things that are hosted by the Eclipse Thingweb project. Their 
 You can interact with them over the Internet and send requests.
 You should read their Thing Description to understand how to interact with them.
 The Node.js based library, [node-wot](https://github.com/eclipse-thingweb/node-wot), simplifies this process and will be installed as a dependency.
+It is the reference implementation of the WoT Scripting API, which has an example code [here](https://w3c.github.io/wot-scripting-api/#example-thing-client-api-example-with-data-value).
+
+Alternatively, you can send requests manually. You can refer to the [WoT Binding Templates](https://w3c.github.io/wot-binding-templates/#example-binding-example-of-a-readproperty-operation-to-http) that explains how to read forms in a TD as a human.
 
 ## Solution
 
