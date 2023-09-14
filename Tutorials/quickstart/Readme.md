@@ -7,6 +7,8 @@ This is a hands-on tutorial to teach simple Web of Things concepts. It involves 
 - package.json with dependencies: This will install the dependencies needed. Please use `npm install` to install the dependencies.
 - index.js with boilerplate: You should fill this with your own code.
 
+You can clone this repository or download only this folder via <https://download-directory.github.io/?url=https%3A%2F%2Fgithub.com%2Fw3c%2Fwot-cg%2Ftree%2Fmain%2FTutorials%2Fquickstart>
+
 ### Prerequisites
 
 - Node.js 18: You can install via the [official download page](https://nodejs.org/en/download).
