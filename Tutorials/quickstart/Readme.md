@@ -40,7 +40,7 @@ Alternatively, you can send requests manually. You can refer to the [WoT Binding
 
 ## Solution
 
-A solution will be provided after W3C TPAC 2023.
+A solution is available [in this folder](./index.solution.js). You can build other solutions and expand on them for other scenarios.
 
 ## Self-hosting the Things
 
