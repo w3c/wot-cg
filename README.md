@@ -7,13 +7,16 @@
 
 <p align="center">
   <a href="https://twitter.com/W3C_WoT">
-    <img src="https://img.shields.io/twitter/follow/W3C_WoT.svg?label=follow+W3C_WoT" alt="twitter account" >
+    <img src="https://img.shields.io/twitter/follow/W3C_WoT.svg?label=follow+W3C_WoT"  height="20" alt="X (before known as twitter) account" >
   </a>
   <a href="https://img.shields.io/stackexchange/stackoverflow/t/web-of-things?style=plastic">
-    <img src="https://img.shields.io/stackexchange/stackoverflow/t/web-of-things?style=plastic" alt="stackoverflow page" >
+    <img src="https://img.shields.io/stackexchange/stackoverflow/t/web-of-things?style=plastic"  height="20" alt="stackoverflow page" >
   </a>
   <a href="https://discord.gg/RJNYJsEgnb">
-     <img src="https://img.shields.io/badge/Discord-7289DA?logo=discord&logoColor=white&label=wot" alt="discord chat">
+     <img src="https://img.shields.io/badge/Discord-7289DA?logo=discord&logoColor=white&label=wot"  height="20" alt="discord chat">
+  </a>
+  <a href="https://www.youtube.com/@WoTCG">
+     <img src="https://img.shields.io/badge/YouTube-red?style=for-the-badge&logo=youtube&logoColor=white" height="20" alt="youtube channel">
   </a>
 </p>
 
