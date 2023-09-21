@@ -14,8 +14,9 @@ Joint Meetings:
 ## Agendas
 
 ### Slot 1
+
 Time: Thursday 11:30-13:00
-Event link: https://www.w3.org/events/meetings/8f45241f-43d7-4e26-8ec5-bf3de676d7e9/
+Event link: <https://www.w3.org/events/meetings/8f45241f-43d7-4e26-8ec5-bf3de676d7e9/>
 
 - 11:30 - 11:45 Introductions of Participants
 - 11:45 - 12:15 Explaining Web of Things - [Slides](https://docs.google.com/presentation/d/11vr0c7hZ-_PcCj3w0qubTS6I2w8sFh3o-C32QjdJ5LA/edit?usp=sharing)
@@ -23,8 +24,9 @@ Event link: https://www.w3.org/events/meetings/8f45241f-43d7-4e26-8ec5-bf3de676d
 - 12:45 - 13:00 Wrap-up and Discussions
 
 ### Slot 2
+
 Time: Friday 11:30-13:00
-Event link: https://www.w3.org/events/meetings/b9a57d94-1dd0-44dd-aa7e-90b510b4f98a/
+Event link: <https://www.w3.org/events/meetings/b9a57d94-1dd0-44dd-aa7e-90b510b4f98a/>
 
 - 11:30 - 11:45 Introductions of Participants
 - 11:45 - 12:00 Short Introduction to Web of Things - [Slides](https://docs.google.com/presentation/d/1CS2QhnRer-g_qG8pX3EIVOa4cJGnxMitFb9W9BRaGwM/edit?usp=sharing)
@@ -32,10 +34,11 @@ Event link: https://www.w3.org/events/meetings/b9a57d94-1dd0-44dd-aa7e-90b510b4f
 - 12:15 - 13:00 Joint Discussion with WoT WG on Binding Contributions
   
 ### Slot 3
+
 Time: Friday 17:00-18:30
 
 We are canceling this CG slot so that CG participants can join, as invited visitors, to the WoT WG/IG meeting on "New/Commercial Use Cases and Requirements"
 
-Event link of the WoT WG/IG: https://www.w3.org/events/meetings/a98d2f0d-599e-4fa8-b1cd-1a5ef5d8236e/
- 
+Event link of the WoT WG/IG: <https://www.w3.org/events/meetings/a98d2f0d-599e-4fa8-b1cd-1a5ef5d8236e/>
+
 Please send an email to CG Chairs (Ege Korkan or Cristiano Aguzzi) in order to receive an invitation.
