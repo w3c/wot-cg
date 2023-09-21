@@ -1,4 +1,26 @@
-# WoT CG at TPAC 2023 
+# WoT CG at TPAC 2023
+
+## Presentations
+
+You can find all the WoT-related presentations in TPAC as link below.
+Some are hosted in this repository, some in other repositories.
+
+### WoT CG Sessions
+
+- [Generic Intro for all sessions](../../Presentations/2023/TPAC/WoTCG-Generic_Intro.pdf)
+- [Web of Things Introduction](../../Presentations/2023/TPAC/WoTCG-WoT_Introduction.pdf)
+- [Quick Web of Things Introduction](../../Presentations/2023/TPAC/WoTCG-Quick_WoT_Introduction.pdf)
+- [Group Introduction and WG Collaboration](../../Presentations/2023/TPAC/WoTCG-Group_Intro_and_WG_Collab.pdf)
+
+### Other Sessions
+
+- [Discussion with the Autonomous Agents on the Web CG](https://github.com/w3c-cg/webagents/blob/main/Meetings/2023-09-11-TPAC/Presentations/TPAC2023-WebAgents-WoT-Discussion_Points-Korkan.pdf)
+- [Breakout Session: Home Assistant Dialogue](../../Presentations/2023/TPAC/Breakout-Home_Assistant_Breakout.pdf) (Hosted here for convenience purposes but this presentation is not a WoT CG presentation)
+- [Breakout Session: Schematas and Single Source of Truth for TDs](https://github.com/w3c/wot/blob/main/PRESENTATIONS/2023-09-tpac/2023-09-13-Breakout-Schemata-TD_Single_Source_of_Truth.pdf)
+- [WoT WG/IG, RCH, JSON-LD Joint Session](https://github.com/w3c/wot/blob/main/PRESENTATIONS/2023-09-tpac/2023-09-11-WoT_JSON-LD_RCH_Joint_Session-Korkan_Noura_Barbato.pdf)
+- All WoT WG/IG Presentations can be found at [their GitHub Repository](https://github.com/w3c/wot/tree/main/PRESENTATIONS/2023-09-tpac).
+
+## Time Slots
 
 Our slots:
 
@@ -9,7 +31,7 @@ Our slots:
 Joint Meetings:
 
 - Autonomous Agents on the Web Community Group: Monday 11th of September, 11:30. [Event Link](https://www.w3.org/events/meetings/c7370f67-cf02-42df-a6ab-1c8a7b9b92a1/)
-- WoT Working Group: Thursday 14th of September, 11:30-13:00 (our slot 2). [Event Link](https://www.w3.org/events/meetings/b9a57d94-1dd0-44dd-aa7e-90b510b4f98a/)
+- WoT Working Group: Friday 14th of September, 11:30-13:00 (our slot 2). [Event Link](https://www.w3.org/events/meetings/b9a57d94-1dd0-44dd-aa7e-90b510b4f98a/)
 
 ## Agendas
 
