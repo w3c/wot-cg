@@ -16,7 +16,7 @@
      <img src="https://img.shields.io/badge/Discord-7289DA?logo=discord&logoColor=white&label=wot"  height="20" alt="discord chat">
   </a>
   <a href="https://www.youtube.com/@WoTCG">
-     <img src="https://img.shields.io/badge/YouTube-red?style=for-the-badge&logo=youtube&logoColor=white" height="20" alt="youtube channel">
+     <img src="https://img.shields.io/badge/YouTube-red?logo=youtube&logoColor=white" height="20" alt="youtube channel">
   </a>
 </p>
 
