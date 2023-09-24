@@ -1,0 +1,59 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:06.575 
+In the previous video, we talked about JSON Schema Basics, in this
+
+00:00:06.575 --> 00:00:13.150 
+video, we will continue with generic keywords, Schema composition, and Schema Conditionality.
+
+00:00:13.150 --> 00:00:20.637 
+Some of the annotation keywords used in JSON Schema are title, description, and default.
+
+00:00:20.637 --> 00:00:28.125 
+None of these annotation words are required but enhance good practice for self-documenting Schemas.
+
+00:00:28.125 --> 00:00:31.675 
+The title and description keywords must be strings.
+
+00:00:31.675 --> 00:00:36.037 
+The default keyword specifies a default value.
+
+00:00:36.037 --> 00:00:42.475 
+The enum keyword is used to restrict a value to a fixed set of values.
+
+00:00:42.475 --> 00:00:48.912 
+It must be an array with at least one element, where each element is unique.
+
+00:00:48.912 --> 00:00:57.350 
+The const keyword is used to restrict a value to a single value.
+
+00:00:57.350 --> 00:01:09.072 
+JSON Schema includes a few keywords for combining Schemas together, the most used ones are allOf, anyOf, oneOf, and not.
+
+00:01:09.072 --> 00:01:16.106 
+All of these keywords must be set to an array, where each item is a Schema.
+
+00:01:16.106 --> 00:01:23.478 
+To validate allOf, the given data must be valid against all of the given subSchemas.
+
+00:01:23.478 --> 00:01:31.718 
+To validate anyOf, the given data must be valid against any (one or more) of the given subSchemas.
+
+00:01:31.718 --> 00:01:39.788 
+To validate oneOf, the given data must be valid against exactly one of the given subSchemas.
+
+00:01:39.788 --> 00:01:49.080 
+The not keyword declares that an instance validates if it doesn’t validate against the given subSchema.
+
+00:01:49.080 --> 00:01:56.093 
+The if, then and else keywords allow the application of a subSchema based on the outcome of
+
+00:01:56.093 --> 00:02:03.105 
+another Schema, as it is in other programming languages. If it is valid, then must also be
+
+00:02:03.105 --> 00:02:10.118 
+valid (and else is ignored.) If it is invalid, else must also be valid (and then ignored).
+
+00:02:10.118 --> 00:02:15.393 
+In the next video, we will show JSON Schema Validation process in code
+
