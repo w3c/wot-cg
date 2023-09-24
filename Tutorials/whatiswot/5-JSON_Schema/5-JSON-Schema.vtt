@@ -1,0 +1,71 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:06.700 
+In this video, we will briefly explain Schema Languages and then move to the JSON Schema since it
+
+00:00:06.700 --> 00:00:13.400 
+is the one that describes and validates JSON, it is important to know in Web of Things scope.
+
+00:00:13.400 --> 00:00:16.675 
+Let us explain what is a schema.
+
+00:00:16.675 --> 00:00:24.531 
+Many payload formats offer a way to describe what a payload instance should look like.
+
+00:00:24.531 --> 00:00:32.387 
+Generally, these are called Schema Languages. For example, JSON Schema, XML Schema, PDF Schema.
+
+00:00:32.387 --> 00:00:35.875 
+Now let's take JSON Schema.
+
+00:00:35.875 --> 00:00:43.823 
+JSON Schema is a JSON document used to describe and validate how JSON payload instance should look like.
+
+00:00:43.823 --> 00:00:50.003 
+The main idea is to enable senders such as clients to understand how
+
+00:00:50.003 --> 00:00:56.182 
+the request should be and for the receiver to automatically validate the payloads.
+
+00:00:56.182 --> 00:01:02.331 
+Although, it is a JSON on its own, it is metadata.
+
+00:01:02.331 --> 00:01:11.356 
+For Example, some basic JSON Schemas, “type”: “array” tells it accepts type array in other JSON documents. This
+
+00:01:11.356 --> 00:01:20.381 
+can be defined for other types in JSON as well, such as, string, number, boolean, and null.
+
+00:01:20.381 --> 00:01:26.256 
+Thus, in the receiver end, you can do this validation process to validate.
+
+00:01:26.256 --> 00:01:32.131 
+This is an example how it could look like in Java Script.
+
+00:01:32.131 --> 00:01:39.144 
+It can look different in other programming languages. For instance: python,
+
+00:01:39.144 --> 00:01:41.944 
+Java
+
+00:01:41.944 --> 00:01:50.606 
+and C++
+
+00:01:50.606 --> 00:01:57.569 
+Of course, way more advanced validations can be possible with JSON Schema such as:
+
+00:01:57.569 --> 00:02:01.519 
+Regular expressions, URIs, length of a string
+
+00:02:01.519 --> 00:02:06.581 
+Max/min for numbers, IP addresses, email addresses
+
+00:02:06.581 --> 00:02:11.694 
+Or you can specify amount of the items and allowed types in an array,
+
+00:02:11.694 --> 00:02:16.531 
+as well as required properties and amount of properties in an object.
+
+00:02:16.531 --> 00:02:21.081 
+In the next video, we will talk about Basics of JSON Schema .
+

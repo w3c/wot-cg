@@ -1,0 +1,34 @@
+In this video, we will briefly explain Schema Languages and then move to the JSON Schema since it is the one that describes and validates JSON, it is important to know in Web of Things scope.
+
+Let us explain what is a schema.
+
+Many payload formats offer a way to describe what a payload instance should look like. Generally, these are called Schema Languages. For example, JSON Schema, XML Schema, PDF Schema.
+
+Now let's take JSON Schema. 
+
+JSON Schema is a JSON document used to describe and validate how JSON payload instance should look like.
+
+The main idea is to enable senders such as clients to understand how the request should be  and for the receiver to automatically validate the payloads. 
+
+Although, it is a JSON on its own, it is metadata. 
+
+For Example, some basic JSON Schemas, “type”: “array”  tells it accepts type array in other JSON documents. This can be defined for other types in JSON as well, such as, string, number, boolean, and null. 
+
+Thus, in the receiver end, you can do this validation process to validate. This is an example how it could look like in Java Script. 
+
+It can look different in other programming languages. For instance:  python,
+Java
+and C++ 
+
+Of course, way more advanced validations can be possible with JSON Schema such as:
+
+Regular expressions, URIs, length of a string
+
+Max/min for numbers, IP addresses, email addresses
+
+Or you can specify amount of the items and allowed types in an array,
+
+as well as required properties and amount of properties in an object.
+
+In the next video, we will talk about Basics of JSON Schema .
+
