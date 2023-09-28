@@ -18,7 +18,7 @@ Accepted types:
 - Boolean
 - Null
 
-![json array](/img/json-array.png)
+![json array](/img/4-JSON-In-Practice/json-array.png)
 
 ### Nested objects
 
@@ -27,11 +27,11 @@ Nested objects are allowed in JSON. “measurement” keyword is an example of t
 Objects start and end with a curly brackets. It is basically defining keywords and mapping these keywords to values.
 In this example, we define the name and value pairs to describe the data sent by sensors.
 
-![nested object](/img/nested-object.png)
+![nested object](/img/4-JSON-In-Practice/nested-object.png)
 
 There is a JSON array of JSON Objects which means all items are JSON objects in that array.
 
-![json object array](/img/json-object-array.png)
+![json object array](/img/4-JSON-In-Practice/json-object-array.png)
 
 ## Common Mistakes
 
@@ -71,14 +71,14 @@ This way, the types will be correctly interpreted by your programming language.
 
 Putting comments inside JSON documents is not valid contrast to most of the programming languages.
 
-![comment](/img/comment.png)
+![comment](/img/4-JSON-In-Practice/comment.png)
 
 ### Trailing Commas
 
 Commas should not be used at the final name-value pair.
 That is why the first one is not valid but difficult to see if you are using it inside of a Javascript editor rather than a JSON editor.
 
-![json js](/img/json-js.png)
+![json js](/img/4-JSON-In-Practice/json-js.png)
 
 ### Programming Language Syntax
 

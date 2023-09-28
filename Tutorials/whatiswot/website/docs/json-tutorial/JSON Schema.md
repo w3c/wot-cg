@@ -31,7 +31,7 @@ For Example, some basic JSON Schemas, “type”: “array” → tells it accep
 
 Thus, in the receiver end, you can do this validation process to validate. This an example how it could look like in Java Script:
 
-![js-schema](/img/js-schema.png)
+![js-schema](/img/5-JSON-Schema/js-schema.png)
 
 It can look different in other programming languages.
 For instance in Python:

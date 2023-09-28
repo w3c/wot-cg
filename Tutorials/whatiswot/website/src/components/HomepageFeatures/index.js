@@ -5,7 +5,8 @@ import styles from "./styles.module.css";
 const FeatureList = [
   {
     title: "Structure of the tutorial",
-    Svg: require("@site/static/img/Default_Logo.png").default,
+    Svg: require("@site/static/img/Logo-and-Frontpage/Default_Logo.png")
+      .default,
     description: (
       <>
         Throughout this tutorial, we will explain the Web of Things, its
@@ -17,7 +18,7 @@ const FeatureList = [
   },
   {
     title: "What to expect",
-    Svg: require("@site/static/img/logo-large-blue.png").default,
+    Svg: require("@site/static/img/Logo-and-Frontpage/question.png").default,
     description: (
       <>
         It is aimed to make newcomers learn about Web of Things and speed their
@@ -31,7 +32,7 @@ const FeatureList = [
   },
   {
     title: "Learning Objectives",
-    Svg: require("@site/static/img/tools.png").default,
+    Svg: require("@site/static/img/Logo-and-Frontpage/tools.png").default,
     description: (
       <>
         At the end, you will have all the tools in your belt to build WoT
@@ -42,11 +43,23 @@ const FeatureList = [
       </>
     ),
   },
+  {
+    title: "Official WoT Page",
+    Svg: require("@site/static/img/Logo-and-Frontpage/logo-large-blue.png")
+      .default,
+    description: (
+      <>
+        This site is intended for the use of beginners to learn about the Web of
+        Things concepts. The official site of Web of Things can be found at
+        <a href="https://www.w3.org/WoT/"> w3.org/WoT/</a>.
+      </>
+    ),
+  },
 ];
 
 function Feature({ Svg, title, description }) {
   return (
-    <div className={clsx("col col--4")}>
+    <div className={clsx("col col--6")}>
       <div className="text--center">
         <img src={Svg} className={styles.featureSvg} role="img" />
       </div>

@@ -18,21 +18,21 @@ In JSON Schema, an empty object is a completely valid schema that will accept an
 
 It can be also used truly in a place of the empty object to represent a schema that matches anything, or false for a schema that matches nothing.
 
-![empty-json-schema](/img/empty-json-schema.png)
+![empty-json-schema](/img/6-JSON-Schema-In-Practice/empty-json-schema.png)
 
-![true-json-schema](/img/true-json-schema.png)
+![true-json-schema](/img/6-JSON-Schema-In-Practice/true-json-schema.png)
 
 ## The Type Keyword
 
 One of the most useful common things to do in a JSON Schema is to restrict a specific type by using a type keyword.
 
-![string-schema](/img/string-schema.png)
+![string-schema](/img/6-JSON-Schema-In-Practice/string-schema.png)
 
 Similar to this, numeric types can also be defined.
 There are two numeric types in JSON Schema: integer and number. They share the same validation keywords. Number accepts integers and floating numbers.
 Whereas numeric type integer rejects floating points.
 
-![number-schema](/img/number-schema.png)
+![number-schema](/img/6-JSON-Schema-In-Practice/number-schema.png)
 
 ## Objects
 
@@ -44,7 +44,7 @@ Objects are the mapping type in JSON. They map "keys" to "values". In JSON, the 
 }
 ```
 
-### Properties
+## Properties
 
 The properties which are a key-value pair on an object are defined using the properties keyword. The value of properties is an object, where each key is the name of a property and each value is a schema used to validate that property.
 
@@ -152,7 +152,7 @@ Arrays are used for ordered elements. In JSON, each element in an array can be o
 
 ```json
 {
- "type": "array"
+  "type": "array"
 }
 ```
 
@@ -165,5 +165,113 @@ This schema accepts:
 But **does not accept** this as it is not an array:
 
 ```json
-{"Not": "an array"}
+{ "Not": "an array" }
+```
+
+## Items
+
+The items keyword can be used to control whether it’s valid to have additional items in a tuple. The value of the items keyword is a schema that all additional items must pass for the keyword to validate. It can be false, which means there is no additional items allowed or it can define a type for the items in the array.
+
+For example this schema accepts items in type of number:
+
+```json
+{
+  "type": "array",
+  "items": {
+    "type": "number"
+  }
+}
+```
+
+Therefore accepts:
+
+```json
+[1, 2, 3, 4, 5]
+```
+
+But **does not accept** this as the 3rd element is of type string but not a number:
+
+```json
+[1, 2, "3", 4, 5]
+```
+
+## Boolean
+
+The Boolean type matches only two special values: true and false. Note that values that evaluate to true or false, such as 1 and 0, are not accepted by the schema.
+
+The JSON Schema with type defined as Boolean can be written as this:
+
+```json
+{
+  "type": "boolean"
+}
+```
+
+And it only accepts:
+
+```json
+true
+```
+
+```json
+false
+```
+
+and **does not accept** this as the type is not boolean but string:
+
+```json
+"true"
+```
+
+## Null
+
+When a schema specifies the type of null, it has only one acceptable value: null.
+
+The JSON Schema can be defined as:
+
+```json
+{
+  "type": "null"
+}
+```
+
+This schema only accepts:
+
+```json
+null
+```
+
+and **does not accept** others such as:
+
+```json
+false
+```
+
+```json
+0
+```
+
+## ContentMedia Type
+
+The contentMediaType keyword specifies the MIME type of the contents of a string, as described in RFC 2046. If you want to specify any type that is not JSON, it is possible to do with these content media types.
+
+List of MIME types:
+
+This schema indicates the string contains an HTML document, encoded using the same encoding as the surrounding document:
+
+```json
+{
+  "type": "string",
+  "contentMediaType": "text/html"
+}
+```
+
+This schema here indicates that a string contains a PNG image, encoded using Base64:
+
+```json
+{
+  "type": "string",
+  "contentEncoding": "base64",
+  "contentMediaType": "image/png"
+}
 ```

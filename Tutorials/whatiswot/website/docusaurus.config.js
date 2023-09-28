@@ -60,7 +60,7 @@ const config = {
         title: "What is WoT",
         logo: {
           alt: "My Site Logo",
-          src: "img/Default_Logo.png",
+          src: "img/Logo-and-Frontpage/Default_Logo.png",
         },
         items: [
           {
