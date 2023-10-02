@@ -8,7 +8,7 @@ It is easy for humans to read and write
 
 and easy for machines to parse and generate. 
 
-Let’s take a look at how parsing and generating happens. We can parse a JSON to visualize the data such as temperature or we can send data, such as form content as JSON. 
+Let’s take a look at how parsing and generating happens. We can parse a JSON to visualize the data such as temperature. 
 
 Or we can generate JSON from a given data, and send it in JSON format. 
 
