@@ -5,6 +5,7 @@ If you have online versions, you can link them here in reverse chronological ord
 
 ## Online Presentation Resources
 
+- W3C WoT Meetup 10 - Designing an API for the Physical World - Seam | [Video](https://www.youtube.com/watch?v=LHybkrb3Xek) | [PDF](./2023-10-WoTCG-Meetup10-Seam-SyBohy.pdf)
 - [W3C WoT Meetup 10 - Intro]([https://docs.google.com/presentation/d/1j1trj42kzy7FWaYR3xne39Ic_PJqjszjEmXIww7x_qU/edit?usp=sharing](https://docs.google.com/presentation/d/17Whb-1nKF949bWN3dXjEin7q0nuJW9kUsVXgp3HlcLY/edit?usp=sharing)) | [PDF](./2023-10-WoTCG-Meetup10-AguzziKorkan.pdf)
 - W3C WoT Meetup 8 - Advantages and Challenges of Web of Things for Digital Twins - Schaeffler | [Video](https://www.youtube.com/watch?v=kPfdqGYvBVM) | [PDF](./2023-05-WoTCG-Meetup8-Kuestner_Schaeffler.pdf)
 - [W3C WoT Meetup 8 - Intro](https://docs.google.com/presentation/d/1j1trj42kzy7FWaYR3xne39Ic_PJqjszjEmXIww7x_qU/edit?usp=sharing) | [PDF](./2023-05-WoTCG-Meetup8-AguzziKorkan.pdf)
