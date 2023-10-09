@@ -25,6 +25,8 @@ jobs:
         run: npm ci
       - name: Build website
         run: npm run build
+      - name: Get branch information
+        run: git fetch
       - name: Change to deployment branch
         run: git checkout docusaurus-whatiswot
       - name: Move build folder around
