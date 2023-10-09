@@ -25,6 +25,8 @@ jobs:
         run: npm ci
       - name: Build website
         run: npm run build
+      - name: Stash possible yarn.lock changes
+        run: git stash
       - name: Get branch information
         run: git fetch
       - name: Change to deployment branch
