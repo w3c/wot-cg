@@ -12,16 +12,16 @@ const config = {
   favicon: "img/favicon.ico",
 
   // Set the production url of your site here
-  url: "https://your-docusaurus-test-site.com",
+  url: "https://w3c.github.io",
   // Set the /<baseUrl>/ pathname under which your site is served
-  // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: "/",
+  // For GitHub pages deployment , it is often '/<projectName>/'
+  baseUrl: "/wot-cg/tutorials/whatiswot/",
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: "w3c", // Usually your GitHub org/user name.
   projectName: "wot-cg", // Usually your repo name.
-
+  deploymentBranch: "docusaurus-whatiswot",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
 
