@@ -7,22 +7,24 @@ on:
     # Review gh actions docs if you want to further define triggers, paths, etc
     # https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#on
 
+defaults:
+  run:
+    working-directory: Tutorials/whatiswot/website
+
 jobs:
   deploy:
     name: Deploy to GitHub Pages
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - name: Change to folder
-        run: cd Tutorials/whatiswot/website
       - uses: actions/setup-node@v3
         with:
           node-version: 18
+          cache: npm
       - name: Install dependencies
         run: npm ci
       - name: Build website
         run: npm run build
-
       # Popular action to deploy to GitHub Pages:
       # Docs: https://github.com/peaceiris/actions-gh-pages#%EF%B8%8F-docusaurus
       - name: Deploy to GitHub Pages
