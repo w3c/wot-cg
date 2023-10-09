@@ -6,6 +6,9 @@ on:
       - main
     # Review gh actions docs if you want to further define triggers, paths, etc
     # https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#on
+defaults:
+  run:
+    working-directory: Tutorials/whatiswot/website
 
 jobs:
   deploy:
@@ -18,8 +21,6 @@ jobs:
           node-version: 18
           cache: npm
           cache-dependency-path: Tutorials/whatiswot/website/package-lock.json
-      - name: Change to folder
-        run: cd Tutorials/whatiswot/website
       - name: Install dependencies
         run: npm ci
       - name: Create final folder
