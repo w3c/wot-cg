@@ -23,12 +23,12 @@ jobs:
           cache-dependency-path: Tutorials/whatiswot/website/package-lock.json
       - name: Install dependencies
         run: npm ci
-      - name: Create final folder
-        run: mkdir -p deploy/tutorials/whatiswot
       - name: Build website
         run: npm run build
-      - name: Move build to final folder
-        run: mv build deploy/tutorials/whatiswot
+      - name: Change to deployment branch
+        run: git checkout docusaurus-whatiswot
+      - name: Move build folder around
+        run: cd ../../.. && mkdir -p temp && cp -r Tutorials/whatiswot/website/build/ temp/ && rm -r Tutorials/* && mkdir -p tutorials/whatiswot && mv temp/* tutorials/whatiswot/ && rm -r temp
       - name: Deploy to GitHub Pages
         run: |
              git config user.name 'Ege Korkan'

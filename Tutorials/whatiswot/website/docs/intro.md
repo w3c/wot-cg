@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # What is WoT
 
-Let's discover **Web of Things** briefly.
+Let's start this tutorial with short introduction to the **Web of Things**.
 
 ## Difference Between IoT and WoT
 
