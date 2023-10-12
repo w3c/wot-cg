@@ -30,7 +30,14 @@ jobs:
         run: git checkout docusaurus-whatiswot
       - name: Move build folder around
         run: mkdir -p temp && cp -r Tutorials/whatiswot/website/build/ temp/ && rm -r Tutorials && mkdir -p tutorials/whatiswot && cp -r temp/* tutorials/whatiswot/ && rm -r temp
+      - name: Check for changes
+        continue-on-error: true
+        run: |
+            git diff --exit-code
+            echo "::set-output name=changed::$?"
+        id: diff
       - name: Deploy to GitHub Pages
+        if: ${{ ! steps.diff.outputs.changed }}
         run: |
              git config user.name 'Ege Korkan'
              git config user.email 'egekorkan@gmail.com'
