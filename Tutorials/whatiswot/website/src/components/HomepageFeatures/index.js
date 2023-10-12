@@ -9,10 +9,9 @@ const FeatureList = [
       .default,
     description: (
       <>
-        Throughout this tutorial, we will explain the Web of Things, its
-        applications and tools for newcomers. This tutorial is structured in two
-        stages. First part includes concepts from basic to advanced. Second part
-        supports them with demos and applications.
+        Throughout this tutorial, you can learn about the Web of Things, its applications and tools for newcomers. 
+        All topics start with basic and advanced concepts. 
+        Then, hands-on exercises demonstrate the concepts with off-the-shelf libraries.
       </>
     ),
   },
