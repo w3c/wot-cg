@@ -1,71 +1,74 @@
 WEBVTT
 
-00:00:00.000 --> 00:00:06.700 
+00:00:00.000 --> 00:00:07.056 
 In this video, we will briefly explain Schema Languages and then move to the JSON Schema since it
 
-00:00:06.700 --> 00:00:13.400 
-is the one that describes and validates JSON, it is important to know in Web of Things scope.
+00:00:07.056 --> 00:00:14.112 
+is the one that describes and validates JSON, which is important in the scope of Web of Things.
 
-00:00:13.400 --> 00:00:16.675 
+00:00:14.112 --> 00:00:17.237 
 Let us explain what is a schema.
 
-00:00:16.675 --> 00:00:24.531 
-Many payload formats offer a way to describe what a payload instance should look like.
+00:00:17.237 --> 00:00:25.055 
+Many payload formats offer a way to describe what a payload instance should look like. Generally,
 
-00:00:24.531 --> 00:00:32.387 
-Generally, these are called Schema Languages. For example, JSON Schema, XML Schema, PDF Schema.
+00:00:25.055 --> 00:00:32.872 
+these are called Schema Languages. For example, JSON Schema, XML Schema, GraphQL Schema Definition Language.
 
-00:00:32.387 --> 00:00:35.875 
+00:00:32.872 --> 00:00:36.360 
 Now let's take JSON Schema.
 
-00:00:35.875 --> 00:00:43.823 
+00:00:36.360 --> 00:00:44.309 
 JSON Schema is a JSON document used to describe and validate how JSON payload instance should look like.
 
-00:00:43.823 --> 00:00:50.003 
+00:00:44.309 --> 00:00:50.435 
 The main idea is to enable senders such as clients to understand how
 
-00:00:50.003 --> 00:00:56.182 
+00:00:50.435 --> 00:00:56.562 
 the request should be and for the receiver to automatically validate the payloads.
 
-00:00:56.182 --> 00:01:02.331 
-Although, it is a JSON on its own, it is metadata.
+00:00:56.562 --> 00:01:03.950 
+Although it is also a JSON, it is metadata and not part of the payloads.
 
-00:01:02.331 --> 00:01:11.356 
-For Example, some basic JSON Schemas, “type”: “array” tells it accepts type array in other JSON documents. This
+00:01:03.950 --> 00:01:13.425 
+We can see some basic JSON Schema examples here. “type”: “array” tells that the schema accepts JSON documents that are
 
-00:01:11.356 --> 00:01:20.381 
-can be defined for other types in JSON as well, such as, string, number, boolean, and null.
+00:01:13.425 --> 00:01:22.900 
+arrays. This can be defined for other types in JSON as well, such as, string, number, boolean, and null.
 
-00:01:20.381 --> 00:01:26.256 
-Thus, in the receiver end, you can do this validation process to validate.
+00:01:22.900 --> 00:01:28.762 
+Thus, in the receiver end, you can do this validation process to
 
-00:01:26.256 --> 00:01:32.131 
-This is an example how it could look like in Java Script.
+00:01:28.762 --> 00:01:34.625 
+validate. This is an example how it could look like in JavaScript.
 
-00:01:32.131 --> 00:01:39.144 
-It can look different in other programming languages. For instance: python,
+00:01:34.625 --> 00:01:40.200 
+It can look different in other programming languages. For instance:
 
-00:01:39.144 --> 00:01:41.944 
+00:01:40.200 --> 00:01:41.512 
+Python,
+
+00:01:41.512 --> 00:01:45.312 
 Java
 
-00:01:41.944 --> 00:01:50.606 
+00:01:45.312 --> 00:01:56.775 
 and C++
 
-00:01:50.606 --> 00:01:57.569 
-Of course, way more advanced validations can be possible with JSON Schema such as:
+00:01:56.775 --> 00:02:03.537 
+Of course, way more advanced validations are possible with JSON Schema such as:
 
-00:01:57.569 --> 00:02:01.519 
+00:02:03.537 --> 00:02:08.812 
 Regular expressions, URIs, length of a string
 
-00:02:01.519 --> 00:02:06.581 
+00:02:08.812 --> 00:02:14.550 
 Max/min for numbers, IP addresses, email addresses
 
-00:02:06.581 --> 00:02:11.694 
+00:02:14.550 --> 00:02:20.150 
 Or you can specify amount of the items and allowed types in an array,
 
-00:02:11.694 --> 00:02:16.531 
+00:02:20.150 --> 00:02:26.337 
 as well as required properties and amount of properties in an object.
 
-00:02:16.531 --> 00:02:21.081 
-In the next video, we will talk about Basics of JSON Schema .
+00:02:26.337 --> 00:02:31.337 
+In the next video, we will go into further details of JSON Schema.
 
