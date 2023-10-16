@@ -21,3 +21,10 @@ If you added a contributor by mistake, you can remove them in a comment with:
 
 If you are making a pull request on behalf of someone else but you had no part in designing the
 feature, you can remove yourself with the above syntax.
+
+## Minutes Approval
+
+The meeting minutes are made public as soon as possible after the meeting with a Pull Request.
+The pull request stays open for one week to give time to review it.
+If there are no requests for changes within a week, the pull request will be merged.
+The minutes will be available at <https://github.com/w3c/wot-cg/tree/main/Minutes> and follow-up pull requests can be submitted.
