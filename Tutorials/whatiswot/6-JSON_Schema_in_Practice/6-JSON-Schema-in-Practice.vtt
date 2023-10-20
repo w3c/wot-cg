@@ -1,116 +1,131 @@
 WEBVTT
 
-00:00:00.000 --> 00:00:06.650 
-As we discussed in the previous video, JSON Schema is a declarative format
+00:00:00.000 --> 00:00:06.793 
+As we discussed in the previous video, JSON Schema is a declarative format for “describing
 
-00:00:06.650 --> 00:00:13.300 
-for “describing the structure of other data". Now we will explain its implementation.
+00:00:06.793 --> 00:00:13.587 
+the structure of other data". Now we will show how it looks like in practice.
 
-00:00:13.300 --> 00:00:19.927 
+00:00:13.587 --> 00:00:20.215 
 There are many different drafts of JSON Schema, and it is not always easy to
 
-00:00:19.927 --> 00:00:26.555 
+00:00:20.215 --> 00:00:26.843 
 tell which draft it is. Thus, we use the schema keyword to declare which version
 
-00:00:26.555 --> 00:00:33.183 
+00:00:26.843 --> 00:00:33.470 
 is used. WoT uses Draft7, that's why throughout this tutorial we will use Draft7.
 
-00:00:33.183 --> 00:00:40.058 
-It is not mandatory, but a good practice to specify a unique ID to be able to reach schemas.
-
-00:00:40.058 --> 00:00:49.558 
+00:00:33.470 --> 00:00:42.970 
 In JSON Schema, an empty object is a completely valid schema that will accept any valid JSON.
 
-00:00:49.558 --> 00:00:57.983 
+00:00:42.970 --> 00:00:51.395 
 It can be also used "true" in a place of the empty object to represent a schema that matches anything,
 
-00:00:57.983 --> 00:01:06.470 
-or false for a schema that matches nothing.
+00:00:51.395 --> 00:00:59.883 
+or "false" for a schema that matches nothing.
 
-00:01:06.470 --> 00:01:10.927 
+00:00:59.883 --> 00:01:03.033 
+Now let's look at the Schema validation keywords.
+
+00:01:03.033 --> 00:01:07.514 
 One of the most useful common things to do in a JSON
 
-00:01:10.927 --> 00:01:15.383 
-Schema is to restrict a specific type by using a type keyword.
+00:01:07.514 --> 00:01:11.995 
+Schema is to restrict a specific type by using the "type" keyword.
 
-00:01:15.383 --> 00:01:21.902 
-There are two numeric types in JSON Schema: integer and number. They
+00:01:11.995 --> 00:01:18.483 
+There are two numeric types in JSON Schema: "integer" and "number". They
 
-00:01:21.902 --> 00:01:28.420 
-share the same validation keywords. Number accepts integers and floating numbers.
+00:01:18.483 --> 00:01:24.970 
+share the same validation keywords. "Number" accepts integers and floating numbers.
 
-00:01:28.420 --> 00:01:34.958 
-Whereas numeric type integer rejects floating points.
+00:01:24.970 --> 00:01:30.333 
+Whereas "integer" rejects floating points.
 
-00:01:34.958 --> 00:01:45.670 
+00:01:30.333 --> 00:01:41.045 
 Objects are the mapping type in JSON. They map “keys” to “values”. In JSON, the “keys” must always be strings.
 
-00:01:45.670 --> 00:01:53.266 
-The properties which are a key-value pair on an object are defined using the properties keyword. The value of properties
+00:01:41.045 --> 00:01:48.825 
+The properties which are a key-value pair on an object are defined using the properties keyword. The value of "properties"
 
-00:01:53.266 --> 00:02:00.862 
+00:01:48.825 --> 00:01:56.604 
 is an object, where each key is the name of a property and each value is a schema used to
 
-00:02:00.862 --> 00:02:08.458 
-validate that property. The second one is not accepted because the value of the number is a string.
+00:01:56.604 --> 00:02:04.383 
+validate that property. The second one is not accepted because the value of the number property is a string.
 
-00:02:08.458 --> 00:02:16.191 
-In addition to the last example, The additionalProperties keyword can be used to control the handling of extra
+00:02:04.383 --> 00:02:12.087 
+In addition to the last example, The "additionalProperties" keyword can be used to control the handling of extra
 
-00:02:16.191 --> 00:02:23.925 
-stuff, which is, properties whose names are not listed in the properties keyword. If it is false, then
+00:02:12.087 --> 00:02:19.791 
+keys, which is, properties whose names are not listed in the "properties" keyword. If it is false, then
 
-00:02:23.925 --> 00:02:31.658 
+00:02:19.791 --> 00:02:27.495 
 it does not accept additional properties. Otherwise, you can specify what type can be given too.
 
-00:02:31.658 --> 00:02:37.714 
-By default, the properties defined by the properties keyword are not required. However,
+00:02:27.495 --> 00:02:33.552 
+By default, the "properties" defined by the properties keyword are not required. However,
 
-00:02:37.714 --> 00:02:43.770 
-one can provide a list of required properties using the required keyword.
+00:02:33.552 --> 00:02:39.608 
+one can provide a list of required properties using the "required" keyword.
 
-00:02:43.770 --> 00:02:49.858 
+00:02:39.608 --> 00:02:45.695 
 Since the second one does not contain email information it is not accepted.
 
-00:02:49.858 --> 00:03:00.333 
+00:02:45.695 --> 00:02:56.620 
 Arrays are used for ordered elements. In JSON, each element in an array can be of a different type.
 
-00:03:00.333 --> 00:03:06.189 
-The items keyword can be used to control whether it’s valid to have additional items in
+00:02:56.620 --> 00:03:02.483 
+The "items" keyword can be used to control whether it’s valid to have additional items in
 
-00:03:06.189 --> 00:03:12.045 
-a tuple. The value of the items keyword is a schema that all additional items must
+00:03:02.483 --> 00:03:08.345 
+a tuple. The value of the "items" keyword is a schema that all additional items must
 
-00:03:12.045 --> 00:03:17.902 
+00:03:08.345 --> 00:03:14.208 
 pass for the keyword to validate. It can be false, which means there is no additional
 
-00:03:17.902 --> 00:03:23.758 
+00:03:14.208 --> 00:03:20.070 
 items allowed or it can define a type for the items in the array.
 
-00:03:23.758 --> 00:03:30.983 
-The Boolean type matches only two special values: true and false. Note that values that evaluate
+00:03:20.070 --> 00:03:28.045 
+The "boolean" type matches only two special values: true and false. Note that values that evaluate
 
-00:03:30.983 --> 00:03:38.208 
+00:03:28.045 --> 00:03:36.020 
 to true or false, such as 1 and 0, are not accepted by the schema.
 
-00:03:38.208 --> 00:03:45.258 
-When a schema specifies the type of null, it has only one acceptable value: null.
+00:03:36.020 --> 00:03:43.983 
+When a schema specifies the type of "null", it has only one acceptable value: null.
 
-00:03:45.258 --> 00:03:51.212 
-The contentMediaType keyword specifies the MIME type of the contents of a string, as described
+00:03:43.983 --> 00:03:51.275 
+Now, we will talk about the validation keywords for Strings such as “MaxLength“ or “MinLength”. They are used
 
-00:03:51.212 --> 00:03:57.165 
-in RFC 2046. If you want to specify any type that is not JSON, it
+00:03:51.275 --> 00:03:58.566 
+to specify the length of the string. As you see in the example, we restrict the length of
 
-00:03:57.165 --> 00:04:03.119 
-is possible to do with these content media types. List of MIME types:
+00:03:58.566 --> 00:04:05.858 
+a string. Thus, JSON Schema won’t accept strings with lengths shorter than 3 and longer than 7.
 
-00:04:03.119 --> 00:04:11.337 
-The first one indicates the string contains an HTML document, encoded using the same encoding as the surrounding document.
+00:04:05.858 --> 00:04:09.595 
+This one is advanced but let us explain it briefly.
 
-00:04:11.337 --> 00:04:19.055 
+00:04:09.595 --> 00:04:18.395 
+We can show two advanced validation keywords. If there non-JSON payloads encoded as a string, you can use the
+
+00:04:18.395 --> 00:04:27.195 
+“contentMediaType” keyword. It specifies the MIME type of the contents of a string, as described in RFC 2046.
+
+00:04:27.195 --> 00:04:33.783 
+The first one indicates that the string contains an HTML document, encoded into JSON.
+
+00:04:33.783 --> 00:04:41.908 
 The second one indicates that a string contains a PNG image, encoded using Base64.
 
-00:04:19.055 --> 00:04:24.580 
+00:04:41.908 --> 00:04:48.545 
+Here is an example of Content media types. Let's say we have such JSON
+
+00:04:48.545 --> 00:04:55.183 
+Schema. It indicates that a string contains a PDF file, encoded using Base64.
+
+00:04:55.183 --> 00:05:00.958 
 In the next video, we will talk about JSON and what it is detailly.
 

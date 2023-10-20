@@ -1,41 +1,46 @@
-As we discussed in the previous video, JSON Schema is a declarative format for “describing the structure of other data". Now we will explain its implementation. 
+As we discussed in the previous video, JSON Schema is a declarative format for “describing the structure of other data". Now we will show how it looks like in practice. 
 
-There are many different drafts of JSON Schema, and it is not always easy to tell which draft it is. Thus, we use the schema keyword to declare which version is used.  WoT uses Draft7, that's why throughout this tutorial we will use Draft7. 
-
-It is not mandatory, but a good practice to specify a unique ID to be able to reach schemas.
+There are many different drafts of JSON Schema, and it is not always easy to tell which draft it is. Thus, we use the schema keyword to declare which version is used. WoT uses Draft7, that's why throughout this tutorial we will use Draft7. 
 
 In JSON Schema, an empty object is a completely valid schema that will accept any valid JSON. 
 
 It can be also used "true" in a place of the empty object to represent a schema that matches anything, 
 
-or false for a schema that matches nothing. 
+or "false" for a schema that matches nothing. 
 
-One of the most useful common things to do in a JSON Schema is to restrict a specific type by using a type keyword.
+Now let's look at the Schema validation keywords.
 
-There are two numeric types in JSON Schema: integer and number. They share the same validation keywords. Number accepts integers and floating numbers.
+One of the most useful common things to do in a JSON Schema is to restrict a specific type by using the "type" keyword.
 
-Whereas numeric type integer rejects floating points. 
+There are two numeric types in JSON Schema: "integer" and "number". They share the same validation keywords. "Number" accepts integers and floating numbers.
+
+Whereas "integer" rejects floating points. 
 
 Objects are the mapping type in JSON. They map “keys” to “values”. In JSON, the “keys” must always be strings.
 
-The properties which are a key-value pair on an object are defined using the properties keyword. The value of properties is an object, where each key is the name of a property and each value is a schema used to validate that property. The second one is not accepted because the value of the number is a string. 
+The properties which are a key-value pair on an object are defined using the properties keyword. The value of "properties" is an object, where each key is the name of a property and each value is a schema used to validate that property. The second one is not accepted because the value of the number property is a string. 
 
-In addition to the last example, The additionalProperties keyword can be used to control the handling of extra stuff, which is, properties whose names are not listed in the properties keyword. If it is false, then it does not accept additional properties. Otherwise, you can specify what type can be given too. 
+In addition to the last example, The "additionalProperties" keyword can be used to control the handling of extra keys, which is, properties whose names are not listed in the "properties" keyword. If it is false, then it does not accept additional properties. Otherwise, you can specify what type can be given too. 
 
-By default, the properties defined by the properties keyword are not required. However, one can provide a list of required properties using the required keyword.
+By default, the "properties" defined by the properties keyword are not required. However, one can provide a list of required properties using the "required" keyword.
 Since the second one does not contain email information it is not accepted. 
 
 Arrays are used for ordered elements. In JSON, each element in an array can be of a different type. 
 
-The items keyword can be used to control whether it’s valid to have additional items in a tuple. The value of the items keyword is a schema that all additional items must pass for the keyword to validate. It can be false, which means there is no additional items allowed or it can define a type for the items in the array. 
+The "items" keyword can be used to control whether it’s valid to have additional items in a tuple. The value of the "items" keyword is a schema that all additional items must pass for the keyword to validate. It can be false, which means there is no additional items allowed or it can define a type for the items in the array. 
 
-The Boolean type matches only two special values: true and false. Note that values that evaluate to true or false, such as 1 and 0, are not accepted by the schema. 
+The "boolean" type matches only two special values: true and false. Note that values that evaluate to true or false, such as 1 and 0, are not accepted by the schema. 
 
-When a schema specifies the type of null, it has only one acceptable value: null. 
+When a schema specifies the type of "null", it has only one acceptable value: null. 
 
-The contentMediaType keyword specifies the MIME type of the contents of a string, as described in RFC 2046. If you want to specify any type that is not JSON, it is possible to do with these content media types.  List of MIME types:
-The first one indicates the string contains an HTML document, encoded using the same encoding as the surrounding document.
+Now, we will talk about the validation keywords for Strings such as “MaxLength“ or “MinLength”. They are used to specify the length of the string. As you see in the example, we restrict the length of a string.  Thus, JSON Schema won’t accept strings with lengths shorter than 3 and longer than 7. 
+
+This one is advanced but let us explain it briefly.
+We can show two advanced validation keywords. If there non-JSON payloads encoded as a string, you can use the “contentMediaType” keyword. It specifies the MIME type of the contents of a string, as described in RFC 2046.
+The first one indicates that the string contains an HTML document, encoded into JSON.
 The second one indicates that a string contains a PNG image, encoded using Base64. 
+
+Here is an example of Content media types. Let's say we have such JSON Schema. It indicates that a string contains a PDF file, encoded using Base64.
 
 In the next video, we will talk about JSON and what it is detailly.
 
