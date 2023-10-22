@@ -12,15 +12,25 @@ The main idea is to enable senders such as clients to understand how the request
 
 Although it is also a JSON, it is metadata and not part of the payloads. 
 
-We can see some basic JSON Schema examples here. “type”: “array” tells that the schema accepts JSON documents that are arrays. This can be defined for other types in JSON as well, such as, string, number, boolean, and null. 
+We can see some basic JSON Schema examples here. type "array" tells that the schema accepts JSON documents that are arrays. This can be defined for other types in JSON as well, such as, string, number, boolean, and null. 
 
 Thus, in the receiver end, you can do this validation process to validate. This is an example how it could look like in JavaScript. 
 
 It can look different in other programming languages. For instance:
 
  Python,
+
+
+
 Java
-and C++ 
+
+
+
+
+
+and C++  
+
+
 
 Of course, way more advanced validations are possible with JSON Schema such as:
 
