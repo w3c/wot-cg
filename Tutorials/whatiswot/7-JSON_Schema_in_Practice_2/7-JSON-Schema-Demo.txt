@@ -1,8 +1,7 @@
 In the previous video, we talked about JSON Schema Basics, in this video, we will continue with generic keywords, Schema composition, and Schema Conditionality. 
 
 Some of the annotation keywords used in JSON Schema are title, description, and default. None of these annotation words are required but enhance good practice for self-documenting Schemas.
-The title and description keywords must be strings.
-The default keyword specifies a default value. 
+The title and description keywords must be strings. 
 
 The enum keyword is used to restrict a value to a fixed set of values. It must be an array with at least one element, where each element is unique. 
 
@@ -11,15 +10,15 @@ The const keyword is used to restrict a value to a single value.
 JSON Schema includes a few keywords for combining Schemas together, the most used ones are allOf, anyOf, oneOf, and not. 
 All of these keywords must be set to an array, where each item is a Schema. 
 
-To validate allOf, the given data must be valid against all of the given subSchemas. 
+To validate allOf, the given data must be valid against all of the given sub Schemas. 
 
-To validate anyOf, the given data must be valid against any (one or more) of the given subSchemas. 
+To validate anyOf, the given data must be valid against any (one or more) of the given sub Schemas. 
 
-To validate oneOf, the given data must be valid against exactly one of the given subSchemas. 
+To validate oneOf, the given data must be valid against exactly one of the given sub Schemas. 
 
-The not keyword declares that an instance validates if it doesn’t validate against the given subSchema. 
+The not keyword declares that an instance validates if it doesn’t validate against the given sub Schema. 
 
-The if, then and else keywords allow the application of a subSchema based on the outcome of another Schema, as it is in other programming languages. If it is valid, then must also be valid (and else is ignored.) If it is invalid, else must also be valid (and then ignored).
+The if, then and else keywords allow the application of a sub Schema based on the outcome of another Schema, as it is in other programming languages. If it is valid, then must also be valid (and else is ignored.) If it is invalid, else must also be valid (and then ignored). 
 
-In the next video, we will show JSON Schema Validation process in code
+In the next video, we will show JSON Schema Validation process with code snippets.
 
