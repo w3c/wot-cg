@@ -11,5 +11,11 @@ A typical "What is WoT?" tutorial video follows the steps below. The product of 
    3. Time synchronization happens manually. This can involve tweaks to the animation.
    4. Background music is added
 4. The video is shared via a link to enable easy review without requiring to upload the video for each change requested.
-4. The video is uploaded to GitHub and a final review happens
-5. A batch of videos is uploaded to YouTube
+5. The video is uploaded to GitHub with the following content:
+  1. Video file
+  2. VTT subtitle file
+  3. Video description
+  4. License Code for Background Music
+  5. Thumbnail
+7. Final review happens
+8. A batch of videos is uploaded to YouTube
