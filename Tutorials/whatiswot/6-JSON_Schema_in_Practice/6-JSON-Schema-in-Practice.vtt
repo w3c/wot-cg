@@ -120,12 +120,12 @@ The first one indicates that the string contains an HTML document, encoded into 
 00:04:33.783 --> 00:04:41.908 
 The second one indicates that a string contains a PNG image, encoded using Base64.
 
-00:04:41.908 --> 00:04:48.545 
+00:04:41.908 --> 00:04:49.258 
 Here is an example of Content media types. Let's say we have such JSON
 
-00:04:48.545 --> 00:04:55.183 
+00:04:49.258 --> 00:04:56.608 
 Schema. It indicates that a string contains a PDF file, encoded using Base64.
 
-00:04:55.183 --> 00:05:00.958 
+00:04:56.608 --> 00:05:02.383 
 In the next video, we will talk about JSON and what it is detailly.
 
