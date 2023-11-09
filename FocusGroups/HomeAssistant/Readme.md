@@ -36,10 +36,12 @@ https://github.com/Citrullin/web-of-thing-arduino
 ### WoT LED light
 The first device is the simplest, a "light" using an LED.
 ![wot-light](./wot-light-small.png)
+
 [Watch LED Video](https://www.youtube.com/watch?v=tvRTwVi7UZE)
 
 ### WoT Rainbow
 ![wot-rainbow](./wot-rainbow-small.png)
+
 [Watch Rainbow Video](https://www.youtube.com/watch?v=mxAz2rAN8Ac)
 
 This is an example of a device that I think is easier to build and integrate with Home Assistant than ESPHome.   While it is represented in HA as a light, when the light is turned on it runs code to animate a rainbow on the attached matrix of addressable RGB leds.  
