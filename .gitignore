@@ -1,1 +1,4 @@
+.DS_Store
+node_modules
+Tutorials/whatiswot/website/deploy
 .idea/
