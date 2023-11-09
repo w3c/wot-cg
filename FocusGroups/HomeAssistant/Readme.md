@@ -35,12 +35,12 @@ https://github.com/Citrullin/web-of-thing-arduino
 
 ### WoT LED light
 The first device is the simplest, a "light" using an LED.
-![wot-light](./wot-light-small.png)
+![wot-light](./images/wot-light-small.png)
 
 [Watch LED Video](https://www.youtube.com/watch?v=tvRTwVi7UZE)
 
 ### WoT Rainbow
-![wot-rainbow](./wot-rainbow-small.png)
+![wot-rainbow](./images/wot-rainbow-small.png)
 
 [Watch Rainbow Video](https://www.youtube.com/watch?v=mxAz2rAN8Ac)
 
@@ -50,7 +50,7 @@ While this could be implemented with ESPhome, via lambdas embedded in YAML, that
 ### WoT Scene Selector
 The previous devices are building up to WoT Scene Selector.  This device requires upstream events such as "red scene clicked", so it depends on the next features to come in the HA integration.
 
-![wot-scene](./wot-scene-small.JPG)
+![wot-scene](./images/wot-scene-small.JPG)
 
 > Coming soon
 
