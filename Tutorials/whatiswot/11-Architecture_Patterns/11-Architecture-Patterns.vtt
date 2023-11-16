@@ -1,0 +1,107 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:12.662 
+In this video, we will explain architecture patterns, and how devices and things interact with controllers, agents, and servers.
+
+00:00:12.662 --> 00:00:23.356 
+Previously we have explained the server and client models and described how this architecture works.
+
+00:00:23.356 --> 00:00:27.481 
+Now we will show how they are used in the WoT architectures.
+
+00:00:27.481 --> 00:00:34.714 
+We will introduce 6 architecture patterns in this video.
+
+00:00:34.714 --> 00:00:42.120 
+So, first, let’s start with the device controllers. A common deployment pattern is a local device
+
+00:00:42.120 --> 00:00:49.526 
+controlled by a user-operated remote controller. Let’s remember the smart house example from the previous video.
+
+00:00:49.526 --> 00:00:55.426 
+A remote controller can interact with the electronic devices through the local home network.
+
+00:00:55.426 --> 00:01:02.576 
+In this pattern, at least one electronic device has a server role that can accept a request and respond.
+
+00:01:02.576 --> 00:01:08.008 
+Another device remote controller has a client role that can send a message with
+
+00:01:08.008 --> 00:01:13.439 
+a request like to read a sensor value or to turn on the device.
+
+00:01:13.439 --> 00:01:18.620 
+Let’s move to the second architecture pattern, Thing-to-Thing. In this scenario we
+
+00:01:18.620 --> 00:01:23.801 
+have an electronic device, let's say a heater and a temperature sensor.
+
+00:01:23.801 --> 00:01:31.374 
+When a sensor detects a change in room condition such as temperature drops below the threshold,
+
+00:01:31.374 --> 00:01:38.947 
+it issues a control message “turn on” to the electronic device to power on the heater.
+
+00:01:38.948 --> 00:01:43.973 
+Third architecture that we will introduce is Gateways.
+
+00:01:43.973 --> 00:01:51.404 
+Smart home gateways pattern is achieved by placing a gateway between a home network and the Internet to
+
+00:01:51.404 --> 00:01:58.835 
+manage electronic devices inside the house. It can also receive commands from a remote controller over the Internet.
+
+00:01:58.835 --> 00:02:04.260 
+In this pattern, the home gateway has both client and server roles.
+
+00:02:04.260 --> 00:02:10.248 
+For instance, when the remote controller in this case a smartphone, turns on the electronic device
+
+00:02:10.248 --> 00:02:16.235 
+let's say security camera in the client role and the smartphone in the server role.
+
+00:02:16.235 --> 00:02:22.239 
+On the other way around, when the security camera sends a message to the smartphone, the gateway
+
+00:02:22.239 --> 00:02:28.243 
+acts as a server role for the security camera and it acts as a client for the
+
+00:02:28.243 --> 00:02:34.247 
+smartphone. If the camera is in a client role, it can pass the firewalls easily.
+
+00:02:34.248 --> 00:02:37.060 
+The next one is Digital twins.
+
+00:02:37.060 --> 00:02:40.579 
+Digital Twin is a model of a device or a group
+
+00:02:40.579 --> 00:02:44.098 
+of devices that resides on a cloud server or edge devices.
+
+00:02:44.098 --> 00:02:49.866 
+It is useful to represent real-world devices that may not be continuously online
+
+00:02:49.866 --> 00:02:55.635 
+or to test simulations and services before they are deployed to real devices.
+
+00:02:55.635 --> 00:03:01.316 
+It can model one or more devices. Digital Twins can be categorized in different
+
+00:03:01.316 --> 00:03:06.998 
+ways depending on weather a device is connected to the cloud or gateway.
+
+00:03:06.998 --> 00:03:15.179 
+Lastly, we will move to cross-domain collaboration. In cross-domain collaborations, each system involves other systems
+
+00:03:15.179 --> 00:03:23.360 
+in other domains. For example, Smart Factory with Smart City, Smart City with Smart Home.
+
+00:03:23.360 --> 00:03:28.454 
+In those models, you can exchange information directly with each other
+
+00:03:28.454 --> 00:03:33.548 
+in a peer-to-peer manner or indirectly via some collaboration platform.
+
+00:03:33.548 --> 00:03:37.510 
+In the next video, we will explain Building Blocks in WoT.
+
