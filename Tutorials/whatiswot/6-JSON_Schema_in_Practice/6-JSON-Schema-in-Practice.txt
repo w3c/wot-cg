@@ -40,7 +40,7 @@ We can show two advanced validation keywords. If there non-JSON payloads encoded
 The first one indicates that the string contains an HTML document, encoded into JSON.
 The second one indicates that a string contains a PNG image, encoded using Base64. 
 
-Here is an example of Content media types. Let's say we have such JSON Schema. It indicates that a string contains a PDF file, encoded using Base64.
+Here is an example of Content media types. Let's say we have such JSON Schema. It indicates that a string contains a PDF file, encoded using Base64. 
 
-In the next video, we will talk about JSON and what it is detailly.
+You can proceed to the next tutorial by clicking on the card or the video description.
 
