@@ -45,7 +45,7 @@ We showed that JSON Arrays can consist of different primitive types before.  Wit
 
 Let's look at an example, in between 2 square brackets we list 2 JSON objects. The data in the array is aggregated sensor values from the different sensors.
 
-In this video we made the introduction to JSON.
+In this video we made the introduction to JSON. 
 
-In the next video, we will explain JSON types in detail and show the usage of JSON in practice.
+You can proceed to the next tutorial by clicking on the card or the video description.
 
