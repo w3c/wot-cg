@@ -42,5 +42,5 @@ Or you can specify amount of the items and allowed types in an array,
 
 as well as required properties and amount of properties in an object. 
 
-In the next video, we will go into further details of JSON Schema.
+You can proceed to the next tutorial by clicking on the card or the video description.
 
