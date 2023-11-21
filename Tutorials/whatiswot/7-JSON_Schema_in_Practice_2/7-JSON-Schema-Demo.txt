@@ -20,5 +20,5 @@ The not keyword declares that an instance validates if it doesn’t validate aga
 
 The if, then and else keywords allow the application of a sub schema based on the outcome of another Schema, as it is in other programming languages. If it is valid, then must also be valid (and else is ignored.) If it is invalid, else must also be valid (and then ignored). 
 
-In the next video, we will show JSON Schema Validation process with code snippets.
+You can proceed to the next tutorial by clicking on the card or the video description.
 

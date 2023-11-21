@@ -51,6 +51,6 @@ another Schema, as it is in other programming languages. If it is valid, then mu
 00:01:59.000 --> 00:02:06.129 
 (and else is ignored.) If it is invalid, else must also be valid (and then ignored).
 
-00:02:06.129 --> 00:02:12.179 
-In the next video, we will show JSON Schema Validation process with code snippets.
+00:02:06.129 --> 00:02:11.304 
+You can proceed to the next tutorial by clicking on the card or the video description.
 
