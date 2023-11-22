@@ -4,7 +4,7 @@ Throughout this video, we will mainly focus on validation with the Python librar
 
 Here are some of the popular ones in different programming languages.  There are many more validators. 
 
-For further information, you can check the JSON schema homepage via the link in the video description.
+For further information, you can check the JSON Schema homepage via the link in the video description.
 
 This  is the basic validation flow that all libraries follow.
 The library takes a schema for your JSON data and validates your data according to the schema. Outputs the validation result as a boolean 
