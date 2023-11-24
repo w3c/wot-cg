@@ -45,5 +45,5 @@ With the architecture enabled by the Web of Things, flexibility and interoperabi
 
 What can be achieved with the Web of Things is endless. We feel your excitement to learn and develop the WoT applications If you are ready to dive into world of WoT, let's start this journey!
 
-In the next video, we will talk about Payloads and Headers. If you already know the basics, you can skip the introduction and directly move to general Web of Things videos.
+You can proceed to the next tutorial by clicking on the card or the video description.
 
