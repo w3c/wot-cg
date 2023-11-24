@@ -1,22 +1,45 @@
-Hello! In this video, we will introduce payloads and headers in detail. Since in the Web of Things, there are smart devices exchanging data via protocols which separate the data into headers and payloads, It is important to understand the difference and how they are relevant for the Web of Things. 
-This is an introductory series that presents technologies and standards relevant to the WoT. If you want to skip directly to the tutorials on the WoT standards, click the link in cards. 
+Hello! In this video, we will introduce payloads and headers in detail.
+Since in the Web of Things, there are smart devices exchanging data via protocols which separate the data into headers and payloads, It is important to understand the difference and how they are relevant for the Web of Things.
+
+This is an introductory series that presents technologies and standards relevant to the WoT.
+If you want to skip directly to the tutorials on the WoT standards, click the link in cards.
+
 So lets start with what is a payload? 
 
-In computing, the payload is the part of transmitted data that is the actual intended message of the application and nothing to do with the protocol itself. 
-It is also called the body of the message. It is not mandatory in most protocols. 
-We can approach with an analogy, where we consider protocols as a truck. 
-and we can think of the parcel contents as the payloads of a protocol, since a payload should not tell what it should be done by itself. The parcel contents also do not contain any information about their destination, the truck being transported, or the color of the truck. 
+In computing, the payload is the part of transmitted data that is the actual intended message of the application and nothing to do with the protocol itself.
+
+It is also called the body of the message. It is not mandatory in most protocols.
+
+We can approach with an analogy, where we consider protocols as a truck.
+
+and we can think of the parcel contents as the payloads of a protocol, since a payload should not tell what it should be done by itself.
+The parcel contents also do not contain any information about their destination, the truck being transported, or the color of the truck.
+
 Now, let us introduce what is a header
 
-The header is part of a message that can and should be understood by the protocol stack. All the information that the payload should not contain, goes to the header. 
-Let's continue with the parcel truck example. In that example, the header would be the etiquette on the parcel. 
-This is what an HTTP header can look like. A header can contain information like request context, response context, status and it can indicate payload type. 
-There are different payload types such as  JSON, XML, CBOR TextAudio and video and more. 
-So let us show you an example of JSON payload. This is a temperature payload, a single number. And this is a configuration payload. It is a JSON object consisting of key value pairs          desiredUnit and updateInterval.     . The temperature payload is sent from the sensor and the configuration is sent to the sensor. 
-In the next video series, we will talk in detail, about JSON.  But first let us explain why is JSON so important? 
-Because JSON is very relevant in the scope of the Web of Things, payloads are preferred mostly in JSON. Also, many other API and configuration files use JSON. 
-It is light-weight compared to XML and human readable compared to CBOR. You can see the difference in the representation of the same data in JSON, XML, and CBOR. 
-It is well-established and has a schema language called JSON Schema. It can be used to describe and validate JSON data. 
+The header is part of a message that can and should be understood by the protocol stack. All the information that the payload should not contain, goes to the header.
+
+Let's continue with the parcel truck example. In that example, the header would be the etiquette on the parcel.
+
+This is what an HTTP header can look like. A header can contain information like request context, response context, status and it can indicate payload type.
+
+There are different payload types such as  JSON, XML, CBOR TextAudio and video and more.
+
+So let us show you an example of JSON payload.
+This is a temperature payload, a single number.
+And this is a configuration payload.
+It is a JSON object consisting of key value pairs          desiredUnit and updateInterval.     .
+The temperature payload is sent from the sensor and the configuration is sent to the sensor.
+
+In the next video series, we will talk in detail, about JSON.  But first let us explain why is JSON so important?
+
+Because JSON is very relevant in the scope of the Web of Things, payloads are preferred mostly in JSON. Also, many other API and configuration files use JSON.
+
+It is light-weight compared to XML and human readable compared to CBOR. You can see the difference in the representation of the same data in JSON, XML, and CBOR.
+
+It is well-established and has a schema language called JSON Schema. It can be used to describe and validate JSON data.
+
 Here, you can see an example of a TD in JSON format. We will go later into the details of how a TD should be structured and understood. 
 
-In the next video, we will talk about JSON and what it is in detail. 
+ You can proceed to the next tutorial by clicking on the card or the video description.
+
