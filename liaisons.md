@@ -1,23 +1,34 @@
 ## Liaisons to the W3C WoT Community Group
 
-### Web of Things Interest and Working Group (Proposed)
+The liaisons of the W3C WoT CG are not explicitly outlined in the CG charter; however, they are documented in this document. 
+This markdown document details each liaison and explains the extent of its scope.
 
-> The part below until a horizontal line is written by the CG using inputs from the TPAC Joint Meeting, CG Internal Meeting and Office Hours inputs. Please scroll to [Original Input](#original-input)
+Current liaisons:
 
-The WoT IG/WG collaboration is categorized based on the type of collaboration. Below are the categories and the scope of the collaboration.
+- [Web of Things Interest and Working Group](#web-of-things-interest-and-working-group)
 
-Note: WG/IG refers to both WoT Interest and Working Group. CG refers to the WoT CG.
+### Web of Things Interest and Working Group
+
+> [!NOTE] 
+> This is only a draft.
+
+> The content below, until the horizontal line, is composed by the CG based on inputs from the TPAC Joint Meeting, CG Internal Meeting, and Office Hours inputs. Please refer to [Original Input](#original-input) for the discussion results form W3C TPAC 2023.
+
+The WoT IG/WG liaison is categorized based on the nature of collaboration. 
+The categories below explain the scope of collaboration.
+
+Note: WG/IG collectively refers to both WoT Interest and Working Group, while CG pertains to the WoT CG.
 
 #### Documents
 
-If the CG wants to produce a document, it has to be a CG report covered by the [W3C CLA](https://www.w3.org/community/about/process/cla/).
-This means that the CG does not contribute to WG or IG documents by editing them or doing Pull Requests directly. 
-Related WG/IG documents can adopt the content from CG reports using Section 9 of the [W3C CLA](https://www.w3.org/community/about/process/cla/).
-Any CG document category that is related to a WG/IG document category (e.g. use cases, bindings), MUST comply with the format and content requirements set by the WG/IG. 
-If the CG decides to diverge from those requirements, the WG/IG MUST authorize this.
-CG reports, as explained in the CG charter, can be in the form of Markdown, HTML, or similar. (TODO: Update CG Charter).
+If the CG intends to produce a document, it must adhere to the [W3C CLA](https://www.w3.org/community/about/process/cla/).
+This mandates that the CG doesn't directly edit or open Pull Requests to change WG/IG documents.
+Relevant WG/IG documents may incorporate content from CG reports following Section 9 of the [W3C CLA](https://www.w3.org/community/about/process/cla/).
+Any CG document related to a WG/IG document type (e.g. use cases, bindings), MUST comply with the format and content requirements established by the WG/IG. 
+Deviating from these requirements requires explicit authorization from the WG/IG.
+CG reports, as explained by the CG charter, may take the form of Markdown, HTML, or similar formats (TODO: Update CG Charter).
 
-Examples of document categories that are related to WG/IG, which can be CG reports as explained above:
+Examples of document types pertinent to WG/IG, eligible as CG reports:
 
 - Use cases
 - Requirements
@@ -26,33 +37,29 @@ Examples of document categories that are related to WG/IG, which can be CG repor
 
 #### Role of WoT CG
 
-The role of the WoT CG in this collaboration is defined in two categories: enabling a low entry barrier and doing outreach.
+The role of the CG in this collaboration is categorized into two: facilitating a low entry barrier and engaging in outreach.
 
-##### Low entry barrier to be involved in WoT
+##### Facilitating a Low Entry Barrier for WoT Involvement
 
-Given that there are membership fees to participate in the CG, more participants be exchanging ideas on WoT-related topics.
-More specifically, the WoT CG participants can:
+Considering the existence of membership fees for WG/IG participation, fostering more participants to exchange ideas on WoT-related topics becomes relevant.
 
-- start WoT-related discussions within CG,
-- work on CG reports that are non-normative,
-- experiment with implementations and features of the WoT WG reports.
+CG participants can actively and openly exchange ideas on WoT-related topics within the CG, collaborate on non-normative CG reports, and experiment with the implementations of the WG/IG reports.
 
 ##### Outreach
 
-The CG uses various channels administrated by the CG to reach a broad audience who is interested in WoT.
-This also enables the low-entry barrier principle above.
+The CG utilizes various channels under CG administration to reach a broad audience interested in WoT, aligning with the low-entry barrier principle.
 
 #### Events
 
-The WG/IG collaborates on Plugfest events with the CG, thus leveraging the community to get a wider audience.
-WG/IG can collaborate with other CGs and liaisons as well.
-There can be other WG/IG joint meetings with the CG, such as Face to Face, TPAC meetings.
+The WG/IG collaborates on Plugfest events with the CG, thereby leveraging the community to garner a wider audience. 
+WG/IG may also engage in collaboration with other CGs and liaisons. 
+Joint meetings, such as Face to Face (F2F) and TPAC meetings, may be convened between WG/IG and the CG.
 
 #### Test Cases
 
-CG participants CAN contribute to the testing activity of the WG/IG Task Forces.
+CG participants are permitted to contribute to the testing activity of the WG/IG Task Forces. 
+Contributions must adhere to WG requirements regarding quality, folder structure, file naming conventions, and other specifications.
 The CG participants MUST contribute test cases to the CG GitHub repository.
-Also, the inputs MUST comply with WG requirements on the quality, folder structure, file name conventions etc.
 
 ---
 
