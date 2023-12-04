@@ -43,7 +43,7 @@ Examples of document types pertinent to WG/IG, eligible as CG reports:
 
 The role of the CG in this collaboration is categorized into two: facilitating a low entry barrier and engaging in outreach.
 
-##### Facilitating a Low Entry Barrier for WoT Involvement
+##### Ensuring a Low Entry for WoT Involvement
 
 Considering the existence of membership fees for WG/IG participation, fostering more participants to exchange ideas on WoT-related topics becomes relevant.
 
@@ -51,7 +51,7 @@ CG participants CAN actively and openly exchange ideas on WoT-related topics wit
 
 ##### Outreach
 
-The CG utilizes various channels under CG administration to reach a broad audience interested in WoT, aligning with the low-entry barrier principle.
+The CG utilizes various channels under the CG administration to reach a broad audience interested in WoT, aligning with the low-entry barrier principle.
 
 #### Events
 
