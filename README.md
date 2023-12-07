@@ -22,7 +22,7 @@
 
 # W3C Web of Things Community Group
 
-The W3C WoT Community Group wants to build a community around the recommendations and notes published by the WoT 
+The W3C WoT Community Group builds a community around the recommendations and notes published by the WoT 
 [Working Group](https://www.w3.org/WoT/wg/) and [Interest Group](https://www.w3.org/WoT/ig/).
 
 [Join the WoT CG!](https://www.w3.org/community/wot/join)
@@ -60,10 +60,6 @@ The W3C WoT Community Group wants to build a community around the recommendation
 - [Scripting API](https://github.com/w3c/wot-scripting-api)
 - [Use Cases](https://github.com/w3c/wot-usecases)
 - [Testing](https://github.com/w3c/wot-testing)
-
-## Repository Structure
-
-This repository will contain information about the events but not active work on the repository is planned yet.
 
 ## Contact
 
