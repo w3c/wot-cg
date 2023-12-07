@@ -1,0 +1,164 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:06.596 
+In WoT we are dealing with interacting with devices over the network.
+
+00:00:06.596 --> 00:00:13.193 
+Thus, we need to look at how such a communication is modelled.
+
+00:00:13.193 --> 00:00:21.193 
+The WoT focuses on the protocols that operate on the application layer that use TCP and UDP from
+
+00:00:21.193 --> 00:00:29.193 
+the transport layer. Thus, it is important to understand OSI layers and how sending and receiving data works.
+
+00:00:29.193 --> 00:00:35.518 
+Okay, so we were talking about sending JSON and changing the temperature before.
+
+00:00:35.518 --> 00:00:42.456 
+Let's assume that a temperature sensor has received a request from a dashboard to send its temperature value.
+
+00:00:42.456 --> 00:00:47.168 
+So let's see the magic behind the network.
+
+00:00:47.168 --> 00:00:52.874 
+Let's assume that we have the temperature data in the payload in the application layer of
+
+00:00:52.874 --> 00:00:58.581 
+the temperature sensor and we want to send it via a HTTP message to the dashboard.
+
+00:00:58.581 --> 00:01:06.121 
+Application Layer is an abstraction layer service that masks the rest of the application from the transmission process.
+
+00:01:06.121 --> 00:01:11.971 
+Then our payload, moves to the Presentation Layer, where our data will be encrypted.
+
+00:01:11.971 --> 00:01:20.883 
+After that encryption comes the Session Layer, where we open a session with the device we want to talk with.
+
+00:01:20.883 --> 00:01:23.408 
+Next layer is the Transport Layer.
+
+00:01:23.408 --> 00:01:31.508 
+This layer includes protocols like TCP or UDP which are meant to route data from sender to receiver.
+
+00:01:31.508 --> 00:01:37.371 
+In this layer, all the information that we have in the application layer
+
+00:01:37.371 --> 00:01:43.233 
+is encapsulated as payload and TCP or UDP add their own headers.
+
+00:01:43.233 --> 00:01:53.275 
+Then Network Layer comes, where we define how the devices linked together and how they communicate inside the network.
+
+00:01:53.275 --> 00:02:00.353 
+For example: information about the IP address is handled in that layer.
+
+00:02:00.353 --> 00:02:07.935 
+In Datalink Layer, it is defined how to structure bits into data.
+
+00:02:07.935 --> 00:02:16.096 
+For example: information about the MAC address is handled in that layer.
+
+00:02:16.096 --> 00:02:21.409 
+And lastly, our package arrive to the Physical Layer, where the raw bit
+
+00:02:21.409 --> 00:02:26.721 
+streams are transmitted over a physical medium such as Ethernet cable or Wi-Fi.
+
+00:02:26.721 --> 00:02:32.978 
+To sum up, we had the temperature data in our sensor and pass it down the OSI
+
+00:02:32.978 --> 00:02:39.234 
+layers to change the temperature value in the dashboard. These two are interacting through the network.
+
+00:02:39.234 --> 00:02:43.696 
+Performing this we were able to send the temperature data.
+
+00:02:43.696 --> 00:02:50.909 
+In order for the dashboard to receive the data, it has to go through all the OSI layers but in
+
+00:02:50.909 --> 00:02:58.121 
+reverse order. At the end of the process , we can observe that the temperature will change on the indicator.
+
+00:02:58.121 --> 00:03:00.830 
+There are different Network Topologies such as
+
+00:03:00.830 --> 00:03:05.389 
+Server Client Model, Broker Client Model, Peer to Peer Model.
+
+00:03:05.389 --> 00:03:12.918 
+In all of these, the underlying network technology is not changing much but rather how you connect the nodes themselves.
+
+00:03:12.918 --> 00:03:19.255 
+WoT can be applied on different network device topologies. It is not constrained to any of them.
+
+00:03:19.256 --> 00:03:26.356 
+One of the most widely used is Server Client Model. It consist of «a server» and one or more clients.
+
+00:03:26.356 --> 00:03:31.437 
+In this model, the server is reactive, and the client is proactive meaning
+
+00:03:31.437 --> 00:03:36.518 
+that the server waits for the request and responds to the clients.
+
+00:03:36.518 --> 00:03:42.243 
+Common Server-Client Protocols are HTTP WebSocket and CoAP.
+
+00:03:42.243 --> 00:03:50.306 
+If server and client are very tightly coupled, it is very hard one to evolve independently from another.
+
+00:03:50.306 --> 00:03:56.251 
+There are architectures that ensure they are not tightly coupled, like REST. Similar to
+
+00:03:56.251 --> 00:04:02.197 
+REST, WoT also encourages systems that are not tightly coupled. The REST concept where
+
+00:04:02.197 --> 00:04:08.143 
+every resource has URI is also a primary design choice of the WoT.
+
+00:04:08.143 --> 00:04:12.693 
+Second model we will explain is Broker Client Model.
+
+00:04:12.693 --> 00:04:19.731 
+In this model, multiple clients are connected to a central broker. Also, it is referred as
+
+00:04:19.731 --> 00:04:26.768 
+Publisher-Subscriber. However, Broker- Client is more specific since there can be PubSub without a broker.
+
+00:04:26.768 --> 00:04:31.537 
+Broker does not contain any application logic, it simply a router that
+
+00:04:31.537 --> 00:04:36.306 
+receives messages and sends them to the clients that are listening.
+
+00:04:36.306 --> 00:04:40.499 
+In this model, if one of the clients is inactive, data
+
+00:04:40.499 --> 00:04:44.693 
+sent by broker waits for the clients to be active again.
+
+00:04:44.693 --> 00:04:48.881 
+This feature is called decoupling of time.
+
+00:04:48.881 --> 00:04:56.299 
+Or it can happen the other way around as well. For example, 2 clients can
+
+00:04:56.299 --> 00:05:03.718 
+send data to Broker and Broker distribute it to the other client or clients.
+
+00:05:03.718 --> 00:05:08.281 
+And the last one is Peer to Peer Model. This is a true
+
+00:05:08.281 --> 00:05:12.843 
+distributed system where there is no single point to get data from.
+
+00:05:12.843 --> 00:05:18.843 
+Examples of this model are BitTorrent and OPC UA PubSub.
+
+00:05:18.843 --> 00:05:23.518 
+In this video we explained the OSI Layers.
+
+00:05:23.518 --> 00:05:29.656 
+You can proceed to the next tutorial by clicking on the card or the video description.
+
