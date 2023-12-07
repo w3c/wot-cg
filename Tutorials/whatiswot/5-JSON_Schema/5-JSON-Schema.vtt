@@ -1,0 +1,74 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:07.056 
+In this video, we will briefly explain Schema Languages and then move to the JSON Schema since it
+
+00:00:07.056 --> 00:00:14.112 
+is the one that describes and validates JSON, which is important in the scope of Web of Things.
+
+00:00:14.112 --> 00:00:17.237 
+Let us explain what is a schema.
+
+00:00:17.237 --> 00:00:25.055 
+Many payload formats offer a way to describe what a payload instance should look like. Generally,
+
+00:00:25.055 --> 00:00:32.872 
+these are called Schema Languages. For example, JSON Schema, XML Schema, GraphQL Schema Definition Language.
+
+00:00:32.872 --> 00:00:36.360 
+Now let's take JSON Schema.
+
+00:00:36.360 --> 00:00:44.309 
+JSON Schema is a JSON document used to describe and validate how JSON payload instance should look like.
+
+00:00:44.309 --> 00:00:50.435 
+The main idea is to enable senders such as clients to understand how
+
+00:00:50.435 --> 00:00:56.562 
+the request should be and for the receiver to automatically validate the payloads.
+
+00:00:56.562 --> 00:01:03.950 
+Although it is also a JSON, it is metadata and not part of the payloads.
+
+00:01:03.950 --> 00:01:13.262 
+We can see some basic JSON Schema examples here. type "array" tells that the schema accepts JSON documents that are
+
+00:01:13.262 --> 00:01:22.575 
+arrays. This can be defined for other types in JSON as well, such as, string, number, boolean, and null.
+
+00:01:22.575 --> 00:01:28.437 
+Thus, in the receiver end, you can do this validation process to
+
+00:01:28.437 --> 00:01:34.300 
+validate. This is an example how it could look like in JavaScript.
+
+00:01:34.300 --> 00:01:39.875 
+It can look different in other programming languages. For instance:
+
+00:01:39.875 --> 00:01:41.187 
+Python,
+
+00:01:44.187 --> 00:01:44.887 
+Java
+
+00:01:51.887 --> 00:01:58.462 
+and C++
+
+00:01:59.162 --> 00:02:05.575 
+Of course, way more advanced validations are possible with JSON Schema such as:
+
+00:02:05.575 --> 00:02:10.275 
+Regular expressions, URIs, length of a string
+
+00:02:10.275 --> 00:02:16.012 
+Max/min for numbers, IP addresses, email addresses
+
+00:02:16.012 --> 00:02:21.612 
+Or you can specify amount of the items and allowed types in an array,
+
+00:02:21.612 --> 00:02:27.800 
+as well as required properties and amount of properties in an object.
+
+00:02:27.800 --> 00:02:32.975 
+You can proceed to the next tutorial by clicking on the card or the video description.
+
