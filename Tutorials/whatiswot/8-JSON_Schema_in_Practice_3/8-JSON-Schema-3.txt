@@ -1,0 +1,48 @@
+In the previous videos of JSON Schema, we have explained the features and basic implementations of JSON Schema. In this video, we will show the actual validation process with libraries and code examples.
+
+Throughout this video, we will mainly focus on validation with the Python library jsonschema and the JavaScript library AJV, but there are many other libraries in different programming languages and tools to validate JSON using a JSON Schema.
+
+Here are some of the popular ones in different programming languages.  There are many more validators. 
+
+For further information, you can check the JSON Schema homepage via the link in the video description.
+
+This  is the basic validation flow that all libraries follow.
+The library takes a schema for your JSON data and validates your data according to the schema. Outputs the validation result as a boolean 
+
+So let's start with AJV! It is a JavaScript library.
+
+This is the same temperature sensor example we used before. Let’s examine this in JavaScript code.
+
+First, We are importing the AJV. 
+
+This is the Schema that describes the JSON we are expecting. 
+
+With this line of code, AJV takes schema as a parameter compiles it to function, and caches it.
+
+This is the data to be validated. 
+
+Here we can see the validation step where the result is written into a boolean named isValid.  
+
+This step is for printing the result of the validation. If isValid is true, then it prints "JSON input is valid according to Schema". Otherwise, it prints the "JSON input is not valid according to Schema" and the error message. 
+
+It outputs that input is valid since the data that we enter suits the predefined schema. 
+
+Now let's take a look at the same validation example but with Python's jsonschema library. It is an implementation of the JSON Schema specification for Python. 
+
+We will use the same temperature example that we use for AJV but for Python this time.
+Let's take a look at the code in detail. 
+
+With this line of code, we are importing the function from the library. 
+
+This is the same schema in the previous example. 
+
+This is the data to be validated. 
+
+This validate function takes the data and the schema validates it and prints the result. If the data is valid, it does not print anything. Otherwise, it prints the error message. 
+
+The code outputs that the data is not valid since the property "temperatureOf" needs to be string. However, in the given data it is an integer. 
+
+This concludes the videos on JSON Schema. 
+
+You can proceed to the next tutorial by clicking on the card or the video description.
+
