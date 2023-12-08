@@ -1,5 +1,5 @@
 ---
-sidebar_position: 6
+id: architecture-patterns
 ---
 
 In this tutorial, we will explain architecture patterns, and how devices / things interact with controllers, agents, and servers.

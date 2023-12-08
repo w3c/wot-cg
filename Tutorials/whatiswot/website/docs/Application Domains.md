@@ -1,5 +1,5 @@
 ---
-sidebar_position: 5
+id: application-domains
 ---
 
 We will give a introduction to the W3C Web of Things including its application domains and we will continue with architecture patterns, and building blocks.

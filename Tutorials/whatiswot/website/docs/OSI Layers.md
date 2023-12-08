@@ -1,5 +1,5 @@
 ---
-sidebar_position: 4
+id: osi-layers
 ---
 
 In WoT we are dealing with interacting with devices over the network. Thus, we need to look at how such a communication is modelled.

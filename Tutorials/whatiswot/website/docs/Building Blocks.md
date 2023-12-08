@@ -1,5 +1,5 @@
 ---
-sidebar_position: 7
+id: building-blocks
 ---
 
 The third section of introduction to WoT is Building Blocks. In this tutorial, we will explain each building block, WoT Thing description, Wot Discovery, WoT Binding templates, and WoT Scripting API.

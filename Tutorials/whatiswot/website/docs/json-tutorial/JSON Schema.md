@@ -1,5 +1,5 @@
 ---
-sidebar_position: 3
+id: json3
 ---
 
 # JSON Schema
