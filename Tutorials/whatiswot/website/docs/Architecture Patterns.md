@@ -1,5 +1,5 @@
 ---
-id: architecture-patterns
+id: Architecture Patterns
 ---
 
 In this tutorial, we will explain architecture patterns, and how devices / things interact with controllers, agents, and servers.
@@ -66,4 +66,3 @@ Lastly, we will move to cross-domain collaboration. In cross-domain collaboratio
 In those models, you can exchange information directly with each other in a peer-to-peer manner or indirectly via some collaboration platform.
 
 ![cross-domain-collab](/img/11-Architecture-Patterns/cross-domain-collab.png)
-

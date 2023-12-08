@@ -1,5 +1,5 @@
 ---
-id: osi-layers
+id: OSI Layers and Network Topologies
 ---
 
 In WoT we are dealing with interacting with devices over the network. Thus, we need to look at how such a communication is modelled.

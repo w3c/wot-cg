@@ -1,5 +1,5 @@
 ---
-id: json5
+id: JSON Schema in Practice - Advanced Topics
 ---
 
 In the previous tutorial, we have learned the basics of JSON Schema. In this tutorial, we will continue with more advanced topics such as generic keywords, schema composition and schema conditionality.

@@ -1,5 +1,5 @@
 ---
-id: building-blocks
+id: Building Blocks
 ---
 
 The third section of introduction to WoT is Building Blocks. In this tutorial, we will explain each building block, WoT Thing description, Wot Discovery, WoT Binding templates, and WoT Scripting API.
@@ -78,24 +78,23 @@ The Binding Templates address an application client to use the TD so that they c
 
 In general, Binding Templates provides a collection of blueprints that give guidance on how to interact with different Things that use different transport protocols, and content types or that are different IoT platforms or standards that use certain combinations of transport protocols and content types.
 
-
 ## WoT Profile
 
 Now we will introduce the WoT profile.
 
-By nature, TD is flexible and able to describe anything without any limitations. 
+By nature, TD is flexible and able to describe anything without any limitations.
 
 However, in some cases let's say you are trying to communicate with your smart bulb with your smartphone, the lack of limitation of the TDs causes an unnecessary implementation load to communicate with every Thing.
 
-And while implementing  a thing profile makes it way easier with providing guidance. For instance, developers don’t have to think about which protocols to choose.
+And while implementing a thing profile makes it way easier with providing guidance. For instance, developers don’t have to think about which protocols to choose.
 
-Thus, in those cases, Profile limits the capabilities of the TDs which enables out of box interoperability among things and devices. And make it possible to communicate with only minor configuration operations such as entering a key or IP address. 
+Thus, in those cases, Profile limits the capabilities of the TDs which enables out of box interoperability among things and devices. And make it possible to communicate with only minor configuration operations such as entering a key or IP address.
 
 ## WoT Scripting API
 
-Lastly, we will introduce WoT Scripting API, which is an optional building block of W3C WoT. It makes it easier to develop IoT applications by providing an ECMA Script-based API similar to the Web browser APIs. 
+Lastly, we will introduce WoT Scripting API, which is an optional building block of W3C WoT. It makes it easier to develop IoT applications by providing an ECMA Script-based API similar to the Web browser APIs.
 
-It makes it easier to develop IoT applications by providing an ECMAScript-based API similar to the Web browser APIs. 
+It makes it easier to develop IoT applications by providing an ECMAScript-based API similar to the Web browser APIs.
 
 This is achieved by integrating a scripting runtime system into the WoT Runtime, where the WoT Scripting API enables the use of portable application scripts that define the behavior of Things, Consumers, and Intermediaries.
 

@@ -1,5 +1,5 @@
 ---
-id: json6
+id: JSON Schema Validation
 ---
 
 In the previous tutorials of JSON Schema, we have shown the features and basic implementations of JSON Schema.

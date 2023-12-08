@@ -22,6 +22,7 @@ const sidebars = {
     {
       type: "category",
       label: "Preliminary",
+      collapsed: false,
       items: [
         {
           type: "doc",
@@ -62,47 +63,47 @@ const sidebars = {
             },
             {
               type: "doc",
-              id: "json-tutorial/json4",
+              id: "json-tutorial/JSON Schema in Practice",
               label: "JSON Schema in Practice",
             },
             {
               type: "doc",
-              id: "json-tutorial/json5",
+              id: "json-tutorial/JSON Schema in Practice - Advanced Topics",
               label: "JSON Schema in Practice - Advanced Topics",
             },
             {
               type: "doc",
-              id: "json-tutorial/json6",
+              id: "json-tutorial/JSON Schema Validation",
               label: "JSON Schema Validation",
             },
           ],
+        },
+        {
+          type: "doc",
+          id: "OSI Layers and Network Topologies",
+          label: "OSI Layers and Network Topologies",
         },
       ],
     },
 
     {
       type: "category",
-      label: "Advanced",
+      label: "WoT",
       collapsed: false,
       items: [
         {
           type: "doc",
-          id: "osi-layers",
-          label: "OSI Layers and Network Topologies",
-        },
-        {
-          type: "doc",
-          id: "application-domains",
+          id: "Application Domains",
           label: "Application Domains",
         },
         {
           type: "doc",
-          id: "architecture-patterns",
+          id: "Architecture Patterns",
           label: "Architecture Patterns",
         },
         {
           type: "doc",
-          id: "building-blocks",
+          id: "Building Blocks",
           label: "Building Blocks",
         },
       ],

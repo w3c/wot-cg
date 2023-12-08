@@ -1,5 +1,5 @@
 ---
-id: json4
+id: JSON Schema in Practice
 ---
 
 As we discussed in the previous tutorial, JSON Schema is a declarative format for “describing the structure of other data”. Now we will explain its implementation.
