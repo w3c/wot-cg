@@ -8,7 +8,6 @@ The enum keyword is used to restrict a value to a fixed set of values. It must b
 The const keyword is used to restrict a value to a single value. 
 
 JSON Schema includes a few keywords for combining Schemas together, the most used ones are allOf, anyOf, oneOf, and not. 
-All of these keywords must be set to an array, where each item is a Schema. 
 
 To validate allOf, the given data must be valid against all of the given sub schemas. 
 

@@ -24,33 +24,30 @@ It must be an array with at least one element, where each element is unique.
 00:00:43.000 --> 00:00:51.437 
 The const keyword is used to restrict a value to a single value.
 
-00:00:51.437 --> 00:01:03.159 
+00:00:51.437 --> 00:01:04.475 
 JSON Schema includes a few keywords for combining Schemas together, the most used ones are allOf, anyOf, oneOf, and not.
 
-00:01:03.159 --> 00:01:10.806 
-All of these keywords must be set to an array, where each item is a Schema.
-
-00:01:10.806 --> 00:01:18.915 
+00:01:04.475 --> 00:01:12.584 
 To validate allOf, the given data must be valid against all of the given sub schemas.
 
-00:01:18.915 --> 00:01:28.261 
+00:01:12.584 --> 00:01:21.929 
 To validate anyOf, the given data must be valid against any (one or more) of the given sub schemas.
 
-00:01:28.261 --> 00:01:36.817 
+00:01:21.929 --> 00:01:30.486 
 To validate oneOf, the given data must be valid against exactly one of the given sub schemas.
 
-00:01:36.817 --> 00:01:44.742 
+00:01:30.486 --> 00:01:38.410 
 The not keyword declares that an instance validates if it doesn’t validate against the given sub schema.
 
-00:01:44.742 --> 00:01:51.871 
+00:01:38.410 --> 00:01:45.539 
 The if, then and else keywords allow the application of a sub schema based on the outcome of
 
-00:01:51.871 --> 00:01:59.000 
+00:01:45.539 --> 00:01:52.669 
 another Schema, as it is in other programming languages. If it is valid, then must also be valid
 
-00:01:59.000 --> 00:02:06.129 
+00:01:52.669 --> 00:01:59.798 
 (and else is ignored.) If it is invalid, else must also be valid (and then ignored).
 
-00:02:06.129 --> 00:02:11.304 
+00:01:59.798 --> 00:02:04.973 
 You can proceed to the next tutorial by clicking on the card or the video description.
 
