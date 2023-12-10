@@ -1,0 +1,53 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:06.575 
+In the previous video, we talked about JSON Schema Basics, in this
+
+00:00:06.575 --> 00:00:13.150 
+video, we will continue with generic keywords, Schema composition, and Schema Conditionality.
+
+00:00:13.150 --> 00:00:20.500 
+Some of the annotation keywords used in JSON Schema are title, description, and default.
+
+00:00:20.500 --> 00:00:27.850 
+None of these annotation words are required but enhance good practice for self-documenting Schemas.
+
+00:00:27.850 --> 00:00:32.475 
+The title and description keywords must be strings.
+
+00:00:32.475 --> 00:00:37.737 
+The enum keyword is used to restrict a value to a fixed set of values.
+
+00:00:37.737 --> 00:00:43.000 
+It must be an array with at least one element, where each element is unique.
+
+00:00:43.000 --> 00:00:51.437 
+The const keyword is used to restrict a value to a single value.
+
+00:00:51.437 --> 00:01:04.475 
+JSON Schema includes a few keywords for combining Schemas together, the most used ones are allOf, anyOf, oneOf, and not.
+
+00:01:04.475 --> 00:01:12.584 
+To validate allOf, the given data must be valid against all of the given sub schemas.
+
+00:01:12.584 --> 00:01:21.929 
+To validate anyOf, the given data must be valid against any (one or more) of the given sub schemas.
+
+00:01:21.929 --> 00:01:30.486 
+To validate oneOf, the given data must be valid against exactly one of the given sub schemas.
+
+00:01:30.486 --> 00:01:38.410 
+The not keyword declares that an instance validates if it doesn’t validate against the given sub schema.
+
+00:01:38.410 --> 00:01:45.539 
+The if, then and else keywords allow the application of a sub schema based on the outcome of
+
+00:01:45.539 --> 00:01:52.669 
+another Schema, as it is in other programming languages. If it is valid, then must also be valid
+
+00:01:52.669 --> 00:01:59.798 
+(and else is ignored.) If it is invalid, else must also be valid (and then ignored).
+
+00:01:59.798 --> 00:02:04.973 
+You can proceed to the next tutorial by clicking on the card or the video description.
+
