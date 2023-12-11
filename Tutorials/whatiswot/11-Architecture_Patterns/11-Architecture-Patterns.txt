@@ -24,7 +24,7 @@ Smart home gateways pattern is achieved by placing a gateway between a home netw
 
 In this pattern, the home gateway has both client and server roles. 
 
-For instance, when the remote controller in this case a smartphone, turns on a device let's say security camera in the client role and the smartphone in the server role. 
+For instance, when the remote controller, in this case a smartphone, turns on a device, let's say a security camera in the client role and the smartphone in the server role. 
 
 On the other way around, when the security camera sends a message to the smartphone, the gateway acts as a server role for the security camera and it acts as a client for the smartphone.  If the camera is in a client role, it can pass the firewalls easily. 
 

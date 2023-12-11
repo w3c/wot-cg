@@ -3,105 +3,105 @@ WEBVTT
 00:00:00.000 --> 00:00:12.662 
 In this video, we will explain architecture patterns, and how devices and things interact with controllers, agents, and servers.
 
-00:00:12.662 --> 00:00:23.330 
+00:00:12.662 --> 00:00:23.368 
 Previously we have explained the server and client models and described how this architecture works.
 
-00:00:23.330 --> 00:00:27.155 
+00:00:23.368 --> 00:00:27.193 
 Now we will show how they are used in the WoT systems.
 
-00:00:27.155 --> 00:00:34.388 
+00:00:27.193 --> 00:00:34.426 
 We will introduce 6 architecture patterns in this video.
 
-00:00:34.388 --> 00:00:41.913 
+00:00:34.426 --> 00:00:41.951 
 So, first, let’s start with the device controllers. A common deployment pattern is a local device
 
-00:00:41.913 --> 00:00:49.438 
+00:00:41.951 --> 00:00:49.476 
 controlled by a user-operated remote controller. Let’s remember the smart house example from the previous video.
 
-00:00:49.438 --> 00:00:54.700 
+00:00:49.476 --> 00:00:54.739 
 A remote controller can interact with the devices through the local home network.
 
-00:00:54.700 --> 00:01:01.125 
+00:00:54.739 --> 00:01:01.214 
 In this pattern, at least one device has a server role that can accept a request and respond.
 
-00:01:01.125 --> 00:01:07.557 
+00:01:01.214 --> 00:01:07.645 
 Another device remote controller has a client role that can send a message with
 
-00:01:07.557 --> 00:01:13.988 
+00:01:07.645 --> 00:01:14.076 
 a request like to read a sensor value or to turn on the device.
 
-00:01:13.988 --> 00:01:19.313 
+00:01:14.076 --> 00:01:19.401 
 Let’s move to the second architecture pattern, Thing-to-Thing. In this scenario we
 
-00:01:19.313 --> 00:01:24.638 
+00:01:19.401 --> 00:01:24.726 
 have two electronic devices, let's say a heater and a temperature sensor.
 
-00:01:24.638 --> 00:01:31.449 
+00:01:24.726 --> 00:01:31.538 
 When a sensor detects a change in room condition such as temperature drops below the
 
-00:01:31.449 --> 00:01:38.261 
+00:01:31.538 --> 00:01:38.349 
 threshold, it sends the message “turn on” to the heater to turn it on.
 
-00:01:38.261 --> 00:01:43.286 
+00:01:38.349 --> 00:01:43.374 
 Third architecture that we will introduce is Gateways.
 
-00:01:43.286 --> 00:01:50.411 
+00:01:43.374 --> 00:01:50.499 
 Smart home gateways pattern is achieved by placing a gateway between a home network and the Internet to
 
-00:01:50.411 --> 00:01:57.536 
+00:01:50.499 --> 00:01:57.624 
 manage devices inside the house. It can also receive commands from a remote controller over the Internet.
 
-00:01:57.536 --> 00:02:02.949 
+00:01:57.624 --> 00:02:03.087 
 In this pattern, the home gateway has both client and server roles.
 
-00:02:02.949 --> 00:02:08.586 
-For instance, when the remote controller in this case a smartphone, turns on a device
+00:02:03.087 --> 00:02:09.193 
+For instance, when the remote controller, in this case a smartphone, turns on a device, let's
 
-00:02:08.586 --> 00:02:14.224 
-let's say security camera in the client role and the smartphone in the server role.
+00:02:09.193 --> 00:02:15.299 
+say a security camera in the client role and the smartphone in the server role.
 
-00:02:14.224 --> 00:02:20.578 
+00:02:15.299 --> 00:02:21.691 
 On the other way around, when the security camera sends a message to the smartphone, the gateway
 
-00:02:20.578 --> 00:02:26.932 
+00:02:21.691 --> 00:02:28.083 
 acts as a server role for the security camera and it acts as a client for the
 
-00:02:26.932 --> 00:02:33.286 
+00:02:28.083 --> 00:02:34.474 
 smartphone. If the camera is in a client role, it can pass the firewalls easily.
 
-00:02:33.286 --> 00:02:36.336 
+00:02:34.474 --> 00:02:37.524 
 The next pattern is Digital Twins.
 
-00:02:36.336 --> 00:02:39.849 
+00:02:37.524 --> 00:02:41.049 
 Digital Twin is a model of a device or a group
 
-00:02:39.849 --> 00:02:43.361 
+00:02:41.049 --> 00:02:44.574 
 of devices that resides on a cloud server or edge devices.
 
-00:02:43.361 --> 00:02:49.130 
+00:02:44.574 --> 00:02:50.343 
 It is useful to represent real-world devices that may not be continuously online
 
-00:02:49.130 --> 00:02:54.899 
+00:02:50.343 --> 00:02:56.112 
 or to test simulations and services before they are deployed to real devices.
 
-00:02:54.899 --> 00:03:00.630 
+00:02:56.112 --> 00:03:01.843 
 It can model one or more devices. Digital Twins can be categorized in different
 
-00:03:00.630 --> 00:03:06.361 
+00:03:01.843 --> 00:03:07.574 
 ways depending on whether a device is connected to the cloud or gateway.
 
-00:03:06.361 --> 00:03:14.542 
+00:03:07.574 --> 00:03:15.756 
 Lastly, we will move to cross-domain collaboration. In cross-domain collaborations, each system involves other systems
 
-00:03:14.542 --> 00:03:22.724 
+00:03:15.756 --> 00:03:23.937 
 in other domains. For example, Smart Factory with Smart City, Smart City with Smart Home.
 
-00:03:22.724 --> 00:03:28.067 
+00:03:23.937 --> 00:03:29.281 
 In those models, you can exchange information directly with each other
 
-00:03:28.067 --> 00:03:33.411 
+00:03:29.281 --> 00:03:34.624 
 in a peer-to-peer manner or indirectly via some collaboration platform.
 
-00:03:33.411 --> 00:03:39.336 
+00:03:34.624 --> 00:03:40.549 
 You can proceed to the next tutorial by clicking on the card or the video description.
 
