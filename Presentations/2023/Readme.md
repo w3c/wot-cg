@@ -5,7 +5,7 @@ If you have online versions, you can link them here in reverse chronological ord
 
 ## Online Presentation Resources
 
-- W3C WoT Meetup 11 - ISO Industrial Data Ontology - Grundfos | [Video](https://youtu.be/VYHjMU5a9FI) | PDF soon
+- W3C WoT Meetup 11 - ISO Industrial Data Ontology - Grundfos | [Video](https://youtu.be/VYHjMU5a9FI) | [PDF](./2023-12-WoTCG-Meetup11-MikkelHBrynildsen-ISO_IDO.pdf)
 - [W3C WoT Meetup 11 - Intro](https://docs.google.com/presentation/d/1r_7PrstswVoU_1awFvrcfa6tuQRzm76coDZkPfuY68k/edit?usp=sharing) | [PDF](./2023-12-WoTCG-Meetup11-AguzziKorkan.pdf)
 - W3C WoT Meetup 10 - Designing an API for the Physical World - Seam | [Video](https://www.youtube.com/watch?v=LHybkrb3Xek) | [PDF](./2023-10-WoTCG-Meetup10-Seam-SyBohy.pdf)
 - [W3C WoT Meetup 10 - Intro](https://docs.google.com/presentation/d/17Whb-1nKF949bWN3dXjEin7q0nuJW9kUsVXgp3HlcLY/edit?usp=sharing) | [PDF](./2023-10-WoTCG-Meetup10-AguzziKorkan.pdf)
