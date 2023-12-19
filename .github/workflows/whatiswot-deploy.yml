@@ -29,7 +29,7 @@ jobs:
       - name: Change to deployment branch
         run: git checkout docusaurus-whatiswot
       - name: Move build folder around
-        run: mkdir -p temp && cp -r Tutorials/whatiswot/website/build/ temp/ && rm -r Tutorials && mkdir -p tutorials/whatiswot && cp -r temp/* tutorials/whatiswot/ && rm -r temp
+        run: mkdir -p temp && cp -r Tutorials/whatiswot/website/build/* temp/ && rm -r Tutorials && mkdir -p tutorials/whatiswot && cp -r temp/* tutorials/whatiswot/ && rm -r temp
       - name: Check for changes
         continue-on-error: true
         run: |
