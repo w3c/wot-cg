@@ -12,7 +12,7 @@ Before we explain WoT, lets first talk about what is the difference between the 
 
 ## Thing Description
 
-In the WoT Architecture, a Thing is defined as an abstraction of an IoT device or service. And TD (Thing Description) provides descriptive metadata for a Thing.
+In the WoT Architecture, a Thing is defined as an abstraction of an IoT device or service. Correspondingly, a TD (Thing Description) provides descriptive metadata for a Thing.
 
 ## Web of Things in a Nutshell
 
