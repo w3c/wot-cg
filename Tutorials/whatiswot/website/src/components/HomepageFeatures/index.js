@@ -36,8 +36,8 @@ const FeatureList = [
       <>
         At the end, you will have all the tools in your belt to build WoT
         applications. With all these tools, you can build actual software such
-        as dashboards, protocol proxies and translators,smart internet-connected
-        devices,mash ups of WoT devices and services, in many domains such as
+        as dashboards, protocol proxies and translators, smart internet-connected
+        devices, mash ups of WoT devices and services, in many domains such as
         Smart Homes, Factory Automation.
       </>
     ),
