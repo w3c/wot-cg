@@ -23,7 +23,7 @@ Let's continue with the parcel truck example. In that example, the header would 
 
 This is what an HTTP header can look like. A header can contain information like request context, response context, status and it can indicate payload type.
 
-There are different payload types such as  JSON, XML, CBOR TextAudio and video and more.
+There are different payload types such as  JSON, XML, CBOR, Text,Audio and Video and more.
 
 So let us show you an example of JSON payload.
 This is a temperature payload, a single number.
