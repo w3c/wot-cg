@@ -51,102 +51,102 @@ Paying attention to this is important to make sure that object assignments and c
 00:01:31.224 --> 00:01:35.749 
 Lets continue with the mistakes about quotation marks.
 
-00:01:35.749 --> 00:01:41.624 
-Forgetting quotation marks is wrong, it will show validation errors everywhere.
+00:01:35.749 --> 00:01:41.699 
+Forgetting quotation marks is wrong, it will show syntax errors everywhere.
 
-00:01:41.624 --> 00:01:46.162 
+00:01:41.699 --> 00:01:46.237 
 Also putting them when you should not cause unwanted results.
 
-00:01:46.162 --> 00:01:52.662 
+00:01:46.237 --> 00:01:52.737 
 For example → “name”:”true” is not the same as “name”:true without quotation marks.
 
-00:01:52.662 --> 00:01:58.012 
+00:01:52.737 --> 00:01:58.087 
 The first one is not a boolean but a string so it will be interpreted as a string.
 
-00:01:58.012 --> 00:02:01.637 
+00:01:58.087 --> 00:02:01.712 
 The same problem happens with numbers too.
 
-00:02:01.637 --> 00:02:08.137 
+00:02:01.712 --> 00:02:08.212 
 This way, the types will be incorrectly interpreted by your programming language.
 
-00:02:08.137 --> 00:02:16.537 
+00:02:08.212 --> 00:02:16.612 
 Putting comments inside JSON documents is not valid.
 
-00:02:16.537 --> 00:02:20.172 
+00:02:16.612 --> 00:02:20.247 
 Commas should not be used at the final name-value pair.
 
-00:02:20.172 --> 00:02:24.453 
+00:02:20.247 --> 00:02:24.528 
 That is why the first one is not valid but difficult to see if
 
-00:02:24.453 --> 00:02:28.735 
+00:02:24.528 --> 00:02:28.810 
 you are using it inside of a javascript editor rather than a JSON editor.
 
-00:02:28.735 --> 00:02:35.413 
+00:02:28.810 --> 00:02:35.488 
 Similar to the previous one depending on the programming language that you use, syntax might differ.
 
-00:02:35.413 --> 00:02:41.855 
+00:02:35.488 --> 00:02:41.930 
 Since JSON will be the object of that programming language before it is parsed and serialized as JSON.
 
-00:02:41.855 --> 00:02:47.306 
+00:02:41.930 --> 00:02:47.381 
 For example, in JSON key-value pairs have to be with quotation marks whereas
 
-00:02:47.306 --> 00:02:52.756 
+00:02:47.381 --> 00:02:52.831 
 in JavaScript files it is not necessary to have quotation marks, both work.
 
-00:02:52.756 --> 00:02:56.093 
+00:02:52.831 --> 00:02:56.168 
 The syntax of the keywords might differ as well.
 
-00:02:56.093 --> 00:03:01.982 
+00:02:56.168 --> 00:03:02.057 
 For example, true false keywords in JSON, Rust, JavaScript, and Golang are written lowercase,
 
-00:03:01.982 --> 00:03:07.871 
+00:03:02.057 --> 00:03:07.946 
 while in Python the first letter of these keywords needs to be capitalized.
 
-00:03:07.871 --> 00:03:14.208 
+00:03:07.946 --> 00:03:14.283 
 Similar to the previous one, the null keyword differs in JSON and Python.
 
-00:03:14.208 --> 00:03:18.436 
+00:03:14.283 --> 00:03:18.511 
 In JSON and JavaScript it is null with lowercase while in
 
-00:03:18.436 --> 00:03:22.664 
+00:03:18.511 --> 00:03:22.739 
 Python, the same meaning is given with the "None" keyword.
 
-00:03:22.664 --> 00:03:27.561 
+00:03:22.739 --> 00:03:27.636 
 Open a code editor. In this example, we used VS Code.
 
-00:03:27.561 --> 00:03:34.112 
+00:03:27.636 --> 00:03:34.187 
 Write a JSON file of your choice and save it by giving a file name and adding a .json extension.
 
-00:03:34.112 --> 00:03:38.379 
+00:03:34.187 --> 00:03:38.454 
 Then the editor will recognize the file as a JSON document.
 
-00:03:38.379 --> 00:03:45.073 
+00:03:38.454 --> 00:03:45.148 
 Now we will read a JSON file from the file system using a JSON library in Python.
 
-00:03:45.073 --> 00:03:51.541 
+00:03:45.148 --> 00:03:51.616 
 We open the JSON file that we have previously saved to the file system with open-as-file key words.
 
-00:03:51.541 --> 00:03:56.808 
+00:03:51.616 --> 00:03:56.883 
 Then, we can load that JSON file with the load function into the data object.
 
-00:03:56.808 --> 00:04:00.502 
+00:03:56.883 --> 00:04:00.577 
 We can also print it to see what is inside the JSON file.
 
-00:04:00.502 --> 00:04:07.201 
+00:04:00.577 --> 00:04:07.276 
 Printing the data object in console can look like this.
 
-00:04:07.201 --> 00:04:12.673 
+00:04:07.276 --> 00:04:12.748 
 There are many ways to send a JSON file via different protocols, one of
 
-00:04:12.673 --> 00:04:18.145 
+00:04:12.748 --> 00:04:18.220 
 them is using Python and its request library for sending an HTTP request.
 
-00:04:18.145 --> 00:04:25.947 
+00:04:18.220 --> 00:04:26.022 
 With this library, you can use the post function to send an HTTP POST request with a JSON Payload.
 
-00:04:25.947 --> 00:04:31.332 
+00:04:26.022 --> 00:04:31.407 
 As a parameter, it takes the URL to send to and the JSON object.
 
-00:04:31.332 --> 00:04:36.955 
+00:04:31.407 --> 00:04:37.030 
 You can proceed to the next tutorial by clicking on the card or the video description.
 

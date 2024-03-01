@@ -19,7 +19,7 @@ Also, JSON is case sensitive. Thus, "is Active" with upper case A is not the sam
 Paying attention to this is important to make sure that object assignments and comparisons work. 
 
 Lets continue with the mistakes about quotation marks.
-Forgetting quotation marks is wrong, it will show validation errors everywhere.
+Forgetting quotation marks is wrong, it will show syntax errors everywhere. 
 Also putting them when you should not cause unwanted results.
 For example → “name”:”true” is not the same as “name”:true without quotation marks.
 The first one is not a boolean but a string so it will be interpreted as a string.
