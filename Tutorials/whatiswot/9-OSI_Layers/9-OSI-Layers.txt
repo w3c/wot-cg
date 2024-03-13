@@ -44,7 +44,7 @@ One of the most widely used is Server Client Model. It consist of «a server» a
 
 In this model, the server is reactive, and the client is proactive meaning that the server waits for the request and responds to the clients.     
 
-Common Server-Client Protocols are HTTP WebSocket and CoAP. 
+Common Server-Client Protocols are HTTP, WebSocket and CoAP. 
 
 If server and client are very tightly coupled, it is very hard one to evolve independently from another. 
 
