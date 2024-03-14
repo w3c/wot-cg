@@ -2,20 +2,24 @@
 id: intro
 ---
 
-# What is WoT
+# What is WoT?
 
-Let's start this tutorial with short introduction to the **Web of Things**.
+Let's start this tutorial with a short introduction to the **Web of Things**.
 
 ## Difference Between IoT and WoT
 
-Before we explain WoT, lets first talk about what is the difference between the WoT and IoT. While IoT focuses on technologies for connecting devices to the Internet, WoT leverages IoT and aims to provide interoperability between Things using established architectural ideas for the Web and web technologies.
+To gain a grasp on the meaning of the Web of Things, it's important to first understand what the difference between WoT and IoT (Internet of Things) is. While IoT focuses on technologies for connecting devices to the Internet, WoT takes it a step further. It builds on IoT by making sure all these connected devices can work together seamlessly. This interoperability is achieved using established architectural ideas for the Web and web technologies.
+
+![difference between iot and wot](/img/tutorial/What-Is-Wot/wotvsiot.png)
 
 ## Thing Description
 
 In the WoT Architecture, a Thing is defined as an abstraction of an IoT device or service. Correspondingly, a TD (Thing Description) provides descriptive metadata for a Thing.
 
+![things](/img/tutorial/What-Is-Wot/things.png)
+
 ## Web of Things in a Nutshell
 
-WoT provides a set of standardized technology building blocks that help to streamline IoT application development by following the well-known and successful Web paradigm. With the architecture enabled by the Web of Things, flexibility and interoperability increases especially in cross-domain applications, as well as enabling the reuse of established standards and tools. What can be achieved with the WoT is endless. We feel your excitement to learn and develop the WoT applications.
+WoT provides a set of standardized technology building blocks that help to streamline IoT application development by following the well-known and successful Web paradigm. With the architecture enabled by the Web of Things, flexibility and interoperability increases especially in cross-domain applications, as well as enabling the reuse of established standards and tools. What can be achieved with the WoT is endless.
 
-If you are ready to dive into world of WoT, let’s start this journey!
+We feel your excitement to learn, so if you are ready to dive into the world of WoT, let’s start this journey!
