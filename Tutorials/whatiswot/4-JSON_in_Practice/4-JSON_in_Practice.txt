@@ -5,7 +5,7 @@ Arrays with items of different types are also allowed.
 
 Nested objects are allowed in JSON.  “measurement” keyword is an example of this.
 Objects start and end with curly brackets. It is basically defining keywords and mapping these keywords to values.
-In this example, we define the name and value pairs to describe the data sent by sensors.
+ In this example, we define the name and value pairs to describe the data sent by sensors.
 
 There is a JSON array of JSON Objects which means all items are JSON objects in that array. 
 
@@ -16,11 +16,11 @@ Space is a character too.
 So “is Active” is not the same as “is Active blank” 
 
 Also, JSON is case sensitive. Thus, "is Active" with upper case A is not the same as “is active” with lower case A. 
-Paying attention to this is important to make sure that object assignments and comparisons work. 
+Paying attention to this is important to make sure that object assignments and comparisons work.
 
 Lets continue with the mistakes about quotation marks.
-Forgetting quotation marks is wrong, it will show validation errors everywhere.
-Also putting them when you should not cause unwanted results.
+Forgetting quotation marks is wrong, it will show syntax errors everywhere.
+Also putting them when you should not, causes unwanted results.
 For example → “name”:”true” is not the same as “name”:true without quotation marks.
 The first one is not a boolean but a string so it will be interpreted as a string.
 The same problem happens with numbers too.

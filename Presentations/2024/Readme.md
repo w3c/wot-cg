@@ -1,6 +1,6 @@
-# Presentations made in 2023
+# Presentations made in 2024
 
-Please provide files here using the pattern `2023-MONTH-WoTCG-EVENTNAME-PRESENTERNAME.FILETYPE`. 
+Please provide files here using the pattern `2024-MONTH-WoTCG-EVENTNAME-PRESENTERNAME.FILETYPE`. 
 If you have online versions, you can link them here in reverse chronological order.
 
 ## Online Presentation Resources
