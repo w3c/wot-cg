@@ -8,7 +8,7 @@ Let's start this tutorial with a short introduction to the **Web of Things**.
 
 ## Difference Between IoT and WoT
 
-To gain a grasp on the meaning of the Web of Things, it's important to first understand what the difference between WoT and IoT (Internet of Things) is. While IoT focuses on technologies for connecting devices to the Internet, WoT takes it a step further. It builds on IoT by making sure all these connected devices can work together seamlessly. This interoperability is achieved using established architectural ideas for the Web and web technologies.
+To gain a grasp on the meaning of the Web of Things, it's important to first understand what the difference between WoT and IoT is. While IoT focuses on technologies for connecting devices to the Internet, WoT takes it a step further. It builds on IoT by making sure all these connected devices can work together seamlessly. This interoperability is achieved using established architectural ideas for the Web and web technologies.
 
 ![difference between iot and wot](/img/tutorial/What-Is-Wot/wotvsiot.png)
 
