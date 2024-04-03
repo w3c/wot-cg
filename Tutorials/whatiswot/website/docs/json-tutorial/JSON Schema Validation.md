@@ -7,57 +7,56 @@ In this tutorial, we will deliver the actual validation process with libraries a
 
 Throughout this tutorial, we will mainly focus on validation with the JavaScript library AJV (https://github.com/ajv-validator/ajv) and the Python library jsonschema(https://github.com/python-jsonschema/jsonschema) but there are many other libraries in different programming languages and tools to validate JSON Schema.
 
-<img src="/img/8-JSON-Schema-3/ajv.png" alt="ajv" width="500"/>
-<img src="/img/8-JSON-Schema-3/python-jsonschema.png" alt="python-json-schema" width="630"/>
+![ajv and jsonschema](/img/8-JSON-Schema-3/ajv-python-combined.png)
 
 ## Validator Examples
 
-Here are some of the popular ones in different programming languages.
+Here are some of the most popular validators in different programming languages.
 
-There are many more validators. For further information, you can check the Json schema website (https://json-schema.org/implementations.html#validator-rust).
+However, numerous other validators exist. For further information, you can check out the JSON Schema website (https://json-schema.org/implementations.html#validator-rust).
 
 ### json-everything
 
 https://github.com/gregsdennis/json-everything
 
-<img src="/img/8-JSON-Schema-3/json-everything.png" alt="json-everything" width="600"/>
+![json-everything](/img/8-JSON-Schema-3/json-everything.png)
 
 ### json-schema-validator
 
 https://github.com/pboettch/json-schema-validator
 
-<img src="/img/8-JSON-Schema-3/json-schema-validator.png" alt="json-schema-validator" width="720"/>
+![json-schema-validator](/img/8-JSON-Schema-3/json-schema-validator.png)
 
 ### gojsonschema
 
 https://github.com/xeipuuv/gojsonschema
 
-<img src="/img/8-JSON-Schema-3/gojsonschema.png" alt="go-json-schema" width="650"/>
+![gojsonschema](/img/8-JSON-Schema-3/gojsonschema.png)
 
 ### jsonschema-rs
 
 https://github.com/Stranger6667/jsonschema-rs
 
-<img src="/img/8-JSON-Schema-3/jsonschema-rs.png" alt="jsonschema-rs" width="600"/>
+![jsonschema-rs](/img/8-JSON-Schema-3/jsonschema-rs.png)
 
 ### json-kotlin-schema
 
 https://github.com/pwall567/json-kotlin-schema
 
-<img src="/img/8-JSON-Schema-3/json-kotlin-schema.png" alt="json-kotlin-schema" width="600"/>
+![json-kotlin-schema](/img/8-JSON-Schema-3/json-kotlin-schema.png)
 
 ## Basic Validation Flow
 
 This is the basic validation flow that all libraries follow.
 The library takes a schema for your JSON data and validates your data according to the schema. Outputs the validation result as a boolean.
 
-![basic-validation](/img/8-JSON-Schema-3/basic-validation.png)
+![basic validation flow](/img/8-JSON-Schema-3/basic-validation.png)
 
 ## Javascript AJV
 
 So, let’s start with AJV! It is a JavaScript library.
 
-This is the same temperature sensor example we used before. Let’s examine this in JavaScript code.
+This is the same temperature sensor example we used before. Let’s examine it in JavaScript code.
 
 ```js
 const Ajv = require("ajv");
@@ -148,14 +147,14 @@ It outputs that schema is valid since the data that we enter suits the predefine
 The output:
 
 ```js
-"JSON Schema is valid";
+"JSON Schema is valid"
 ```
 
 ## Python - jsonschema
 
 Now let's take a look at the same JSON Schema example in Python jsonschema. It is an implementation of the JSON Schema specification for Python.
 
-We will use the same temperature example that we use for AJV but for Python this time.
+We will use the same temperature example that we used for AJV but in Python this time.
 
 Let's take a look at the code in detail.
 
@@ -188,7 +187,7 @@ With this line of code, we are importing the function from the library.
 from jsonschema import validate
 ```
 
-This is the same schema in the previous example.
+This is the same schema from the previous example.
 
 ```py
 schema = { 
@@ -219,7 +218,7 @@ This validate function takes the data and the schema validates it and prints the
 validate(instance = data, schema = schema) 
 ```
 
-The code outputs that the data is not valid since the property; «temperatureOf» needs to be string. However, in the given data it is an integer.
+The code outputs that the data is not valid since the property «temperatureOf» needs to be a string. However, in the given data it is an integer.
 Therefore the output is:
 
 ```py

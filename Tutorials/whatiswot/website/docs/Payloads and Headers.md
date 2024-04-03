@@ -25,6 +25,8 @@ The header is part of a message that can and should be understood by the protoco
 
 > Let's go back to our truck example. In that example, the header would be the label on the goods - indicating where they are being transported, what they are and etc.
 
+![truck with parcels example](/img/tutorial/Payloads-And-Headers/truck.png)
+
 ## Header Example
 
 This is what an HTTP header can look like. A header can contain information like request context, response context, status and it can indicate payload type.
@@ -87,8 +89,9 @@ Here, you can see an example of a TD in JSON format. We will go into the details
      }
 }
 ```
+## Comparison
 
-It is light-weight compared to XML and human-readable compared to CBOR. You can see the difference in the representation of the same data in JSON, XML, and CBOR.
+Let's take a look at this JSON example including a few Thing Descriptions - a temperature, humidity and brightness sensors. Each sensor entry includes details such as its type or name, the last calibration date if available, the current measurement value along with its unit, and whether the sensor is active or not.
 
 JSON Example:
 
@@ -124,6 +127,8 @@ JSON Example:
   }
 ]
 ```
+
+This representation is much more light-weight compared to XML, as seen in the example below...
 
 XML Example:
 
@@ -161,10 +166,12 @@ XML Example:
 
 ```
 
+...and more human-readable compared to CBOR.
+
 CBOR Example:
 
 ```
 83A564747970657254656D70657261747572652053656E736F726F6C61737443616C6962726174696F6E7819323031382D31312D31335432303A32303A33392B30303A30306B6D6561737572656D656E74A26576616C7565181964756E69746743656C73697573686973416374697665F569707265636973696F6EFB3FB999999999999AA464747970656F48756D69646974792053656E736F726F6C61737443616C6962726174696F6EF66B6D6561737572656D656E74A26576616C7565183C64756E69746750657263656E74686973416374697665F5A4646E616D65714272696768746E6573732053656E736F726F6C61737443616C6962726174696F6E7819323032302D30312D31395432303A32303A33352B30303A30306B6D6561737572656D656E74A26576616C75650264756E6974634C7578686973416374697665F4
 ```
 
-Last but not least, it is well-established and has a schema language called JSON Schema. It can be used to describe and validate JSON data.
+Last but not least, JSON is well-established and has a schema language called JSON Schema. It can be used to describe and validate JSON data.

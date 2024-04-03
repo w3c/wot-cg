@@ -4,7 +4,7 @@ id: json1
 
 # JSON
 
-We will now take a closer look at JSON since it is the most used payload format in the Web of Things, as well as the way Thing Descriptions are represented. So, let’s start with what is JSON.
+We will now take a closer look at JSON since it is the most used payload format in the Web of Things, as well as the way Thing Descriptions are represented.
 
 ## What is JSON?
 
@@ -38,8 +38,8 @@ Generated JSON:
 
 ### Quick Facts about JSON
 
-It was standardized by ECMA and IETF in around 2013, the current version is 2017 [RFC 8259]
+- It was standardized by ECMA and IETF in around 2013, the current version is 2017 [RFC 8259]
 
-It is used for data exchange but also for configuration files. It can be translated to other popular formats like XML, YAML in both ways, and other formats.
+- It is used for data exchange but also for configuration files. It can be translated to other popular formats like XML, YAML in both ways, and other formats.
 
-Even though JSON stands for Java Script Object Notation, it does not only consist of objects but also allows primitive types such as strings and numbers. The confusion comes from the very early versions of JSON which only included objects and would not allow the primitive types to exist on their own.
+- Even though JSON stands for Java Script Object Notation, it does not only consist of objects but also allows primitive types such as strings and numbers. The confusion comes from the very early versions of JSON which only included objects and would not allow the primitive types to exist on their own.

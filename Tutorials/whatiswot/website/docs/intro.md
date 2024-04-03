@@ -14,7 +14,7 @@ To gain a grasp on the meaning of the Web of Things, it's important to first und
 
 ## Thing Description
 
-In the WoT Architecture, a Thing is defined as an abstraction of an IoT device or service. Correspondingly, a TD (Thing Description) provides descriptive metadata for a Thing.
+In the WoT Architecture, a Thing is defined as an abstraction of an IoT device or service. Correspondingly, a TD (Thing Description) provides descriptive metadata for a Thing. Some examples for what Things can be are computers, sensors, smart appliances and more.
 
 ![things](/img/tutorial/What-Is-Wot/things.png)
 
