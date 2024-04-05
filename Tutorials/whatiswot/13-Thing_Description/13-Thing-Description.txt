@@ -1,0 +1,44 @@
+Previously, we introduced Thing and Thing Description.  In this video, we will explain Thing Description with code snippets. 
+
+First, let’s do a recap on Thing and Thing Description. 
+
+In the WoT Architecture, a Thing is defined as an abstraction of an IoT device or service.  And TD provides descriptive metadata for a Thing. 
+
+As we explained in the previous building block video, TD is the core building block in the W3C Web of Things. 
+
+A TD instance consists of 5 main components: 
+
+Textual Metadata about Thing itself. 
+
+Interaction Affordances (Properties, Actions, and Events) that indicate how the Thing can be used 
+
+Schemas for the data exchanged with the thing for machine understandability, 
+
+Security Definitions to provide metadata about the security mechanisms that must be used for interactions, 
+
+Web links to express any formal or informal relation to other Things or documents on the Web. 
+
+Let’s examine these components on a coffee machine TD code.
+
+Here is the simplified version of the code. Let us explain what each keyword means in a TD. 
+
+with the “@context” keyword we can define the context of the TD document.  It is a mandatory keyword, and It contains the vocabulary needed to fully interpret a TD document. 
+
+The “title” keyword is the human-readable descriptive title of the TD.  It is also mandatory. 
+
+The “id” keyword provides a unique ID to a Thing Description, and it is optional.
+
+“securityDefinitions” define the security mechanisms present in the Thing and security allows to express which ones are picked.  We will go into more detail in the upcoming videos. 
+
+And these are the interaction affordances.  They consist of a set of capabilities and functionality exposed by a Thing that can be controlled and interacted with by a Consumer.   We can list them as properties, actions, and events. 
+
+We will explain these affordances in detail in the next video but now let's look at their functionality. 
+
+The sensing and control parameters of the Thing are represented with the properties keyword in a TD.  Such as the state of the coffee machine, how much water or beans are left in the machine or how full is the bin. 
+
+Actions are used to interact with a Thing.  It consists of actions that can be invoked by the Consumer.  For instance, in “BrewCoffee”  brew the coffee of your choice and it can also take input parameters like coffee type and sugar amount.  “StopBrew” stopping brewing or  “TurnOff” turns off the machine. 
+
+Events are used to be notified about specific events.  Consumers can subscribe to those events.  For our coffee machine example, we can have water warning events to be notified when the water level is too low.  Error Notification Event to be notified when the state of the machine is “error”. 
+
+You can proceed to the next tutorial by clicking on the card or the video description.
+
