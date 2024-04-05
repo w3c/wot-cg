@@ -3,6 +3,7 @@
 
 const lightCodeTheme = require("prism-react-renderer/themes/github");
 const darkCodeTheme = require("prism-react-renderer/themes/dracula");
+require("dotenv").config();
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -15,7 +16,9 @@ const config = {
   url: "https://w3c.github.io",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment , it is often '/<projectName>/'
-  baseUrl: "/wot-cg/tutorials/whatiswot/",
+
+  // @ts-ignore
+  baseUrl: process.env.baseurl,
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.

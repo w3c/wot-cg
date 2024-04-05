@@ -6,16 +6,16 @@ If you want to skip directly to the tutorials on the WoT standards, click the li
 
 So lets start with what is a payload? 
 
-In computing, the payload is the part of transmitted data that is the actual intended message of the application and nothing to do with the protocol itself.
+In computing, the payload is the part of transmitted data that is the actual intended message of the application and nothing to do with the protocol itself. 
 
-It is also called the body of the message. It is not mandatory in most protocols.
+It is also called the body of the message. It is not mandatory in most protocols. 
 
-We can approach with an analogy, where we consider protocols as a truck.
+We can approach with an analogy, where we consider protocols as a truck. 
 
-and we can think of the parcel contents as the payloads of a protocol, since a payload should not tell what it should be done by itself.
-The parcel contents also do not contain any information about their destination, the truck being transported, or the color of the truck.
+and we can think of the parcel contents as the payloads of a protocol, since a payload should not tell what it should be done by itself.   
+The parcel contents also do not contain any information about their destination, the truck being transported, or the color of the truck. 
 
-Now, let us introduce what is a header
+Now, let us introduce what is a header.
 
 The header is part of a message that can and should be understood by the protocol stack. All the information that the payload should not contain, goes to the header.
 
@@ -23,7 +23,7 @@ Let's continue with the parcel truck example. In that example, the header would 
 
 This is what an HTTP header can look like. A header can contain information like request context, response context, status and it can indicate payload type.
 
-There are different payload types such as  JSON, XML, CBOR, Text,Audio and Video and more.
+There are different payload types such as  JSON, XML, CBOR, Text, Audio and Video and more.
 
 So let us show you an example of JSON payload.
 This is a temperature payload, a single number.
