@@ -20,18 +20,18 @@ const sidebars = {
 
   tutorialSidebar: [
     {
+      type: "doc",
+      id: "intro",
+      label: "What is WoT",
+    },
+    {
       type: "category",
       label: "Preliminary",
       collapsed: false,
       items: [
         {
           type: "doc",
-          id: "intro",
-          label: "What is WoT",
-        },
-        {
-          type: "doc",
-          id: "payloads",
+          id: "preliminary/payloads",
           label: "Payloads and Headers",
         },
         {
@@ -41,12 +41,12 @@ const sidebars = {
           items: [
             {
               type: "doc",
-              id: "json-tutorial/json1",
+              id: "preliminary/json/intro",
               label: "Introduction",
             },
             {
               type: "doc",
-              id: "json-tutorial/json2",
+              id: "preliminary/json/practice",
               label: "JSON in Practice",
             },
           ],
@@ -58,29 +58,29 @@ const sidebars = {
           items: [
             {
               type: "doc",
-              id: "json-tutorial/json3",
+              id: "preliminary/json-schema/intro",
               label: "Introduction",
             },
             {
               type: "doc",
-              id: "json-tutorial/JSON Schema in Practice",
+              id: "preliminary/json-schema/practice",
               label: "JSON Schema in Practice",
             },
             {
               type: "doc",
-              id: "json-tutorial/JSON Schema in Practice - Advanced Topics",
+              id: "preliminary/json-schema/practice-advanced",
               label: "JSON Schema in Practice - Advanced Topics",
             },
             {
               type: "doc",
-              id: "json-tutorial/JSON Schema Validation",
-              label: "JSON Schema Validation",
+              id: "preliminary/json-schema/validators",
+              label: "JSON Schema Validators",
             },
           ],
         },
         {
           type: "doc",
-          id: "OSI Layers and Network Topologies",
+          id: "preliminary/osi-layers",
           label: "OSI Layers and Network Topologies",
         },
       ],
@@ -93,17 +93,17 @@ const sidebars = {
       items: [
         {
           type: "doc",
-          id: "Application Domains",
+          id: "wot/application-domains",
           label: "Application Domains",
         },
         {
           type: "doc",
-          id: "Architecture Patterns",
+          id: "wot/architecture-patterns",
           label: "Architecture Patterns",
         },
         {
           type: "doc",
-          id: "Building Blocks",
+          id: "wot/building-blocks",
           label: "Building Blocks",
         },
       ],
