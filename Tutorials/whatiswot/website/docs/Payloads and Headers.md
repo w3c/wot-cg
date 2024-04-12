@@ -9,7 +9,7 @@ This is an introductory series that presents technologies and standards relevant
 
 ## Introduction
 
-In the Web of Things, the smart devices are constantly exchanging a lot of data. Such data is sent via payloads, therefore it is essential to understand what are payloads and headers that describe them. Thus, in this section we will cover the topics of headers and the different types of payloads - including JSON, the most used one in the scope of WoT, and its importance.
+In the Web of Things, smart devices typically exchange data with each other. Such data is sent via payloads, therefore it is essential to understand what payloads are and the headers that describe them. Thus, in this section, we will cover the topics of headers and the different types of payloads - including JSON, the most used one in the scope of WoT, and its importance.
 
 ![payloads and headers](/img/tutorial/Payloads-And-Headers/payloadsandheaders.png)
 
