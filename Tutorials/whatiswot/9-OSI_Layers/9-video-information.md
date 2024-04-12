@@ -2,7 +2,7 @@
 
 ## Title
 
-What is WoT - OSI Layers & Network Topologies
+OSI Layers & Network Topologies | What is WoT
 
 ## Description
 

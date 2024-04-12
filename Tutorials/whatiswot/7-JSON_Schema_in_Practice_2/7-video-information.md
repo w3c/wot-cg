@@ -2,7 +2,7 @@
 
 ## Title
 
-What is WoT - JSON Schema in Practice - Advanced Topics
+JSON Schema in Practice - Advanced Topics | What is WoT
 
 ## Description
 
@@ -15,7 +15,7 @@ Next video: https://youtu.be/I2TkWNXLvms
 
 Tutorial Homepage: https://w3c.github.io/wot-cg/tutorials/whatiswot/
 
-WoT CG on GitHub: https://github.com/w3c/wot-cg 
+WoT CG on GitHub: https://github.com/w3c/wot-cg
 
 WoT CG Homepage: https://www.w3.org/community/wot/
 

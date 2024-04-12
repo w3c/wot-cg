@@ -2,7 +2,7 @@
 
 ## Title
 
-What is WoT - JSON Schema Validators
+JSON Schema Validators | What is WoT
 
 ## Description
 

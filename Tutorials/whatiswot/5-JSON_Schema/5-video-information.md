@@ -2,7 +2,7 @@
 
 ## Title
 
-What is WoT - JSON Schema Introduction
+JSON Schema Introduction | What is WoT
 
 ## Description
 

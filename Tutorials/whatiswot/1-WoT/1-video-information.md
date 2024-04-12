@@ -2,7 +2,7 @@
 
 ## Welcome
 
-What is WoT - Welcome
+Welcome | What is WoT
 
 ## Description
 

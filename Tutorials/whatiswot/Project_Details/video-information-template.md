@@ -2,9 +2,9 @@
 
 ## Title
 
-What is WoT - Insert video title
+Insert video title | What is WoT
 
-Example: What is WoT - JSON in Practice
+Example: JSON in Practice | What is WoT
 
 ## Description
 

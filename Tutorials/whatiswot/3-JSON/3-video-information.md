@@ -2,7 +2,7 @@
 
 ## Title
 
-What is WoT - JSON Introduction
+JSON Introduction | What is WoT
 
 ## Description
 
