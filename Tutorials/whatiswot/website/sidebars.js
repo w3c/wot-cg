@@ -42,7 +42,7 @@ const sidebars = {
             {
               type: "doc",
               id: "preliminary/json/intro",
-              label: "Introduction",
+              label: "Introduction to JSON",
             },
             {
               type: "doc",

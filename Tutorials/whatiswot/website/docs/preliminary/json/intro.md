@@ -1,5 +1,5 @@
 ---
-id: json1
+id: preliminary/json/intro
 ---
 
 # JSON

@@ -1,5 +1,5 @@
 ---
-id: json2
+id: preliminary/json/practice
 ---
 
 # JSON in Practice
