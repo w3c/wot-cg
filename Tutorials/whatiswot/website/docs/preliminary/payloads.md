@@ -88,6 +88,7 @@ Here, you can see an example of a TD in JSON format. We will go into the details
      }
 }
 ```
+
 ## Comparison
 
 Let's take a look at this JSON example including a few Thing Descriptions - a temperature, humidity and brightness sensors. Each sensor entry includes details such as its type or name, the last calibration date if available, the current measurement value along with its unit, and whether the sensor is active or not.
