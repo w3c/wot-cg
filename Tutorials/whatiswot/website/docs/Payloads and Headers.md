@@ -5,29 +5,43 @@ id: payloads
 
 # Payloads and Headers
 
-In the Web of Things, there are smart devices exchanging data and such data is sent via protocols. All protocols have different mechanisms to separate the data into headers and payloads. So, it is important to understand the difference and how they are relevant for the Web of Things. Thus, this video we going to talk about payloads, headers, different types of payloads, and the most used one in the Web of Things scope.
-
 This is an introductory series that presents technologies and standards relevant to the Web of Things.
 
-In web of things, there are smart devices exchanging a lot of data. Such data is sent via payloads, therefore it is important to understand what are payload and headers that describe them. Thus, in this page we will talk about Payloads, headers, different types of Payloads, the most used one in the Web of things scope, JSON and why it is important.
+## Introduction
 
-In computing, the payload is the part of transmitted data that is the actual intended message of the application and nothing to do with the protocol itself.
-It is also called the body of the message. It is not mandatory in most protocols.
+In the Web of Things, smart devices typically exchange data with each other. Such data is sent via payloads, therefore it is essential to understand what payloads are and the headers that describe them. Thus, in this section, we will cover the topics of headers and the different types of payloads - including JSON, the most used one in the scope of WoT, and its importance.
 
-We can approach with an analogy, where we consider protocols as a truck. A payload should not tell what it should be done by itself. In that sense, we can think of protocol as a truck.
-Here, we can think of the parcel contents as the payloads of a protocol.
-The parcel contents should not contain any information about their destination, the fact that they are transported with a truck or the color of the truck.
-In a protocol, payloads are very similar to parcel contents carried by a truck
+![payloads and headers](/img/tutorial/Payloads-And-Headers/payloadsandheaders.png)
+
+## What is a payload?
+
+In computing, the payload is the part of transmitted data that is the actual intended message of the application and has nothing to do with the protocol itself. It is also called the body of the message. It is not mandatory in most protocols.
+
+> A payload should not tell what should be done by itself. We can better explain this concept with an analogy, where we consider the protocol as a truck. We can think of the payload contents as the goods that this truck is transporting. The truck's goods should not contain any information about their destination, the fact that they are transported with a truck or the color of the truck.
+
+## What is a header?
 
 The header is part of a message that can and should be understood by the protocol stack. All the information that the payload should not contain, goes to the header.
 
-Let's continue with the parcel-truck example. In that example, the header would be the etiquette on the parcel.
+> Let's go back to our truck example. In that example, the header would be the label on the goods - indicating where they are being transported, what they are and etc.
+
+![truck with parcels example](/img/tutorial/Payloads-And-Headers/truck.png)
+
+## Header Example
 
 This is what an HTTP header can look like. A header can contain information like request context, response context, status and it can indicate payload type.
 
-There are different payload types: JSON, XML, CBOR, Text, Audio…
+![http header example](/img/tutorial/Payloads-And-Headers/httpheader.png)
 
-So let us show you an example of JSON payload. This is a temperature payload, a single number. And this is a configuration payload. It is a JSON object consisting of key/ value pairs desiredUnit and updateInterval. The temperature payload is sent from the sensor and the configuration is sent to the sensor.
+## Payload Types
+
+There are different payload types: JSON, XML, CBOR, text and audio to name a few.
+
+So let us show you an example of a **JSON payload**. 
+
+![json payload example](/img/tutorial/Payloads-And-Headers/jsonexample.png)
+
+For this example we will take a look at a temperature sensor. The diagram helps to illustrate the payloads and their relationship to the sensor. The temperature payload is a single number and is being sent from the sensor. The configuration payload is a JSON object consisting of key/value pairs desiredUnit and updateInterval and is sent to the sensor.
 
 Temparature payload:
 
@@ -35,7 +49,7 @@ Temparature payload:
 90
 ```
 
-Configuration Payload:
+Configuration payload:
 
 ```json
 {
@@ -44,11 +58,11 @@ Configuration Payload:
 }
 ```
 
-Why is JSON important?
+## Why is JSON important?
 
-Because JSON is very relevant in the scope of the Web of Things, payloads are preferred mostly in JSON. Also, many other API and configuration files use JSON.
+Because JSON is very relevant in the scope of the Web of Things, payloads are preferred mostly in JSON. Additionally, many other API and configuration files use JSON as well.
 
-Here, you can see an example of a TD in JSON format. We will go later into the details of how a TD should be structured and understood.
+Here, you can see an example of a TD in JSON format. We will go into the details of how a TD should be structured and understood in a later section of this tutorial.
 
 ```json
 {
@@ -75,8 +89,9 @@ Here, you can see an example of a TD in JSON format. We will go later into the d
      }
 }
 ```
+## Comparison
 
-It is light-weight compared to XML and human-readable compared to CBOR. You can see the difference in the representation of the same data in JSON, XML, and CBOR.
+Let's take a look at this JSON example including a few Thing Descriptions - a temperature, humidity and brightness sensors. Each sensor entry includes details such as its type or name, the last calibration date if available, the current measurement value along with its unit, and whether the sensor is active or not.
 
 JSON Example:
 
@@ -112,6 +127,8 @@ JSON Example:
   }
 ]
 ```
+
+This representation is much more light-weight compared to XML, as seen in the example below...
 
 XML Example:
 
@@ -149,10 +166,12 @@ XML Example:
 
 ```
 
+...and more human-readable compared to CBOR.
+
 CBOR Example:
 
 ```
 83A564747970657254656D70657261747572652053656E736F726F6C61737443616C6962726174696F6E7819323031382D31312D31335432303A32303A33392B30303A30306B6D6561737572656D656E74A26576616C7565181964756E69746743656C73697573686973416374697665F569707265636973696F6EFB3FB999999999999AA464747970656F48756D69646974792053656E736F726F6C61737443616C6962726174696F6EF66B6D6561737572656D656E74A26576616C7565183C64756E69746750657263656E74686973416374697665F5A4646E616D65714272696768746E6573732053656E736F726F6C61737443616C6962726174696F6E7819323032302D30312D31395432303A32303A33352B30303A30306B6D6561737572656D656E74A26576616C75650264756E6974634C7578686973416374697665F4
 ```
 
-It is well-established and has a schema language called JSON Schema. It can be used to describe and validate JSON data.
+Last but not least, JSON is well-established and has a schema language called JSON Schema. It can be used to describe and validate JSON data.
