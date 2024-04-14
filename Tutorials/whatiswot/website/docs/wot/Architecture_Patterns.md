@@ -1,6 +1,8 @@
 ---
-id: Architecture Patterns
+id: wot/architecture-patterns
 ---
+
+# WoT - Architecture Patterns
 
 In this section, we will introduce and discuss different architecture patterns and how devices interact with controllers, agents, and servers. 
 

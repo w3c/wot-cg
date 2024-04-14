@@ -1,10 +1,12 @@
 ---
-id: JSON Schema in Practice
+id: preliminary/json-schema/practice
 ---
+
+# JSON Schema in Practice
 
 As we discussed in the previous tutorial, JSON Schema is a declarative format for “describing the structure of other data”. Now we will explain its implementation.
 
-# Declaring a JSON Schema
+## Declaring a JSON Schema
 
 When declaring a JSON Schema, it's important to specify which version of the schema you're using. JSON Schema has several drafts, and distinguishing between them can be challenging. To specify the version, we use the "schema" keyword.  WoT uses Draft7, that's why throughout this tutorial we will use Draft7.
 

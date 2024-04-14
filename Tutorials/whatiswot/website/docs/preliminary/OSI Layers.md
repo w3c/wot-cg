@@ -1,6 +1,8 @@
 ---
-id: OSI Layers and Network Topologies
+id: preliminary/osi-layers
 ---
+
+# OSI Layers and Network Topologies
 
 In WoT we are dealing with devices interacting over the network. To understand how this happens, we need to look at how such communication is modelled.
 
@@ -23,7 +25,7 @@ So let's see the magic behind the underlying processes across the network.
 
 ### Application Layer
 
-Let's assume that we have the temprature data in the payload in the application layer of the temperature sensor and we want to send it via a HTTP request to the dashboard.
+Let's assume that we have the temperature data in the payload in the application layer of the temperature sensor and we want to send it via a HTTP request to the dashboard.
 
 Application layer is an abstraction layer service that masks the rest of the application from the transmission process.
 
@@ -65,7 +67,7 @@ In summary, we started with temperature data from our sensor and transmitted it 
 
 Performing this we were able to send the temperature data.
 
-In order for the thermomether to receive the data, it has to go through all the OSI layers but in reverse order. At the end of the process, we can observe the temperature change on the indicator.
+In order for the thermometer to receive the data, it has to go through all the OSI layers but in reverse order. At the end of the process, we can observe the temperature change on the indicator.
 
 ![layers](/img/tutorial/OSI-Layers/layers.png)
 
@@ -87,7 +89,7 @@ One of the most widely used topologies is the Server Client Model. It consists o
 
 Common protocols used in the Server-Client Model include HTTP, WebSocket, and CoAP.
 
-If server and client are very tightly coupled, it is very hard one to evolve independently from another. Architectures like REST address this issue by promoting loose coupling, a principle also embraced by WoT. The REST concept where every recource has URI is also a primary design choise of the WoT.
+If server and client are very tightly coupled, it is very hard one to evolve independently from another. Architectures like REST address this issue by promoting loose coupling, a principle also embraced by WoT. The REST concept where every resource has URI is also a primary design choice of the WoT.
 
 ### Broker Client Model
 

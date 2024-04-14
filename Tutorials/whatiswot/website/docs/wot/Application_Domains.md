@@ -1,6 +1,8 @@
 ---
-id: Application Domains
+id: wot/application-domains
 ---
+
+# WoT - Application Domains
 
 WoT, as we already know, is a set of standards defined for the interoperability of different Internet of Things platforms and application domains by the World Wide Web Consortium (W3C). It aims to preserve and complement existing IoT standards and solutions by providing a standardized approach for connecting and integrating smart devices, services, and applications into the Web.
 

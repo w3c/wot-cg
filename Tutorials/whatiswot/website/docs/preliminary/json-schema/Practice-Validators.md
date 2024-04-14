@@ -1,6 +1,8 @@
 ---
-id: JSON Schema Validation
+id: preliminary/json-schema/validators
 ---
+
+# JSON Schema in Practice - Validators
 
 In the previous tutorials of JSON Schema, we have shown the features and basic implementations of JSON Schema.
 In this tutorial, we will deliver the actual validation process with libraries and examples.
