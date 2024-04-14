@@ -6,17 +6,25 @@ As we discussed in the previous tutorial, JSON Schema is a declarative format fo
 
 # Declaring a JSON Schema
 
-There are many different drafts of JSON Schema, and it is not always easy to tell which draft is it. Thus, we use the schema keyword to declare which version is used. WoT uses Draft7, that's why throughout this tutorial we will use Draft7.
+When declaring a JSON Schema, it's important to specify which version of the schema you're using. JSON Schema has several drafts, and distinguishing between them can be challenging. To specify the version, we use the "schema" keyword.  WoT uses Draft7, that's why throughout this tutorial we will use Draft7.
 
-{"$schema": http://json-schema.org/draft-07/schema}
+```json
+{"$schema": "http://json-schema.org/draft-07/schema"}
+```
 
-It is not mandatory, but a good practice to specify a unique ID to be able to reach schemas.
+It is not mandatory, but it is a good practice to specify a unique ID to be able to reach schemas.
 
+```json
 {"$id": "http://example.com/temperatureSchema"}
+```
 
-In JSON Schema, an empty object is a completely valid schema that will accept any valid JSON.
+In JSON Schema, an empty object is a completely valid schema that will accept any valid JSON input.
 
-It can be also used truly in a place of the empty object to represent a schema that matches anything, or false for a schema that matches nothing.
+```json
+{}
+```
+
+Moreover, it can be used to denote a schema that matches any JSON data, or alternatively, set as false to indicate a schema that doesn't match anything.
 
 ![empty-json-schema](/img/6-JSON-Schema-In-Practice/empty-json-schema.png)
 
@@ -29,14 +37,13 @@ One of the most useful common things to do in a JSON Schema is to restrict a spe
 ![string-schema](/img/6-JSON-Schema-In-Practice/string-schema.png)
 
 Similar to this, numeric types can also be defined.
-There are two numeric types in JSON Schema: integer and number. They share the same validation keywords. Number accepts integers and floating numbers.
-Whereas numeric type integer rejects floating points.
+There are two numeric types in JSON Schema: integer and number and they share the same validation keywords. Number accepts integers and floating-point numbers, while integer specifically excludes floating-point numbers.
 
 ![number-schema](/img/6-JSON-Schema-In-Practice/number-schema.png)
 
 ## Objects
 
-Objects are the mapping type in JSON. They map "keys" to "values". In JSON, the "keys" must always be strings.
+In JSON, objects serve as the mapping type, associating "keys" with corresponding "values". Notably, in JSON, the "keys" must always be represented as strings.
 
 ```json
 {
@@ -80,7 +87,7 @@ Whereas the second one is **not accepted** because the value of a number is a st
 
 ### Additional Properties
 
-In addition to the last example, The additionalProperties keyword can be used to control the handling of extra stuff, which is, properties whose names are not listed in the properties keyword. If it is false, then it does not accept additional properties. Otherwise, you can specify what type can be given too.
+In addition to the last example, The additionalProperties keyword can be used to control the handling of extra properties whose names are not explicitly listed in the properties keyword. If set to "false", the schema doesn't accept additional properties. Conversely, you can specify the allowed types for additional properties.
 
 A JSON Schema which has the additionalProperties keyword:
 
@@ -137,7 +144,7 @@ It accepts:
 }
 ```
 
-This one is **not accepted** as it does not contain email information and it is defined required:
+This one is **not accepted** as it does not contain email information and it is defined as required:
 
 ```json
 {
@@ -168,11 +175,11 @@ But **does not accept** this as it is not an array:
 { "Not": "an array" }
 ```
 
-## Items
+### Items
 
-The items keyword can be used to control whether it’s valid to have additional items in a tuple. The value of the items keyword is a schema that all additional items must pass for the keyword to validate. It can be false, which means there is no additional items allowed or it can define a type for the items in the array.
+The "items" keyword in JSON Schema allows control over whether additional items are permitted in an array. The value of the items keyword is a schema that all additional items must pass for the keyword to validate. It can be set to false, indicating that no additional items are allowed, or it can specify a type for the items in the array.
 
-For example this schema accepts items in type of number:
+For example this schema accepts items of type number:
 
 ```json
 {
@@ -189,7 +196,7 @@ Therefore accepts:
 [1, 2, 3, 4, 5]
 ```
 
-But **does not accept** this as the 3rd element is of type string but not a number:
+But **does not accept** this as the 3rd element is of type string and not a number:
 
 ```json
 [1, 2, "3", 4, 5]
@@ -197,7 +204,7 @@ But **does not accept** this as the 3rd element is of type string but not a numb
 
 ## Boolean
 
-The Boolean type matches only two special values: true and false. Note that values that evaluate to true or false, such as 1 and 0, are not accepted by the schema.
+The Boolean type in JSON Schema only matches two specific values: "true" and "false". It's important to note that other values that might evaluate to true or false, such as 1 and 0, are not considered valid according to the schema.
 
 The JSON Schema with type defined as Boolean can be written as this:
 
@@ -253,9 +260,7 @@ false
 
 ## ContentMedia Type
 
-The contentMediaType keyword specifies the MIME type of the contents of a string, as described in RFC 2046. If you want to specify any type that is not JSON, it is possible to do with these content media types.
-
-List of MIME types:
+The contentMediaType keyword specifies the MIME type of the contents within a string, as described in RFC 2046. If you want to specify any type that is not JSON, it is possible to do so with these content media types.
 
 This schema indicates the string contains an HTML document, encoded using the same encoding as the surrounding document:
 
@@ -266,7 +271,7 @@ This schema indicates the string contains an HTML document, encoded using the sa
 }
 ```
 
-This schema here indicates that a string contains a PNG image, encoded using Base64:
+This schema indicates that a string contains a PNG image, encoded using Base64:
 
 ```json
 {

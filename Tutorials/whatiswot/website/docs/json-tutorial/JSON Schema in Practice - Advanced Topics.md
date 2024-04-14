@@ -6,14 +6,14 @@ In the previous tutorial, we have learned the basics of JSON Schema. In this tut
 
 ## Generic Keywords
 
-Some of the annotation keywords used in JSON Schema are:
+JSON Schema utilizes several annotation keywords, including:
 
 - title
 - description
-- default.
+- default
 
-None of these annotation words are required but enhance good practice for self-documenting Schemas.
-The title and description keywords must be strings.
+While none of these annotation words are required, they are beneficial for self-documentation purposes.
+Both "title" and "description" must be strings.
 The default keyword specifies a default value.
 
 The style of the JSON Schema:
@@ -146,7 +146,7 @@ So this one is accepted as it is string with the length of 5:
 And also this one is accepted because it is a number and larger than 0:
 
 ```json
-"12"
+12
 ```
 
 But this one is **not accepted** since it does not fit none of the criteria:
@@ -170,7 +170,7 @@ An example JSON Schema with the keyword oneOf:
 }
 ```
 
-This schema will accept numbers which are either multiple of 5, or 2. It will perform an XOR operation.
+This schema will accept numbers which are either multiple of 5 or multiple of 2. It will perform an XOR operation.
 
 It accepts this one as it is multiple of 5:
 
@@ -208,13 +208,13 @@ It will accept this as the type is number:
 25
 ```
 
-And this as it is type of boolean:
+And this as it is of type boolean:
 
 ```json
 true
 ```
 
-But this is **not accepted** since it is type string:
+But this is **not accepted** since it is of type string:
 
 ```json
 "10"
@@ -224,7 +224,7 @@ But this is **not accepted** since it is type string:
 
 The if, then and else keywords allow the application of a subSchema based on the outcome of another Schema, as it is in other programming languages.
 
-If it is valid, then must also be valid (and else is ignored). If it is invalid, else must also be valid (and then ignored).
+If the main schema is valid, the "then" subSchema must also be valid, and the "else" subSchema is ignored. Conversely, if the main schema is invalid, the "else" subSchema must be valid, and the "then" subSchema is ignored.
 
 Here is an example JSON Schema defined with the keywords if, then, else:
 

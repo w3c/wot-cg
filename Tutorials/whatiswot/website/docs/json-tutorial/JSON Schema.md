@@ -4,7 +4,7 @@ id: json3
 
 # JSON Schema
 
-We will now briefly explain Schema Languages and then move to the JSON Schema since it is the one that describes and validate JSON, it is important to know in Web of Things scope.
+We will now briefly explain Schema Languages and then move on to JSON Schema. JSON Schema is particularly important in the Web of Things context as it describes and validates JSON data.
 
 ## Schema
 
@@ -18,18 +18,20 @@ For example:
 
 ## JSON Schema
 
-JSON Schema is a JSON document used to describe and validate how JSON payload instance should look like.
+JSON Schema serves as a JSON document that describes and validates the structure of a JSON payload instance.
 
-The main idea is to enable senders such as clients to understand how the request should be and for the receiver to automatically validate the payloads. Although, it is a JSON on its own, it is metadata.
+Its main purpose is to provide guidance to senders, such as clients, on the expected format of their requests, while enabling receivers to automatically validate incoming payloads. Despite being JSON itself, JSON Schema serves as metadata.
 
-For Example, some basic JSON Schemas, “type”: “array” → tells it accepts type array in other JSON documents. This can be defined for other types in JSON as well, such as:
+![json schema diagram](/img/tutorial/JSON-Schema/schema.png)
+
+For instance, a basic JSON Schema like "type": "array" specifies that it accepts an array type in other JSON documents. Similar specifications can be defined for other data types in JSON, such as:
 
 - string
 - number
 - boolean
 - null
 
-Thus, in the receiver end, you can do this validation process to validate. This an example how it could look like in Java Script:
+During the validation process on the receiver's end, this schema ensures that the incoming data conforms to the specified structure. Below is an example of how such validation can be implemented in JavaScript:
 
 ![js-schema](/img/5-JSON-Schema/js-schema.png)
 
@@ -56,19 +58,19 @@ validator.validate(data, reporter);
 
 Of course, way more advanced validations can be possible with JSON Schema such as:
 
-- Length of a string
-- Regular Expressions
+- Length of a String
+- Regular expressions
 - URIs
 - Email addresses
 - IP addresses
-- Max/min for Numbers
+- Max/min for numbers
 
-In Array:
+In Arrays:
 
 - How many items
-- Allowed Types
+- Allowed types
 
 In Objects:
 
-- Required Properties
-- Amount of Properties
+- Required properties
+- Amount of properties

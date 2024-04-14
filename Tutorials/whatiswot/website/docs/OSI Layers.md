@@ -2,13 +2,13 @@
 id: OSI Layers and Network Topologies
 ---
 
-In WoT we are dealing with interacting with devices over the network. Thus, we need to look at how such a communication is modelled.
+In WoT we are dealing with devices interacting over the network. To understand how this happens, we need to look at how such communication is modelled.
 
 **Why are Network Device Architectures Important?**
 
-The WoT focuses on the protocols that operate on the application layer that use TCP and UDP from the transport layer. Thus, it is important to understand OSI layers and how sending and receiving data works.
+The WoT focuses on the protocols that operate on the application layer and use TCP and UDP from the transport layer. Thus, it is essential to understand OSI layers and how sending and receiving data works.
 
-Okay, so we were talking about sending JSON and changing the temperature of this object before:
+Now, let's simplify it further. We were talking about sending JSON data and changing the temperature of this object before:
 
 ```json
 {
@@ -17,7 +17,7 @@ Okay, so we were talking about sending JSON and changing the temperature of this
 }
 ```
 
-So let's see the magic behind the network.
+So let's see the magic behind the underlying processes across the network.
 
 ## OSI Layers
 
@@ -35,29 +35,25 @@ Then our payload, moves to the Presentation Layer, where our data will be encryp
 
 ### Session Layer
 
-After that encryption, Session Layer comes where we open a session with the device we want to talk with.
+Following encryption, the Session Layer comes into play. This layer is where we establish a session with the device we wish to communicate with.
 
 ### Transport Layer
 
-Next layer is Transport Layer.
+Next comes the Transport Layer.
 
 This layer includes protocols like TCP and UDP which are meant to route data from sender to receiver.
 
-In this layer, all the information that we have in the application layer encapsulated as payload and TCP and UDP adds their own headers.
+n this layer, the information from the application layer is encapsulated as payload, and TCP and UDP add their own headers.
 
-<img src="/img/9-OSI-Layers/tcp-udp-header.png" alt="tcp-udp-header" width="300"/>
+![tcp udp header](/img/9-OSI-Layers/tcp-udp-header.png)
 
 ### Network Layer
 
-Then network layers comes, where we define how the devices are linked together and how they communicate inside the network.
-
-For Example: information about the IP address is declared in that layer.
+Following the Transport Layer, we encounter the Network Layer. Here, we define how devices are interconnected and how they communicate within the network. For instance, information about IP addresses is managed at this layer.
 
 ### Datalink Layer
 
-In datalink layer, it is determined how to structure bits into data.
-
-For Example: information about the MAC address is declared in that layer.
+Moving down the OSI model, we reach the Data Link Layer. Here, the structuring of bits into data is determined. For instance, information about MAC addresses is handled at this layer.
 
 ### Physical Layer
 
@@ -65,11 +61,13 @@ And lastly, our package arrives to the Physical layer, where the raw bit streams
 
 ### Summary
 
-To sum up, we had the temperature data in our sensor and pass it down the OSI layers to change the temperature value in the dashboard. These two are interacting through the network.
+In summary, we started with temperature data from our sensor and transmitted it down the OSI layers to update the temperature value on the dashboard. These components interacted with each other through the network.
 
 Performing this we were able to send the temperature data.
 
-In order for the thermomether to receive the data, it has to go through all the OSI layers but in reverse order. At the end of the process , we can observe that the temperature will change on the indicator.
+In order for the thermomether to receive the data, it has to go through all the OSI layers but in reverse order. At the end of the process, we can observe the temperature change on the indicator.
+
+![layers](/img/tutorial/OSI-Layers/layers.png)
 
 ## Different Network Topologies
 
@@ -79,36 +77,34 @@ There are different Network Topologies, such as:
 - Broker Client Model
 - Peer to Peer Model
 
-In all of these, the underlying network technology is not changing much but rather how you connect the nodes themselves.
-WoT can be applied on different network device topologies. It is not specific to any of them.
+In all of these models, the underlying network technology remains largely consistent; the variation lies in how the nodes are interconnected. WoT can be applied across different network device topologies without being specific to any particular one.
 
 ### Server Client Model
 
-One of the most widely used is Server Client Model. It consists of one server, and one or more clients. In this model, the server is reactive, and the client is proactive meaning that the server waits for the request and responds to the clients.
+One of the most widely used topologies is the Server Client Model. It consists of one server and one or more clients. In this model, the server is reactive, waiting for requests and responding to clients. Clients, on the other hand, are proactive in initiating requests.
 
 ![server-client-model](/img/9-OSI-Layers/server-client-model.png)
 
-Common Server-Client Protocols are HTTP WebSocket and CoAP.
+Common protocols used in the Server-Client Model include HTTP, WebSocket, and CoAP.
 
-If server and client are very tightly coupled, it is very hard one to evolve independently from another. There are architectures that ensure they are not tightly coupled, like REST. Refering the other videos.
-Similar to REST, WoT also encourages systems that are not tightly coupled. The REST concept where every recource has URI is also a primary design choise of the WoT.
+If server and client are very tightly coupled, it is very hard one to evolve independently from another. Architectures like REST address this issue by promoting loose coupling, a principle also embraced by WoT. The REST concept where every recource has URI is also a primary design choise of the WoT.
 
 ### Broker Client Model
 
-Second model we will explain is Broker Client Model. In this model, multiple clients connected to a central broker. Also, it refferred as Publisher-Subscriber however, Broker- Client is more spesific since there can be PubSub without broker.
+The Broker Client Model is another significant topology. In this model, multiple clients connect to a central broker. While it's often referred to as Publisher-Subscriber, the term Broker-Client is more precise as PubSub can exist without a broker.
 
 ![broker-client-model](/img/9-OSI-Layers/broker-client-model.png)
 
-Broker does not contain any application logic, it simply a router that receives messages and send them to the clients that are listening.
+The broker does not contain any application logic, it is simply a router that receives messages and sends them to clients that are listening.
 
-In this model, if one of the clients is inactive, data sent by broker waits for the clients to be active again. This feature is called decoupling of time.
+In this model, if one of the clients is inactive, data sent by the broker waits for the client to become active again. This feature is called decoupling of time.
 
-Or it can happen the other way around as well. For example, 2 clients can send data to Broker and Broker distributes it to the other client or clients.
+Alternatively, multiple clients can send data to the broker, which then distributes it to other clients.
 
 ### Peer to Peer Model
 
-And the last one is Peer to Peer Model. This is a true distributed system where there is no single point to get data from. There is no central one in this model and all of them have the same funcionality.
+Lastly, we have the Peer to Peer Model, a true distributed system where there's no central point to retrieve data from. Each node in this model has equal functionality.
 
-Example of this model are BitTorrent and Bitcoin.
+Examples of this model include BitTorrent and Bitcoin.
 
 ![peer-to-peer-model](/img/9-OSI-Layers/peer-to-peer-model.png)
