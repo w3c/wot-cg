@@ -1,5 +1,5 @@
 ---
-id: wot/building-blocks
+sidebar_label: Building Blocks
 ---
 
 # WoT Building Blocks

@@ -1,5 +1,5 @@
 ---
-id: preliminary/json/practice
+sidebar_label: JSON in Practice
 ---
 
 # JSON in Practice

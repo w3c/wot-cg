@@ -1,5 +1,5 @@
 ---
-id: json3
+sidebar_label: Introduction
 ---
 
 # Introduction to JSON Schema

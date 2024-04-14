@@ -1,5 +1,5 @@
 ---
-id: preliminary/json-schema/validators
+sidebar_label: JSON Schema in Practice - Validators
 ---
 
 # JSON Schema in Practice - Validators

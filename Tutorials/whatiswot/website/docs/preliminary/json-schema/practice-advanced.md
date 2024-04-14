@@ -1,5 +1,5 @@
 ---
-id: preliminary/json-schema/practice-advance
+sidebar_label: JSON Schema in Practice - Advanced Topics
 ---
 
 # JSON Schema in Practice - Advanced Topics

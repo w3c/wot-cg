@@ -1,5 +1,5 @@
 ---
-id: wot/application-domains
+sidebar_label: Application Domains
 ---
 
 # WoT - Application Domains

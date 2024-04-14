@@ -1,8 +1,8 @@
 ---
-id: preliminary/json/intro
+sidebar_label: Introduction
 ---
 
-# JSON
+# Introduction to JSON
 
 We will now take a closer look at JSON since it is the most used payload format in the Web of Things, as well as the way Thing Descriptions are represented.
 

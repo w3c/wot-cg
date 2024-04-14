@@ -1,6 +1,5 @@
 ---
-
-id: preliminary/payloads
+sidebar_label: Payloads and Headers
 ---
 
 # Payloads and Headers

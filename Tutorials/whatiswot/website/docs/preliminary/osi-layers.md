@@ -1,5 +1,5 @@
 ---
-id: preliminary/osi-layers
+sidebar_label: OSI Layers and Network Topologies
 ---
 
 # OSI Layers and Network Topologies

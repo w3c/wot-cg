@@ -1,5 +1,5 @@
 ---
-id: preliminary/json-schema/practice
+sidebar_label: JSON Schema in Practice
 ---
 
 # JSON Schema in Practice

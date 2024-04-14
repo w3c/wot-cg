@@ -22,7 +22,6 @@ const sidebars = {
     {
       type: "doc",
       id: "intro",
-      label: "What is WoT",
     },
     {
       type: "category",
@@ -32,7 +31,6 @@ const sidebars = {
         {
           type: "doc",
           id: "preliminary/payloads",
-          label: "Payloads and Headers",
         },
         {
           type: "category",
@@ -42,12 +40,10 @@ const sidebars = {
             {
               type: "doc",
               id: "preliminary/json/intro",
-              label: "Introduction to JSON",
             },
             {
               type: "doc",
               id: "preliminary/json/practice",
-              label: "JSON in Practice",
             },
           ],
         },
@@ -59,29 +55,24 @@ const sidebars = {
             {
               type: "doc",
               id: "preliminary/json-schema/intro",
-              label: "Introduction",
             },
             {
               type: "doc",
               id: "preliminary/json-schema/practice",
-              label: "JSON Schema in Practice",
             },
             {
               type: "doc",
               id: "preliminary/json-schema/practice-advanced",
-              label: "JSON Schema in Practice - Advanced Topics",
             },
             {
               type: "doc",
-              id: "preliminary/json-schema/validators",
-              label: "JSON Schema Validators",
+              id: "preliminary/json-schema/practice-validators",
             },
           ],
         },
         {
           type: "doc",
           id: "preliminary/osi-layers",
-          label: "OSI Layers and Network Topologies",
         },
       ],
     },

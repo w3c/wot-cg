@@ -1,5 +1,5 @@
 ---
-id: wot/architecture-patterns
+sidebar_label: Architecture Patterns
 ---
 
 # WoT - Architecture Patterns
