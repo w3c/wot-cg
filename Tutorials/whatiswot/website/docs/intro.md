@@ -1,5 +1,5 @@
 ---
-id: intro
+sidebar_label: Tutorial Introduction
 ---
 
 # What is WoT?

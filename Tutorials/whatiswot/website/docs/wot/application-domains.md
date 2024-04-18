@@ -1,6 +1,8 @@
 ---
-id: Application Domains
+sidebar_label: Application Domains
 ---
+
+# WoT - Application Domains
 
 WoT, as we already know, is a set of standards defined for the interoperability of different Internet of Things platforms and application domains by the World Wide Web Consortium (W3C). It aims to preserve and complement existing IoT standards and solutions by providing a standardized approach for connecting and integrating smart devices, services, and applications into the Web.
 
@@ -51,16 +53,10 @@ The last application domain we will cover is smart cities. Similar to smart home
 In smart cities, bridges, dams, and canals can be monitored for material conditions or deterioration for maintenance repair work to prevent significant damage. 
 Parking slots and street lights can be monitored for crowd management and optimized usage too.
 
-
 ![smart-city](/img/10-Application-Domains/smart-city.png)
-
 
 ### What's More?
 
 There are many more domain-specific examples in the WoT Architecture document besides the ones that we listed in this tutorial. If you want to learn more, you can refer to the WoT Architecture document available at:
 
-https://www.w3.org/TR/wot-architecture/
-
-
-
-
+<https://www.w3.org/TR/wot-architecture/>

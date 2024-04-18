@@ -1,8 +1,8 @@
 ---
-id: json3
+sidebar_label: Introduction
 ---
 
-# JSON Schema
+# Introduction to JSON Schema
 
 We will now briefly explain Schema Languages and then move on to JSON Schema. JSON Schema is particularly important in the Web of Things context as it describes and validates JSON data.
 

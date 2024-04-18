@@ -1,11 +1,13 @@
 ---
-id: JSON Schema Validation
+sidebar_label: JSON Schema in Practice - Validators
 ---
+
+# JSON Schema in Practice - Validators
 
 In the previous tutorials of JSON Schema, we have shown the features and basic implementations of JSON Schema.
 In this tutorial, we will deliver the actual validation process with libraries and examples.
 
-Throughout this tutorial, we will mainly focus on validation with the JavaScript library AJV (https://github.com/ajv-validator/ajv) and the Python library jsonschema(https://github.com/python-jsonschema/jsonschema) but there are many other libraries in different programming languages and tools to validate JSON Schema.
+Throughout this tutorial, we will mainly focus on validation with the JavaScript library AJV (<https://github.com/ajv-validator/ajv>) and the Python library jsonschema(<https://github.com/python-jsonschema/jsonschema>) but there are many other libraries in different programming languages and tools to validate JSON Schema.
 
 ![ajv and jsonschema](/img/8-JSON-Schema-3/ajv-python-combined.png)
 
@@ -13,35 +15,35 @@ Throughout this tutorial, we will mainly focus on validation with the JavaScript
 
 Here are some of the most popular validators in different programming languages.
 
-However, numerous other validators exist. For further information, you can check out the JSON Schema website (https://json-schema.org/implementations.html#validator-rust).
+However, numerous other validators exist. For further information, you can check out the JSON Schema website (<https://json-schema.org/implementations.html#validator-rust>).
 
 ### json-everything
 
-https://github.com/gregsdennis/json-everything
+<https://github.com/gregsdennis/json-everything>
 
 ![json-everything](/img/8-JSON-Schema-3/json-everything.png)
 
 ### json-schema-validator
 
-https://github.com/pboettch/json-schema-validator
+<https://github.com/pboettch/json-schema-validator>
 
 ![json-schema-validator](/img/8-JSON-Schema-3/json-schema-validator.png)
 
 ### gojsonschema
 
-https://github.com/xeipuuv/gojsonschema
+<https://github.com/xeipuuv/gojsonschema>
 
 ![gojsonschema](/img/8-JSON-Schema-3/gojsonschema.png)
 
 ### jsonschema-rs
 
-https://github.com/Stranger6667/jsonschema-rs
+<https://github.com/Stranger6667/jsonschema-rs>
 
 ![jsonschema-rs](/img/8-JSON-Schema-3/jsonschema-rs.png)
 
 ### json-kotlin-schema
 
-https://github.com/pwall567/json-kotlin-schema
+<https://github.com/pwall567/json-kotlin-schema>
 
 ![json-kotlin-schema](/img/8-JSON-Schema-3/json-kotlin-schema.png)
 

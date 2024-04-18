@@ -1,10 +1,12 @@
 ---
-id: Building Blocks
+sidebar_label: Building Blocks
 ---
+
+# WoT Building Blocks
 
 The third section of introduction to WoT is Building Blocks. In this tutorial, we will explain each building block, WoT Thing description, Wot Discovery, WoT Binding templates, and WoT Scripting API.
 
-## Building Blocks
+## Concept of Building Blocks
 
 Let’s first look into the concept of building blocks - they allow the implementation of systems that conform with the abstract WoT Architecture.
 

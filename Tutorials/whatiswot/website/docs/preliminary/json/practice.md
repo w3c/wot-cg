@@ -1,10 +1,12 @@
 ---
-id: json2
+sidebar_label: JSON in Practice
 ---
 
 # JSON in Practice
 
 In the previous section, we showed mostly primitive types of JSON. In this section, we will first focus on arrays and objects, and then we will go over some common mistakes when writing JSON. At the end, we will demonstrate the usage of JSON generation and parsing.
+
+## Structured Types
 
 ### JSON Array
 
