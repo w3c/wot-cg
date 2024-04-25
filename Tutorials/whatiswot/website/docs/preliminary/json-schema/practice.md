@@ -4,6 +4,13 @@ sidebar_label: JSON Schema in Practice
 
 # JSON Schema in Practice
 
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/8FWh6iKc_cw?si=OjPBrfQ4sT5HOjpk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<a href = "https://github.com/w3c/wot-cg/blob/main/Tutorials/whatiswot/6-JSON_Schema_in_Practice/6-JSON-Schema-in-Practice.mp4">Click here if YouTube does not work to download:</a>  
+
+<br />
+<br />
+
 As we discussed in the previous tutorial, JSON Schema is a declarative format for “describing the structure of other data”. Now we will explain its implementation.
 
 ## Declaring a JSON Schema
