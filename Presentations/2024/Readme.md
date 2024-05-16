@@ -5,6 +5,8 @@ If you have online versions, you can link them here in reverse chronological ord
 
 ## Online Presentation Resources
 
+- W3C WoT Meetup 16 - WoT Digital Twin Ontology -  | [Video](https://www.youtube.com/watch?v=uPhKn-q-ZkA) | [PDF](./2024-05-WoTCG-Meetup16-WoTDT-Gerpe.pdf)
+- [W3C WoT Meetup 16 - Intro](https://docs.google.com/presentation/d/1fGmg6lW4JH00OdodfsvvMqcA7O90u57ZHE7REEWt2oY/edit?usp=sharing) | [PDF](./2024-05-WoTCG-Meetup16-AguzziKorkan.pdf)
 - W3C WoT Meetup 15 - Beyond Local Connectivity: Bridging Web of Things and Matter - Deutsche Telekom | [Video](https://www.youtube.com/watch?v=upUN9-0so2s) | [PDF](./2024-03-WoTCG-Meetup15-MatterAndWoT-Langen.pdf)
 - [W3C WoT Meetup 15 - Intro](https://docs.google.com/presentation/d/14jMoUwxGq2J_smzZTjwcXpHN2fIrKAGCczmVx74X3FU/edit?usp=sharing) | [PDF](./2024-03-WoTCG-Meetup15-AguzziKorkan.pdf)
 - W3C WoT Meetup 14 - Smart Building Solutions built on WebThings | [Video](https://www.youtube.com/watch?v=7FGS10G-YIc) | [PDF](./2024-02-WoTCG-Meetup14-Francis-Krellian.pdf)
