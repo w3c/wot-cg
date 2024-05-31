@@ -5,7 +5,7 @@ If you have online versions, you can link them here in reverse chronological ord
 
 ## Online Presentation Resources
 
-- W3C WoT Meetup 18 - Digital Twins in Monitoring Applications Using the Web of Things - University of Bologna | [Video](https://youtu.be/XtJ260RuiWY) | [PDF](./2024-05-WoTCG-Meetup18-DTs_in_Monitoring-difelice_sciullo.pdf)
+- W3C WoT Meetup 18 - Digital Twins in Monitoring Applications Using the Web of Things - University of Bologna | [Video](https://www.youtube.com/watch?v=XtJ260RuiWY) | [PDF](./2024-05-WoTCG-Meetup18-DTs_in_Monitoring-difelice_sciullo.pdf)
 - [W3C WoT Meetup 18 - Intro](https://docs.google.com/presentation/d/1Ny17TC6eFp_t6tUo7KuFiWGM5_thqOvkNYaLR2BTMg8/edit?usp=sharing) | [PDF](./2024-05-WoTCG-Meetup18-AguzziKorkan.pdf)
 - W3C WoT Meetup 17 - Integrating the Web of Things with Solid: Architecture, Benefits, and Real-World Application - Fraunhofer IIS | [Video](https://www.youtube.com/watch?v=x6vnqo4j1tA&) | [PDF](./2024-05-WoTCG-Meetup17-WoT_and_Solid-Freund.pdf)
 - [W3C WoT Meetup 17 - Intro](https://docs.google.com/presentation/d/1qUbYJ6OEp_SSnnXiSUqQJjdpONAfnGh6wE9NhfYsLDY/edit?usp=sharing) | [PDF](./2024-05-WoTCG-Meetup17-AguzziKorkan.pdf)
