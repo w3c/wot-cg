@@ -2,6 +2,8 @@
 
 Here is the color palette we chose:
 
+![image](https://github.com/w3c/wot-cg/assets/20195407/2f67d73b-fdc0-41a7-883e-c3f4a9f7ad08)
+
 <svg width="500" height="100">
   <rect x="0" y="0" width="100" height="100" style="fill:#000000;" />
   <rect x="100" y="0" width="100" height="100" style="fill:#EDF3F8;" />
