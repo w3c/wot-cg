@@ -4,6 +4,13 @@ sidebar_label: Tutorial Introduction
 
 # What is WoT?
 
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/xyin2oLLpYY?si=G6TDeDcNtQC3HNeC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<a href = "https://github.com/w3c/wot-cg/blob/main/Tutorials/whatiswot/1-WoT/1-WoT.mp4">Click here if YouTube does not work to download:</a>
+
+<br />
+<br />
+
 Let's start this tutorial with a short introduction to the **Web of Things**.
 
 ## Difference Between IoT and WoT

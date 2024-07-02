@@ -4,6 +4,15 @@ sidebar_label: JSON Schema in Practice - Advanced Topics
 
 # JSON Schema in Practice - Advanced Topics
 
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/iPO78SlVwbU?si=k-CWmeoSU_Ea5onu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<a href = "https://github.com/w3c/wot-cg/blob/main/Tutorials/whatiswot/7-JSON_Schema_in_Practice_2/7-JSON-Schema-Demo.mp4">Click here if YouTube does not work to download:</a>  
+
+<br />
+<br />
+
+
+
 In the previous tutorial, we have learned the basics of JSON Schema. In this tutorial, we will continue with more advanced topics such as generic keywords, schema composition and schema conditionality.
 
 ## Generic Keywords

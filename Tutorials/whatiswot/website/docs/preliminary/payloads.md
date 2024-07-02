@@ -4,6 +4,14 @@ sidebar_label: Payloads and Headers
 
 # Payloads and Headers
 
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/Z6iLKT6URqo?si=6sMpEBFltKvGdP3-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<a href = "https://github.com/w3c/wot-cg/blob/main/Tutorials/whatiswot/2-Payloads_and_Headers/2-Payloads_and_Headers.mp4">Click here if YouTube does not work to download:</a>  
+
+
+<br />
+<br />
+
 This is an introductory series that presents technologies and standards relevant to the Web of Things.
 
 ## Introduction
