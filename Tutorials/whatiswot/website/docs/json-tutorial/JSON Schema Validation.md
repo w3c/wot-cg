@@ -190,7 +190,7 @@ from jsonschema import validate
 
 This is the same schema in the previous example.
 
-```py
+```json
 schema = { 
     "type": "object", 
     "properties":    { 

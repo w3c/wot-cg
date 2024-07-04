@@ -8,11 +8,15 @@ As we discussed in the previous tutorial, JSON Schema is a declarative format fo
 
 There are many different drafts of JSON Schema, and it is not always easy to tell which draft is it. Thus, we use the schema keyword to declare which version is used. WoT uses Draft7, that's why throughout this tutorial we will use Draft7.
 
-{"$schema": http://json-schema.org/draft-07/schema}
+```json
+{"$schema": "http://json-schema.org/draft-07/schema"}
+```
 
 It is not mandatory, but a good practice to specify a unique ID to be able to reach schemas.
 
+```json
 {"$id": "http://example.com/temperatureSchema"}
+```
 
 In JSON Schema, an empty object is a completely valid schema that will accept any valid JSON.
 
