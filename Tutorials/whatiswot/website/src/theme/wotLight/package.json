@@ -3,6 +3,5 @@
     "private": true,
     "sideEffects": false,
     "main": "index.cjs.js",
-    "module": "index.js",
-    "license": ""
+    "module": "index.js"
   }
