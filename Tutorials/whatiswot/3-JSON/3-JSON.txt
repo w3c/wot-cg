@@ -1,22 +1,22 @@
-In this video, we will take a closer look at JSON. Since it is the most used payload format in the Web of Things , as well as the way Thing Descriptions are represented. 
+In this video, we will take a closer look at JSON. Since it is the most used payload format in the Web of Things , as well as the way Thing Descriptions are represented.  
 
-So, let’s start with what is JSON. 
+So, let’s start with what is JSON.  
 
-JSON is a lightweight data-interchange format. 
+JSON is a lightweight data-interchange format.  
 
-It is easy for humans to read and write 
+It is easy for humans to read and write  
 
-and easy for machines to parse and generate. 
+and easy for machines to parse and generate.  
 
-Let’s take a look at how parsing and generating happens. We can parse a JSON to visualize the data such as temperature. 
+Let’s take a look at how parsing and generating happens. We can parse a JSON to visualize the data such as temperature.  
 
-Or we can generate JSON from a given data, and send it in JSON format. 
+Or we can generate JSON from a given data,  and send it in JSON format.  
 
-Let’s look at the quick facts about the JSON.  
+Let’s look at the quick facts about the JSON.   
 
 It was standardized by ECMA and  IETF in around 2013, the current version is 2017 [RFC 8259]
 
-It is used for data exchange but also for configuration files and It can be translated to other popular formats in both ways like XML,  YAML, and other formats.
+It is used for data exchange but also for configuration files and It can be translated to other popular formats in both ways like XML,   YAML, and other formats.
 
 Even though JSON stands for Java Script Object Notation, it does not only consist of objects but also allows primitive types.
 
@@ -24,28 +24,28 @@ The confusion comes from the very early versions of JSON which only included obj
 
 However, now JSON accepts objects and it has 5 primitive types that are also accepted on their own.
 
-Let's look closer to these primitive types; 
+Let's look closer to these primitive types;  
 
-String,  Number,  Boolean,   and null. 
+String, Number , Integer, Boolean, and null. 
 
-Now, we will talk about the structured types, which are split into two in JSON. 
+Now, we will talk about the structured types, which are split into two in JSON.  
 
-First one is name value pairs, called objects. 
+First one is name value pairs, called objects.  
 In various programming languages, this can be called an object, struct, dictionary, hash table or keyed list.
 
-Second one is ordered list of values, called arrays.  In most programming languages, this can be called as an array, vector, list, or sequence.  An array of different types is allowed too. 
+Second one is ordered list of values, called arrays.   In most programming languages, this can be called as an array, vector, list, or sequence.   An array of different types is allowed too.  
 
-Name value pairs are also called key value pairs. Keys are always strings and always start and end with quotation marks.
+Name value pairs are also called key value pairs. Keys are always strings and always start and end with quotation marks. 
 
 Now we can look closer at a JSON Object.
 
- This is an example data sent by a humidity sensor. In between 2 curly brackets, we see the name and value pairs that show the data structure and the data itself sent by the sensor.  
+This is an example data sent by a humidity sensor. In between 2 curly brackets, we see the name and value pairs that show the data structure and the data itself sent by the sensor. 
 
-We showed that JSON Arrays can consist of different primitive types before.  With JSON arrays it is also possible to list objects in it too.
+We showed that JSON Arrays can consist of different primitive types before.   With JSON arrays it is also possible to list objects in it too.
 
 Let's look at an example, in between 2 square brackets we list 2 JSON objects. The data in the array is aggregated sensor values from the different sensors.
 
-In this video we made the introduction to JSON. 
+In this video we made the introduction to JSON.  
 
 You can proceed to the next tutorial by clicking on the card or the video description.
 
