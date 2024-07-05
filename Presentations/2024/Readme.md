@@ -5,6 +5,16 @@ If you have online versions, you can link them here in reverse chronological ord
 
 ## Online Presentation Resources
 
+- W3C WoT Meetup 18 - Digital Twins in Monitoring Applications Using the Web of Things - University of Bologna | [Video](https://www.youtube.com/watch?v=XtJ260RuiWY) | [PDF](./2024-05-WoTCG-Meetup18-DTs_in_Monitoring-difelice_sciullo.pdf)
+- [W3C WoT Meetup 18 - Intro](https://docs.google.com/presentation/d/1Ny17TC6eFp_t6tUo7KuFiWGM5_thqOvkNYaLR2BTMg8/edit?usp=sharing) | [PDF](./2024-05-WoTCG-Meetup18-AguzziKorkan.pdf)
+- W3C WoT Meetup 17 - Integrating the Web of Things with Solid: Architecture, Benefits, and Real-World Application - Fraunhofer IIS | [Video](https://www.youtube.com/watch?v=x6vnqo4j1tA&) | [PDF](./2024-05-WoTCG-Meetup17-WoT_and_Solid-Freund.pdf)
+- [W3C WoT Meetup 17 - Intro](https://docs.google.com/presentation/d/1qUbYJ6OEp_SSnnXiSUqQJjdpONAfnGh6wE9NhfYsLDY/edit?usp=sharing) | [PDF](./2024-05-WoTCG-Meetup17-AguzziKorkan.pdf)
+- W3C WoT Meetup 16 - WoT Digital Twin Ontology - UPM | [Video](https://www.youtube.com/watch?v=uPhKn-q-ZkA) | [PDF](./2024-05-WoTCG-Meetup16-WoTDT-Gerpe.pdf)
+- [W3C WoT Meetup 16 - Intro](https://docs.google.com/presentation/d/1fGmg6lW4JH00OdodfsvvMqcA7O90u57ZHE7REEWt2oY/edit?usp=sharing) | [PDF](./2024-05-WoTCG-Meetup16-AguzziKorkan.pdf)
+- W3C WoT Meetup 15 - Beyond Local Connectivity: Bridging Web of Things and Matter - Deutsche Telekom | [Video](https://www.youtube.com/watch?v=upUN9-0so2s) | [PDF](./2024-03-WoTCG-Meetup15-MatterAndWoT-Langen.pdf)
+- [W3C WoT Meetup 15 - Intro](https://docs.google.com/presentation/d/14jMoUwxGq2J_smzZTjwcXpHN2fIrKAGCczmVx74X3FU/edit?usp=sharing) | [PDF](./2024-03-WoTCG-Meetup15-AguzziKorkan.pdf)
+- W3C WoT Meetup 14 - Smart Building Solutions built on WebThings | [Video](https://www.youtube.com/watch?v=7FGS10G-YIc) | [PDF](./2024-02-WoTCG-Meetup14-Francis-Krellian.pdf)
+- [W3C WoT Meetup 14 - Intro](https://docs.google.com/presentation/d/14jMoUwxGq2J_smzZTjwcXpHN2fIrKAGCczmVx74X3FU/edit?usp=sharing) | [PDF](./2024-02-WoTCG-Meetup14-AguzziKorkan.pdf)
 - W3C WoT Meetup 13 - Smart microscopy for everyone with OpenFlexure and LabThings - Richard Bowman | [Video](https://www.youtube.com/watch?v=TI6HUOw6lhU) | [PDF](./2024-02-WoTCG-Meetup13-Bowman-openflexure_and_labthings.pdf)
 - [W3C WoT Meetup 13 - Intro](https://docs.google.com/presentation/d/1gz5SQmVnOVMZdzN2rziaQBp8ES_gO7XP96hBvZZ28Sc/edit?usp=sharing) | [PDF](./2024-02-WoTCG-Meetup13-AguzziKorkan.pdf)
 - W3C WoT Meetup 12 - Interactable Digital Twins for Robots via WoT - Siemens and TU Munich | [Video](https://youtu.be/A0PGtoXwPO4) | [PDF](./2024-01-WoTCG-Meetup12-Korkan-Salama-RobWoT.pdf)

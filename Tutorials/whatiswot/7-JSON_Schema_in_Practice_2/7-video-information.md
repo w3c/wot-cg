@@ -2,22 +2,23 @@
 
 ## Title
 
-What is WoT - JSON Schema in Practice - Advanced Topics
+JSON Schema in Practice - Advanced Topics | What is WoT
 
 ## Description
 
 In the previous video, we talked about JSON Schema Basics. In this video, we will continue with generic validation keywords, Schema composition, and Schema conditionality.
+The corresponding web page of this video is at https://w3c.github.io/wot-cg/tutorials/whatiswot/docs/preliminary/json-schema/practice-advanced .
 
-https://w3c.github.io/wot-cg/tutorials/whatiswot/docs/json-tutorial/JSON%20Schema%20in%20Practice%20-%20Advanced%20Topics
+This video is created by the W3C Web of Things Community Group and is developed open source. You can provide feedback via the GitHub link below.
 
-Next video: Insert video link (8-JSON-Schema-in-Practice-3)
+Next video: https://youtu.be/I2TkWNXLvms
 
 Tutorial Homepage: https://w3c.github.io/wot-cg/tutorials/whatiswot/
 
-WoT CG on GitHub: https://github.com/w3c/wot-cg (feel free to suggest improvements via issues)
+WoT CG on GitHub: https://github.com/w3c/wot-cg
 
 WoT CG Homepage: https://www.w3.org/community/wot/
 
 ## Playlist
 
-What is WoT
+What is WoT Tutorial
