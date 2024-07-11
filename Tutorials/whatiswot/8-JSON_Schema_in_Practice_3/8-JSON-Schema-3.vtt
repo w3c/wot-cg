@@ -90,9 +90,9 @@ The code outputs that the data is not valid since the property "temperatureOf"
 00:03:09.718 --> 00:03:14.924 
 needs to be string. However, in the given data it is an integer.
 
-00:03:14.924 --> 00:03:19.499 
+00:03:14.924 --> 00:03:18.862 
 This concludes the videos on JSON Schema.
 
-00:03:23.039 --> 00:03:28.214 
+00:03:20.602 --> 00:03:25.777 
 You can proceed to the next tutorial by clicking on the card or the video description.
 
