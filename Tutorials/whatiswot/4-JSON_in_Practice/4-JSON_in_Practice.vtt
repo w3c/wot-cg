@@ -111,42 +111,45 @@ In JSON and JavaScript it is null with lowercase while in
 00:03:15.271 --> 00:03:19.499 
 Python, the same meaning is given with the "None" keyword.
 
-00:03:19.499 --> 00:03:24.396 
+00:03:19.499 --> 00:03:23.711 
+Now let's test JSON out in a real programming environment.
+
+00:03:27.061 --> 00:03:31.958 
 Open a code editor. In this example, we used VS Code.
 
-00:03:24.396 --> 00:03:30.947 
+00:03:31.958 --> 00:03:38.509 
 Write a JSON file of your choice and save it by giving a file name and adding a .json extension.
 
-00:03:30.947 --> 00:03:35.214 
+00:03:38.509 --> 00:03:42.776 
 Then the editor will recognize the file as a JSON document.
 
-00:03:35.214 --> 00:03:41.908 
+00:03:42.776 --> 00:03:49.470 
 Now we will read a JSON file from the file system using a JSON library in Python.
 
-00:03:41.908 --> 00:03:48.376 
+00:03:49.470 --> 00:03:55.938 
 We open the JSON file that we have previously saved to the file system with open-as-file key words.
 
-00:03:48.376 --> 00:03:53.643 
+00:03:55.938 --> 00:04:01.205 
 Then, we can load that JSON file with the load function into the data object.
 
-00:03:53.643 --> 00:03:57.337 
+00:04:01.205 --> 00:04:04.899 
 We can also print it to see what is inside the JSON file.
 
-00:03:57.337 --> 00:04:02.675 
+00:04:04.899 --> 00:04:10.237 
 Printing the data object in console can look like this.
 
-00:04:02.675 --> 00:04:08.146 
+00:04:10.237 --> 00:04:15.440 
 There are many ways to send a JSON file via different protocols, one of
 
-00:04:08.146 --> 00:04:13.618 
+00:04:15.440 --> 00:04:20.643 
 them is using Python and its request library for sending an HTTP request.
 
-00:04:13.618 --> 00:04:21.420 
+00:04:20.643 --> 00:04:28.445 
 With this library, you can use the post function to send an HTTP POST request with a JSON Payload.
 
-00:04:21.420 --> 00:04:26.805 
+00:04:28.445 --> 00:04:33.830 
 As a parameter, it takes the URL to send to and the JSON object.
 
-00:04:26.805 --> 00:04:32.428 
+00:04:33.830 --> 00:04:39.453 
 You can proceed to the next tutorial by clicking on the card or the video description.
 
