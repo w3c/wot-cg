@@ -1,7 +1,7 @@
 # Meeting Resources
 
-In this folder, you can find the presentation and minutes of each meeting like monthly meetings, TPAC or anything that is not a meetup.
-This readme contains the links to minutes and presentation files.
+In this folder, you can find the presentation and minutes of each meeting like monthly meetings, TPAC, or anything that is not a meetup.
+This readme contains links to the minutes and presentation files.
 
 - [Internal Meeting 4](https://docs.google.com/presentation/d/1q6L3SPLLJLk5VMNACx-YcP1kShtYr7IU7AGj9WrXw98/edit?usp=sharing) | [PDF](./2023-03-WoTCG-InternalMeeting4-AguzziKorkan.pdf)
 - [Internal Meeting 3](https://docs.google.com/presentation/d/1RnpC2sG2r37CBkdHPqcJQ_UcEsznGdYxPFAoWv-1RC0/edit?usp=sharing) | [PDF](2023-02-WoTCG-InternalMeeting3-AguzziKorkan.pdf)

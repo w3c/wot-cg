@@ -18,8 +18,8 @@ However, our process is as follows:
 
 ## Changing acronyms of people to their names
 
-When taking minutes, we generally use a shorter version for people's names, e.g. `fb: I think we should do this` when a participant named `Foo Bar` is speaking.
-When the minutes are published, it would look more professional to have full names, i.e. `Foo Bar: I think we should do this`.
+When taking minutes, we generally use a shorter version for people's names, e.g., `fb: I think we should do this` when a participant named `Foo Bar` is speaking.
+When the minutes are published, it would look more professional to have full names, e.g., `Foo Bar: I think we should do this`.
 Some common replacements we have seen so far (people who have joined more than 1 meeting and spoke):
 
 - ca: OR cris: -> Cristiano Aguzzi:
@@ -33,4 +33,4 @@ Some common replacements we have seen so far (people who have joined more than 1
 - bf: -> Ben Francis
 - lb: OR lu_zero: -> Luca Barbato
   
-- Correct typos. This will probably be manual. A regular spell check can be used but there are too many acronyms and surnames to handle (add exceptions). Maybe a smarter spell checker is needed to automate this.
+- Correct typos. This is best done as a manual process. A regular spell check can be used to start, but there are too many acronyms and surnames to handle (add exceptions). Also, manual logging often includes grammar and other errors (and current auto-transcribers include more). A smarter spell checker could help automate this.
