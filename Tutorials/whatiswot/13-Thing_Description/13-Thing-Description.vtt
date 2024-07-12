@@ -1,0 +1,101 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:12.012 
+Previously, we introduced Thing and Thing Description. In this video, we will explain Thing Description with code snippets.
+
+00:00:12.012 --> 00:00:16.437 
+First, let’s do a recap on Thing and Thing Description.
+
+00:00:16.437 --> 00:00:22.313 
+In the WoT Architecture, a Thing is defined as an abstraction of an
+
+00:00:22.313 --> 00:00:28.190 
+IoT device or service. And TD provides descriptive metadata for a Thing.
+
+00:00:28.190 --> 00:00:32.784 
+As we explained in the previous building block video, TD is
+
+00:00:32.784 --> 00:00:37.377 
+the core building block in the W3C Web of Things.
+
+00:00:37.377 --> 00:00:42.776 
+A TD instance consists of 5 main components:
+
+00:00:42.776 --> 00:00:45.663 
+Textual Metadata about Thing itself.
+
+00:00:45.663 --> 00:00:52.251 
+Interaction Affordances (Properties, Actions, and Events) that indicate how the Thing can be used
+
+00:00:52.251 --> 00:00:57.713 
+Schemas for the data exchanged with the thing for machine understandability,
+
+00:00:57.713 --> 00:01:05.048 
+Security Definitions to provide metadata about the security mechanisms that must be used for interactions,
+
+00:01:05.048 --> 00:01:11.123 
+Web links to express any formal or informal relation to other Things or documents on the Web.
+
+00:01:11.123 --> 00:01:16.773 
+Let’s examine these components on a coffee machine TD code.
+
+00:01:16.773 --> 00:01:24.585 
+Here is the simplified version of the code. Let us explain what each keyword means in a TD.
+
+00:01:24.585 --> 00:01:31.023 
+with the “@context” keyword we can define the context of the TD document. It is
+
+00:01:31.023 --> 00:01:37.460 
+a mandatory keyword, and It contains the vocabulary needed to fully interpret a TD document.
+
+00:01:37.460 --> 00:01:45.635 
+The “title” keyword is the human-readable descriptive title of the TD. It is also mandatory.
+
+00:01:45.635 --> 00:01:52.360 
+The “id” keyword provides a unique ID to a Thing Description, and it is optional.
+
+00:01:52.360 --> 00:01:58.541 
+“securityDefinitions” define the security mechanisms present in the Thing and security allows to express
+
+00:01:58.541 --> 00:02:04.723 
+which ones are picked. We will go into more detail in the upcoming videos.
+
+00:02:04.723 --> 00:02:12.643 
+And these are the interaction affordances. They consist of a set of capabilities and functionality exposed by a Thing
+
+00:02:12.643 --> 00:02:20.564 
+that can be controlled and interacted with by a Consumer. We can list them as properties, actions, and events.
+
+00:02:20.564 --> 00:02:27.614 
+We will explain these affordances in detail in the next video but now let's look at their functionality.
+
+00:02:27.614 --> 00:02:32.305 
+The sensing and control parameters of the Thing are represented with the properties keyword
+
+00:02:32.305 --> 00:02:36.997 
+in a TD. Such as the state of the coffee machine, how much water
+
+00:02:36.997 --> 00:02:41.689 
+or beans are left in the machine or how full is the bin.
+
+00:02:41.689 --> 00:02:48.406 
+Actions are used to interact with a Thing. It consists of actions that can be invoked by
+
+00:02:48.406 --> 00:02:55.123 
+the Consumer. For instance, in “BrewCoffee” brew the coffee of your choice and it can also take
+
+00:02:55.123 --> 00:03:01.840 
+input parameters like coffee type and sugar amount. “StopBrew” stopping brewing or “TurnOff” turns off the machine.
+
+00:03:01.840 --> 00:03:09.336 
+Events are used to be notified about specific events. Consumers can subscribe to those events. For our
+
+00:03:09.336 --> 00:03:16.831 
+coffee machine example, we can have water warning events to be notified when the water level is
+
+00:03:16.831 --> 00:03:24.327 
+too low. Error Notification Event to be notified when the state of the machine is “error”.
+
+00:03:24.327 --> 00:03:29.577 
+You can proceed to the next tutorial by clicking on the card or the video description.
+
