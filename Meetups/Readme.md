@@ -7,48 +7,185 @@ Note: Presentation files use the pattern `YEAR-MONTH-WoTCG-EVENTNAME-PRESENTERNA
 
 ## Meetup 18
 
-- Name: Digital Twins in Monitoring Applications Using the Web of Things - University of Bologna
+- Name: Digital Twins in Monitoring Applications Using the Web of Things
+- Presenter(s): Marco di Felice, Luca Sciullo - University of Bologna
 - Date: 23 May 2024
-- [Presenter Slides](./2024-05-WoTCG-Meetup18-DTs_in_Monitoring-difelice_sciullo.pdf)
-- Intro Slides: [Google Slides](https://docs.google.com/presentation/d/1Ny17TC6eFp_t6tUo7KuFiWGM5_thqOvkNYaLR2BTMg8/edit?usp=sharing) | [PDF](./2024-05-WoTCG-Meetup18-AguzziKorkan.pdf)
+- [Presenter Slides](./18/2024-05-WoTCG-Meetup18-DTs_in_Monitoring-difelice_sciullo.pdf)
+- Intro Slides: [Google Slides](https://docs.google.com/presentation/d/1Ny17TC6eFp_t6tUo7KuFiWGM5_thqOvkNYaLR2BTMg8/edit?usp=sharing) | [PDF](./18/2024-05-WoTCG-Meetup18-AguzziKorkan.pdf)
 - [Video](https://www.youtube.com/watch?v=XtJ260RuiWY)
 - [Minutes](./18/2024-05-23-minutes.md)
 
+## Meetup 17
 
-- W3C WoT Meetup 17 - Integrating the Web of Things with Solid: Architecture, Benefits, and Real-World Application - Fraunhofer IIS | [Video](https://www.youtube.com/watch?v=x6vnqo4j1tA&) | [PDF](./2024-05-WoTCG-Meetup17-WoT_and_Solid-Freund.pdf)
-- [W3C WoT Meetup 17 - Intro](https://docs.google.com/presentation/d/1qUbYJ6OEp_SSnnXiSUqQJjdpONAfnGh6wE9NhfYsLDY/edit?usp=sharing) | [PDF](./2024-05-WoTCG-Meetup17-AguzziKorkan.pdf)
-- W3C WoT Meetup 16 - WoT Digital Twin Ontology - UPM | [Video](https://www.youtube.com/watch?v=uPhKn-q-ZkA) | [PDF](./2024-05-WoTCG-Meetup16-WoTDT-Gerpe.pdf)
-- [W3C WoT Meetup 16 - Intro](https://docs.google.com/presentation/d/1fGmg6lW4JH00OdodfsvvMqcA7O90u57ZHE7REEWt2oY/edit?usp=sharing) | [PDF](./2024-05-WoTCG-Meetup16-AguzziKorkan.pdf)
-- W3C WoT Meetup 15 - Beyond Local Connectivity: Bridging Web of Things and Matter - Deutsche Telekom | [Video](https://www.youtube.com/watch?v=upUN9-0so2s) | [PDF](./2024-03-WoTCG-Meetup15-MatterAndWoT-Langen.pdf)
-- [W3C WoT Meetup 15 - Intro](https://docs.google.com/presentation/d/14jMoUwxGq2J_smzZTjwcXpHN2fIrKAGCczmVx74X3FU/edit?usp=sharing) | [PDF](./2024-03-WoTCG-Meetup15-AguzziKorkan.pdf)
-- W3C WoT Meetup 14 - Smart Building Solutions built on WebThings | [Video](https://www.youtube.com/watch?v=7FGS10G-YIc) | [PDF](./2024-02-WoTCG-Meetup14-Francis-Krellian.pdf)
-- [W3C WoT Meetup 14 - Intro](https://docs.google.com/presentation/d/14jMoUwxGq2J_smzZTjwcXpHN2fIrKAGCczmVx74X3FU/edit?usp=sharing) | [PDF](./2024-02-WoTCG-Meetup14-AguzziKorkan.pdf)
-- W3C WoT Meetup 13 - Smart microscopy for everyone with OpenFlexure and LabThings - Richard Bowman | [Video](https://www.youtube.com/watch?v=TI6HUOw6lhU) | [PDF](./2024-02-WoTCG-Meetup13-Bowman-openflexure_and_labthings.pdf)
-- [W3C WoT Meetup 13 - Intro](https://docs.google.com/presentation/d/1gz5SQmVnOVMZdzN2rziaQBp8ES_gO7XP96hBvZZ28Sc/edit?usp=sharing) | [PDF](./2024-02-WoTCG-Meetup13-AguzziKorkan.pdf)
-- W3C WoT Meetup 12 - Interactable Digital Twins for Robots via WoT - Siemens and TU Munich | [Video](https://youtu.be/A0PGtoXwPO4) | [PDF](./2024-01-WoTCG-Meetup12-Korkan-Salama-RobWoT.pdf)
-- [W3C WoT Meetup 12 - Intro](https://docs.google.com/presentation/d/1r_7PrstswVoU_1awFvrcfa6tuQRzm76coDZkPfuY68k/edit?usp=sharing) | [PDF](./2024-01-WoTCG-Meetup12-AguzziKorkan.pdf)
-- W3C WoT Meetup 11 - ISO Industrial Data Ontology - Grundfos | [Video](https://youtu.be/VYHjMU5a9FI) | [PDF](./2023-12-WoTCG-Meetup11-MikkelHBrynildsen-ISO_IDO.pdf)
-- [W3C WoT Meetup 11 - Intro](https://docs.google.com/presentation/d/1r_7PrstswVoU_1awFvrcfa6tuQRzm76coDZkPfuY68k/edit?usp=sharing) | [PDF](./2023-12-WoTCG-Meetup11-AguzziKorkan.pdf)
-- W3C WoT Meetup 10 - Designing an API for the Physical World - Seam | [Video](https://www.youtube.com/watch?v=LHybkrb3Xek) | [PDF](./2023-10-WoTCG-Meetup10-Seam-SyBohy.pdf)
-- [W3C WoT Meetup 10 - Intro](https://docs.google.com/presentation/d/17Whb-1nKF949bWN3dXjEin7q0nuJW9kUsVXgp3HlcLY/edit?usp=sharing) | [PDF](./2023-10-WoTCG-Meetup10-AguzziKorkan.pdf)
-- W3C WoT Meetup 8 - Advantages and Challenges of Web of Things for Digital Twins - Schaeffler | [Video](https://www.youtube.com/watch?v=kPfdqGYvBVM) | [PDF](./2023-05-WoTCG-Meetup8-Kuestner_Schaeffler.pdf)
-- [W3C WoT Meetup 8 - Intro](https://docs.google.com/presentation/d/1j1trj42kzy7FWaYR3xne39Ic_PJqjszjEmXIww7x_qU/edit?usp=sharing) | [PDF](./2023-05-WoTCG-Meetup8-AguzziKorkan.pdf)
-- W3C WoT Meetup 7 - Web Scale Agents with WoT and No-Code Applications in IoT - IntellIoT, Simon Mayer | [Video](https://www.youtube.com/watch?v=iqNX9DgFaBM) | [PDF](./2023-04-WoTCG-Meetup7-Mayer-IntellIoT.pdf)
-- [W3C WoT Meetup 7 - Intro](https://docs.google.com/presentation/d/1Sqr3uJ_6lLoOGJ9z6Uttg5akKNZcB945yaponz26Uz0/edit?usp=sharing) | [PDF](./2023-04-WoTCG-Meetup7-AguzziKorkan.pdf)
-- W3C WoT Meetup 6 - Automated Industrial Asset Onboarding Using Open Standards - Microsoft, Siemens, evosoft | [Video](https://youtu.be/xFnrWOeh3pc) | [PDF](./2023-04-WoTCG-Meetup6-Siemens-Microsoft.pdf)
-- [W3C WoT Meetup 6 - Intro](https://docs.google.com/presentation/d/1mIqp21oQg92ZrPttWJeM9iE1QcV-JPMcJyY37a9N-bc/edit?usp=sharing) | [PDF](./2023-04-WoTCG-Meetup6-AguzziKorkan.pdf)
-- W3C WoT Meetup 5 - Empowering Industrial Automation with WoT - SICK AG | [Video](https://youtu.be/SIKMbxLJXow)| [PDF](./2023-03-WoTCG-Meetup5-Held_SICK.pdf)
-- [W3C WoT Meetup 5 - Intro](https://docs.google.com/presentation/d/1LsE6-5ZQ5h_rt2W1zvAE1cVsdrlKCgb4Cf9i2RFYnkk/edit?usp=sharing) | [PDF](2023-03-WoTCG-Meetup5-AguzziKorkan.pdf)
-- W3C WoT Meetup 4 - Delegated Device Authorization in the Web of Things| [Video](https://youtu.be/WcCUyn9RUqw) | [PDF](./2023-02-WoTCG-Meetup4-Romann.pdf)
-- W3C WoT Meetup 4 - Intro | [PDF](./2023-02-WoTCG-Meetup4-AguzziKorkan.pdf)
-- W3C WoT Meetup 3 - Netzo | [PDF](.2022/2022-12-WoTCG-Meetup3-Netzo-Edge-Computing.pdf)
-- [W3C WoT Meetup 3 - Intro](https://docs.google.com/presentation/d/1fEB38kNR4yICol825EdXD-7ULjxSy0ZO_KozXiMCaSQ/edit?usp=sharing) | [PDF](./2022-12-WoTCG-Meetup3-AguzziKorkan.pdf)
-- W3C WoT Meetup 2 - Magenta Zuhause App | [PDF](./2022-08-WoTCG-Meetup2-MagentaZuhauseApp-Winkler.pdf) | [Powerpoint](./2022-08-WoTCG-Meetup2-MagentaZuhauseApp-Winkler.pptx)
-- [W3C WoT Meetup 2 - Intro](https://docs.google.com/presentation/d/13jKtDYPREKXW9e0BM_6bA__aocjGkEq37DxuQ3bMBDY/edit?usp=sharing) | [PDF](./2022-12-WoTCG-Meetup2-AguzziKorkan.pdf)
-- [W3C WoT Meetup 1 - Digital Twin Ideas Fady Salama - PDF](./2022/2022-10-WoTCG-Meetup1-DigitalTwins-Salama.pdf)
-- [W3C WoT Meetup 1 - Digital Twins with Eclipse Ditto and Web of Things](https://www.eclipse.org/ditto/slides/2022_10_ditto-and-wot/) | [PDF](2022-10-WoTCG-Meetup1-EclipseDitto-and-WoT-Jaeckle.pdf)
-- [W3C WoT Meetup 1 - Intro](https://docs.google.com/presentation/d/1iOCkNmtA10AuDTyHKswk26siCU2AAGNOzQsUm15BQYw/edit?usp=sharing) | [PDF](./2022-10-WoTCG-Meetup1-AguzziKorkan.pdf)
-- [Internal Meeting 1](https://docs.google.com/presentation/d/1n8LRt6jGC9kKc910RFQANBtgsiw66Vf584Q2a3ns85s/edit?usp=sharing) | [PDF](./2022-08-WoTCG-InternalMeeting1-AguzziKorkan.pdf)
-- [How to build a community by Philipp-Alexander Blum](https://github.com/bind-systems/wot-cg-0-how-to-build-a-community) | [PDF](https://github.com/bind-systems/wot-cg-0-how-to-build-a-community/blob/master/assets/wot-cg-0-how-to-build-a-community.pdf)
-- [wot-rust introduction by Luca Barbato](https://docs.google.com/presentation/d/17Uod5HT5Se_XMt0cE-X12ud-DdwrzoAnDEovT4JFZx8/edit?usp=sharing) | [PDF](./2022-09-WoTCG-wot_rust-Barbato.pdf)
-- [W3C WoT Meetup 0](https://docs.google.com/presentation/d/1u8OlKdJnq4bqRTtJ4lP2rwVph_Vl_fuvxYi2iZy9sz8/edit?usp=sharing) | [PDF](./2022-09-WoTCG-Meetup0-AguzziKorkan.pdf)
+- Name: Integrating the Web of Things with Solid: Architecture, Benefits, and Real-World Application
+- Presenter(s): Michael Freund - Fraunhofer ISS
+- Date: 16 May 2024
+- [Presenter Slides](./17/2024-05-WoTCG-Meetup17-WoT_and_Solid-Freund.pdf)
+- Intro Slides: [Google Slides](https://docs.google.com/presentation/d/1qUbYJ6OEp_SSnnXiSUqQJjdpONAfnGh6wE9NhfYsLDY/edit?usp=sharing) | [PDF](./17/2024-05-WoTCG-Meetup17-AguzziKorkan.pdf)
+- [Video](https://www.youtube.com/watch?v=x6vnqo4j1tA&)
+- [Minutes](./17/2024-05-16-minutes.md)
+
+## Meetup 16
+
+- Name: WoT Digital Twin Ontology
+- Presenter(s): Salvador González Gerpe - Universidad Politécnica de Madrid
+- Date: 7 May 2024
+- [Presenter Slides](./16/2024-05-WoTCG-Meetup16-WoTDT-Gerpe.pdf)
+- Intro Slides: [Google Slides](https://docs.google.com/presentation/d/1fGmg6lW4JH00OdodfsvvMqcA7O90u57ZHE7REEWt2oY/edit?usp=sharing) | [PDF](./16/2024-05-WoTCG-Meetup16-AguzziKorkan.pdf)
+- [Video](https://www.youtube.com/watch?v=uPhKn-q-ZkA)
+- [Minutes](./16/2024-05-07-minutes.md)
+
+## Meetup 15
+
+- Name: Beyond Local Connectivity: Bridging Web of Things and Matter
+- Presenter(s): Till Langen - Deutsche Telekom
+- Date: 14 March 2024
+- [Presenter Slides](./15/2024-03-WoTCG-Meetup15-MatterAndWoT-Langen.pdf)
+- Intro Slides: [Google Slides](https://docs.google.com/presentation/d/14jMoUwxGq2J_smzZTjwcXpHN2fIrKAGCczmVx74X3FU/edit?usp=sharing) | [PDF](./15/2024-03-WoTCG-Meetup15-AguzziKorkan.pdf)
+- [Video](https://www.youtube.com/watch?v=upUN9-0so2s)
+- [Minutes](./15/2024-03-14-minutes.md)
+
+## Meetup 14
+
+- Name: Smart Building Solutions built on WebThings
+- Presenter(s): Ben Francis - Krellian
+- Date: 22 February 2024
+- [Presenter Slides](./14/2024-02-WoTCG-Meetup14-Francis-Krellian.pdf)
+- Intro Slides: [Google Slides](https://docs.google.com/presentation/d/14jMoUwxGq2J_smzZTjwcXpHN2fIrKAGCczmVx74X3FU/edit?usp=sharing) | [PDF](./14/2024-02-WoTCG-Meetup14-AguzziKorkan.pdf)
+- [Video](https://www.youtube.com/watch?v=7FGS10G-YIc)
+- [Minutes](./14/2024-02-22-minutes.md)
+
+## Meetup 13
+
+- Name: Smart microscopy for everyone with OpenFlexure and LabThings
+- Presenter(s): Richard Bowman - OpenFlexure and University of Bath
+- Date: 15 February 2024
+- [Presenter Slides](./13/2024-02-WoTCG-Meetup13-Bowman-openflexure_and_labthings.pdf)
+- Intro Slides: [Google Slides](https://docs.google.com/presentation/d/1gz5SQmVnOVMZdzN2rziaQBp8ES_gO7XP96hBvZZ28Sc/edit?usp=sharing) | [PDF](./13/2024-02-WoTCG-Meetup13-AguzziKorkan.pdf)
+- [Video](https://www.youtube.com/watch?v=TI6HUOw6lhU)
+- [Minutes](./13/2024-02-15-minutes.md)
+
+## Meetup 12
+
+- Name: Interactable Digital Twins for Robots via WoT
+- Presenter(s): Fady Salama - TU Munich, Ege Korkan - Siemens
+- Date: 15 January 2024
+- [Presenter Slides](./12/2024-01-WoTCG-Meetup12-Korkan-Salama-RobWoT.pdf)
+- Intro Slides: [Google Slides](https://docs.google.com/presentation/d/1r_7PrstswVoU_1awFvrcfa6tuQRzm76coDZkPfuY68k/edit?usp=sharing) | [PDF](./12/2024-01-WoTCG-Meetup12-AguzziKorkan.pdf)
+- [Video](https://youtu.be/A0PGtoXwPO4)
+- [Minutes](./12/2024-01-15-minutes.md)
+
+## Meetup 11
+
+- Name: ISO Industrial Data Ontology
+- Presenter(s): Mikkel Haggren Brynildsen - Grundfos
+- Date: 12 December 2023
+- [Presenter Slides](./11/2023-12-WoTCG-Meetup11-MikkelHBrynildsen-ISO_IDO.pdf)
+- Intro Slides: [Google Slides](https://docs.google.com/presentation/d/1r_7PrstswVoU_1awFvrcfa6tuQRzm76coDZkPfuY68k/edit?usp=sharing) | [PDF](./11/2023-12-WoTCG-Meetup11-AguzziKorkan.pdf)
+- [Video](https://youtu.be/VYHjMU5a9FI)
+- [Minutes](./11/2023-12-12-minutes.md)
+
+## Meetup 10
+
+- Name: Designing an API for the Physical World
+- Presenter(s): Sy Bohy - Seam
+- Date: 05 October 2023
+- [Presenter Slides](./10/2023-10-WoTCG-Meetup10-Seam-SyBohy.pdf)
+- Intro Slides: [Google Slides](https://docs.google.com/presentation/d/17Whb-1nKF949bWN3dXjEin7q0nuJW9kUsVXgp3HlcLY/edit?usp=sharing) | [PDF](./10/2023-10-WoTCG-Meetup10-AguzziKorkan.pdf )
+- [Video](https://www.youtube.com/watch?v=LHybkrb3Xek)
+- [Minutes](./10/2023-10-05-minutes.md)
+
+## Meetup 9
+
+This meetup was not recorded due to low attendance
+
+## Meetup 8
+
+- Name: Advantages and Challenges of Web of Things for Digital Twins
+- Presenter(s): Christof Küstner, Sven Pelzer - Schaeffler
+- Date: 11 May 2023
+- [Presenter Slides](./08/2023-05-WoTCG-Meetup8-Kuestner_Schaeffler.pdf)
+- Intro Slides: [Google Slides](https://docs.google.com/presentation/d/1j1trj42kzy7FWaYR3xne39Ic_PJqjszjEmXIww7x_qU/edit?usp=sharing) | [PDF](./08/2023-05-WoTCG-Meetup8-AguzziKorkan.pdf)
+- [Video](https://www.youtube.com/watch?v=kPfdqGYvBVM)
+- [Minutes](./08/2023-05-11-minutes.md)
+
+## Meetup 7
+
+- Name: Web Scale Agents with WoT and No-Code Applications in IoT
+- Presenter(s): Simon Mayer - University of St. Gallen
+- Date: 28 April 2023
+- [Presenter Slides](./07/2023-04-WoTCG-Meetup7-Mayer-IntellIoT.pdf)
+- Intro Slides: [Google Slides](https://docs.google.com/presentation/d/1Sqr3uJ_6lLoOGJ9z6Uttg5akKNZcB945yaponz26Uz0/edit?usp=sharing) | [PDF](./07/2023-04-WoTCG-Meetup7-AguzziKorkan.pdf)
+- [Video](https://www.youtube.com/watch?v=iqNX9DgFaBM)
+- [Minutes](./07/2023-04-28-minutes.md)
+
+## Meetup 6
+
+- Name: Automated Industrial Asset Onboarding Using Open Standards
+- Presenter(s): Erich Barnstedt - Microsoft, Sebastian Käbisch - Siemens, Felix Paulini - Evosoft
+- Date: 05 October 2023
+- [Presenter Slides](./06/2023-04-WoTCG-Meetup6-Siemens-Microsoft.pdf)
+- Intro Slides: [Google Slides](https://docs.google.com/presentation/d/1mIqp21oQg92ZrPttWJeM9iE1QcV-JPMcJyY37a9N-bc/edit?usp=sharing) | [PDF](./06/2023-04-WoTCG-Meetup6-AguzziKorkan.pdf)
+- [Video](https://youtu.be/xFnrWOeh3pc)
+- [Minutes](./06/2023-04-03-minutes.md)
+
+## Meetup 5
+
+- Name: Empowering Industrial Automation with WoT
+- Presenter(s): Matthias Held - SICK AG
+- Date: 05 October 2023
+- [Presenter Slides](./05/2023-03-WoTCG-Meetup5-Held_SICK.pdf)
+- Intro Slides: [Google Slides](https://docs.google.com/presentation/d/1LsE6-5ZQ5h_rt2W1zvAE1cVsdrlKCgb4Cf9i2RFYnkk/edit?usp=sharing) | [PDF](./05/2023-03-WoTCG-Meetup5-AguzziKorkan.pdf)
+- [Video](https://youtu.be/SIKMbxLJXow)
+- [Minutes](./05/2023-03-23-minutes.md)
+
+## Meetup 4
+
+- Name: Delegated Device Authorization in the Web of Things
+- Presenter(s): Jan Romann - University of Bremen
+- Date: 23 February 2023
+- [Presenter Slides](./04/2023-02-WoTCG-Meetup4-Romann.pdf)
+- Intro Slides: [Google Slides](https://docs.google.com/presentation/d/1BxWkEPw0off4qOSyS6hsb3kVlJAGX1EU1dQGqdPLYds/edit?usp=sharing) | [PDF](./04/2023-02-WoTCG-Meetup4-AguzziKorkan.pdf)
+- [Video](https://youtu.be/WcCUyn9RUqw)
+- [Minutes](./04/2023-02-23-minutes.md)
+
+## Meetup 3
+
+- Name: WoT Applications on the Serverless Edge
+- Presenter(s): Arturo Romero, Miguel Romero Karam - Netzo.io
+- Date: 15 December 2022
+- [Presenter Slides](./03/2022-12-WoTCG-Meetup3-Netzo-Edge-Computing.pdf)
+- Intro Slides: [Google Slides](https://docs.google.com/presentation/d/1fEB38kNR4yICol825EdXD-7ULjxSy0ZO_KozXiMCaSQ/edit?usp=sharing) | [PDF](./03/2022-12-WoTCG-Meetup3-AguzziKorkan.pdf)
+- No Video Available
+- [Minutes](./03/2022-12-15-minutes.md)
+
+## Meetup 2
+
+- Name: Magenta Smart Home
+- Presenter(s): Robert Winkler - Deutsche Telekom
+- Date: 01 December 2022
+- [Presenter Slides](./02/2022-08-WoTCG-Meetup2-MagentaZuhauseApp-Winkler.pdf)
+- Intro Slides: [Google Slides](https://docs.google.com/presentation/d/13jKtDYPREKXW9e0BM_6bA__aocjGkEq37DxuQ3bMBDY/edit?usp=sharing) | [PDF](./02/2022-12-WoTCG-Meetup2-AguzziKorkan.pdf)
+- No Video Available
+- [Minutes](./02/2022-12-01-minutes.md)
+
+## Meetup 1
+
+- Name: Digital Twins with Eclipse Ditto and Web of Things
+- Presenter(s): Thomas Jaeckle - Bosch.io
+- Date: 13 October 2022
+- [Presenter Slides](./03/2022-10-WoTCG-Meetup1-EclipseDitto-and-WoT-Jaeckle.pdf) ([Online Version](https://www.eclipse.org/ditto/slides/2022_10_ditto-and-wot/))
+- Intro Slides: [Google Slides](https://docs.google.com/presentation/d/1iOCkNmtA10AuDTyHKswk26siCU2AAGNOzQsUm15BQYw/edit?usp=sharing) | [PDF](./03/2022-10-WoTCG-Meetup1-AguzziKorkan.pdf)
+- No Video Available
+- [Minutes](./01/2022-10-13-minutes.md)
+
+## Meetup 0
+
+- Name: wot-rust and "How to build a Community"
+- Presenter(s): Luca Barbato - Luminem, Philipp-Alexander Blum - Bind Systems
+- Date: 22 September 2022
+- [Luca's Slides](./0/2022-09-WoTCG-wot_rust-Barbato.pdf) ([Online Version](https://docs.google.com/presentation/d/17Uod5HT5Se_XMt0cE-X12ud-DdwrzoAnDEovT4JFZx8/edit?usp=sharing))
+- [Philip's Slides]([./0/2022-09-WoTCG-wot_rust-Barbato.pdf](https://github.com/bind-systems/wot-cg-0-how-to-build-a-community/blob/master/assets/wot-cg-0-how-to-build-a-community.pdf)) ([Online Version](https://github.com/bind-systems/wot-cg-0-how-to-build-a-community))
+- Intro Slides: [Google Slides](https://docs.google.com/presentation/d/1u8OlKdJnq4bqRTtJ4lP2rwVph_Vl_fuvxYi2iZy9sz8/edit?usp=sharing) | [PDF](./0/2022-09-WoTCG-Meetup0-AguzziKorkan.pdf)
+- No Video Available
+- [Minutes](./0/2022-09-22-minutes.md)
