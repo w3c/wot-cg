@@ -4,7 +4,7 @@ sidebar_label: JSON Schema in Practice
 
 # JSON Schema in Practice
 
-<iframe width="100%" height="400" src="https://www.youtube.com/embed/8FWh6iKc_cw?si=OjPBrfQ4sT5HOjpk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/c_gD0hYaavA?si=bPp5w0o7YIXvjZ1G" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 <a href = "https://github.com/w3c/wot-cg/blob/main/Tutorials/whatiswot/6-JSON_Schema_in_Practice/6-JSON-Schema-in-Practice.mp4">Click here if YouTube does not work go to our GitHub.</a>  
 

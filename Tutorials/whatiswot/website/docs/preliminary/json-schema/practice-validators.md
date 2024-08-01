@@ -4,7 +4,7 @@ sidebar_label: JSON Schema in Practice - Validators
 
 # JSON Schema in Practice - Validators
 
-<iframe width="100%" height="400" src="https://www.youtube.com/embed/I2TkWNXLvms?si=IcroIXwmAmutdeoS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/ZKoWLyaWuaw?si=Qo-mBPkp8-J33o7C" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 <a href = "https://github.com/w3c/wot-cg/blob/main/Tutorials/whatiswot/8-JSON_Schema_in_Practice_3/8-JSON-Schema-3.mp4">Click here if YouTube does not work go to our GitHub.</a>  
 
