@@ -4,6 +4,13 @@ sidebar_label: Introduction
 
 # Introduction to JSON Schema
 
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/BPqDBu6fT-0?si=L-sz7baJzoAqjo3b" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<a href = "https://github.com/w3c/wot-cg/blob/main/Tutorials/whatiswot/5-JSON_Schema/5-JSON-Schema.mp4">Click here if YouTube does not work go to our GitHub.</a>  
+
+<br />
+<br />
+
 We will now briefly explain Schema Languages and then move on to JSON Schema. JSON Schema is particularly important in the Web of Things context as it describes and validates JSON data.
 
 ## Schema

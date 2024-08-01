@@ -4,6 +4,14 @@ sidebar_label: Introduction
 
 # Introduction to JSON
 
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/7wzzwdrGFZw?si=mpDrp9FKdNywXDFf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<a href = "https://github.com/w3c/wot-cg/blob/main/Tutorials/whatiswot/3-JSON/3-JSON.mp4">Click here if YouTube does not work go to our GitHub.</a>  
+
+<br />
+<br />
+
+
 We will now take a closer look at JSON since it is the most used payload format in the Web of Things, as well as the way Thing Descriptions are represented.
 
 ## What is JSON?
