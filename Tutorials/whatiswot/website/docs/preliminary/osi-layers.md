@@ -6,7 +6,7 @@ sidebar_label: OSI Layers and Network Topologies
 
 <iframe width="100%" height="400" src="https://www.youtube.com/embed/YwDKvzEDwsE?si=HmYy2yVEevbM1Jhx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-<a href = "https://github.com/w3c/wot-cg/blob/main/Tutorials/whatiswot/9-OSI_Layers/9-OSI-Layers.mp4">Click here if YouTube does not work to download:</a>  
+<a href = "https://github.com/w3c/wot-cg/blob/main/Tutorials/whatiswot/9-OSI_Layers/9-OSI-Layers.mp4">Click here if YouTube does not work go to our GitHub:</a>  
 
 <br />
 <br />
