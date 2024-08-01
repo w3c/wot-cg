@@ -11,13 +11,15 @@ The corresponding web page of this video is at https://w3c.github.io/wot-cg/tuto
 
 This video is created by the W3C Web of Things Community Group and is developed open source. You can provide feedback via the GitHub link below.
 
-Next video: https://youtu.be/Lxk7UVmb5oE
+Next video: https://youtu.be/bfvo4DAZG78
 
 Tutorial Homepage: https://w3c.github.io/wot-cg/tutorials/whatiswot/
 
 WoT CG on GitHub: https://github.com/w3c/wot-cg
 
 WoT CG Homepage: https://www.w3.org/community/wot/
+
+WoT CG Discord: https://discord.gg/RJNYJsEgnb
 
 ## Playlist
 
