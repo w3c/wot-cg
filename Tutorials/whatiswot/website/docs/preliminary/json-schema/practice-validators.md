@@ -60,7 +60,7 @@ So, let’s start with AJV! It is a JavaScript library.
 
 This is the same temperature sensor example we used before. Let’s examine it in JavaScript code.
 
-```js
+```js showLineNumbers
 const Ajv = require("ajv");
 const ajv = new Ajv();
 
@@ -160,7 +160,7 @@ We will use the same temperature example that we used for AJV but in Python this
 
 Let's take a look at the code in detail.
 
-```py
+```py showLineNumbers
 from jsonschema import validate
  
 schema = { 
@@ -168,7 +168,7 @@ schema = { 
     "properties":    { 
         "temperature": {"type":"number"},
         "unit": {"type": "string"}, 
-        "temperatureOf":{"type": "string"} 
+        "temperatureOf": {"type": "string"} 
     },
     "required":  ["temperature", "unit"],
     "additionalProperties": False 
@@ -197,7 +197,7 @@ schema = { 
     "properties":    { 
         "temperature": {"type":"number"},
         "unit": {"type": "string"}, 
-        "temperatureOf":{"type": "string"} 
+        "temperatureOf": {"type": "string"} 
     },
     "required":  ["temperature", "unit"],
     "additionalProperties": False 
