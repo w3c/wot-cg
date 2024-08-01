@@ -71,7 +71,7 @@ Because JSON is very relevant in the scope of the Web of Things, payloads are pr
 
 Here, you can see an example of a TD in JSON format. We will go into the details of how a TD should be structured and understood in a later section of this tutorial.
 
-```json
+```json showLineNumbers
 {
      "@context": "https://www.w3.org/2022/wot/td/v1.1",
      "title": "MyLampThing",
@@ -103,7 +103,7 @@ Let's take a look at this JSON example including a few Thing Descriptions - a te
 
 JSON Example:
 
-```json
+```json showLineNumbers
 [
   {
     "type": "Temperature Sensor",
@@ -140,7 +140,7 @@ This representation is much more light-weight compared to XML, as seen in the ex
 
 XML Example:
 
-```xml
+```xml showLineNumbers
 <root>
    <element>
       <isActive>true</isActive>
