@@ -1,0 +1,7 @@
+{
+    "name": "theme/wotDark",
+    "private": true,
+    "sideEffects": false,
+    "main": "index.cjs.js",
+    "module": "index.js"
+  }

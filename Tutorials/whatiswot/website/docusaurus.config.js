@@ -1,8 +1,9 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
-const lightCodeTheme = require("prism-react-renderer/themes/github");
-const darkCodeTheme = require("prism-react-renderer/themes/dracula");
+const lightCodeTheme = require("./src/theme/wotLight");
+const darkCodeTheme = require("./src/theme/wotDark");
+require("dotenv").config();
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -15,7 +16,9 @@ const config = {
   url: "https://w3c.github.io",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment , it is often '/<projectName>/'
-  baseUrl: "/wot-cg/tutorials/whatiswot/",
+
+  // @ts-ignore
+  baseUrl: process.env.baseurl,
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -24,6 +27,7 @@ const config = {
   deploymentBranch: "docusaurus-whatiswot",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
+  trailingSlash: false,
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want

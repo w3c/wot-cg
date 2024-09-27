@@ -6,93 +6,93 @@ In the previous videos of JSON Schema, we have explained the features and basic 
 00:00:07.087 --> 00:00:14.175 
 Schema. In this video, we will show the actual validation process with libraries and code examples.
 
-00:00:14.175 --> 00:00:22.397 
-Throughout this video, we will mainly focus on validation with the Python library jsonschema and the JavaScript library AJV,
+00:00:14.175 --> 00:00:22.301 
+Throughout this video, our main focus will be on validation with the ' jsonschema ' Python library and the 'AJV'
 
-00:00:22.397 --> 00:00:30.619 
-but there are many other libraries in different programming languages and tools to validate JSON using a JSON Schema.
+00:00:22.301 --> 00:00:30.427 
+JavaScript library, but many other libraries to validate JSON using a JSON Schema exist in different programming languages and tools.
 
-00:00:30.619 --> 00:00:38.794 
-Here are some of the popular ones in different programming languages. There are many more validators.
+00:00:30.427 --> 00:00:39.077 
+There are many validators. Here are some of the more popular ones.
 
-00:00:38.794 --> 00:00:45.757 
+00:00:39.077 --> 00:00:46.040 
 For further information, you can check the JSON Schema homepage via the link in the video description.
 
-00:00:45.757 --> 00:00:51.294 
+00:00:46.040 --> 00:00:51.577 
 This is the basic validation flow that all libraries follow.
 
-00:00:51.294 --> 00:00:56.276 
-The library takes a schema for your JSON data and validates your
+00:00:51.577 --> 00:00:56.496 
+The library takes a schema for your JSON data and validates your data
 
-00:00:56.276 --> 00:01:01.257 
-data according to the schema. Outputs the validation result as a boolean
+00:00:56.496 --> 00:01:01.415 
+according to the schema. The validation result is output as a boolean.
 
-00:01:01.257 --> 00:01:06.307 
+00:01:01.415 --> 00:01:06.465 
 So let's start with AJV! It is a JavaScript library.
 
-00:01:06.307 --> 00:01:14.344 
+00:01:06.465 --> 00:01:14.502 
 This is the same temperature sensor example we used before. Let’s examine this in JavaScript code.
 
-00:01:14.344 --> 00:01:20.219 
-First, We are importing the AJV.
+00:01:14.502 --> 00:01:20.140 
+First, we import the `AJV` library.
 
-00:01:20.219 --> 00:01:25.119 
+00:01:20.140 --> 00:01:25.040 
 This is the Schema that describes the JSON we are expecting.
 
-00:01:25.119 --> 00:01:33.244 
+00:01:25.040 --> 00:01:33.165 
 With this line of code, AJV takes schema as a parameter compiles it to function, and caches it.
 
-00:01:33.244 --> 00:01:37.382 
+00:01:33.165 --> 00:01:37.302 
 This is the data to be validated.
 
-00:01:37.382 --> 00:01:44.919 
+00:01:37.302 --> 00:01:44.840 
 Here we can see the validation step where the result is written into a boolean named isValid.
 
-00:01:44.919 --> 00:01:53.676 
+00:01:44.840 --> 00:01:53.596 
 This step is for printing the result of the validation. If isValid is true, then it prints "JSON input is
 
-00:01:53.676 --> 00:02:02.432 
+00:01:53.596 --> 00:02:02.352 
 valid according to Schema". Otherwise, it prints the "JSON input is not valid according to Schema" and the error message.
 
-00:02:02.432 --> 00:02:09.207 
+00:02:02.352 --> 00:02:09.127 
 It outputs that input is valid since the data that we enter suits the predefined schema.
 
-00:02:10.787 --> 00:02:16.568 
+00:02:10.707 --> 00:02:16.489 
 Now let's take a look at the same validation example but with Python's
 
-00:02:16.568 --> 00:02:22.349 
+00:02:16.489 --> 00:02:22.270 
 jsonschema library. It is an implementation of the JSON Schema specification for Python.
 
-00:02:22.349 --> 00:02:29.399 
+00:02:22.270 --> 00:02:29.320 
 We will use the same temperature example that we use for AJV but for Python this time.
 
-00:02:29.399 --> 00:02:32.724 
+00:02:29.320 --> 00:02:32.645 
 Let's take a look at the code in detail.
 
-00:02:32.724 --> 00:02:39.012 
+00:02:32.645 --> 00:02:38.932 
 With this line of code, we are importing the function from the library.
 
-00:02:39.012 --> 00:02:44.912 
+00:02:38.932 --> 00:02:44.832 
 This is the same schema in the previous example.
 
-00:02:44.912 --> 00:02:49.799 
+00:02:44.832 --> 00:02:49.720 
 This is the data to be validated.
 
-00:02:50.399 --> 00:02:57.456 
+00:02:50.320 --> 00:02:57.376 
 This validate function takes the data and the schema validates it and prints the result. If
 
-00:02:57.456 --> 00:03:04.512 
+00:02:57.376 --> 00:03:04.432 
 the data is valid, it does not print anything. Otherwise, it prints the error message.
 
-00:03:04.512 --> 00:03:09.718 
+00:03:04.432 --> 00:03:09.639 
 The code outputs that the data is not valid since the property "temperatureOf"
 
-00:03:09.718 --> 00:03:14.924 
+00:03:09.639 --> 00:03:14.845 
 needs to be string. However, in the given data it is an integer.
 
-00:03:14.924 --> 00:03:19.499 
+00:03:14.845 --> 00:03:18.782 
 This concludes the videos on JSON Schema.
 
-00:03:23.039 --> 00:03:28.214 
+00:03:20.522 --> 00:03:25.697 
 You can proceed to the next tutorial by clicking on the card or the video description.
 
