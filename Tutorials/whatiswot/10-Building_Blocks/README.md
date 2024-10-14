@@ -12,23 +12,23 @@
 
 ## Preliminary Script
 
-- In this video, we give a short introduction to each building block of the Web of Things - Thing Description, Binding Templates, Discovery and Scripting API. Later, in separate videos, we will explore each individual building block in more detail.
+- In this video, we give a short introduction to each building block of the Web of Things — Thing Description, Binding Templates, Discovery, and Scripting API. Later, in separate videos, we will explore each individual building block in more detail.
 
-### But what are building blocks exactly?
+### But what are building blocks, exactly?
 
 - Building blocks allow the implementation of systems that conform with the abstract WoT Architecture. Let's take a closer look at the WoT building blocks.
 
-- A Thing always has a TD - it is a key building block that provides metadata describing a Thing and its network interface. This TD can be shared directly by the Thing or through TD Directory – that is what we call Discovery. Things and consumers can be programmed with the Scripting API.
+- A Thing always has a TD, a Thing Description. It is a key building block that provides metadata describing a Thing and its network interface. This TD can be shared directly by the Thing or through the TD Directory — which is what we call Discovery. Things and consumers can be programmed with the Scripting API.
 
 ### Thing Description
 
-- Let’s begin with the Thing Description – a key component of the WoT.
+- Let’s begin with the Thing Description, or TD — a key component of the WoT.
 
-- All TDs can be processed just like a normal JSON. Essentially, a TD defines an information model using a semantic vocabulary and a serialized JSON representation. It provides human and machine-readable metadata describing the capabilities of a Thing.
+- All TDs can be processed just like normal JSON documents. Essentially, a TD defines an information model using a semantic vocabulary and a serialized JSON representation. It provides human- and machine-readable metadata describing the capabilities of a Thing.
 
-- The TD describes Thing instances with general metadata such as name, ID, and description. Additionally, TDs can also contain Interaction Affordance metadata and use Protocol Bindings such as Modbus and HTTP as well as use both public and local IP addresses.
+- A TD describes a Thing instance with general metadata such as name, ID, and description. A TD can also contain Interaction Affordance metadata and Protocol Bindings such as Modbus and HTTP, as well as both public and local IP addresses.
 
-- Here is an example of a TD. We can see the JSON serialization of a TD of a temperature controller. It tells the consumer to send a modbus request to read the temperature in the local network. The Thing can be proxied by a gateway where an HTTP request will be sent instead of a modbus request.
+- Here is an example of a TD. This is the JSON serialization of a TD of a temperature controller. It tells the consumer to send a Modbus request to read the temperature in the local network. The Thing can be proxied by a gateway where an HTTP request will be sent instead of a Modbus request.
 
 <!-- Reference picture from whiteboard. Create an asset that could be used in the future as well.
 |Temperature Controller|
@@ -70,7 +70,7 @@ Can be side by side with code snippet.-->
 
 ```
 
-<!-- - The WoT TD building block enhances interoperability. The goal is to enable communication within the machines or controllers. -->
+<!-- - The WoT TD building block enhances interoperability. The goal is to enable communication within machines or controllers. -->
 
 <!-- Change robot to better match temperature controller example. Dashboard thermometer thingy
 Thing (Box cube shape) <-- Temperature sensor image   
@@ -83,7 +83,7 @@ ALL OF THIS AFTER BINDINGS -->
 
 - The IoT uses a variety of protocols for accessing devices because no single protocol is enough to cover the different use cases and requirements. The challenge of the WoT is to enable interactions of a variety of different IoT platforms.
 
-- The Binding Templates address an application client to use the TD so that they can extract metadata of the protocols such as HTTP, Modbus and etc. In general, Binding Templates provide a collection of blueprints that give guidance on how to interact with different Things that use different transport protocols, and content types.
+- The Binding Templates address an application client to use the TD so that they can extract metadata of the protocols such as HTTP, Modbus, etc. In general, Binding Templates provide a collection of blueprints that give guidance on how to interact with different Things that use different transport protocols and content types.
 
 ### Discovery
 
@@ -93,17 +93,17 @@ ALL OF THIS AFTER BINDINGS -->
 
 - WoT Discovery accomplishes this by defining mechanisms for distributing and accessing WoT TD over the network.
 
-- These mechanisms are used to simplify access to Things and services, and support their integration. They are not limited to a local area network but they also support remote discovery.
+- These mechanisms are used to simplify access to Things and services, and to support their integration. They are not limited to a local area network; they also support remote discovery.
 
-- Thing Description Directory service provides mechanisms to register, and retrieve WoT metadata and TDs after authentication and authorization.
+- Thing Description Directory service provides mechanisms to register and retrieve WoT metadata and TDs after authentication and authorization.
 
 ### Scripting API
 
-- Next one is an optional building block of W3C: WoT Scripting API.
+- Next is an optional building block of W3C, the WoT Scripting API.
 
-- It makes it easier to develop IoT applications by providing an ECMA Script-based API similar to the Web browser APIs.
+- The Scripting API makes it easier to develop IoT applications by providing an ECMAScript-based API, similar to the Web browser APIs.
 
-<!-- Show code directly, Dont care about ECMA, "With this you can build your applications" (start with dashboard, then show the code) -->
+<!-- Show code directly, Don't care about ECMA, "With this you can build your applications" (start with dashboard, then show the code) -->
 
 - “Once you get the TDs, you build apps”?
 TODO: Needs more content
