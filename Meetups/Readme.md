@@ -5,6 +5,16 @@ This readme contains the links to minutes, presentation files and the recordings
 
 Note: Presentation files use the pattern `YEAR-MONTH-WoTCG-EVENTNAME-PRESENTERNAME.FILETYPE`.
 
+## Meetup 19
+
+- Name: Using WoT Thing Models as a basis to make to housing sector smart and energy-efficient
+- Presenter(s): Thomas Jaeckle - beyonnex.io
+- Date: 14 October 2024
+- [Presenter Slides](./19/2024-05-WoTCG-Meetup19-TMs_in_Housing_Sector.pdf)
+- Intro Slides: [Google Slides](https://docs.google.com/presentation/d/1E8CsW-45U9YBcEFFEUQ5u-K6n4j4j8nkqNRScQRjuUI/edit?usp=sharing) | [PDF](./19/2024-10-WoTCG-Meetup19-AguzziKorkan.pdf)
+- [Video](https://youtu.be/dUb_oP2kCBQ)
+- [Minutes](./19/2024-10-14-minutes.md)
+
 ## Meetup 18
 
 - Name: Digital Twins in Monitoring Applications Using the Web of Things
