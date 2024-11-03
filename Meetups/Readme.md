@@ -5,12 +5,22 @@ This readme contains the links to minutes, presentation files and the recordings
 
 Note: Presentation files use the pattern `YEAR-MONTH-WoTCG-EVENTNAME-PRESENTERNAME.FILETYPE`.
 
+## Meetup 20
+
+- Name: How Siemens Technology Streamlines Building Onboarding with the Web of Things
+- Presenter(s): Ondrej Tomcik - Siemens
+- Date: 28 October 2024
+- [Presenter Slides](./20/2024-10-WoTCG-Meetup20-Siemens_Smart_Edge_Connector)
+- Intro Slides: [Google Slides](https://docs.google.com/presentation/d/1VixI7ySscHwSAILhx-7cw3nohhnLHSqCxFoCJLJTLzU/edit?usp=sharing) | [PDF](./20/2024-10-WoTCG-Meetup20-AguzziKorkan.pdf)
+- [Video](https://youtu.be/vRdX5ItQHX0)
+- [Minutes](./20/2024-10-28-minutes.md)
+
 ## Meetup 19
 
 - Name: Using WoT Thing Models as a basis to make to housing sector smart and energy-efficient
 - Presenter(s): Thomas Jaeckle - beyonnex.io
 - Date: 14 October 2024
-- [Presenter Slides](./19/2024-05-WoTCG-Meetup19-TMs_in_Housing_Sector.pdf)
+- [Presenter Slides](./19/2024-10-WoTCG-Meetup19-TMs_in_Housing_Sector.pdf)
 - Intro Slides: [Google Slides](https://docs.google.com/presentation/d/1E8CsW-45U9YBcEFFEUQ5u-K6n4j4j8nkqNRScQRjuUI/edit?usp=sharing) | [PDF](./19/2024-10-WoTCG-Meetup19-AguzziKorkan.pdf)
 - [Video](https://youtu.be/dUb_oP2kCBQ)
 - [Minutes](./19/2024-10-14-minutes.md)
