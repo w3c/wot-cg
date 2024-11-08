@@ -15,17 +15,17 @@
 
 ### Industrial systems
 
-- Industrial applications may often resemble smart home applications, but have broader requirements. These include advanced monitoring of connected manufacturing equipment, tracking manufactured products and predicting possible machine failures.
+- Industrial applications may often resemble smart home applications, but have broader requirements. These include advanced monitoring of connected manufacturing equipment, tracking manufactured products, and predicting possible machine failures.
 
-- In factories for example, devices from multiple manufacturers must work together seamlessly. WoT simplifies this by accommodating a variety of industrial protocols, including legacy ones. Each device comes equipped with its own Thing Description, making it clear to other devices and systems how to interact with it, and thus reducing complexity and engineering effort.
+- In factories, for example, devices from multiple manufacturers must work together seamlessly. WoT simplifies this by accommodating a variety of industrial protocols, including legacy protocols. Each device comes equipped with its own Thing Description, making it clear to other devices and systems how to interact with it, thereby reducing complexity and engineering effort.
 
-**Code: Graphic of many devices in a factory with their own TDs working together**
+**Code: Graphic of many devices with their own TDs, working together in a factory**
 
 ### Agriculture systems
 
-- Moving on to another domain-specific application of WoT - agriculture systems. Agriculture offers a wide range of automation possibilities, from monitoring soil moisture and automating watering to fertilization schedules and machinery operation. However, finding a single solution that fits all needs is challenging, especially for small and medium-sized farms. These farmers often aim to automate just one specific task, like soil monitoring, for example.
+- Moving on to another domain-specific application of WoT — agriculture systems. Agriculture offers a wide range of automation possibilities, from monitoring soil moisture and automating watering, to handling fertilization schedules and machinery operation. However, finding a single solution that fits all needs is challenging, especially for small and medium-sized farms. These farmers often aim to automate just one specific task, like soil monitoring, for example.
 
-- WoT plays a crucial role as an interoperable interface here, allowing these farmers to integrate just the parts they need without committing to an all-encompassing solution. By enabling flexibility and compatibility across different devices and systems, WoT makes it easier for farms to adopt new solutions at their own pace and budget.
+- WoT plays a crucial role as an interoperable interface here, allowing these farmers to integrate only the parts they need without committing to an all-encompassing solution. By enabling flexibility and compatibility across different devices and systems, WoT makes it easier for farms to adopt new solutions at their own pace and budget.
 
 - Agriculture systems also come with their own set of constraints. Often, devices in agricultural environments are constrained in terms of power and connectivity. For example, sensors in a cornfield may not have access to power sources or network cables and rely on batteries. WoT accommodates these constraints by allowing data to be transmitted only when the device is online, helping conserve energy and avoid unnecessary power drain.
 

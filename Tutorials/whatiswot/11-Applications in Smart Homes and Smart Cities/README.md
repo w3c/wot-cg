@@ -52,7 +52,7 @@ Now that we’ve covered the basics of smart homes, let’s take a closer look a
 
 - WoT's ability to seamlessly integrate different domains — such as water management, air quality monitoring, and traffic control — makes it a perfect fit for urban environments. WoT leverages open standards like Thing Descriptions (TDs) and built-in web protocols in addition to traditional IoT protocols and this allows devices from different systems and manufacturers to communicate.
 
-- This flexibility ensures smart cities can scale as needed, adding new devices and systems without being tied to a single vendor or technology. Multi-ownership also becomes an option - different organisations or managers oversee different Things, while WoT ensures seamless interoperability across all of them.
+- This flexibility ensures smart cities can scale as needed, adding new devices and systems without being tied to a single vendor or technology. Multi-ownership also becomes an option — different organisations or managers oversee different Things, while WoT ensures seamless interoperability across all of them.
 
 > Show TDs for every Thing.
 
