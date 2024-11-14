@@ -2,8 +2,11 @@
 
 - Introduction and Definition
 - TD Components
-- Interactions
-- Protocols
+    - Metadata
+    - Interaction Affordances
+    - Security Metadata
+    - Semantic Annotations
+    - Links
 
 ## Preliminary Script
 
