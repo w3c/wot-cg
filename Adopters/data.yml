@@ -1,0 +1,68 @@
+# Landscape2 data
+#
+# This file contains the data that will be used to generate the landscape.
+#
+# Reference documentation: https://github.com/cncf/landscape2/blob/main/docs/config/data.yml
+
+categories:
+  - name: Adopters
+    subcategories:
+      - name: Companies
+        items:
+          - name: Siemens AG
+            crunchbase: https://www.crunchbase.com/organization/siemens
+            description: Siemens uses WoT across multiple businesses to simplify IoT connectivity
+            homepage_url: https://siemens.com
+            logo: siemens.svg
+            twitter: "https://x.com/siemens"
+            linkedin_url: "https://www.linkedin.com/company/siemens/"
+          - name: Item 2
+            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+            description: This is the description of item 2
+            homepage_url: https://cncf.io
+            logo: cncf.svg
+            repo_url: https://github.com/cncf/landscape2
+            twitter: https://twitter.com/CloudNativeFdn
+      - name: Standards
+        items:
+          - name: OPC Foundation
+            crunchbase: https://www.crunchbase.com/organization/opc-foundation
+            description: OPC Foundation uses WoT to onboard non-OPC UA devices into OPC UA servers and develops a binding
+            homepage_url: https://opcfoundation.org/
+            logo: opcua.svg
+            twitter: https://x.com/OPCFoundation
+          - name: Item 5
+            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+            description: This is the description of item 5
+            homepage_url: https://cncf.io
+            logo: cncf.svg
+            repo_url: https://github.com/cncf/landscape2
+  - name: Tools
+    subcategories:
+      - name: Open Source
+        items:
+          - name: Eclipse Thingweb
+            description: Eclipse Thingweb provides reference implementations for WoT
+            homepage_url: https://thingweb.io
+            logo: thingweb.svg
+            repo_url: https://github.com/eclipse-thingweb
+          - name: Item 7
+            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+            description: This is the description of item 7
+            homepage_url: https://cncf.io
+            logo: cncf.svg
+            project: sandbox
+            repo_url: https://github.com/cncf/landscape2
+            twitter: https://twitter.com/CloudNativeFdn
+          - name: Item 8
+            description: This is the description of item 8
+            homepage_url: https://cncf.io
+            logo: cncf.svg
+      - name: Commercial
+        items:
+          - item:
+            description: sayWoT! is a cloud-agnostic gateway to integrate devices
+            homepage_url: https://www.evosoft.com/en/digitalization/saywot/
+            logo: evosoft.svg
+            name: sayWoT!
+

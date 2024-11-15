@@ -1,0 +1,35 @@
+# Landscape2 guide
+#
+# This file allows defining the content of the landscape guide.
+#
+# Reference documentation: https://github.com/cncf/landscape2/blob/main/docs/config/guide.yml
+
+categories:
+  - category: "Adopters"
+    content: |
+      List of adopter companies and standards.
+      Please note that this list is based on others submitting their adoption information.
+      The WoT CG does not assert on anyone adopting WoT, this must be done by the adopting entity.
+      Thus, this list is a subset of the real-world adoption of the WoT standards.
+
+    subcategories:
+      - subcategory: "Companies"
+        content: |
+          If your company uses W3C WoT standards or is inspired by them for their architecture, please provide your support by adding your logo and other information. For the description, please provide an explanation on the usage of WoT. 
+
+      - subcategory: "Standards"
+        content: |
+          If a standardization organization is using WoT as a building block, please provide the organization's logo
+
+  - category: "Tools"
+    content: |
+      Commercial and open-source WoT implementations
+
+    subcategories:
+      - subcategory: "Open-Source"
+        content: |
+          Open-source tools
+
+      - subcategory: "Commercial"
+        content: |
+          Commercial tools
