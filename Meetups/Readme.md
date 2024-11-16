@@ -10,7 +10,7 @@ Note: Presentation files use the pattern `YEAR-MONTH-WoTCG-EVENTNAME-PRESENTERNA
 - Name: Web of Things for every thing
 - Presenter(s): Christian Paul
 - Date: 14 November 2024
-- [Presenter Slides](./21/)
+- [Presenter Slides](./21/2024-11-WoTCG-Meetup21-WoT_for_every_thing.pdf) [Presenter Slides - no background](./21/2024-11-WoTCG-Meetup21-WoT_for_every_thing-no-background.pdf)
 - Intro Slides: [Google Slides](https://docs.google.com/presentation/d/1d4ZZTDzFkLquJyc3O6qypwSfNRZkpdYG6b7yQ_7PXOI/edit?usp=sharing) | [PDF](./21/2024-11-WoTCG-Meetup21-AguzziKorkan.pdf)
 - [Video]()
 - [Minutes](./21/2024-11-14-minutes.md)
@@ -20,7 +20,7 @@ Note: Presentation files use the pattern `YEAR-MONTH-WoTCG-EVENTNAME-PRESENTERNA
 - Name: How Siemens Technology Streamlines Building Onboarding with the Web of Things
 - Presenter(s): Ondrej Tomcik - Siemens
 - Date: 28 October 2024
-- [Presenter Slides](./20/2024-10-WoTCG-Meetup20-Siemens_Smart_Edge_Connector)
+- [Presenter Slides](./20/2024-10-WoTCG-Meetup20-Siemens_Smart_Edge_Connector.pdf)
 - Intro Slides: [Google Slides](https://docs.google.com/presentation/d/1VixI7ySscHwSAILhx-7cw3nohhnLHSqCxFoCJLJTLzU/edit?usp=sharing) | [PDF](./20/2024-10-WoTCG-Meetup20-AguzziKorkan.pdf)
 - [Video](https://youtu.be/vRdX5ItQHX0)
 - [Minutes](./20/2024-10-28-minutes.md)
