@@ -5,6 +5,16 @@ This readme contains the links to minutes, presentation files and the recordings
 
 Note: Presentation files use the pattern `YEAR-MONTH-WoTCG-EVENTNAME-PRESENTERNAME.FILETYPE`.
 
+## Meetup 22
+
+- Name: Web of Things for every thing
+- Presenter(s): Christian Paul
+- Date: 14 November 2024
+- [Presenter Slides](./21/2024-11-WoTCG-Meetup21-WoT_for_every_thing.pdf) [Presenter Slides - no background](./21/2024-11-WoTCG-Meetup21-WoT_for_every_thing-no-background.pdf)
+- Intro Slides: [Google Slides](https://docs.google.com/presentation/d/1d4ZZTDzFkLquJyc3O6qypwSfNRZkpdYG6b7yQ_7PXOI/edit?usp=sharing) | [PDF](./21/2024-11-WoTCG-Meetup21-AguzziKorkan.pdf)
+- [Video](https://youtu.be/PpY2TsSIRG4)
+- [Minutes](./21/2024-11-14-minutes.md)
+
 ## Meetup 21
 
 - Name: Web of Things for every thing
