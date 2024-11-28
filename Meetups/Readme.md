@@ -12,7 +12,7 @@ Note: Presentation files use the pattern `YEAR-MONTH-WoTCG-EVENTNAME-PRESENTERNA
 - Date: 18 November 2024
 - [Presenter Slides](./22/2024-11-WoTCG-Meetup22-Scientific_Instrumentation-CALA.pdf)
 - Intro Slides: [Google Slides](https://docs.google.com/presentation/d/1ZorsPNGiC3qEeLarrggwyB6G3rgmRz42_vEz5s8icq8/edit?usp=sharing) | [PDF](./22/2024-11-WoTCG-Meetup22-AguzziKorkan.pdf)
-- [Video]()
+- [Video](https://youtu.be/k2KMKd2ZVq0)
 - [Minutes](./22/2024-11-18-minutes.md)
 
 ## Meetup 21
