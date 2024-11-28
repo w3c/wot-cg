@@ -5,6 +5,16 @@ This readme contains the links to minutes, presentation files and the recordings
 
 Note: Presentation files use the pattern `YEAR-MONTH-WoTCG-EVENTNAME-PRESENTERNAME.FILETYPE`.
 
+## Meetup 22
+
+- Name: Scientific Instrumentation and Control with WoT
+- Presenter(s): Vignesh Venkata Subramanian
+- Date: 18 November 2024
+- [Presenter Slides](./22/2024-11-WoTCG-Meetup22-Scientific_Instrumentation-CALA.pdf)
+- Intro Slides: [Google Slides](https://docs.google.com/presentation/d/1ZorsPNGiC3qEeLarrggwyB6G3rgmRz42_vEz5s8icq8/edit?usp=sharing) | [PDF](./22/2024-11-WoTCG-Meetup22-AguzziKorkan.pdf)
+- [Video](https://youtu.be/k2KMKd2ZVq0)
+- [Minutes](./22/2024-11-18-minutes.md)
+
 ## Meetup 21
 
 - Name: Web of Things for every thing
