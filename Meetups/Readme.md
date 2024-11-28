@@ -7,13 +7,13 @@ Note: Presentation files use the pattern `YEAR-MONTH-WoTCG-EVENTNAME-PRESENTERNA
 
 ## Meetup 22
 
-- Name: Web of Things for every thing
-- Presenter(s): Christian Paul
-- Date: 14 November 2024
-- [Presenter Slides](./21/2024-11-WoTCG-Meetup21-WoT_for_every_thing.pdf) [Presenter Slides - no background](./21/2024-11-WoTCG-Meetup21-WoT_for_every_thing-no-background.pdf)
-- Intro Slides: [Google Slides](https://docs.google.com/presentation/d/1d4ZZTDzFkLquJyc3O6qypwSfNRZkpdYG6b7yQ_7PXOI/edit?usp=sharing) | [PDF](./21/2024-11-WoTCG-Meetup21-AguzziKorkan.pdf)
-- [Video](https://youtu.be/PpY2TsSIRG4)
-- [Minutes](./21/2024-11-14-minutes.md)
+- Name: Scientific Instrumentation and Control with WoT
+- Presenter(s): Vignesh Venkata Subramanian
+- Date: 18 November 2024
+- [Presenter Slides](./22/2024-11-WoTCG-Meetup22-Scientific_Instrumentation-CALA.pdf)
+- Intro Slides: [Google Slides](https://docs.google.com/presentation/d/1ZorsPNGiC3qEeLarrggwyB6G3rgmRz42_vEz5s8icq8/edit?usp=sharing) | [PDF](./22/2024-11-WoTCG-Meetup22-AguzziKorkan.pdf)
+- [Video]()
+- [Minutes](./22/2024-11-18-minutes.md)
 
 ## Meetup 21
 
