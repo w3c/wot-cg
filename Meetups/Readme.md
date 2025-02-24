@@ -5,6 +5,16 @@ This readme contains the links to minutes, presentation files and the recordings
 
 Note: Presentation files use the pattern `YEAR-MONTH-WoTCG-EVENTNAME-PRESENTERNAME.FILETYPE`.
 
+## Meetup 23
+
+- Name: Generic and Extensible Web of Things Manager Using JSON Schema & AI
+- Presenter(s): Andreas Eberhart
+- Date: 20 February 2025
+- [Presenter Slides](./23/2025-02-WoTCG-Meetup23-Generic_WoT_Manager-Dashjoin.pdf)
+- Intro Slides: [Google Slides](https://docs.google.com/presentation/d/1tqunc65fBHE6z2K0bPnSxNvXHyMLkyF3baVE46Uz8QM/edit?usp=sharing) | [PDF](./23/2025-02-WoTCG-Meetup23-AguzziKorkan.pdf)
+- [Video](https://youtu.be/p17C3mrY720)
+- [Minutes](./23/2025-02-20-minutes.md)
+
 ## Meetup 22
 
 - Name: Scientific Instrumentation and Control with WoT
