@@ -26,16 +26,24 @@ The W3C WoT Community Group builds a community around the recommendations and no
 ## Meetings
 
 ### Internal Meetings
-- Time: Every first Monday of the month at 5pm CET. [Example Event in our Calendar](https://www.w3.org/events/meetings/0b0a4962-9dba-4213-903a-582509710914/20230904T170000/).
+
+- Time: Every first Tuesday of the month at 4pm CET. [Example Event in our Calendar](https://www.w3.org/events/meetings/0b0a4962-9dba-4213-903a-582509710914/20230904T170000/).
 - Topic: The work of the CG and take decisions to accomplish our next goals, such as meetups, infrastructure, and increasing WoT adoption and awareness.
 
 ### Office Hours
+
 - Time: Every Thursday at 9am or 5pm CET, alternating every week. We switch between the two to allow participation from any timezone. See [our calendar](https://www.w3.org/groups/cg/wot/calendar/) for meeting information.
 - Topic: Questions and answers from the community about the Web of Things on any topic such as help with implementations, unclear parts of specifications, architectural questions.
 
 ### Meetups
+
 - Time: Ideally on Thursday 4pm CET when there is a speaker ready.
 - Topic: Explaining and showcasing a WoT implementation, project, product.
+
+### What is WoT Tutorial Work
+
+- Time: Fridays at 12:30pm CET
+- Topic: Working on the What is WoT Tutorial
 
 ## Resources
 
@@ -43,6 +51,8 @@ The W3C WoT Community Group builds a community around the recommendations and no
 - [CG Calendar](https://www.w3.org/groups/cg/wot/calendar)
 - [CG Charter](https://www.w3.org/community/wot/charter/)
 - [Chat](https://discord.gg/RJNYJsEgnb)
+- [YouTube Channel](https://www.youtube.com/@WoTCG)
+- [What is WoT? Tutorial Homepage](https://w3c.github.io/wot-cg/tutorials/whatiswot/)
 - [Official Page of W3C WoT](https://www.w3.org/WoT)
 - [Official Twitter Account of W3C WoT](https://twitter.com/W3C_WoT)
 
