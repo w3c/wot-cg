@@ -46,6 +46,16 @@ Now that we’ve covered the basics of smart homes, let’s take a closer look a
 
 **Graphic:** `Old Video 11 Cloud Gateway Animation`
 
+### Smart Buildings
+
+- Smart buildings are the next important step towards building a smart city. Unlike homes, the Things are owned and managed by the building owner rather than the individuals, who just control them.
+
+- The features of these buildings mainly focus on comfort - like proper airflow, and safety - fire alarms and security systems.
+
+- They often use protocols like BACnet, Modbus, and KNX for local control, which are not typical in a smart home. WoT can enhance interoperability, allowing different systems to work together more seamlessly.
+
+- Since a smart city consists of many smart buildings and additional infrastructure, smart buildings are a crucial step toward scaling up to a fully connected city.
+
 ### Smart cities
 
 - In smart cities, WoT's domain-agnostic nature enables scalability across various municipal systems, making it more flexible than traditional IoT solutions. 
