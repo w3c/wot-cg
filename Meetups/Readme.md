@@ -12,7 +12,7 @@ Note: Presentation files use the pattern `YEAR-MONTH-WoTCG-EVENTNAME-PRESENTERNA
 - Date: 10 March 2025
 - [Presenter Slides](./24/2025-03-WoTCG-Meetup24-Immersive_WoT_Apps_in_MR-TUM.pdf)
 - Intro Slides: [Google Slides](https://docs.google.com/presentation/d/16EdKkX29RnluzM9PbSPEcgcrkeJER8Vt4hMhR8lTXb4/edit?usp=sharing) | [PDF](./24/2025-03-WoTCG-Meetup24-AguzziKorkan.pdf)
-- [Video](TBD)
+- [Video](https://youtu.be/ARffaQ543Lo)
 - [Minutes](./24/2025-03-10-minutes.md)
 
 ## Meetup 23
