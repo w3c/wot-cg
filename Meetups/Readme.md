@@ -5,6 +5,16 @@ This readme contains the links to minutes, presentation files and the recordings
 
 Note: Presentation files use the pattern `YEAR-MONTH-WoTCG-EVENTNAME-PRESENTERNAME.FILETYPE`.
 
+## Meetup 25
+
+- Name: An Introduction to Eclipse LMOS
+- Presenter(s): Robert Winkler
+- Date: 20 February 2025
+- [Presenter Slides](./25/2025-03-WoTCG-Meetup25-LMOS-DeutscheTelekomEclipse.pdf)
+- Intro Slides: [Google Slides](https://docs.google.com/presentation/d/1K-ZriSHVq_q_mbTvx3pa98C7ytST3Ak7YGHhqdHWnPM/edit?usp=sharing) | [PDF](./25/2025-03-WoTCG-Meetup25-AguzziKorkan.pdf)
+- [Video](https://youtu.be/gcpHYtqTBbA)
+- [Minutes](./25/2025-03-14-minutes.md)
+
 ## Meetup 23
 
 - Name: Generic and Extensible Web of Things Manager Using JSON Schema & AI
