@@ -8,7 +8,7 @@
     - Protocol and URI
     - Content Type
     - Protocol Specific Vocabulary
-- Often used protocols
+- Typical protocols
     - HTTP
     - CoAP
     - MQTT
