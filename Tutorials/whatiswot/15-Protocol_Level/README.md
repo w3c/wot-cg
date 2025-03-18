@@ -1,4 +1,4 @@
-# Video 15: Protocol Level
+# Video 15: IoT Protocols in Thing Description
 
 ## Table of Contents
 
