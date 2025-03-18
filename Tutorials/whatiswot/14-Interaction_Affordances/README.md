@@ -1,4 +1,4 @@
-# Video 14: Interaction Affordances
+# Video 14: Interaction Affordances in Thing Description
 
 ## Table of Contents
 
