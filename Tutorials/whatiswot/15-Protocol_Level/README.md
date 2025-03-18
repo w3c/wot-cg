@@ -3,7 +3,7 @@
 ## Table of Contents
 
 - Introduction
-- Structure
+- Forms Structure
     - WoT Operations
     - Protocol and URI
     - Content Type
