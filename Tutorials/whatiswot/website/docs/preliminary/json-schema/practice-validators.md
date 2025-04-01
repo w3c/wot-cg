@@ -4,6 +4,14 @@ sidebar_label: JSON Schema in Practice - Validators
 
 # JSON Schema in Practice - Validators
 
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/ZKoWLyaWuaw?si=Qo-mBPkp8-J33o7C" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<a href = "https://github.com/w3c/wot-cg/blob/main/Tutorials/whatiswot/8-JSON_Schema_in_Practice_3/8-JSON-Schema-3.mp4">Click here if YouTube does not work go to our GitHub.</a>  
+
+<br />
+<br />
+
+
 In the previous tutorials of JSON Schema, we have shown the features and basic implementations of JSON Schema.
 In this tutorial, we will deliver the actual validation process with libraries and examples.
 
@@ -60,7 +68,7 @@ So, let’s start with AJV! It is a JavaScript library.
 
 This is the same temperature sensor example we used before. Let’s examine it in JavaScript code.
 
-```js
+```js showLineNumbers
 const Ajv = require("ajv");
 const ajv = new Ajv();
 
@@ -160,7 +168,7 @@ We will use the same temperature example that we used for AJV but in Python this
 
 Let's take a look at the code in detail.
 
-```py
+```py showLineNumbers
 from jsonschema import validate
  
 schema = { 
@@ -168,7 +176,7 @@ schema = { 
     "properties":    { 
         "temperature": {"type":"number"},
         "unit": {"type": "string"}, 
-        "temperatureOf":{"type": "string"} 
+        "temperatureOf": {"type": "string"} 
     },
     "required":  ["temperature", "unit"],
     "additionalProperties": False 
@@ -197,7 +205,7 @@ schema = { 
     "properties":    { 
         "temperature": {"type":"number"},
         "unit": {"type": "string"}, 
-        "temperatureOf":{"type": "string"} 
+        "temperatureOf": {"type": "string"} 
     },
     "required":  ["temperature", "unit"],
     "additionalProperties": False 

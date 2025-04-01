@@ -22,6 +22,8 @@ WoT CG on GitHub: https://github.com/w3c/wot-cg
 
 WoT CG Homepage: https://www.w3.org/community/wot/
 
+WoT CG Discord: https://discord.gg/RJNYJsEgnb
+
 ## Playlist
 
 What is WoT Tutorial

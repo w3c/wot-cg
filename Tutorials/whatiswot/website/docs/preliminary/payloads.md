@@ -4,6 +4,14 @@ sidebar_label: Payloads and Headers
 
 # Payloads and Headers
 
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/uooaqTpNtNw?si=vCoRygpQYoy3CXBe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<a href = "https://github.com/w3c/wot-cg/blob/main/Tutorials/whatiswot/2-Payloads_and_Headers/2-Payloads_and_Headers.mp4">Click here if YouTube does not work go to our GitHub.</a>  
+
+
+<br />
+<br />
+
 This is an introductory series that presents technologies and standards relevant to the Web of Things.
 
 ## Introduction
@@ -63,7 +71,7 @@ Because JSON is very relevant in the scope of the Web of Things, payloads are pr
 
 Here, you can see an example of a TD in JSON format. We will go into the details of how a TD should be structured and understood in a later section of this tutorial.
 
-```json
+```json showLineNumbers
 {
      "@context": "https://www.w3.org/2022/wot/td/v1.1",
      "title": "MyLampThing",
@@ -95,7 +103,7 @@ Let's take a look at this JSON example including a few Thing Descriptions - a te
 
 JSON Example:
 
-```json
+```json showLineNumbers
 [
   {
     "type": "Temperature Sensor",
@@ -132,7 +140,7 @@ This representation is much more light-weight compared to XML, as seen in the ex
 
 XML Example:
 
-```xml
+```xml showLineNumbers
 <root>
    <element>
       <isActive>true</isActive>

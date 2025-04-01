@@ -1,0 +1,155 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:06.211 
+In the last video, we showed mostly primitive types of JSON. In this video, we will
+
+00:00:06.211 --> 00:00:12.423 
+first focus on arrays and objects, and then we will mention common mistakes when writing JSON.
+
+00:00:12.423 --> 00:00:18.634 
+At the end of the video, we will demonstrate the usage of JSON generation and parsing.
+
+00:00:18.634 --> 00:00:23.522 
+In JSON, each value in an array is called an item.
+
+00:00:23.522 --> 00:00:29.184 
+Arrays with items of different types are also allowed.
+
+00:00:29.184 --> 00:00:35.624 
+Nested objects are allowed in JSON. “measurement” keyword is an example of this.
+
+00:00:35.624 --> 00:00:44.020 
+Objects start and end with curly brackets. It is basically defining keywords and mapping these keywords to values.
+
+00:00:44.020 --> 00:00:51.154 
+In this example, we define the name and value pairs to describe the data sent by sensors.
+
+00:00:51.154 --> 00:00:59.366 
+There is a JSON array of JSON Objects which means all items are JSON objects in that array.
+
+00:00:59.366 --> 00:01:05.316 
+Now we will talk about common mistakes while writing JSON files.
+
+00:01:05.316 --> 00:01:09.429 
+Let's start with the space character which is frequently overlooked.
+
+00:01:09.429 --> 00:01:11.466 
+Space is a character too.
+
+00:01:11.466 --> 00:01:15.304 
+So “is Active” is not the same as “is Active blank”
+
+00:01:15.304 --> 00:01:20.017 
+Also, JSON is case sensitive. Thus, "is Active" with upper case A
+
+00:01:20.017 --> 00:01:24.731 
+is not the same as “is active” with lower case A.
+
+00:01:24.731 --> 00:01:30.372 
+Paying attention to this is important to make sure that object assignments and comparisons work.
+
+00:01:30.372 --> 00:01:34.534 
+Lets continue with the mistakes about quotation marks.
+
+00:01:34.534 --> 00:01:39.984 
+Forgetting quotation marks is wrong, it will show syntax errors everywhere.
+
+00:01:39.984 --> 00:01:44.909 
+Also putting them when you should not, causes unwanted results.
+
+00:01:44.909 --> 00:01:51.409 
+For example → “name”:”true” is not the same as “name”:true without quotation marks.
+
+00:01:51.409 --> 00:01:56.622 
+The first one is not a boolean but a string so it will be interpreted as a string.
+
+00:01:56.622 --> 00:01:59.497 
+The same problem happens with numbers too.
+
+00:01:59.497 --> 00:02:05.997 
+This way, the types will be incorrectly interpreted by your programming language.
+
+00:02:05.997 --> 00:02:13.372 
+Putting comments inside JSON documents is not valid.
+
+00:02:13.372 --> 00:02:17.007 
+Commas should not be used at the final name-value pair.
+
+00:02:17.007 --> 00:02:21.288 
+That is why the first one is not valid but difficult to see if
+
+00:02:21.288 --> 00:02:25.570 
+you are using it inside of a javascript editor rather than a JSON editor.
+
+00:02:25.570 --> 00:02:32.248 
+Similar to the previous one depending on the programming language that you use, syntax might differ.
+
+00:02:32.248 --> 00:02:38.690 
+Since JSON will be the object of that programming language before it is parsed and serialized as JSON.
+
+00:02:38.690 --> 00:02:44.141 
+For example, in JSON key-value pairs have to be with quotation marks whereas
+
+00:02:44.141 --> 00:02:49.591 
+in JavaScript files it is not necessary to have quotation marks, both work.
+
+00:02:49.591 --> 00:02:52.928 
+The syntax of the keywords might differ as well.
+
+00:02:52.928 --> 00:02:58.817 
+For example, true false keywords in JSON, Rust, JavaScript, and Golang are written lowercase,
+
+00:02:58.817 --> 00:03:04.706 
+while in Python the first letter of these keywords needs to be capitalized.
+
+00:03:04.706 --> 00:03:11.043 
+Similar to the previous one, the null keyword differs in JSON and Python.
+
+00:03:11.043 --> 00:03:15.271 
+In JSON and JavaScript it is null with lowercase while in
+
+00:03:15.271 --> 00:03:19.499 
+Python, the same meaning is given with the "None" keyword.
+
+00:03:19.499 --> 00:03:23.711 
+Now let's test JSON out in a real programming environment.
+
+00:03:27.061 --> 00:03:31.958 
+Open a code editor. In this example, we used VS Code.
+
+00:03:31.958 --> 00:03:38.509 
+Write a JSON file of your choice and save it by giving a file name and adding a .json extension.
+
+00:03:38.509 --> 00:03:42.776 
+Then the editor will recognize the file as a JSON document.
+
+00:03:42.776 --> 00:03:49.470 
+Now we will read a JSON file from the file system using a JSON library in Python.
+
+00:03:49.470 --> 00:03:55.938 
+We open the JSON file that we have previously saved to the file system with open-as-file key words.
+
+00:03:55.938 --> 00:04:01.205 
+Then, we can load that JSON file with the load function into the data object.
+
+00:04:01.205 --> 00:04:04.899 
+We can also print it to see what is inside the JSON file.
+
+00:04:04.899 --> 00:04:10.237 
+Printing the data object in console can look like this.
+
+00:04:10.237 --> 00:04:15.440 
+There are many ways to send a JSON file via different protocols, one of
+
+00:04:15.440 --> 00:04:20.643 
+them is using Python and its request library for sending an HTTP request.
+
+00:04:20.643 --> 00:04:28.445 
+With this library, you can use the post function to send an HTTP POST request with a JSON Payload.
+
+00:04:28.445 --> 00:04:33.830 
+As a parameter, it takes the URL to send to and the JSON object.
+
+00:04:33.830 --> 00:04:39.453 
+You can proceed to the next tutorial by clicking on the card or the video description.
+

@@ -5,6 +5,76 @@ This readme contains the links to minutes, presentation files and the recordings
 
 Note: Presentation files use the pattern `YEAR-MONTH-WoTCG-EVENTNAME-PRESENTERNAME.FILETYPE`.
 
+## Meetup 25
+
+- Name: An Introduction to Eclipse LMOS
+- Presenter(s): Robert Winkler
+- Date: 20 February 2025
+- [Presenter Slides](./25/2025-03-WoTCG-Meetup25-LMOS-DeutscheTelekomEclipse.pdf)
+- Intro Slides: [Google Slides](https://docs.google.com/presentation/d/1K-ZriSHVq_q_mbTvx3pa98C7ytST3Ak7YGHhqdHWnPM/edit?usp=sharing) | [PDF](./25/2025-03-WoTCG-Meetup25-AguzziKorkan.pdf)
+- [Video](https://youtu.be/gcpHYtqTBbA)
+- [Minutes](./25/2025-03-14-minutes.md)
+
+## Meetup 24
+
+- Name: Immersive WoT Applications in Mixed Reality
+- Presenter(s): Fady Salama and Roman Binkert
+- Date: 10 March 2025
+- [Presenter Slides](./24/2025-03-WoTCG-Meetup24-Immersive_WoT_Apps_in_MR-TUM.pdf)
+- Intro Slides: [Google Slides](https://docs.google.com/presentation/d/16EdKkX29RnluzM9PbSPEcgcrkeJER8Vt4hMhR8lTXb4/edit?usp=sharing) | [PDF](./24/2025-03-WoTCG-Meetup24-AguzziKorkan.pdf)
+- [Video](https://youtu.be/ARffaQ543Lo)
+- [Minutes](./24/2025-03-10-minutes.md)
+
+## Meetup 23
+
+- Name: Generic and Extensible Web of Things Manager Using JSON Schema & AI
+- Presenter(s): Andreas Eberhart
+- Date: 20 February 2025
+- [Presenter Slides](./23/2025-02-WoTCG-Meetup23-Generic_WoT_Manager-Dashjoin.pdf)
+- Intro Slides: [Google Slides](https://docs.google.com/presentation/d/1tqunc65fBHE6z2K0bPnSxNvXHyMLkyF3baVE46Uz8QM/edit?usp=sharing) | [PDF](./23/2025-02-WoTCG-Meetup23-AguzziKorkan.pdf)
+- [Video](https://youtu.be/p17C3mrY720)
+- [Minutes](./23/2025-02-20-minutes.md)
+
+## Meetup 22
+
+- Name: Scientific Instrumentation and Control with WoT
+- Presenter(s): Vignesh Venkata Subramanian
+- Date: 18 November 2024
+- [Presenter Slides](./22/2024-11-WoTCG-Meetup22-Scientific_Instrumentation-CALA.pdf)
+- Intro Slides: [Google Slides](https://docs.google.com/presentation/d/1ZorsPNGiC3qEeLarrggwyB6G3rgmRz42_vEz5s8icq8/edit?usp=sharing) | [PDF](./22/2024-11-WoTCG-Meetup22-AguzziKorkan.pdf)
+- [Video](https://youtu.be/k2KMKd2ZVq0)
+- [Minutes](./22/2024-11-18-minutes.md)
+
+## Meetup 21
+
+- Name: Web of Things for every thing
+- Presenter(s): Christian Paul
+- Date: 14 November 2024
+- [Presenter Slides](./21/2024-11-WoTCG-Meetup21-WoT_for_every_thing.pdf) [Presenter Slides - no background](./21/2024-11-WoTCG-Meetup21-WoT_for_every_thing-no-background.pdf)
+- Intro Slides: [Google Slides](https://docs.google.com/presentation/d/1d4ZZTDzFkLquJyc3O6qypwSfNRZkpdYG6b7yQ_7PXOI/edit?usp=sharing) | [PDF](./21/2024-11-WoTCG-Meetup21-AguzziKorkan.pdf)
+- [Video](https://youtu.be/PpY2TsSIRG4)
+- [Minutes](./21/2024-11-14-minutes.md)
+
+## Meetup 20
+
+- Name: How Siemens Technology Streamlines Building Onboarding with the Web of Things
+- Presenter(s): Ondrej Tomcik - Siemens
+- Date: 28 October 2024
+- [Presenter Slides](./20/2024-10-WoTCG-Meetup20-Siemens_Smart_Edge_Connector.pdf)
+- Intro Slides: [Google Slides](https://docs.google.com/presentation/d/1VixI7ySscHwSAILhx-7cw3nohhnLHSqCxFoCJLJTLzU/edit?usp=sharing) | [PDF](./20/2024-10-WoTCG-Meetup20-AguzziKorkan.pdf)
+- [Video](https://youtu.be/vRdX5ItQHX0)
+- [Minutes](./20/2024-10-28-minutes.md)
+
+## Meetup 19
+
+- Name: Using WoT Thing Models as a basis to make to housing sector smart and energy-efficient
+- Presenter(s): Thomas Jaeckle - beyonnex.io
+- Date: 14 October 2024
+- [Presenter Slides](./19/2024-10-WoTCG-Meetup19-TMs_in_Housing_Sector.pdf)
+- Intro Slides: [Google Slides](https://docs.google.com/presentation/d/1E8CsW-45U9YBcEFFEUQ5u-K6n4j4j8nkqNRScQRjuUI/edit?usp=sharing) | [PDF](./19/2024-10-WoTCG-Meetup19-AguzziKorkan.pdf)
+- [Video](https://youtu.be/dUb_oP2kCBQ)
+- [Minutes](./19/2024-10-14-minutes.md)
+
 ## Meetup 18
 
 - Name: Digital Twins in Monitoring Applications Using the Web of Things

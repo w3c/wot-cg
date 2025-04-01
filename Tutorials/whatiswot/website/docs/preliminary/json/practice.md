@@ -4,6 +4,14 @@ sidebar_label: JSON in Practice
 
 # JSON in Practice
 
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/bfvo4DAZG78?si=3NvJK6TDwLv82K3t" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<a href = "https://github.com/w3c/wot-cg/blob/main/Tutorials/whatiswot/4-JSON_in_Practice/4-JSON_in_Practice.mp4">Click here if YouTube does not work go to our GitHub.</a>  
+
+<br />
+<br />
+
+
 In the previous section, we showed mostly primitive types of JSON. In this section, we will first focus on arrays and objects, and then we will go over some common mistakes when writing JSON. At the end, we will demonstrate the usage of JSON generation and parsing.
 
 ## Structured Types
@@ -100,7 +108,7 @@ Now let's put our new knowledge to practice! Open a code editor of your choice. 
 
 We will now read a JSON file from the file system using a JSON library in Python. First, we will open the JSON file that we have previously saved to the file system with open-as-file key words. Then, we can load that JSON file with the load function into the data object. We can also print it to see what is inside the JSON file:
 
-```py
+```py showLineNumbers
 import json
 
 with open('JSON_example.json') as file:
@@ -111,14 +119,14 @@ print(data)
 
 Printing the data object in the console can look something like this:
 
-```json
+```json showLineNumbers
 [{'name': 'Temperature sensor', ‘sensorID': '20014’,
 'type': 'Temperature', 'unit': 'Celsius', 'value': 42}]
 ```
 
 There are many ways to send a JSON file via different protocols, one of them is using Python and its request library for sending an HTTP request. With this library, you can use the post function to send an HTTP POST request with a JSON Payload. As a parameter, it takes the URL to send to and the JSON object.
 
-```py
+```py showLineNumbers
 import requests
 
 url = 'https://example.com/myResource'
