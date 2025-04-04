@@ -10,7 +10,7 @@
 
 ## Preliminary Script
 
-- In this two-part tutorial, we will introduce the W3C Web of Things by exploring its application domains and common architecture patterns. In this video, our focus will be Smart Homes and Smart Cities.
+- Over the course of the next two videos, we will introduce the W3C Web of Things by exploring its application domains and common architecture patterns. In this video, our focus will be Smart Homes and Smart Cities.
 
 ### Smart Homes
 
@@ -24,7 +24,7 @@
 
 #### Architecture patterns
 
-Now that we’ve covered the basics of smart homes, let’s take a closer look at the architecture patterns that enable these systems to work efficiently.
+Now that we’ve covered the basics of smart homes, let’s take a closer look at the architecture patterns that enable these systems to work efficiently in a typical local network and remote-control scenario.
 
 1. **Controllers:**
 
@@ -40,7 +40,7 @@ Now that we’ve covered the basics of smart homes, let’s take a closer look a
 
 - Gateways connect home networks to the internet, enabling remote management and monitoring.
 
-- They can use the local TD of a device and provide web-level access management, allowing devices to be accessed and managed both locally and remotely over the web. Internally, the device uses an app for local control, while externally, a protocol is used to manage remote interactions.
+- They can use the local TD of a device and provide web-level access management, allowing devices to be accessed and managed both locally and remotely over the web. In the local network, the device uses one protocol for control, while externally, another protocol is typically used to manage remote interactions. The gateways facilitate communication between local devices and external controllers, enhancing accessibility and control.
 
 - They facilitate communication between local devices and external controllers, enhancing accessibility and control.
 
@@ -48,7 +48,7 @@ Now that we’ve covered the basics of smart homes, let’s take a closer look a
 
 ### Smart Buildings
 
-- Smart buildings are the next important step towards building a smart city. Unlike homes, the Things are owned and managed by the building owner rather than the individuals, who just control them.
+- Smart buildings such as offices, schools, government facilities, shops and hotels are the next important step towards building a smart city. Unlike homes, the Things are owned and managed by the building owner rather than the individuals, who just control them.
 
 - The features of these buildings mainly focus on comfort - like proper airflow, and safety - fire alarms and security systems.
 
