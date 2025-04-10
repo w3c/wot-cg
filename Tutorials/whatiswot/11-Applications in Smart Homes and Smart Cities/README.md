@@ -64,6 +64,4 @@ Now that we’ve covered the basics of smart homes, let’s take a closer look a
 
 - This flexibility ensures that smart cities can scale as needed, adding new devices and systems without being tied to a single vendor or technology. Multi-ownership also becomes an option — different organisations or managers oversee different Things, while WoT ensures seamless interoperability across all of them.
 
-> Show TDs for every Thing.
-
 - Additionally, WoT's use of open standards supports a wide range of protocols, making it adaptable to various architectures, whether client-server or publish-subscribe, with or without cloud involvement. This versatility allows smart cities to choose the best approach for their infrastructure.
