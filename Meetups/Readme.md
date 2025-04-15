@@ -5,6 +5,16 @@ This readme contains the links to minutes, presentation files and the recordings
 
 Note: Presentation files use the pattern `YEAR-MONTH-WoTCG-EVENTNAME-PRESENTERNAME.FILETYPE`.
 
+## Meetup 26
+
+- Name: How the Hive of Things - HiveOT - embraces WoT
+- Presenter(s): Henk Spaaj
+- Date: 27 March 2025
+- [Presenter Slides](./26/2025-03-WoTCG-Meetup26-HiveOT.pdf)
+- Intro Slides: [Google Slides](https://docs.google.com/presentation/d/192ScNSZCw31CBW2r9Omipr5hJTe8fLsP9tB6ZSNsbVw/edit?usp=sharing) | [PDF](./26/2025-03-WoTCG-Meetup26-AguzziKorkan.pdf)
+- [Video](https://youtu.be/JxGcW70tqfk)
+- [Minutes](./26/2025-03-27-minutes.md)
+
 ## Meetup 25
 
 - Name: An Introduction to Eclipse LMOS
