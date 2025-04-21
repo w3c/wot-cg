@@ -3,11 +3,11 @@ WEBVTT
 00:00:00.000 --> 00:00:09.926 
 In this video, we give a short introduction to each building block of the Web of Things — Thing Description,
 
-00:00:09.926 --> 00:00:19.574 
-Binding Templates, Discovery, Scripting API and Profiles. In separate later videos , we will explore each individual building block in
+00:00:09.926 --> 00:00:19.852 
+Binding Templates, Discovery, Scripting API and Profiles. In separate later videos, we will explore each individual building block in more
 
-00:00:19.574 --> 00:00:21.446 
-more detail.
+00:00:19.852 --> 00:00:21.446 
+detail.
 
 00:00:21.446 --> 00:00:30.036 
 Building blocks allow the implementation of systems that conform with the abstract WoT Architecture. Let's take a closer look at
@@ -39,96 +39,93 @@ All TDs can be processed just like normal JSON documents. Essentially, a TD defi
 00:01:10.979 --> 00:01:21.803 
 vocabulary and a serialized JSON representation. It provides both human- and machine-readable metadata describing the capabilities of a Thing.
 
-00:01:21.803 --> 00:01:30.208 
-A TD describes a Thing instance with general metadata such as name, ID, and description. It can also contain Interaction
+00:01:21.803 --> 00:01:30.904 
+A TD describes a Thing instance with general metadata such as name, ID, and description. It typically also contains Interaction
 
-00:01:30.208 --> 00:01:39.634 
+00:01:30.904 --> 00:01:40.168 
 Affordance metadata and Protocol Bindings (such as Modbus and HTTP), as well as both public and local IP addresses.
 
-00:01:39.635 --> 00:01:44.439 
+00:01:40.169 --> 00:01:44.973 
 The second building block is WoT Binding Templates.
 
-00:01:44.440 --> 00:01:53.198 
+00:01:44.974 --> 00:01:53.732 
 The IoT uses a wide variety of protocols to access devices because no single protocol can cover all use cases
 
-00:01:53.198 --> 00:02:01.757 
+00:01:53.732 --> 00:02:02.291 
 and requirements. One of the main challenges of the WoT is enabling interactions across this wide variety of platforms.
 
-00:02:01.757 --> 00:02:10.510 
+00:02:02.291 --> 00:02:11.079 
 Binding Templates guide application clients on how to use a TD to extract protocol-specific metadata — for example, how to
 
-00:02:10.510 --> 00:02:20.053 
-communicate using HTTP or Modbus. Essentially, they are blueprints for interacting with Things that use different transport protocols and content
+00:02:11.079 --> 00:02:21.364 
+communicate using HTTP or Modbus. Essentially, they are blueprints for interacting with Things that use different protocols and content types.
 
-00:02:20.053 --> 00:02:21.585 
-types.
-
-00:02:21.585 --> 00:02:30.546 
+00:02:21.365 --> 00:02:30.326 
 Here is an example of a TD. This is the JSON serialization of a temperature controller. It tells the consumer
 
-00:02:30.546 --> 00:02:36.711 
+00:02:30.326 --> 00:02:36.491 
 to send a Modbus request to read the temperature in the local network. The Thing can also be proxied by
 
-00:02:36.711 --> 00:02:43.307 
+00:02:36.491 --> 00:02:43.087 
 a gateway where an HTTP request will be sent instead of a Modbus request.
 
-00:02:43.307 --> 00:02:54.362 
+00:02:43.087 --> 00:02:54.142 
 The WoT TD building block enhances interoperability. The goal is to enable communication within the machines or controllers.
 
-00:02:54.363 --> 00:03:05.044 
+00:02:54.142 --> 00:03:04.823 
 Typically, a programmer can read the robot's TD and program the controller accordingly.
 
-00:03:05.044 --> 00:03:11.110 
+00:03:04.824 --> 00:03:11.401 
 The controller then sends a request to the device from our example to change the temperature.
 
-00:03:11.110 --> 00:03:14.493 
+00:03:11.401 --> 00:03:14.784 
 The next building block is WoT Discovery.
 
-00:03:14.494 --> 00:03:19.729 
-WoT Thing Descriptions must be known or accessible to other systems and devices .
+00:03:14.785 --> 00:03:20.020 
+WoT Thing Descriptions must be known or accessible to other systems and devices.
 
-00:03:19.729 --> 00:03:27.419 
-WoT Discovery accomplishes this by defining mechanisms for distributing and accessing WoT TD over the network.
+00:03:20.020 --> 00:03:27.385 
+WoT Discovery accomplishes this by defining mechanisms for distributing and accessing TDs over the network.
 
-00:03:27.420 --> 00:03:35.256 
+00:03:27.386 --> 00:03:35.478 
 These mechanisms simplify access to Things and services and support their integration. They are not limited to a local area
 
-00:03:35.256 --> 00:03:39.133 
-network - they also support remote discovery.
+00:03:35.478 --> 00:03:39.749 
+network -they also support remote discovery.
 
-00:03:39.133 --> 00:03:50.058 
-The Thing Description Directory service provides mechanisms to register and retrieve WoT metadata and TDs after authentication and authorization.
+00:03:39.749 --> 00:03:49.124 
+The Thing Description Directory service provides mechanisms to register and retrieve TDs after authentication and authorization.
 
-00:03:50.059 --> 00:03:58.761 
+00:03:49.124 --> 00:03:57.826 
 The WoT Scripting API is an optional building block that lets developers build applications using reusable scripts.
 
-00:03:58.761 --> 00:04:06.760 
+00:03:57.827 --> 00:04:05.826 
 It provides a simple and consistent way to interact with Things described by TDs — such as reading properties, invoking
 
-00:04:06.760 --> 00:04:09.818 
+00:04:05.826 --> 00:04:08.884 
 actions, and subscribing to events.
 
-00:04:09.819 --> 00:04:17.307 
+00:04:08.884 --> 00:04:16.372 
 Once you have a TD, you can use the API to build dashboards or automate device logic without worrying about
 
-00:04:17.307 --> 00:04:19.437 
+00:04:16.372 --> 00:04:18.502 
 the underlying protocols.
 
-00:04:19.437 --> 00:04:26.746 
+00:04:18.503 --> 00:04:25.812 
 By design, TDs are flexible and able to describe anything without any limitations.
 
-00:04:26.746 --> 00:04:33.375 
+00:04:25.812 --> 00:04:32.569 
 However, in some cases, depending on the Thing’s purpose, it may be a good idea to limit the TD to
 
-00:04:33.375 --> 00:04:36.398 
-prevent unnecessary implementation load.
+00:04:32.569 --> 00:04:40.067 
+prevent unnecessary implementation load. The WoT Profiles help this by constraining TD features.
 
-00:04:36.399 --> 00:04:46.871 
-To summarize, WoT enables implementing device logic by reusable scripts executed in a runtime system for IoT applications which aims
+00:04:40.067 --> 00:04:50.794 
+To summarize, WoT building blocks enable implementing device logic by reusable scripts executed in a runtime system for IoT applications
 
-00:04:46.871 --> 00:04:50.836 
-to improve productivity and reduce integration costs.
+00:04:50.794 --> 00:04:55.630 
+which aims to improve productivity and reduce integration costs.
 
-00:04:50.836 --> 00:04:56.908 
+00:04:55.631 --> 00:05:01.703 
 You can proceed to the next tutorial by clicking on the card or the video description.
 

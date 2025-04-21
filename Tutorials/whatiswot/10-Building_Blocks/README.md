@@ -26,7 +26,7 @@
 
 - All TDs can be processed just like normal JSON documents. Essentially, a TD defines an information model using a semantic vocabulary and a serialized JSON representation. It provides both human- and machine-readable metadata describing the capabilities of a Thing.
 
-- A TD describes a Thing instance with general metadata such as name, ID, and description. It can also contain Interaction Affordance metadata and Protocol Bindings (such as Modbus and HTTP), as well as both public and local IP addresses.
+- A TD describes a Thing instance with general metadata such as name, ID, and description. It typically also contains Interaction Affordance metadata and Protocol Bindings (such as Modbus and HTTP), as well as both public and local IP addresses.
 
 ### Bindings
 
@@ -34,7 +34,7 @@
 
 - The IoT uses a wide variety of protocols to access devices because no single protocol can cover all use cases and requirements. One of the main challenges of the WoT is enabling interactions across this wide variety of platforms.
 
-- Binding Templates guide application clients on how to use a TD to extract protocol-specific metadata — for example, how to communicate using HTTP or Modbus. Essentially, they are blueprints for interacting with Things that use different transport protocols and content types.
+- Binding Templates guide application clients on how to use a TD to extract protocol-specific metadata — for example, how to communicate using HTTP or Modbus. Essentially, they are blueprints for interacting with Things that use different protocols and content types.
 
 - Here is an example of a TD. This is the JSON serialization of a temperature controller. It tells the consumer to send a Modbus request to read the temperature in the local network. The Thing can also be proxied by a gateway where an HTTP request will be sent instead of a Modbus request.
 
@@ -84,11 +84,11 @@
 
 - WoT Thing Descriptions must be known or accessible to other systems and devices.
 
-- WoT Discovery accomplishes this by defining mechanisms for distributing and accessing WoT TD over the network.
+- WoT Discovery accomplishes this by defining mechanisms for distributing and accessing TDs over the network.
 
 - These mechanisms simplify access to Things and services and support their integration. They are not limited to a local area network - they also support remote discovery.
 
-- The Thing Description Directory service provides mechanisms to register and retrieve WoT metadata and TDs after authentication and authorization.
+- The Thing Description Directory service provides mechanisms to register and retrieve TDs after authentication and authorization.
 
 ### Scripting API
 
@@ -102,8 +102,8 @@
 
 - By design, TDs are flexible and able to describe anything without any limitations.
 
-- However, in some cases, depending on the Thing’s purpose, it may be a good idea to limit the TD to prevent unnecessary implementation load.
+- However, in some cases, depending on the Thing’s purpose, it may be a good idea to limit the TD to prevent unnecessary implementation load. The WoT Profiles help this by constraining TD features.
 
 ### Summary
 
-- To summarize, WoT enables implementing device logic by reusable scripts executed in a runtime system for IoT applications which aims to improve productivity and reduce integration costs.
+- To summarize, WoT building blocks enable implementing device logic by reusable scripts executed in a runtime system for IoT applications which aims to improve productivity and reduce integration costs.
