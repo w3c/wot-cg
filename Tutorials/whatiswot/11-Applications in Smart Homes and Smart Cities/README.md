@@ -16,7 +16,7 @@
 
 - In smart homes, the ability to connect and manage multiple assets remotely over the network is highly beneficial.
 
-- The interesting aspect of smart homes isn’t tied to a specific solution you buy, but rather in how WoT enables flexibility. A Manufacturer can provide a Thing Description (TD) for their device, which lets anyone build and customize their own systems. By following these open standards, devices can communicate with each other across brands, allowing for seamless integration. This approach ensures that devices remain adaptable and private, and don’t become obsolete, as they can continuously support new use cases and technologies.
+- The interesting aspect of smart homes isn’t tied to a specific solution you buy, but rather in how WoT enables flexibility. A Manufacturer can provide a Thing Description (or TD for short) for their device, which lets anyone build and customize their own systems. By following these open standards, devices can communicate with each other across brands, allowing for seamless integration. This approach ensures that devices remain adaptable and private, and don’t become obsolete, as they can continuously support new use cases and technologies.
 
 - This helps with various activities within the home, such as controlling lights, adjusting room temperature, managing home appliances, and enhancing security using smartphones. These capabilities optimize energy and resource consumption.
 
@@ -30,7 +30,7 @@ Now that we’ve covered the basics of smart homes, let’s take a closer look a
 
 - A common pattern involves using a controller, locally and/or remotely, to interact with devices on the home network by consuming the Thing Description.
 
-- Devices are represented by TDs and act as servers, responding to commands from client controllers (for example, smartphones) for actions such as adjusting settings or activating sensors.
+- Devices are represented by TDs and act as servers, responding to commands from client controllers (for example, smartphones) for actions such as reading sensor values or activating devices.
 
 **Graphic:** `TD of the house transitions into a phone interface (controller) demonstrating interactions with different devices`
 
@@ -60,7 +60,7 @@ Now that we’ve covered the basics of smart homes, let’s take a closer look a
 
 - In a smart city, WoT's domain-agnostic nature enables scalability across various municipal systems, making it more flexible than traditional IoT solutions.
 
-- WoT's ability to seamlessly integrate different domains - such as water management, air quality monitoring, and traffic control — makes it a perfect fit for urban environments. WoT leverages open standards like Thing Descriptions (TDs) and built-in web protocols in addition to traditional IoT protocols. This allows devices from different systems and manufacturers to communicate.
+- WoT's ability to seamlessly integrate different domains - such as water management, air quality monitoring, and traffic control — makes it a perfect fit for urban environments. WoT leverages open standards like Thing Descriptions and built-in web protocols in addition to traditional IoT protocols. This allows devices from different systems and manufacturers to communicate.
 
 - This flexibility ensures that smart cities can scale as needed, adding new devices and systems without being tied to a single vendor or technology. Multi-ownership also becomes an option — different organisations or managers oversee different Things, while WoT ensures seamless interoperability across all of them.
 

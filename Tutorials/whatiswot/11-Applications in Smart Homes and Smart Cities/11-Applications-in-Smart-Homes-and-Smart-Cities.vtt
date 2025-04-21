@@ -15,129 +15,132 @@ The interesting aspect of smart homes isn’t tied to a specific solution you bu
 00:00:34.092 --> 00:00:35.487 
 flexibility.
 
-00:00:35.489 --> 00:00:44.620 
-A Manufacturer can provide a Thing Description (TD) for their device, which lets anyone build and customize their own systems.
+00:00:35.489 --> 00:00:43.488 
+A Manufacturer can provide a Thing Description (or TD for short) for their device, which lets anyone build and customize
 
-00:00:44.620 --> 00:00:53.158 
+00:00:43.488 --> 00:00:45.177 
+their own systems.
+
+00:00:45.177 --> 00:00:53.715 
 By following these open standards, devices can communicate with each other across brands, allowing for seamless integration.
 
-00:00:53.158 --> 00:01:01.726 
+00:00:53.716 --> 00:01:02.284 
 This approach ensures that devices remain adaptable and private, and don’t become obsolete, as they can continuously support new use
 
-00:01:01.726 --> 00:01:03.751 
+00:01:02.284 --> 00:01:04.309 
 cases and technologies.
 
-00:01:03.752 --> 00:01:10.938 
+00:01:04.309 --> 00:01:11.495 
 Now that we’ve covered the basics of smart homes, let’s take a closer look at the architecture patterns that enable
 
-00:01:10.938 --> 00:01:16.923 
+00:01:11.495 --> 00:01:17.480 
 these systems to work efficiently in a typical local network and remote-control scenario.
 
-00:01:16.923 --> 00:01:24.864 
+00:01:17.480 --> 00:01:25.421 
 A common pattern involves using a controller, locally and or remotely, to interact with devices on the home network by
 
-00:01:24.864 --> 00:01:27.041 
+00:01:25.421 --> 00:01:27.598 
 consuming the Thing Description.
 
-00:01:27.041 --> 00:01:36.445 
+00:01:27.599 --> 00:01:37.293 
 Devices are represented by TDs and act as servers, responding to commands from client controllers (for example, smartphones) for actions
 
-00:01:36.445 --> 00:01:40.555 
-such as adjusting settings or activating sensors.
+00:01:37.293 --> 00:01:41.591 
+such as reading sensor values or activating devices.
 
-00:01:40.556 --> 00:01:45.449 
+00:01:41.591 --> 00:01:46.484 
 Gateways are another pattern commonly found in Smart Homes.
 
-00:01:45.449 --> 00:01:52.095 
+00:01:46.485 --> 00:01:53.131 
 Gateways connect home networks to the internet, enabling remote management and monitoring.
 
-00:01:52.096 --> 00:01:59.860 
+00:01:53.131 --> 00:02:00.895 
 A gateway can use the local TD of a device to provide web-level access management, allowing devices to be accessed
 
-00:01:59.860 --> 00:02:03.492 
+00:02:00.895 --> 00:02:04.527 
 and managed both locally and remotely over the web.
 
-00:02:03.492 --> 00:02:12.489 
+00:02:04.527 --> 00:02:13.524 
 In the local network, the device uses one protocol for control, while externally, another protocol is typically used to manage
 
-00:02:12.489 --> 00:02:14.308 
+00:02:13.524 --> 00:02:15.343 
 remote interactions.
 
-00:02:14.308 --> 00:02:23.588 
+00:02:15.343 --> 00:02:24.623 
 The gateways facilitate communication between local devices and external controllers, enhancing accessibility and control.
 
-00:02:23.590 --> 00:02:33.156 
+00:02:24.625 --> 00:02:34.191 
 Smart buildings such as offices, schools, government facilities, shops, and hotels are the next important step towards building a smart
 
-00:02:33.156 --> 00:02:39.994 
+00:02:34.191 --> 00:02:41.029 
 city. Unlike homes, the Things are owned and managed by the building owner, rather than by the individuals who just
 
-00:02:39.994 --> 00:02:41.707 
+00:02:41.029 --> 00:02:42.742 
 control them.
 
-00:02:41.707 --> 00:02:49.090 
+00:02:42.742 --> 00:02:50.125 
 The features of these buildings mainly focus on comfort — like proper airflow — and safety — like fire alarms
 
-00:02:49.090 --> 00:02:50.988 
+00:02:50.125 --> 00:02:52.023 
 and security systems.
 
-00:02:50.988 --> 00:02:59.022 
+00:02:52.023 --> 00:03:00.057 
 They often use protocols like BACnet, Modbus, and KNX for local control, which are not typical in a smart home.
 
-00:02:59.022 --> 00:03:05.963 
+00:03:00.057 --> 00:03:06.998 
 WoT can enhance interoperability, allowing different systems to work together more seamlessly.
 
-00:03:05.964 --> 00:03:14.288 
+00:03:06.999 --> 00:03:15.323 
 Since a smart city consists of many smart buildings and additional infrastructure, smart buildings are a crucial step toward scaling
 
-00:03:14.288 --> 00:03:17.522 
+00:03:15.323 --> 00:03:18.557 
 up to a fully connected city.
 
-00:03:17.522 --> 00:03:28.957 
+00:03:18.557 --> 00:03:29.992 
 In a smart city, WoT's domain-agnostic nature enables scalability across various municipal systems, making it more flexible than traditional IoT
 
-00:03:28.957 --> 00:03:30.171 
+00:03:29.992 --> 00:03:31.206 
 solutions.
 
-00:03:30.172 --> 00:03:39.436 
+00:03:31.207 --> 00:03:40.471 
 WoT's ability to seamlessly integrate different domains - such as water management, air quality monitoring, and traffic control — makes
 
-00:03:39.436 --> 00:03:42.564 
+00:03:40.471 --> 00:03:43.599 
 it a perfect fit for urban environments.
 
-00:03:42.564 --> 00:03:52.002 
-WoT leverages open standards like Thing Descriptions (TDs) and built-in web protocols in addition to traditional IoT protocols. This allows
+00:03:43.599 --> 00:03:52.909 
+WoT leverages open standards like Thing Descriptions and built-in web protocols in addition to traditional IoT protocols. This allows devices
 
-00:03:52.002 --> 00:03:56.715 
-devices from different systems and manufacturers to communicate.
+00:03:52.909 --> 00:03:57.030 
+from different systems and manufacturers to communicate.
 
-00:03:56.716 --> 00:04:05.063 
+00:03:57.032 --> 00:04:05.379 
 This flexibility ensures that smart cities can scale as needed, adding new devices and systems without being tied to a
 
-00:04:05.063 --> 00:04:07.344 
+00:04:05.379 --> 00:04:07.660 
 single vendor or technology.
 
-00:04:07.344 --> 00:04:17.642 
+00:04:07.660 --> 00:04:17.958 
 Multi-ownership also becomes an option — different organisations or managers oversee different Things, while WoT ensures seamless interoperability across all
 
-00:04:17.642 --> 00:04:18.471 
+00:04:17.958 --> 00:04:18.787 
 of them.
 
-00:04:18.473 --> 00:04:28.689 
+00:04:18.788 --> 00:04:29.004 
 Additionally, WoT's use of open standards supports a wide range of protocols, making it adaptable to various architectures, whether client-server
 
-00:04:28.689 --> 00:04:38.476 
+00:04:29.004 --> 00:04:38.791 
 or publish-subscribe, with or without cloud involvement. This versatility allows smart cities to choose the best approach for their infrastructure.
 
-00:04:38.476 --> 00:04:47.775 
+00:04:38.791 --> 00:04:48.090 
 In addition to this and the upcoming video, the WoT Architecture document contains many domain-specific examples beyond the ones covered
 
-00:04:47.775 --> 00:04:49.325 
+00:04:48.090 --> 00:04:49.640 
 in these videos.
 
-00:04:49.326 --> 00:04:53.220 
+00:04:49.641 --> 00:04:53.535 
 If you want to learn more, you can check out this website.
 
-00:04:53.220 --> 00:04:59.728 
+00:04:53.535 --> 00:05:00.043 
 You can proceed to the next tutorial by clicking on the card or the video description.
 
