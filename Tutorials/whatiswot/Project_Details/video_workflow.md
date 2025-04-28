@@ -1,10 +1,10 @@
 # Video Workflow
 
-A typical "What is WoT?" tutorial video follows the steps below. The product of each step is reviewed before proceeding to the next.
+A typical "What is WoT?" tutorial video follows the steps below. The product of each step is reviewed before proceeding to the next. This process is replicated via a GitHub project at <https://github.com/orgs/w3c/projects/58/views/1>.
 
-1. A text file is created that will later be the voice-over text. This is the easiest to review over GitHub.
-1. A simple slideset is created that has basic slides to explain the content. This is considered the script or the storyboard.
-2. The storyboard is turned into an animation within the slideset with all the visual and spoken text elements present.
+1. A table of contents for the video is created.
+2. A text file (the script) is created that will later be the voice-over text. This is the easiest to review over GitHub and should be the main point of discussion for the content of the video.
+2. The script is turned into an animation within a slideset in Powerpoint with all the visual and spoken text elements present.
 3. The animation is imported into the voiceover generation tool where the following is done:
    1. The text from each slide is imported
    2. The voiceover is generated
@@ -18,4 +18,4 @@ A typical "What is WoT?" tutorial video follows the steps below. The product of 
   4. License Code for Background Music
   5. Thumbnail
 7. Final review happens
-8. A batch of videos is uploaded to YouTube
+8. Video is uploaded to YouTube. Sometimes we do the upload of multiple videos in one batch
