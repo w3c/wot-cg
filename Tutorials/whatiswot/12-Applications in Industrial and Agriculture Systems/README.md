@@ -11,13 +11,17 @@
 
 - The Web of Things finds applications in diverse fields beyond smart homes and cities, with industrial and agriculture systems being two major and complex examples.
 
-- First we'll take a look at industrial systems.
+- First let's take a look at industrial systems.
 
 ### Industrial systems
 
-- Industrial applications may often resemble smart home applications, but have broader requirements. These include advanced monitoring of connected manufacturing equipment, tracking manufactured products, and predicting possible machine failures.
+- Industrial applications often resemble smart home scenarios, but come with broader and more demanding requirements. These include advanced monitoring of connected manufacturing equipment, tracking products and predicting possible machine failures.
 
-- In factories, for example, devices from multiple manufacturers must work together seamlessly. WoT simplifies this by accommodating a variety of industrial protocols, including legacy protocols. Each device comes equipped with its own Thing Description, making it clear to other devices and systems how to interact with it, thereby reducing complexity and engineering effort.
+- In factories, for example, devices from multiple manufacturers must work together seamlessly. WoT simplifies this by supporting a range of industrial protocols such as Modbus, Profinet, OPC UA, and MQTT, including legacy ones. Each device is described using a Thing Description, which tells other systems exactly how to interact with it. This reduces complexity and engineering effort without introducing overhead or security concerns - TDs enhance existing workflows.
+
+TDs also enable a new way to build application logic - whether it's control logic, business logic or mashups - using simple files instead of being locked into proprietary systems. This decouples devices from the end applications, offering flexibility and long-term maintainability.
+
+With TDs, we can add context to the system by including annotations from domain models, providing more meaning to how devices are used within their environment.
 
 **Code: Graphic of many devices with their own TDs, working together in a factory**
 
