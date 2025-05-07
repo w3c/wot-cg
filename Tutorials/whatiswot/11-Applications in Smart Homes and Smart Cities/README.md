@@ -30,7 +30,7 @@ Now that we’ve covered the basics of smart homes, let’s take a closer look a
 
 - A common pattern involves using a controller, locally and/or remotely, to interact with devices on the home network by consuming the Thing Description.
 
-- Devices are represented by TDs and act as servers, responding to commands from client controllers (for example, smartphones) for actions such as reading sensor values or activating devices.
+- Devices are represented by TDs and act as servers, responding to commands from client controllers (for example, smartphones) for actions such as reading sensor values or actuating devices.
 
 **Graphic:** `TD of the house transitions into a phone interface (controller) demonstrating interactions with different devices`
 
