@@ -8,7 +8,7 @@
     - Semantic Annotations
     - Links
 
-## Preliminary Script
+## Script
 
 ### Introduction and Definition
 
@@ -47,7 +47,7 @@
 
 <!-- Mark each component on the graphic example and briefly explain what they do -->
 
-- The Thing Descriptions begins with the Thing's metadata. It provides the essential information about the device, like its unique ID, title, and description.
+- The Thing Description begins with the Thing's metadata. It provides the essential information about the device, like its unique ID, title, and description.
 
 - Then, in the definitions of Interaction Affordances, we specify ways a Consumer application can interact with the Thing, through its various properties, actions, and events exposed on its network interfaces. The example here shows the property `coffeeBeansLeft`, which describes the current state of the coffee beans; the action `brewCoffee`, which triggers brewing; and the event `lowOnWater`, which alerts the Consumer when the machine is low on water. We’ll explore Interaction Affordances in greater detail in the next video of this series. 
 
