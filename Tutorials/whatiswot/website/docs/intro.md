@@ -11,6 +11,8 @@ sidebar_label: Tutorial Introduction
 <br />
 <br />
 
+``` More tutorial videos will be available soon - stay tuned! ```
+
 Let's start this tutorial with a short introduction to the **Web of Things**.
 
 ## Difference Between IoT and WoT
