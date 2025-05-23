@@ -23,4 +23,4 @@ WoT CG Discord: https://discord.gg/RJNYJsEgnb
 
 ## Playlist
 
-What is WoT Tutorial
+What is WoT Tutorial - Preliminary

@@ -12,7 +12,7 @@ The corresponding web page of this video is at https://w3c.github.io/wot-cg/tuto
 
 This video is created by the W3C Web of Things Community Group and is developed open source. You can provide feedback via the GitHub link below.
 
-Next video: Coming Soon!
+Next video: https://youtu.be/Wk1PZgYhG4w
 
 Tutorial Homepage: https://w3c.github.io/wot-cg/tutorials/whatiswot/
 
@@ -24,4 +24,4 @@ WoT CG Discord: https://discord.gg/RJNYJsEgnb
 
 ## Playlist
 
-What is WoT Tutorial
+What is WoT Tutorial - Preliminary

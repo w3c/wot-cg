@@ -22,4 +22,4 @@ WoT CG Homepage: https://www.w3.org/community/wot/
 
 ## Playlist
 
-What is WoT Tutorial
+What is WoT Tutorial - Preliminary
