@@ -4,6 +4,8 @@ sidebar_label: Architecture Patterns
 
 # WoT - Architecture Patterns
 
+![coming-soon](/img/tutorial/What-Is-Wot/coming_soon_banner.png)
+
 In this section, we will introduce and discuss different architecture patterns and how devices interact with controllers, agents, and servers.
 
 Before, we explained the server and client models and how they operate. Now, let's see how they're applied in WoT architectures.
