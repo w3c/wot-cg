@@ -11,8 +11,6 @@ sidebar_label: Smart Homes and Cities
 <br />
 <br />
 
-![coming-soon](/img/tutorial/What-Is-Wot/coming_soon_banner.png)
-
 WoT, as we already know, is a set of standards defined for the interoperability of different Internet of Things platforms and application domains by the World Wide Web Consortium (W3C). It aims to preserve and complement existing IoT standards and solutions by providing a standardized approach for connecting and integrating smart devices, services, and applications into the Web.
 
 In this section we will introduce some of the WoT application domains: Smart Homes, Industrial Applications, Agriculture, and Smart Cities.
