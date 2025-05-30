@@ -1,0 +1,80 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:07.941 
+ In this video, we will provide a general overview of a fundamental concept in the Web of Things —
+
+00:00:07.941 --> 00:00:10.150 
+the Thing Description, or TD.
+
+00:00:10.601 --> 00:00:18.971 
+ A TD acts as a unique blueprint for the respective Thing, offering a standardized way to describe its functionality
+
+00:00:18.971 --> 00:00:21.192 
+and how a Consumer should interact with it.
+
+00:00:21.585 --> 00:00:29.595 
+ A Consumer is any application or service that communicates with a Thing over the network using its Thing Description.
+
+00:00:29.595 --> 00:00:33.453 
+It understands the TD and uses it to interact with the Thing.
+
+00:00:33.897 --> 00:00:41.841 
+ Thing Descriptions are written using the JSON-LD format, making it both machine and human-readable.
+
+00:00:42.281 --> 00:00:49.525 
+ To understand this better, let's take a look at a simple example — a smart coffee machine — and
+
+00:00:49.525 --> 00:00:52.187 
+break down the components in its Thing Description:
+
+00:00:52.649 --> 00:01:01.600 
+ The Thing Description begins with the Thing's metadata. It provides the essential information about the device, like its unique
+
+00:01:01.600 --> 00:01:03.972 
+ID, title, and description.
+
+00:01:04.451 --> 00:01:13.820 
+ Then, in the definitions of Interaction Affordances, we specify ways a Consumer application can interact with the Thing, through
+
+00:01:13.820 --> 00:01:19.152 
+its various properties, actions, and events exposed on its network interfaces.
+
+00:01:19.152 --> 00:01:28.022 
+The example here shows the property `coffeeBeansLeft`, which describes the current state of the coffee beans; the action `brewCoffee`, which
+
+00:01:28.022 --> 00:01:34.457 
+triggers brewing; and the event `lowOnWater`, which alerts the Consumer when the machine is low on water.
+
+00:01:34.457 --> 00:01:40.323 
+We’ll explore Interaction Affordances in greater detail in the next video of this series.
+
+00:01:41.741 --> 00:01:51.550 
+ The Security Metadata defines security mechanisms required to ensure secure access to the Thing by the Consumer application. This
+
+00:01:51.550 --> 00:01:57.591 
+way the Consumer application knows what type of credentials are needed to execute different operations.
+
+00:01:58.070 --> 00:02:06.358 
+ To add keywords that are not part of the TD standard, we can add Semantic Annotations. These allow other
+
+00:02:06.358 --> 00:02:14.821 
+systems to consistently interpret the device’s terms and functions. Here, we annotate using schema org to add the name of
+
+00:02:14.821 --> 00:02:19.074 
+the manufacturer, which is not part of the core TD specification.
+
+00:02:19.536 --> 00:02:27.027 
+ Finally, we can link the Thing Description to other documents, such as documentation or a user interface.
+
+00:02:27.501 --> 00:02:34.443 
+ This overview should give you a solid foundation for understanding the role of Thing Descriptions in the Web of
+
+00:02:34.443 --> 00:02:34.934 
+Things.
+
+00:02:35.408 --> 00:02:39.935 
+ The next videos will explain the components in greater detail.
+
+00:02:41.924 --> 00:02:47.546 
+ You can proceed to the next tutorial by clicking on the card or the video description.
+

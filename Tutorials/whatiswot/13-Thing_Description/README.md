@@ -59,7 +59,7 @@
 
 ### Ending
 
-- This overview should give you a solid foundation for understanding the role of Thing Descriptions in the Web of Things. The next videos will explain the components in detail.
+- This overview should give you a solid foundation for understanding the role of Thing Descriptions in the Web of Things. The next videos will explain the components in greater detail.
 
 
 
