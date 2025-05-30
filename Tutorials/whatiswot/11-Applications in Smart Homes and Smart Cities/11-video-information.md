@@ -6,8 +6,8 @@ Applications in Smart Homes and Smart Cities | What is WoT
 
 ## Description
 
-Over the course of the next two videos, we will introduce the W3C Web of Things by exploring its application domains and common architecture patterns. In this video, our focus will be Smart Homes and Smart Cities.
-The corresponding web page of this video is at https://w3c.github.io/wot-cg/tutorials/whatiswot/docs/wot/application-domains .
+In this video, we introduce the W3C Web of Things by exploring its application domains and common architecture patterns in the context of smart homes and smart cities.
+The corresponding web page of this video is at https://w3c.github.io/wot-cg/tutorials/whatiswot/docs/wot/application-domains/smart-home-and-cities .
 
 This video is created by the W3C Web of Things Community Group and is developed open source. You can provide feedback via the GitHub link below.
 
