@@ -1,10 +1,15 @@
 ---
-sidebar_label: Application Domains
+sidebar_label: Smart Homes and Cities
 ---
 
-# WoT - Application Domains
+# Smart Homes and Cities
 
-![coming-soon](/img/tutorial/What-Is-Wot/coming_soon_banner.png)
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/XR1vduVPtoA?si=FGshRSPSv95EqSAo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<a href = "https://github.com/w3c/wot-cg/blob/main/Tutorials/whatiswot/11-Applications_in_Smart_Homes_and_Smart_Cities/11-Applications-in-Smart-Homes-and-Smart-Cities.mp4">Click here if YouTube does not work go to our GitHub.</a>  
+
+<br />
+<br />
 
 WoT, as we already know, is a set of standards defined for the interoperability of different Internet of Things platforms and application domains by the World Wide Web Consortium (W3C). It aims to preserve and complement existing IoT standards and solutions by providing a standardized approach for connecting and integrating smart devices, services, and applications into the Web.
 
@@ -12,7 +17,7 @@ In this section we will introduce some of the WoT application domains: Smart Hom
 
 ## Smart Homes
 
-In smart homes, the ability to connect and manage multiple assets remotely over the network is highly beneficial. 
+In smart homes, the ability to connect and manage multiple assets remotely over the network is highly beneficial.
 
 This helps within various activities within the home, such as controlling lights, adjusting room temperature, managing home appliances, and enhancing security using smartphones. These capabilities enable optimization of energy and resource consumption.
 

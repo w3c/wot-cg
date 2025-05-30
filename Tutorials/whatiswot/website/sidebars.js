@@ -84,19 +84,26 @@ const sidebars = {
       items: [
         {
           type: "doc",
-          id: "wot/application-domains",
-          label: "Application Domains",
-        },
-        {
-          type: "doc",
-          id: "wot/architecture-patterns",
-          label: "Architecture Patterns",
-        },
-        {
-          type: "doc",
           id: "wot/building-blocks",
           label: "Building Blocks",
         },
+        {
+          type: "category",
+          label: "Application Domains",
+          collapsed: false,
+          items: [
+            {
+              type: "doc",
+              id: "wot/application-domains/smart-home-and-cities",
+              label: "Smart Home and Cities",
+            },
+          ],
+        },
+        // {
+        //   type: "doc",
+        //   id: "wot/architecture-patterns",
+        //   label: "Architecture Patterns",
+        // },
       ],
     },
   ],
