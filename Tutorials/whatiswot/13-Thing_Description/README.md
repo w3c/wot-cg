@@ -51,7 +51,7 @@
 
 - Then, in the definitions of Interaction Affordances, we specify ways a Consumer application can interact with the Thing, through its various properties, actions, and events exposed on its network interfaces. The example here shows the property `coffeeBeansLeft`, which describes the current state of the coffee beans; the action `brewCoffee`, which triggers brewing; and the event `lowOnWater`, which alerts the Consumer when the machine is low on water. We’ll explore Interaction Affordances in greater detail in the next video of this series. 
 
-- The Security Metadata defines security mechanisms required to ensure secure access to the Thing by the Consumer application. This way the Consumer application knows what type of credentials are needed to execute different operations.
+- The Security Metadata defines security mechanisms required to ensure authorized and secure interactions with the Thing by the Consumer application. This way the Consumer application knows what type of credentials are needed to execute different operations, like the `brewCoffee` action we see here.
 
 - To add keywords that are not part of the TD standard, we can add Semantic Annotations. These allow other systems to consistently interpret the device’s terms and functions. Here, we annotate using `schema.org` to add the name of the manufacturer, which is not part of the core TD specification.
 
