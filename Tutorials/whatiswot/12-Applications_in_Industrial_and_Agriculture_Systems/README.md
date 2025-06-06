@@ -7,11 +7,11 @@
 - Agriculture Systems
 - Cross-domain Collaboration
 
-## Preliminary Script
+## Script
 
 - The Web of Things finds applications in diverse fields beyond smart homes and cities, with industrial and agriculture systems being two major and complex examples.
 
-- First let's take a look at industrial systems.
+- Let's first take a look at industrial systems.
 
 ### Industrial systems
 
