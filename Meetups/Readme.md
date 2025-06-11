@@ -10,9 +10,9 @@ Note: Presentation files use the pattern `YEAR-MONTH-WoTCG-EVENTNAME-PRESENTERNA
 - Name: Visual Programming with WoT
 - Presenter(s): Thomas Wehr
 - Date: 05 June 2025
-- [Presenter Slides](./26/2025-03-WoTCG-Meetup26-HiveOT.pdf)
-- Intro Slides: [Google Slides](https://docs.google.com/presentation/d/192ScNSZCw31CBW2r9Omipr5hJTe8fLsP9tB6ZSNsbVw/edit?usp=sharing) | [PDF](./26/2025-03-WoTCG-Meetup26-AguzziKorkan.pdf)
-- [Video]()
+- [Presenter Slides](./27/2025-06-WoTCG-Meetup27-BLAST-FAU.pdf)
+- Intro Slides: [Google Slides](https://docs.google.com/presentation/d/1JQcGoVY-3I_RCkKpGqoLGjR0XRAJSmRMYVTF7gPh4G0/edit?usp=sharing) | [PDF](./27/2025-06-WoTCG-Meetup27-AguzziKorkan.pdf)
+- [Video](https://youtu.be/p-iU_B6MQFo)
 - [Minutes](./27/2025-06-05-minutes.md)
 
 ## Meetup 26
