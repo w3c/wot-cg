@@ -17,7 +17,7 @@
 
 - Industrial applications often resemble smart home scenarios, but come with broader and more demanding requirements. These include advanced monitoring of connected manufacturing equipment, tracking products and predicting possible machine failures.
 
-- In factories, for example, devices from multiple manufacturers must work together seamlessly. WoT simplifies this by supporting a range of industrial protocols such as Modbus, Profinet, OPC UA, and MQTT, including legacy ones. Each device is described using a Thing Description, which tells other systems exactly how to interact with it. This reduces complexity and engineering effort without introducing overhead or security concerns - TDs enhance existing workflows.
+- In factories, for example, devices from multiple manufacturers must work together seamlessly. WoT simplifies this by supporting old and new industrial protocols alike, such as Modbus, Profinet, OPC UA, and MQTT. Each device is described using a Thing Description, which tells other systems exactly how to interact with it. This reduces complexity and engineering effort without introducing overhead or security concerns - TDs enhance existing workflows.
 
 TDs also enable a new way to build application logic - whether it's control logic, business logic or mashups - using simple files instead of being locked into proprietary systems. This decouples devices from vendor-specific applications, offering flexibility and long-term maintainability.
 
@@ -31,7 +31,7 @@ With TDs, we can add context to the system by including annotations from domain 
 
 - WoT plays a crucial role as an interoperable interface here, allowing these farmers to integrate only the parts they need without committing to an all-encompassing solution. By enabling flexibility and compatibility across different devices and systems, WoT makes it easier for farms to adopt new solutions at their own pace and budget.
 
-- Agriculture systems also come with their own set of constraints. Often, devices in agricultural environments are constrained in terms of power and connectivity. For example, sensors in a cornfield may not have access to power sources or network cables and rely on batteries. WoT accommodates these constraints by allowing data to be transmitted only when the device is online, helping conserve energy and avoid unnecessary power drain.
+- Agriculture systems also come with their own set of constraints. Often, devices in agricultural environments are constrained in terms of power and connectivity. For example, sensors in a cornfield may not have access to power sources or network cables and rely on batteries. This works well with WoT, as metadata can be stored externally and protocols like MQTT let devices send data only when they're online, conserving energy and avoiding unnecessary power drain.
 
 **Animation visualising the WoT mechanism in resource-constrained devices**
 
