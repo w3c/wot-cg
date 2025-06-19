@@ -15,9 +15,9 @@
 
 ### Industrial systems
 
-- Industrial applications often resemble smart home scenarios, but come with broader and more demanding requirements. These include advanced monitoring of connected manufacturing equipment, tracking products and predicting possible machine failures.
+- Unlike smart home scenarios, industrial applications have broader and more demanding requirements. These include advanced monitoring of complex connected manufacturing equipment, tracking products and predicting possible machine failures.
 
-- In factories, for example, devices from multiple manufacturers must work together seamlessly. WoT simplifies this by supporting old and new industrial protocols alike, such as Modbus, Profinet, OPC UA, and MQTT. Each device is described using a Thing Description, which tells other systems exactly how to interact with it. This reduces complexity and engineering effort without introducing overhead or security concerns - TDs enhance existing workflows.
+- In factories, for example, devices from multiple manufacturers must work together seamlessly. WoT simplifies this by supporting old and new industrial protocols alike, such as Modbus, Profinet, OPC UA, and MQTT. Each device is described using a Thing Description, which tells other systems exactly how to interact with it. TDs enhance existing workflows by reducing complexity and engineering effort without introducing overhead or security concerns.
 
 TDs also enable a new way to build application logic - whether it's control logic, business logic or mashups - using simple files instead of being locked into proprietary systems. This decouples devices from vendor-specific applications, offering flexibility and long-term maintainability.
 
@@ -27,9 +27,9 @@ With TDs, we can add context to the system by including annotations from domain 
 
 ### Agriculture systems
 
-- Moving on to another domain-specific application of WoT — agriculture systems. Agriculture offers a wide range of automation possibilities, from monitoring soil moisture and automating watering, to handling fertilization schedules and machinery operation. However, finding a single solution that fits all needs is challenging, especially for small and medium-sized farms. These farmers often aim to automate just one specific task, like soil monitoring, for example.
+- Moving on to another domain-specific application of WoT — agriculture systems. Agriculture offers a wide range of automation possibilities, from monitoring soil moisture and automating watering, to handling fertilization schedules and machinery operation. However, finding a single solution that fits all needs is challenging, especially for small and medium-sized farms. Farm owners often aim to automate just one specific task, like soil monitoring, for example.
 
-- WoT plays a crucial role as an interoperable interface here, allowing these farmers to integrate only the parts they need without committing to an all-encompassing solution. By enabling flexibility and compatibility across different devices and systems, WoT makes it easier for farms to adopt new solutions at their own pace and budget.
+- WoT plays a crucial role as an interoperable interface here, allowing farm owners to integrate only the parts they need without committing to an all-encompassing solution. By enabling flexibility and compatibility across different devices and systems, WoT makes it easier for farms to adopt new solutions at their own pace and budget.
 
 - Agriculture systems also come with their own set of constraints. Often, devices in agricultural environments are constrained in terms of power and connectivity. For example, sensors in a cornfield may not have access to power sources or network cables and rely on batteries. This works well with WoT, as metadata can be stored externally and protocols like MQTT let devices send data only when they're online, conserving energy and avoiding unnecessary power drain.
 
@@ -39,7 +39,7 @@ With TDs, we can add context to the system by including annotations from domain 
 
 ### Cross-domain Collaboration
 
-- Thanks to the interoperability of WoT, cross-domain collaborations are also made possible. In cross-domain collaborations, each system involves other systems in other domains. For example, Smart Factory with Smart City, Smart City with Smart Home. In these models, information can be exchanged directly between systems in a peer-to-peer manner or indirectly via collaboration platforms.
+- Thanks to the interoperability of WoT, cross-domain collaborations are also made possible. In cross-domain collaborations, each system involves other systems in other domains. For example, a Smart Factory and a Smart City can collaborate on energy grid management, where the city's infrastructure is influenced by the factory's energy usage. As different platforms and protocols can be used in WoT, information can be easily shared across domains.
 
 ### Summary
 
