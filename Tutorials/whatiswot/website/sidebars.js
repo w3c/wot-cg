@@ -99,6 +99,18 @@ const sidebars = {
             },
           ],
         },
+        {
+          type: "category",
+          label: "Thing Description",
+          collapsed: false,
+          items: [
+            {
+              type: "doc",
+              id: "wot/td/introduction",
+              label: "Introduction",
+            },
+          ],
+        }
         // {
         //   type: "doc",
         //   id: "wot/architecture-patterns",
