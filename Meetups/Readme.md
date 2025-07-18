@@ -5,6 +5,16 @@ This readme contains the links to minutes, presentation files and the recordings
 
 Note: Presentation files use the pattern `YEAR-MONTH-WoTCG-EVENTNAME-PRESENTERNAME.FILETYPE`.
 
+## Meetup 28
+
+- Name: An Open-source Software Stack for IoT Virtualization and Convergence with Edge Computing Technologies
+- Presenter(s): Dimitris Spatharakis and Nikos Filinis
+- Date: 17 July 2025
+- [Presenter Slides](./28/)
+- Intro Slides: [Google Slides](https://docs.google.com/presentation/d/1iQjM7CGnVCx1XQCK2bi3iIfUCfIDwqTdjEng5ebfCEQ/edit?usp=sharing) | [PDF](./28/2025-07-WoTCG-Meetup28-AguzziKorkan.pdf)
+- [Video](https://youtu.be/EkeoQLWIhlI)
+- [Minutes](./28/2025-07-17-minutes.md)
+
 ## Meetup 27
 
 - Name: Visual Programming with WoT
