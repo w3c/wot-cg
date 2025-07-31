@@ -33,7 +33,7 @@ This works well with WoT, as metadata can be stored externally and protocols lik
 
 In cross-domain collaborations, each system involves other systems in other domains.
 For example, a Smart Factory and a Smart City can collaborate on energy grid management, where the city's infrastructure is influenced by the factory's energy usage.
-As different platforms and protocols can be used in WoT, information can be easily shared across domains.
+ As different platforms and protocols can be used in WoT, information can be easily shared across domains.
 
  To summarize, WoT provides numerous advantages across its applications:
 
