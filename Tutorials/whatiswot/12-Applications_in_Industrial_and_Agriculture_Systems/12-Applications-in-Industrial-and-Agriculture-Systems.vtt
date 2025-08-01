@@ -1,0 +1,122 @@
+WEBVTT
+
+00:00:05.000 --> 00:00:13.266 
+The Web of Things finds applications in diverse fields beyond smart homes and cities, with industrial and agriculture systems being
+
+00:00:13.266 --> 00:00:16.139 
+two major and complex examples.
+
+00:00:16.139 --> 00:00:20.295 
+ Let's first take a look at industrial systems.
+
+00:00:20.295 --> 00:00:31.289 
+ Unlike smart home scenarios, industrial applications have broader and more demanding requirements. These include advanced monitoring of complex connected
+
+00:00:31.289 --> 00:00:37.123 
+manufacturing equipment, tracking products and predicting possible machine failures.
+
+00:00:37.123 --> 00:00:44.181 
+ In factories, for example, devices from multiple manufacturers must work together seamlessly.
+
+00:00:44.181 --> 00:00:54.926 
+WoT simplifies this by supporting old and new industrial protocols alike, such as Modbus, Profinet, OPC UA, and MQTT.
+
+00:00:54.926 --> 00:01:02.338 
+Each device is described using a Thing Description, which tells other systems exactly how to interact with it.
+
+00:01:02.338 --> 00:01:11.445 
+TDs enhance existing workflows by reducing complexity and engineering effort without introducing overhead or security concerns.
+
+00:01:11.445 --> 00:01:19.246 
+ TDs also enable a new way to build application logic - whether it's control logic, business logic or mashups
+
+00:01:19.246 --> 00:01:29.997 
+- using simple files instead of being locked into proprietary systems. This decouples devices from vendor-specific applications, offering flexibility and
+
+00:01:29.997 --> 00:01:32.249 
+long-term maintainability.
+
+00:01:32.249 --> 00:01:40.259 
+ With TDs, we can add context to the system by including annotations from domain models, providing more meaning to
+
+00:01:40.259 --> 00:01:43.266 
+how devices are used within their environment.
+
+00:01:43.266 --> 00:01:50.105 
+ Moving on to another domain-specific application of WoT — agriculture systems.
+
+00:01:50.105 --> 00:02:00.437 
+ Agriculture offers a wide range of automation possibilities, from monitoring soil moisture and automating watering, to handling fertilization schedules
+
+00:02:00.437 --> 00:02:02.342 
+and machinery operation.
+
+00:02:02.342 --> 00:02:11.989 
+However, finding a single solution that fits all needs is challenging, especially for small and medium-sized farms. Farm owners often
+
+00:02:11.989 --> 00:02:20.394 
+aim to automate just one specific task, like soil monitoring, for example. WoT plays a crucial role as an interoperable
+
+00:02:20.394 --> 00:02:29.531 
+interface here, allowing farm owners to integrate only the parts they need without committing to an all-encompassing solution. By enabling
+
+00:02:29.531 --> 00:02:37.785 
+flexibility and compatibility across different devices and systems, WoT makes it easier for farms to adopt new solutions at their
+
+00:02:37.785 --> 00:02:39.572 
+own pace and budget.
+
+00:02:39.572 --> 00:02:44.471 
+ Agriculture systems also come with their own set of constraints.
+
+00:02:44.471 --> 00:02:51.001 
+Often, devices in agricultural environments are constrained in terms of power and connectivity.
+
+00:02:51.001 --> 00:02:59.005 
+For example, sensors in a cornfield may not have access to power sources or network cables and rely on batteries.
+
+00:02:59.005 --> 00:03:07.607 
+This works well with WoT, as metadata can be stored externally and protocols like MQTT let devices send data only
+
+00:03:07.607 --> 00:03:12.687 
+when they're online, conserving energy and avoiding unnecessary power drain.
+
+00:03:12.687 --> 00:03:20.535 
+ Thus WoT's functionality ensures it is both practical and efficient without adding any unnecessary complexity.
+
+00:03:20.535 --> 00:03:27.827 
+ Thanks to the interoperability of WoT, cross-domain collaborations are also made possible.
+
+00:03:27.827 --> 00:03:34.182 
+In cross-domain collaborations, each system involves other systems in other domains.
+
+00:03:34.182 --> 00:03:42.181 
+For example, a Smart Factory and a Smart City can collaborate on energy grid management, where the city's infrastructure is
+
+00:03:42.181 --> 00:03:45.333 
+influenced by the factory's energy usage.
+
+00:03:45.333 --> 00:03:53.042 
+ As different platforms and protocols can be used in WoT, information can be easily shared across domains.
+
+00:03:53.042 --> 00:03:59.253 
+ To summarize, WoT provides numerous advantages across its applications:
+
+00:03:59.253 --> 00:04:05.516 
+It is domain-agnostic, allowing for seamless integration across various systems.
+
+00:04:05.516 --> 00:04:12.917 
+It supports multiple protocols, ensuring interoperability among devices from different manufacturers.
+
+00:04:12.917 --> 00:04:19.400 
+WoT is built on open standards, promoting long-term adaptability and innovation.
+
+00:04:19.400 --> 00:04:24.432 
+It works with resource-constrained devices, edge, or the cloud.
+
+00:04:24.432 --> 00:04:34.394 
+ By enabling efficient and secure interactions between devices across different domains, WoT serves as a transformative framework.
+
+00:04:34.394 --> 00:04:42.489 
+ You can proceed to the next tutorial by clicking on the card or the video description.
+
