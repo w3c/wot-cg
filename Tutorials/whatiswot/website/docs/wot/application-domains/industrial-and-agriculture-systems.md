@@ -6,15 +6,15 @@ sidebar_label: Industrial and Agriculture Systems
 
 ![coming-soon](/img/tutorial/What-Is-Wot/coming_soon_banner.png)
 
-The Web of Things finds applications in diverse fields beyond smart homes and cities. This tutorial will focus on industrial and agriculture systems - two major and complex examples and later showcase how all domains can collaborate with each other thanks to WoT.
+The Web of Things offers utility to diverse fields beyond smart homes and cities. This tutorial will focus on industrial and agriculture systems — two major and complex examples — and later, showcase how all domains can collaborate with each other, thanks to WoT.
 
 ## Industrial systems
 
 Unlike smart home scenarios, industrial applications have broader and more demanding requirements. These include advanced monitoring of complex connected manufacturing equipment, tracking products and predicting possible machine failures.
 
-TDs also enable a new way to build application logic - whether it's control logic, business logic or mashups - using simple files instead of being locked into proprietary systems. This decouples devices from vendor-specific applications, offering flexibility and long-term maintainability. With TDs, we can add context to the system by including annotations from domain models, providing more meaning to how devices are used within their environment.
+TDs also enable a new way to build application logic — whether it's control logic, business logic, or mashups — using simple files instead of being locked into proprietary systems. This decouples devices from vendor-specific applications, offering flexibility and long-term maintainability. With TDs, we can add context to the system by including annotations from domain models, providing more meaning about the ways devices are used within their environment.
 
-> In factories, for example, devices from multiple manufacturers must work together seamlessly. WoT simplifies this by supporting old and new industrial protocols alike. As shown in the figure, devices inside a factory may use different protocols such as Modbus, Profinet, MQTT or OPC UA. Each device is described using a Thing Description, which tells other systems exactly how to interact with it. A gateway then collects these TDs, adapts them to a usable protocol (e.g. MQTT), and forwards the information to external servers. This setup makes workflows easier to manage: existing devices can interoperate without additional engineering effort and communication with servers remains secure and scalable.
+> In factories, for example, devices from multiple manufacturers must work together seamlessly. WoT simplifies this by supporting old and new industrial protocols alike. As shown in the figure, devices inside a factory may use different protocols such as Modbus, Profinet, MQTT, or OPC UA. Each device is described using a Thing Description (TD), which tells other systems exactly how to interact with it. A gateway then collects these TDs, adapts them to a usable protocol (e.g., MQTT), and forwards the information to external servers. This arrangement makes workflows easier to manage, as existing devices can interoperate without additional engineering effort and communication with servers remains secure and scalable.
 
 ![smart-factory](/img/11-Architecture-Patterns/smart-factory.png)
 
@@ -23,9 +23,9 @@ TDs also enable a new way to build application logic - whether it's control logi
 
 Moving on to another domain-specific application of WoT — agriculture systems. Agriculture offers a wide range of automation possibilities, from monitoring soil moisture and automating watering, to handling fertilization schedules and machinery operation. However, finding a single solution that fits all needs is challenging, especially for small and medium-sized farms. 
 
-Agriculture systems also come with their own set of constraints. Often, devices in agricultural environments are constrained in terms of power and connectivity. For example, sensors in a cornfield may not have access to power sources or network cables and rely on batteries. This works well with WoT, as metadata can be stored externally and protocols like MQTT let devices send data only when they're online, conserving energy and avoiding unnecessary power drain. Thus WoT's functionality ensures it is both practical and efficient without adding any unnecessary complexity.
+Agriculture systems also come with their own sets of constraints. Often, devices in agricultural environments are limited in terms of power and connectivity. For example, sensors in a cornfield might rely on batteries and lack access to power sources or network cables. This generally works well with WoT, as metadata can be stored externally and protocols like MQTT let devices send data only when they're online, conserving energy and avoiding unnecessary power drain. Thus WoT's functionality ensures it is both practical and efficient without adding unnecessary complexity.
 
-> Farm owners often aim to automate just one specific task, like soil monitoring, for example. WoT plays a crucial role as an interoperable interface here, allowing farm owners to integrate only the parts they need without committing to an all-encompassing solution. As shown in the figure, if a farm owner later decides to expand, this can be done easily. By enabling flexibility and compatibility across different devices and systems, WoT makes it easier for farms to adopt new solutions at their own pace and budget.
+> Farm owners often aim to automate a single, specific task, like soil monitoring, for example. WoT plays a crucial role as an interoperable interface here, allowing farm owners to integrate only the parts they need without committing to an all-encompassing solution. As shown in the figure, if a farm owner later decides to expand, this can be done easily. By enabling flexibility and compatibility across different devices and systems, WoT makes it easier for farms to adopt new solutions at their own pace and budget.
 
 ![smart-farm](/img/11-Architecture-Patterns/smart-farm.png)
 
