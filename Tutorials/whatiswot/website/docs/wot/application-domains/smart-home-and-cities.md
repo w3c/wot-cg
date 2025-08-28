@@ -17,7 +17,7 @@ In this section we will explore some of the Web of Things application domains an
 
 ## Smart Homes
 
-In smart homes, the ability to connect and manage multiple assets remotely over the network is highly beneficial. The interesting aspect of smart homes isn’t tied to a specific solution you buy, but rather in how WoT enables flexibility. A Manufacturer can provide a Thing Description for their device, which lets anyone build and customize their own systems. By following these open standards, devices can communicate with each other across brands, allowing for seamless integration. This approach ensures that devices remain adaptable and private, and don’t become obsolete, as they can continuously support new use cases and technologies.
+In smart homes, the ability to connect and manage multiple assets remotely over the network is highly beneficial. The interesting aspect of smart homes isn’t tied to a specific solution you buy, but rather in how WoT enables flexibility. A manufacturer can provide a Thing Description for their device, which lets anyone build and customize their own systems. By following these open standards, devices can communicate with each other across manufacturers, allowing for seamless integration. This approach ensures that devices remain adaptable and private, and don’t become obsolete, as they can continuously support new use cases and technologies.
 
 ![smart-home](/img/10-Application-Domains/smart-homes-new.png)
 
@@ -27,17 +27,25 @@ In smart homes, the ability to connect and manage multiple assets remotely over 
 
 Now that we’ve covered the basics of smart homes, let’s take a closer look at the architecture patterns that enable these systems to work efficiently in a typical local network and remote-control scenario.
 
-1. **Controllers:**
+#### Controllers
 
-A common pattern involves using a controller, locally and/or remotely, to interact with devices on the home network by consuming the Thing Description. Devices are represented by TDs and act as servers, responding to commands from client controllers (for example, smartphones) for actions such as reading sensor values or actuating devices.
+A common pattern involves using a controller, locally and/or remotely, to interact with devices on the home network by consuming their Thing Description (TD). Devices are represented by TDs and typically act as servers, responding to commands from client controllers (for example, smartphones) for actions such as reading sensor values or actuating devices.
 
 ![smart-home](/img/10-Application-Domains/smart-homes.png)
 
-2. **Gateways:**
+#### Gateways
 
 Gateways are another pattern commonly found in Smart Homes. They connect home networks to the internet, enabling remote management and monitoring.
 
-A gateway can use the local TD of a device to provide web-level access management, allowing devices to be accessed and managed both locally and remotely over the web. In the local network, the device uses one protocol for control, while externally, another protocol is typically used to manage remote interactions. The gateways facilitate communication between local devices and external controllers, enhancing accessibility and control.
+A gateway can use the local TD of a device to provide web-level access management, allowing devices to be accessed and managed both locally and remotely over the web. In the local network, the device uses one protocol for control, while externally, another protocol is typically used to manage remote interactions. The gateways facilitate this communication between local devices and external controllers by adapting the TD's protocol.
+
+![gateway](/img/10-Application-Domains/gateway.png)
+
+:::tip
+The TD itself remains the same in structure - only the protocol binding details are adapted to match the communication method.
+:::
+
+Let's look at an example of a smart home. Here different devices - such as solar panels, thermostats, and security cameras, may all use different local protocols. Gateways unify these devices by reading their local TDs, translating their communication into internet-friendly protocols, and providing secure access. Through this setup, devices remain operable in the local network while also becoming accessible to cloud servers and remote applications.
 
 ![smart-home-connection](/img/10-Application-Domains/smart-home-connection-new.png)
 
@@ -46,6 +54,8 @@ A gateway can use the local TD of a device to provide web-level access managemen
 Smart buildings such as offices, schools, government facilities, shops, and hotels are the next important step towards building a smart city. Unlike homes, the Things are owned and managed by the building owner, rather than by the individuals who just control them.
 
 > The features of these buildings mainly focus on comfort — like proper airflow — and safety — like fire alarms and security systems.
+
+![smart-building](/img/10-Application-Domains/smart-building.png)
 
 They often use protocols like BACnet, Modbus, and KNX for local control, which are not typical in a smart home. WoT can enhance interoperability, allowing different systems to work together more seamlessly. Since a smart city consists of many smart buildings and additional infrastructure, smart buildings are a crucial step toward scaling up to a fully connected city.
 
