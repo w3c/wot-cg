@@ -8,11 +8,13 @@ sidebar_label: Introduction
 
 In this tutorial, we will provide a general overview of a fundamental concept in the Web of Things — the Thing Description, or TD. A TD acts as a unique blueprint for the respective Thing, offering a standardized way to describe its functionality and how a Consumer should interact with it.
 
-> A Consumer is any application or service that communicates with a Thing over the network using its Thing Description. It understands the TD and uses it to interact with the Thing.
+:::info
+A Consumer is any application or service that communicates with a Thing over the network using its Thing Description. It understands the TD and uses it to interact with the Thing.
+:::
 
 ![consumer-definition](/img/13-Thing-Description/consumer.png)
 
-> Thing Descriptions are written using the JSON-LD format, making it both machine and human-readable. To understand this better, let's take a look at a simple example — a smart coffee machine — and break down the components in its Thing Description:
+Thing Descriptions are written using the JSON-LD format, making it both machine and human-readable. To understand this better, let's take a look at a simple example — a smart coffee machine — and break down the components in its Thing Description:
 
 ```json
 {
@@ -33,10 +35,18 @@ In this tutorial, we will provide a general overview of a fundamental concept in
     "events": {
         "lowOnWater": { ... }
     },
-    "links": [ ... ]
+    "links": [{
+        "rel": "controlledBy",
+        "href": "https://servient.example.com/things/machineController",
+        "type": "application/td+json"
+    }]
 }
 ```
 ## TD Components
+
+:::info
+For a more in-depth look at each TD component, you can explore the official documentation [here](https://w3c.github.io/wot-thing-description/). Additionally, our upcoming tutorials will cover each of these components in detail.
+:::
 
 ### Thing Metadata
 
@@ -64,7 +74,7 @@ In the definitions of Interaction Affordances, we specify ways a Consumer applic
     }
 ```
 
-> The example here shows the property `coffeeBeansLeft`, which describes the current state of the coffee beans; the action `brewCoffee`, which triggers brewing; and the event `lowOnWater`, which alerts the Consumer when the machine is low on water. We’ll explore Interaction Affordances in greater detail in the next tutorial of this series. 
+The example here shows the property `coffeeBeansLeft`, which describes the current state of the coffee beans; the action `brewCoffee`, which triggers brewing; and the event `lowOnWater`, which alerts the Consumer when the machine is low on water. We’ll explore Interaction Affordances in greater detail in the next tutorial of this series. 
 
 ### Security Metadata
 
@@ -79,23 +89,31 @@ The Security Metadata defines security mechanisms required to ensure authorized 
 
 To add keywords that are not part of the TD standard, Semantic Annotations can be added. These allow other systems to consistently interpret the device’s terms and functions.
 
-> Here, we annotate using `schema.org` to add the name of the manufacturer, which is not part of the core TD specification.
+Here, we annotate using `schema.org` to add the name of the manufacturer, which is not part of the core TD specification.
 
 ```json
-"@context": ["https://www.w3.org/2022/wot/td/v1.1"
-               {"schema":"https://schema.org/"}]
-```
-
-```json
-    "schema:manufacturer":"ACME Corporation"
+    {
+    "@context": [
+        "https://www.w3.org/2022/wot/td/v1.1",
+        {
+            "schema": "https://schema.org/"
+        }
+    ],
+    ...
+    "schema:manufacturer": "ACME Corporation"
+}
 ```
 
 ### Links to other documents
 
-Finally, the Thing Description can be linked to other documents, such as documentation or a user interface.
+Finally, the Thing Description can be linked to other documents, such as documentation or a user interface. In this example, the links array specifies that the Thing can be controlled by an external machine controller at the given URL.
 
 ```json
-    "links": [ ... ]
+    "links": [{
+        "rel": "controlledBy",
+        "href": "https://servient.example.com/things/machineController",
+        "type": "application/td+json"
+    }]
 ```
 
 ## Overview
