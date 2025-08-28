@@ -11,7 +11,7 @@ sidebar_label: Building Blocks
 <br />
 <br />
 
-With this tutorial, we begin to explain the concepts specific to the Web of Things. Be sure to review the [Preliminary tutorial](/docs/preliminary/payloads) to understand what the Web of Things builds upon. Here, we’ll provide a brief overview of the main building blocks that make up the Web of Things architecture — Thing Description, Binding Templates, Discovery, Scripting API and Profiles. In separate later tutorials, we will explore each individual building block in more detail.
+With this tutorial, we begin to explain the concepts specific to the Web of Things. Be sure to review the [Preliminary tutorial](/docs/preliminary/payloads) to understand what the Web of Things builds upon. Here, we’ll provide a brief overview of the main building blocks that make up the Web of Things architecture — Thing Description, Binding Templates, Discovery, Scripting API, and Profiles. In separate later tutorials, we will explore each individual building block in more detail.
 
 ## What are building blocks?
 
@@ -23,7 +23,7 @@ A Thing always has a Thing Description (TD). It is a key building block that pro
 
 ## Thing Description
 
-Let us begin with the Thing Description, or TD — a key component of WoT. This building block enhances interoperability and its goal is to enable communication within the machines or controllers.
+Let us begin with the Thing Description, or TD — a key component of WoT. This building block enhances interoperability with a goal of enabling communication within the machines or controllers.
 
 All TDs can be processed just like normal JSON documents. Essentially, a TD defines an information model using a semantic vocabulary and a serialized JSON representation. It provides both human- and machine-readable metadata describing the capabilities of a Thing.
 
@@ -96,9 +96,9 @@ Once you have a TD, you can use the API to build dashboards or automate device l
 
 ## Profiles
 
-By design, TDs are flexible and able to describe anything without any limitations. However, in some cases - let's say you are trying to communicate with your smart bulb with your smartphone, the lack of limitation of the TDs causes an unnecessary implementation load to communicate with every Thing as the Consumer implementation needs to handle all the possibilities.
+By design, TDs are flexible and able to describe anything without any limitations. However, in some cases — let's say you are trying to use your smartphone to communicate with your smart bulb — the lack of TD limitation causes an unnecessary implementation load to communicate with every Thing, as the Consumer implementation needs to handle all the possibilities.
 
-To streamline this process, WoT introduces Thing Profiles. Profiles limit the capabilities of the TDs, which in turn enables out of the box interoperability among Things and Consumer implementations. It also makes it possible to communicate with only minor configuration operations, such as entering a key or IP address.
+To streamline this process, WoT introduces Thing Profiles. Profiles limit the capabilities of the TDs, which in turn enables out of the box interoperability between Things and Consumer implementations. It also makes it possible to communicate with only minor configuration operations, such as entering a key or IP address.
 
 > For example, a profile based on HTTP would restrict the methods that the Thing can support, reducing the implementation effort for developers of Consumer applications.
 
