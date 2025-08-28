@@ -11,23 +11,23 @@ sidebar_label: Building Blocks
 <br />
 <br />
 
-This is the first tutorial in our Web of Things series. Here, we’ll provide a brief overview of the main building blocks that make up the Web of Things architecture — Thing Description, Binding Templates, Discovery, Scripting API and Profiles. In separate later tutorials, we will explore each individual building block in more detail.
+With this tutorial, we begin to explain the concepts specific to the Web of Things. Be sure to review the [Preliminary tutorial](/docs/preliminary/payloads) to understand what the Web of Things builds upon. Here, we’ll provide a brief overview of the main building blocks that make up the Web of Things architecture — Thing Description, Binding Templates, Discovery, Scripting API and Profiles. In separate later tutorials, we will explore each individual building block in more detail.
 
 ## What are building blocks?
 
-Building blocks allow the implementation of systems that conform with the abstract WoT Architecture. Let us take a closer look at the WoT building blocks.
+Building blocks allow the implementation of systems that conform with the abstract WoT Architecture. Let us take a closer look at the WoT building blocks. 
 
 ![wot-building-blocks](/img/12-Building-Blocks/wot-building-blocks-new.png)
 
-A Thing always has a Thing Description. It is a key building block that provides metadata describing a Thing and its network interface. This TD can be shared directly by the Thing or through the TD Directory — which is what we call Discovery. Things and Consumers can be programmed with the Scripting API.
+A Thing always has a Thing Description (TD). It is a key building block that provides metadata describing a Thing and its network interfaces. This TD can be hosted directly by the Thing or through a TD Directory — which is what we call Discovery. Things and Consumers can be programmed with the Scripting API.
 
 ## Thing Description
 
-Let us begin with the Thing Description, or TD — a key component of WoT.
+Let us begin with the Thing Description, or TD — a key component of WoT. This building block enhances interoperability and its goal is to enable communication within the machines or controllers.
 
 All TDs can be processed just like normal JSON documents. Essentially, a TD defines an information model using a semantic vocabulary and a serialized JSON representation. It provides both human- and machine-readable metadata describing the capabilities of a Thing.
 
-A TD describes a Thing instance with general metadata such as name, ID, and description. It typically also contains Interaction Affordance metadata and Protocol Bindings (such as Modbus and HTTP), as well as both public and local IP addresses.
+A TD describes a Thing instance with general metadata such as name, ID, and description. It typically also contains Interaction Affordance metadata and Protocol Bindings, such as Modbus or HTTP.
 
 ![thing description content](/img/12-Building-Blocks/td.png)
 
@@ -39,10 +39,11 @@ The IoT uses a wide variety of protocols to access devices because no single pro
 
 ![wot-binding-templates](/img/12-Building-Blocks/wot-binding-templates.png)
 
-Here is an example of a TD. This is the JSON serialization of a temperature controller. It tells the consumer to send a Modbus request to read the temperature in the local network.
+Here is an excerpt of an example TD. This is the JSON serialization of a temperature controller. It tells the consumer to send a Modbus request to read the temperature in the local network.
 
 ```js
 {
+  // ...
   "title":"Temperature Controller",
   "properties":{
     "temperature":{
@@ -61,6 +62,7 @@ The Thing can also be proxied by a gateway where an HTTP request will be sent in
 
 ```js
 {
+  // ...
   "title":"Temperature Controller",
   "properties":{
     "temperature":{
@@ -76,10 +78,6 @@ The Thing can also be proxied by a gateway where an HTTP request will be sent in
 
 ```
 
-The WoT TD building block enhances interoperability. The goal is to enable communication within the machines or controllers.
-
-> For example, a programmer can read the robot's TD and program the controller accordingly to automate processes. The controller then controls the robot by sending requests.
-
 ## Discovery
 
 The next building block we will cover is WoT Discovery.
@@ -90,19 +88,19 @@ WoT Thing Descriptions must be known or accessible to other systems and devices.
 
 ## Scripting API
 
-The WoT Scripting API is an optional building block that lets developers build applications using reusable scripts. It provides a simple and consistent way to interact with Things described by TDs — such as reading properties, invoking actions, and subscribing to events.
+The WoT Scripting API is an optional building block that lets developers build applications using reusable scripts. It provides a simple and protocol-agnostic way to interact with Things described by TDs — such as reading properties, invoking actions, and subscribing to events.
 
-> Once you have a TD, you can use the API to build dashboards or automate device logic without worrying about the underlying protocols.
+:::tip
+Once you have a TD, you can use the API to build dashboards or automate device logic without worrying about the underlying protocols.
+:::
 
 ## Profiles
 
-By design, TDs are flexible and able to describe anything without any limitations.
+By design, TDs are flexible and able to describe anything without any limitations. However, in some cases - let's say you are trying to communicate with your smart bulb with your smartphone, the lack of limitation of the TDs causes an unnecessary implementation load to communicate with every Thing as the Consumer implementation needs to handle all the possibilities.
 
-> However, in some cases - let's say you are trying to communicate with your smart bulb with your smartphone, the lack of limitation of the TDs causes an unnecessary implementation load to communicate with every Thing.
+To streamline this process, WoT introduces Thing Profiles. Profiles limit the capabilities of the TDs, which in turn enables out of the box interoperability among Things and Consumer implementations. It also makes it possible to communicate with only minor configuration operations, such as entering a key or IP address.
 
-To streamline this process, WoT introduces Thing Profiles. Profiles limit the capabilities of the TDs, which in turn enables out of the box interoperability among Things and devices. It also makes it possible to communicate with only minor configuration operations, such as entering a key or IP address.
-
-> For example, developers wouldn't have to think about which protocols to choose.
+> For example, a profile based on HTTP would restrict the methods that the Thing can support, reducing the implementation effort for developers of Consumer applications.
 
 ## Summary
 
