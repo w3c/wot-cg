@@ -17,7 +17,7 @@ With this tutorial, we begin to explain the concepts specific to the Web of Thin
 
 Building blocks allow the implementation of systems that conform with the abstract WoT Architecture. Let us take a closer look at the WoT building blocks. 
 
-![wot-building-blocks](/img/12-Building-Blocks/wot-building-blocks-new.png)
+![wot-building-blocks](/img/12-Building-Blocks/wot-building-blocks.png)
 
 A Thing always has a Thing Description (TD). It is a key building block that provides metadata describing a Thing and its network interfaces. This TD can be hosted directly by the Thing or through a TD Directory — which is what we call Discovery. Things and Consumers can be programmed with the Scripting API.
 
