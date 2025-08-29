@@ -4,7 +4,9 @@ sidebar_label: Introduction
 
 # Thing Description
 
-![coming-soon](/img/tutorial/What-Is-Wot/coming_soon_banner.png)
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/traPzBmeuSo?si=fxN3PdWKUdz9LXk8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<a href = "https://github.com/w3c/wot-cg/blob/main/Tutorials/whatiswot/13-Thing_Description/13-Thing-Description.mp4">Click here if YouTube does not work go to our GitHub.</a>  
 
 In this tutorial, we will provide a general overview of a fundamental concept in the Web of Things — the Thing Description, or TD. A TD acts as a unique blueprint for the respective Thing, offering a standardized way to describe its functionality and how a Consumer should interact with it.
 
@@ -45,7 +47,7 @@ Thing Descriptions are written using the JSON-LD format, making it both machine 
 ## TD Components
 
 :::info
-For a more in-depth look at each TD component, you can explore the official documentation [here](https://w3c.github.io/wot-thing-description/). Additionally, our upcoming tutorials will cover each of these components in detail.
+For a more in-depth look at each TD component, you can explore the official documentation [here](https://www.w3.org/TR/2023/REC-wot-thing-description11-20231205/). Additionally, our upcoming tutorials will cover each of these components in detail.
 :::
 
 ### Thing Metadata
