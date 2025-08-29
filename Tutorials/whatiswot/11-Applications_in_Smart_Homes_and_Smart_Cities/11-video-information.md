@@ -11,7 +11,7 @@ The corresponding web page of this video is at https://w3c.github.io/wot-cg/tuto
 
 This video is created by the W3C Web of Things Community Group and is developed open source. You can provide feedback via the GitHub link below.
 
-Next video: Coming Soon!
+Next video: https://youtu.be/5DK4v-6hF08
 
 Tutorial Homepage: https://w3c.github.io/wot-cg/tutorials/whatiswot/
 
