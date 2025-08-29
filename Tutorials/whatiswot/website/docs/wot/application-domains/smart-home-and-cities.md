@@ -19,7 +19,7 @@ In this section we will explore some of the Web of Things application domains an
 
 In smart homes, the ability to connect and manage multiple assets remotely over the network is highly beneficial. The interesting aspect of smart homes isn’t tied to a specific solution you buy, but rather is found in the ways WoT enables flexibility. A manufacturer can provide a Thing Description for their device, which lets anyone build and customize their own systems. By following these open standards, devices can communicate with each other across manufacturers, allowing for seamless integration. This approach also ensures that devices remain adaptable and private, and don’t become obsolete, as they can continuously support new use cases and technologies.
 
-![smart-home](/img/10-Application-Domains/smart-homes-new.png)
+![smart-home](/img/10-Application-Domains/smart-homes.png)
 
 > This helps with various activities within the home, such as controlling lights, adjusting room temperature, managing home appliances, and enhancing security using smartphones. These capabilities optimize energy and resource consumption.
 
@@ -47,7 +47,7 @@ The TD itself remains the same in structure — only the protocol binding detail
 
 Let's look at an example of a smart home. Here different devices — such as solar panels, thermostats, and security cameras — may all use different local protocols. Gateways unify these devices by reading their local TDs, translating their communication into internet-friendly protocols, and providing secure access. Through this setup, devices can remain operable in the local network while also becoming accessible to cloud servers and remote applications.
 
-![smart-home-connection](/img/10-Application-Domains/smart-home-connection-new.png)
+![smart-home-connection](/img/10-Application-Domains/smart-home-connection.png)
 
 ## Smart Buildings
 
@@ -67,7 +67,7 @@ WoT's ability to seamlessly integrate different domains - such as water manageme
 
 Additionally, WoT's use of open standards supports a wide range of protocols, making it adaptable to various architectures, whether client-server or publish-subscribe, with or without cloud involvement. This versatility allows smart cities to choose the best approach for their infrastructure.
 
-![smart-city](/img/10-Application-Domains/smart-city-new.png)
+![smart-city](/img/10-Application-Domains/smart-city.png)
 
 ## What's More?
 
