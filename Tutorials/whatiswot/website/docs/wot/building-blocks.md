@@ -84,7 +84,7 @@ The next building block we will cover is WoT Discovery.
 
 WoT Thing Descriptions must be known or accessible to other systems and devices. WoT Discovery accomplishes this by defining mechanisms for distributing and accessing TDs over the network. These mechanisms simplify access to Things and services and support their integration. They are not limited to a local area network - they also support remote discovery. The Thing Description Directory service provides mechanisms to register and retrieve TDs after authentication and authorization.
 
-![discovery-mechanism](/img/12-Building-Blocks/discovery-mechanism-new.png)
+![discovery-mechanism](/img/12-Building-Blocks/discovery-mechanism.png)
 
 ## Scripting API
 
