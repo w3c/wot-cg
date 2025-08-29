@@ -4,7 +4,7 @@ sidebar_label: Industrial and Agriculture Systems
 
 # Industrial and Agriculture Systems
 
-![coming-soon](/img/tutorial/What-Is-Wot/coming_soon_banner.png)
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/5DK4v-6hF08?si=sU3Vn-Oym6bkrl43" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 The Web of Things offers utility to diverse fields beyond smart homes and cities. This tutorial will focus on industrial and agriculture systems — two major and complex examples — and later, showcase how all domains can collaborate with each other, thanks to WoT.
 
