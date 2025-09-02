@@ -16,7 +16,7 @@ A Consumer is any application or service that communicates with a Thing over the
 
 ![consumer-definition](/img/13-Thing-Description/consumer.png)
 
-Thing Descriptions are written using the JSON-LD format, making it both machine and human-readable. To understand this better, let's take a look at a simple example — a smart coffee machine — and break down the components in its Thing Description:
+Thing Descriptions are written using the JSON-LD format, making it readable by both machines and humans. To understand this better, let's take a look at a simple example — a smart coffee machine — and break down the components in its Thing Description:
 
 ```json
 {
@@ -47,7 +47,7 @@ Thing Descriptions are written using the JSON-LD format, making it both machine 
 ## TD Components
 
 :::info
-For a more in-depth look at each TD component, you can explore the official documentation [here](https://www.w3.org/TR/2023/REC-wot-thing-description11-20231205/). Additionally, our upcoming tutorials will cover each of these components in detail.
+For a more in-depth look at each TD component, you can explore [the official documentation](https://www.w3.org/TR/2023/REC-wot-thing-description11-20231205/). Additionally, our upcoming tutorials will cover each of these components in detail.
 :::
 
 ### Thing Metadata
@@ -62,7 +62,7 @@ The Thing Description begins with the Thing's metadata. It provides the essentia
 
 ### Definition of Interaction Affordances
 
-In the definitions of Interaction Affordances, we specify ways a Consumer application can interact with the Thing, through its various properties, actions, and events exposed on its network interfaces.
+In the definitions of Interaction Affordances, we specify ways a Consumer application can interact with the Thing, through the various properties, actions, and events exposed on its network interfaces.
 
 ```json
     "properties": {
