@@ -13,11 +13,11 @@
 
 ### Introduction
 
-In this video, we’re going to dive deeper into Thing Descriptions by exploring one of their core concepts - Interaction Affordances. As we previously learned, a TD serves as a description of the possible interactions with a device or service. This is achieved by Interaction Affordances, which formally define three distinct categories of possible interactions: properties, actions and events.
+In this video, we’re going to dive deeper into Thing Descriptions by exploring one of their core concepts — Interaction Affordances. As we previously learned, a TD serves as a description of the possible interactions with a device or service, defined as Interaction Affordances. An Interaction Affordance is one of three types: a property, an action, or an event.
 
-Each affordance is defined not just by its semantic role, but by accompanying metadata, such as the interaction metadata, a data schema describing the input and output structure and forms specifying protocol bindings.
+An affordance is defined not only by its semantic role, but by accompanying metadata, such as interaction metadata, made up of a data schema describing the input and output structure, and forms specifying protocol bindings.
 
-To understand this better, let's expand on the example from the last video. This is a snippet of the interaction affordances of a smart coffee machine. How an affordance is actually activated - e.g., via a network request, will be covered in a later video.
+To understand this better, we'll expand on the example from the last video. This is a snippet of the interaction affordances of a smart coffee machine. How an affordance is actually activated — e.g., via a network request — will be covered in a later video.
 
 
 ``` json
@@ -64,37 +64,37 @@ To understand this better, let's expand on the example from the last video. This
 
 #### Properties
 
-> Zoom into coffeeBeansLeft property
+> Zoom into `coffeeBeansLeft` property
 
-Properties define the state, sensor values or configuration parameters of a Thing. They can be read, observed or written to. In our example, coffeeBeansLeft is a property that returns how many grams of coffee beans remain in the machine. This property can be read but not observed nor written to.
+Properties define the state, sensor values, or configuration parameters of a Thing. They can be read, observed, or written to. In our example, `coffeeBeansLeft` is a property that returns the number of grams of coffee beans remaining in the machine. This property can be read, but neither observed nor written to.
 
 #### Actions
 
-> Zoom into brewCoffee action
+> Zoom into `brewCoffee` action
 
-Actions define operations that a Consumer application can trigger. These are used when something needs to happen within the Thing, like a process starting or a task being performed. For instance, brewCoffee is an action that starts brewing a cup of coffee. It takes an input - the size of the coffee - and is invoked by the Consumer.
+Actions define operations that a Consumer application can trigger. These are used when something needs to happen within the Thing, like starting a process or performing a task. For instance, `brewCoffee` is an action that starts brewing a cup of coffee. It takes an input — the volume of coffee to brew — and is invoked by the Consumer.
 
 #### Events
 
-> Zoom into lowOnWater
+> Zoom into `lowOnWater`
 
-Events represent notifications that a Thing emits to the subscribers of the event, often asynchronously. These are used for real-time updates or alerts. In our case, lowOnWater is an event triggered when the water level is low. A Consumer can subscribe to this event and be notified when it occurs. This event definition currently has no data field, meaning it simply signals that the condition occured. However, events can also carry data - for example, lowOnWater could include the exact amount of water left in milliliters.
+Events represent notifications that a Thing emits to the subscribers of the event, often asynchronously. These are used for real-time updates or alerts. In this case, `lowOnWater` is an event triggered when the water level is low. A Consumer can subscribe to this event and be notified when it occurs. This event definition currently has no data field, meaning it simply signals that the condition occured. However, events can also carry data — for example, `lowOnWater` could include the exact volume of water remaining in milliliters.
 
 ### Interaction Metadata
 
 > Highlight the relevant parts as an animation
 
-Each affordance includes interaction metadata, which provides context about how it can be used. This includes:
- - title and description: Human-readable labels.
- - properties can have flags like readOnly, writeOnly, or observable.
- - actions can be marked as safe, idempotent, or synchronous.
+Each affordance includes interaction metadata, which provide context about how it can be used, including the following:
+ - title and description: human-readable labels
+ - flags: only on properties; such as `readOnly`, `writeOnly`, or `observable`
+ - subtypes: applicable to actions; may be `safe`, `idempotent`, or `synchronous`
 
  This metadata ensures clients know how to interact with the affordance over the network.
 
 ### Data 
 
-Interaction affordances also define data schemas that describe the structure of inputs and outputs. These schemas use JSON Schema - as introduced in our preliminary series - to define data types, allowed values and nested structures. In our example, the brewCoffee action expects an input object with a size property, which must be either "small", "medium" or "large". Data schemas are crucial for validation, tooling and interoperability.
+Interaction affordances also define data schemas that describe the structure of inputs and outputs. These schemas use JSON Schema — as introduced in our preliminary series — to define data types, allowed values, and nested structures. In our example, the `brewCoffee` action expects an input object with a size property, which must be either "`small`", "`medium`", or "`large`". Data schemas are crucial for validation, tooling, and interoperability.
 
 ### Summary
 
-That wraps up this tutorial. In the next video, we’ll dive deeper into protocol bindings and see exactly how to interact with a Thing over the network.
+That wraps up this tutorial. In the next video, we’ll dive deeper into protocol bindings and learn exactly how to interact with a Thing over the network.
