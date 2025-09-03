@@ -56,6 +56,37 @@ const FeatureList = [
   },
 ];
 
+const CommunityList = [
+  {
+    title: "Contribute & Collaborate",
+    Svg: require("@site/static/img/Logo-and-Frontpage/collaborate.png").default,
+    description: (
+      <>
+        This tutorial is a community-driven effort and always evolving.
+        Each stage in our workflow is reviewed collaboratively as it progresses through storyboards, scripts, videos, and website updates.  
+        You can contribute directly to its development by providing feedback and opening issues through GitHub. 
+        <br />
+        <a href="https://github.com/w3c/wot-cg"> GitHub Repository </a>
+      </>
+    ),
+  },
+  {
+    title: "Stay Connected",
+    Svg: require("@site/static/img/Logo-and-Frontpage/connect.png").default,
+    description: (
+      <>
+        Stay up to date with the tutorial's progress and connect with the community. 
+        We host a weekly call to share updates and ideas. You can also join our Discord server or follow the latest developments in our GitHub repository.  
+        <br />
+        <a href="https://www.w3.org/events/meetings/49f500a0-5914-4cc1-84fc-081768f19126/">
+          Weekly Call
+        </a>{" "}
+        | <a href="https://discord.gg/RpB2jwr9"> Discord </a>
+      </>
+    ),
+  },
+];
+
 function Feature({ Svg, title, description }) {
   return (
     <div className={clsx("col col--6")}>
@@ -72,14 +103,26 @@ function Feature({ Svg, title, description }) {
 
 export default function HomepageFeatures() {
   return (
-    <section className={styles.features}>
-      <div className="container">
-        <div className="row">
-          {FeatureList.map((props, idx) => (
-            <Feature key={idx} {...props} />
-          ))}
+    <>
+      <section className={styles.features}>
+        <div className="container">
+          <div className="row">
+            {FeatureList.map((props, idx) => (
+              <Feature key={idx} {...props} />
+            ))}
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
+
+      <section className={clsx(styles.features, styles.blueBanner)}>
+        <div className="container">
+          <div className="row">
+            {CommunityList.map((props, idx) => (
+              <Feature key={idx} {...props} />
+            ))}
+          </div>
+        </div>
+      </section>
+    </>
   );
 }
