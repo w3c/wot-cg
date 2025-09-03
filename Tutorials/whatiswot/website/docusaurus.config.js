@@ -85,12 +85,20 @@ const config = {
         style: "dark",
         links: [
           {
-            title: "Docs",
+            title: "WoT Tutorial Links",
             items: [
               {
-                label: "Tutorial",
+                label: "Introduction",
                 to: "/docs/intro",
               },
+              {
+                label: "Preliminary Series",
+                href: "https://youtube.com/playlist?list=PL7z9Jd8H_9zpA7LFyWy8-kuHvIfpL4X8i&si=f0tGbpnQ29pTqAnl",
+              },
+              {
+                label: "Main Series",
+                href: "https://youtube.com/playlist?list=PL7z9Jd8H_9zovYRYBgP2lpJiB_giXrTev&si=uZzWPID52MoPSEe9",
+              }
             ],
           },
           {
@@ -100,11 +108,23 @@ const config = {
                 label: "W3C WoT Community",
                 href: "https://www.w3.org/community/wot/",
               },
+              {
+                label: "WoT CG Discord",
+                href: "https://discord.gg/RpB2jwr9",
+              },
+              {
+                label: "WoT CG YouTube",
+                href: "https://www.youtube.com/@WoTCG",
+              },
             ],
           },
           {
-            title: "More",
+            title: "External Resources",
             items: [
+              {
+                label: "Thing Description",
+                href: "https://www.w3.org/TR/wot-thing-description11/",
+              },
               {
                 label: "GitHub",
                 href: "https://github.com/w3c/wot-cg",
