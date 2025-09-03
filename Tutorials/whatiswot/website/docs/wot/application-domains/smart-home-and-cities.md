@@ -6,7 +6,7 @@ sidebar_label: Smart Homes and Cities
 
 <iframe width="100%" height="400" src="https://www.youtube.com/embed/XR1vduVPtoA?si=FGshRSPSv95EqSAo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-<a href = "https://github.com/w3c/wot-cg/blob/main/Tutorials/whatiswot/11-Applications_in_Smart_Homes_and_Smart_Cities/11-Applications-in-Smart-Homes-and-Smart-Cities.mp4">Click here if YouTube does not work to go to our GitHub.</a>  
+<a href = "https://github.com/w3c/wot-cg/blob/main/Tutorials/whatiswot/11-Applications_in_Smart_Homes_and_Smart_Cities/11-Applications-in-Smart-Homes-and-Smart-Cities.mp4">If YouTube does not work, click here to watch from our GitHub repository.</a>
 
 <br />
 <br />
