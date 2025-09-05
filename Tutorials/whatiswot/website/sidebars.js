@@ -97,6 +97,11 @@ const sidebars = {
               id: "wot/application-domains/smart-home-and-cities",
               label: "Smart Home and Cities",
             },
+            {
+              type: "doc",
+              id: "wot/application-domains/industrial-and-agriculture-systems",
+              label: "Industrial and Agriculture Systems",
+            }
           ],
         },
         // {
