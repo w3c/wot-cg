@@ -92,11 +92,11 @@ const config = {
                 to: "/docs/intro",
               },
               {
-                label: "Preliminary Series",
+                label: "Preliminary Series - YouTube",
                 href: "https://youtube.com/playlist?list=PL7z9Jd8H_9zpA7LFyWy8-kuHvIfpL4X8i&si=f0tGbpnQ29pTqAnl",
               },
               {
-                label: "Main Series",
+                label: "Main Series - YouTube",
                 href: "https://youtube.com/playlist?list=PL7z9Jd8H_9zovYRYBgP2lpJiB_giXrTev&si=uZzWPID52MoPSEe9",
               }
             ],
