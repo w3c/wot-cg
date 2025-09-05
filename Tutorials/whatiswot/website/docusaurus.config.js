@@ -122,12 +122,16 @@ const config = {
             title: "External Resources",
             items: [
               {
-                label: "Thing Description",
+                label: "Thing Description Specification",
                 href: "https://www.w3.org/TR/wot-thing-description11/",
               },
               {
-                label: "GitHub",
+                label: "CG GitHub",
                 href: "https://github.com/w3c/wot-cg",
+              },
+              {
+                label: "WoT Landing Page",
+                href: "https://www.w3.org/WoT/",
               },
             ],
           },
