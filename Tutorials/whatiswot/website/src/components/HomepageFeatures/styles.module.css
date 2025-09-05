@@ -9,3 +9,22 @@
   height: 200px;
   width: 200px;
 }
+
+.blueBanner {
+  background-color: var(--ifm-color-primary);
+  color: var(--ifm-color-primary-lightest);
+}
+
+[data-theme='dark'] .blueBanner {
+  color: var(--ifm-color-primary-darkest);
+}
+
+.blueBanner a {
+  color: var(--ifm-color-primary-lightest);
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+[data-theme='dark'] .blueBanner a {
+  color: var(--ifm-color-primary-darkest);
+}
