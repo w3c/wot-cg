@@ -65,8 +65,7 @@ const CommunityList = [
         This tutorial is a community-driven effort and always evolving.
         Each stage in our workflow is reviewed collaboratively as it progresses through storyboards, scripts, videos, and website updates.  
         You can contribute directly to its development by providing feedback and opening issues through GitHub. 
-        <br />
-        <a href="https://github.com/w3c/wot-cg"> GitHub Repository </a>
+        Our <a href="https://github.com/orgs/w3c/projects/58">GitHub project</a> allows everyone to see the progress and the ongoing work.
       </>
     ),
   },
