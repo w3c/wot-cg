@@ -25,7 +25,7 @@ The W3C WoT Community Group builds a community around the recommendations and no
 
 ## Meetings
 
-### Internal Meetings
+### Monthly Calls
 
 - Time: Every first Tuesday of the month at 4pm CET. [Example Event in our Calendar](https://www.w3.org/events/meetings/0b0a4962-9dba-4213-903a-582509710914/20230904T170000/).
 - Topic: The work of the CG and take decisions to accomplish our next goals, such as meetups, infrastructure, and increasing WoT adoption and awareness.
