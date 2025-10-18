@@ -112,7 +112,7 @@ We will now read a JSON file from the file system using a JSON library in Python
 import json
 
 with open('JSON_example.json') as file:
-    data: json.load(file)
+    data = json.load(file)
 
 print(data)
 ```
