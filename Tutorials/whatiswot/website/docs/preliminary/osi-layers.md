@@ -52,7 +52,7 @@ Next comes the Transport Layer.
 
 This layer includes protocols like TCP and UDP which are meant to route data from sender to receiver.
 
-n this layer, the information from the application layer is encapsulated as payload, and TCP and UDP add their own headers.
+In this layer, the information from the application layer is encapsulated as payload, and TCP and UDP add their own headers.
 
 ![tcp udp header](/img/9-OSI-Layers/tcp-udp-header.png)
 
@@ -72,7 +72,7 @@ And lastly, our package arrives to the Physical layer, where the raw bit streams
 
 In summary, we started with temperature data from our sensor and transmitted it down the OSI layers to update the temperature value on the dashboard. These components interacted with each other through the network.
 
-Performing this we were able to send the temperature data.
+Performing this, we were able to send the temperature data.
 
 In order for the thermometer to receive the data, it has to go through all the OSI layers but in reverse order. At the end of the process, we can observe the temperature change on the indicator.
 
@@ -82,15 +82,15 @@ In order for the thermometer to receive the data, it has to go through all the O
 
 There are different Network Topologies, such as:
 
-- Server Client Model
-- Broker Client Model
-- Peer to Peer Model
+- Client-Server Model
+- Broker-Client Model
+- Peer-to-Peer Model
 
 In all of these models, the underlying network technology remains largely consistent; the variation lies in how the nodes are interconnected. WoT can be applied across different network device topologies without being specific to any particular one.
 
-### Server Client Model
+### Client-Server Model
 
-One of the most widely used topologies is the Server Client Model. It consists of one server and one or more clients. In this model, the server is reactive, waiting for requests and responding to clients. Clients, on the other hand, are proactive in initiating requests.
+One of the most widely used topologies is the Client-Server Model. It consists of one server and one or more clients. In this model, the server is reactive, waiting for requests and responding to clients. Clients, on the other hand, are proactive in initiating requests.
 
 ![server-client-model](/img/9-OSI-Layers/server-client-model.png)
 
@@ -98,9 +98,9 @@ Common protocols used in the Server-Client Model include HTTP, WebSocket, and Co
 
 If server and client are very tightly coupled, it is very hard one to evolve independently from another. Architectures like REST address this issue by promoting loose coupling, a principle also embraced by WoT. The REST concept where every resource has URI is also a primary design choice of the WoT.
 
-### Broker Client Model
+### Broker-Client Model
 
-The Broker Client Model is another significant topology. In this model, multiple clients connect to a central broker. While it's often referred to as Publisher-Subscriber, the term Broker-Client is more precise as PubSub can exist without a broker.
+The Broker-Client Model is another significant topology. In this model, multiple clients connect to a central broker. While it's often referred to as Publisher-Subscriber, the term Broker-Client is more precise as PubSub can exist without a broker.
 
 ![broker-client-model](/img/9-OSI-Layers/broker-client-model.png)
 
@@ -110,9 +110,9 @@ In this model, if one of the clients is inactive, data sent by the broker waits 
 
 Alternatively, multiple clients can send data to the broker, which then distributes it to other clients.
 
-### Peer to Peer Model
+### Peer-to-Peer Model
 
-Lastly, we have the Peer to Peer Model, a true distributed system where there's no central point to retrieve data from. Each node in this model has equal functionality.
+Lastly, we have the Peer-to-Peer Model, a true distributed system where there's no central point to retrieve data from. Each node in this model has equal functionality.
 
 Examples of this model include BitTorrent and Bitcoin.
 
