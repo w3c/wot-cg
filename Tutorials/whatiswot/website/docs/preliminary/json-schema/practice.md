@@ -149,7 +149,7 @@ It accepts:
 ```json
 {
   "name": "William Shakespeare",
-  "email": "bill@tum.de
+  "email": "bill@tum.de"
 }
 ```
 
