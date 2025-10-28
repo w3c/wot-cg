@@ -1,0 +1,21 @@
+
+This year, the W3C Web of Things community has continued to grow - reaching new domains and connecting more people, devices, and ideas than ever before.
+
+We’re excited to share some of our highlights with you.
+
+Over the past year, we’ve seen incredible momentum across the community. We released five new tutorials, organized ten meetups and our Discord community grew by more than 50%.
+
+One of our biggest highlights was WoT Week - a dedicated event that brought the community together to share demos, showcase implementations, and discuss what’s next for the Web of Things.
+
+These efforts and our meetups have brought together a diverse mix of contributors - from commercial teams and research groups to independent developers and enthusiasts.
+
+Together, they’re exploring the potential of Web of Things across different domains ranging from smart homes, building automation, scientific labs, and industrial environments.
+
+At the heart of it all is open source - a model that encourages transparency and collaboration. It’s what enables the Web of Things to keep evolving through real contributions from people and organizations around the world.
+
+As we look ahead, we’re excited to keep growing.
+
+If you’re curious to learn about the Web of Things, you can check out our tutorial series.
+
+And if you’d like to get involved and help the community grow, you can click the link in the description to join our Community Group or connect with us on GitHub and Discord.
+
