@@ -1,0 +1,125 @@
+WEBVTT
+
+00:00:12.017 --> 00:00:18.950 
+In this video, we’re going to dive deeper into Thing Descriptions by exploring one of their core concepts — Interaction
+
+00:00:18.950 --> 00:00:21.142 
+Affordances.
+
+00:00:21.142 --> 00:00:28.561 
+As we previously learned, a TD serves as a description of the possible interactions with a device or service, defined
+
+00:00:28.561 --> 00:00:30.651 
+as Interaction Affordances.
+
+00:00:30.651 --> 00:00:38.815 
+ An Interaction Affordance is one of three types: a property, an action, or an event.
+
+00:00:38.815 --> 00:00:46.796 
+An affordance is defined not only by its semantic role, but by accompanying metadata, such as interaction metadata, made up
+
+00:00:46.796 --> 00:00:53.899 
+of a data schema describing the input and output structure, and forms specifying protocol bindings.
+
+00:00:53.899 --> 00:01:00.551 
+To understand this better, we'll expand on the example from the last video. This is a snippet of the interaction
+
+00:01:00.551 --> 00:01:08.293 
+affordances of a smart coffee machine. How an affordance is actually activated — e.g., via a network request — will
+
+00:01:08.293 --> 00:01:10.633 
+be covered in a later video.
+
+00:01:10.633 --> 00:01:16.239 
+Properties define the state, sensor values, or configuration parameters of a Thing.
+
+00:01:16.239 --> 00:01:19.524 
+They can be read, observed, or written to.
+
+00:01:19.524 --> 00:01:27.027 
+In our example, `coffeeBeansLeft` is a property that returns the number of grams of coffee beans remaining in the machine.
+
+00:01:27.027 --> 00:01:31.818 
+This property can be read, but neither observed nor written to.
+
+00:01:31.818 --> 00:01:36.065 
+Actions define operations that a Consumer application can trigger.
+
+00:01:36.065 --> 00:01:42.542 
+These are used when something needs to happen within the Thing, like starting a process or performing a task.
+
+00:01:42.542 --> 00:01:47.124 
+For instance, `brewCoffee` is an action that starts brewing a cup of coffee.
+
+00:01:47.124 --> 00:01:53.313 
+It takes an input — the volume of coffee to brew — and is invoked by the Consumer.
+
+00:01:53.313 --> 00:01:59.852 
+Events represent notifications that a Thing emits to the subscribers of the event, often asynchronously.
+
+00:01:59.852 --> 00:02:03.201 
+These are used for real-time updates or alerts.
+
+00:02:03.201 --> 00:02:08.043 
+In this case, `lowOnWater` is an event triggered when the water level is low.
+
+00:02:08.043 --> 00:02:12.422 
+A Consumer can subscribe to this event and be notified when it occurs.
+
+00:02:12.422 --> 00:02:18.953 
+This event definition currently has no data field, meaning it simply signals that the condition occured.
+
+00:02:18.953 --> 00:02:28.658 
+However, events can also carry data — for example, `lowOnWater` could include the exact volume of water remaining in milliliters.
+
+00:02:28.658 --> 00:02:36.340 
+Each affordance includes interaction metadata, which provide context about how it can be used, including the following:
+
+00:02:36.340 --> 00:02:40.443 
+title and description - these are human-readable labels
+
+00:02:40.443 --> 00:02:47.275 
+flags: only applicable to properties; such as `readOnly`, `writeOnly`, or `observable`
+
+00:02:47.275 --> 00:02:54.269 
+subtypes: only applicable to actions - they may be `safe`, ` idempotent`, or `synchronous`
+
+00:02:54.269 --> 00:02:59.257 
+This metadata ensures clients know how to interact with the affordance over the network.
+
+00:02:59.257 --> 00:03:07.637 
+Alongside the given examples, there are additional, more technical forms of interaction metadata, which we will introduce and explain in
+
+00:03:07.637 --> 00:03:11.798 
+future tutorials, once the fundamentals are clear.
+
+00:03:11.798 --> 00:03:18.327 
+Interaction affordances also define data schemas that describe the structure of inputs and outputs.
+
+00:03:18.327 --> 00:03:26.426 
+These schemas use JSON Schema — as introduced in our preliminary series — to define data types, allowed values, and
+
+00:03:26.426 --> 00:03:27.955 
+nested structures.
+
+00:03:27.955 --> 00:03:36.162 
+In our example, the `brewCoffee` action expects an input object with a size property, which must be either "`small`", "`medium`",
+
+00:03:36.162 --> 00:03:37.235 
+or "`large`".
+
+00:03:37.235 --> 00:03:49.154 
+Any interaction affordance can also have structured data, regardless of its type: here, the event lowOnWater includes a numeric value
+
+00:03:49.282 --> 00:04:00.247 
+ Similarly, the property coffeeBeansLeft specifies a number between 0 and 500 - representing the grams of beans available.
+
+00:04:00.247 --> 00:04:07.507 
+ Data schemas are crucial for validation, tooling, and interoperability.
+
+00:04:07.507 --> 00:04:15.110 
+That wraps up this tutorial. In the next video, we’ll dive deeper into protocol bindings and learn exactly how to
+
+00:04:15.110 --> 00:04:17.282 
+interact with a Thing over the network.
+
