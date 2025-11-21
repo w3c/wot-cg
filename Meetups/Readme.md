@@ -5,6 +5,17 @@ This readme contains the links to minutes, presentation files and the recordings
 
 Note: Presentation files use the pattern `YEAR-MONTH-WoTCG-EVENTNAME-PRESENTERNAME.FILETYPE`.
 
+## Meetup 30
+
+- Name: Enabling IoT in buildings with BACnet and Web of Things
+- Presenter(s): Doğan Fennibay
+- Date: 20 November 2025
+- [Presenter Slides](./30/)
+- Intro Slides: [Google Slides](https://docs.google.com/presentation/d/1DUDu4RJXJWP_mEaOuHMW-hcQ33pgF8_kWIUgKGs3JkQ/edit?usp=sharing
+) | [PDF](./30/2025-11-WoTCG-Meetup30-AguzziKorkan.pdf)
+- [Video](https://youtu.be/VSZA8wjjUIo)
+- [Minutes](./30/2025-11-20-minutes.md)
+
 ## Meetup 29
 
 - Name: OPC UA and Web of Things
