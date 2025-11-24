@@ -10,7 +10,7 @@ Note: Presentation files use the pattern `YEAR-MONTH-WoTCG-EVENTNAME-PRESENTERNA
 - Name: Enabling IoT in buildings with BACnet and Web of Things
 - Presenter(s): Doğan Fennibay
 - Date: 20 November 2025
-- [Presenter Slides](./30/)
+- [Presenter Slides](./30/2025-11-WoTCG-Meetup30-WoT-BACnet-Fennibay-Siemens.pdf)
 - Intro Slides: [Google Slides](https://docs.google.com/presentation/d/1DUDu4RJXJWP_mEaOuHMW-hcQ33pgF8_kWIUgKGs3JkQ/edit?usp=sharing
 ) | [PDF](./30/2025-11-WoTCG-Meetup30-AguzziKorkan.pdf)
 - [Video](https://youtu.be/VSZA8wjjUIo)
