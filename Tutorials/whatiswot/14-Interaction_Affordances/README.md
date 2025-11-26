@@ -85,7 +85,9 @@ Each affordance includes interaction metadata, which provide context about how i
 
 ### Data 
 
-Interaction affordances also define data schemas that describe the structure of inputs and outputs. These schemas use JSON Schema — as introduced in our preliminary series — to define data types, allowed values, and nested structures. In our example, the `brewCoffee` action expects an input object with a size property, which must be either "`small`", "`medium`", or "`large`". Any interaction affordance can also have structured data, regardless of its type: here, the event lowOnWater includes a numeric value describing the remaining water in milliliters. Similarly, the property coffeeBeansLeft specifies a number between 0 and 500 representing the grams of beans available. Data schemas are crucial for validation, tooling, and interoperability.
+Interaction affordances also define data schemas that describe the structure of inputs and outputs. These schemas use JSON Schema — as introduced in our preliminary series — to define data types, allowed values, and nested structures. In our example, the `brewCoffee` action expects an input object with a size property, which must be either "`small`", "`medium`", or "`large`". Any interaction affordance can also have structured data, regardless of its type: here, the event lowOnWater includes a numeric value describing the remaining water in milliliters. Similarly, the property coffeeBeansLeft specifies a number between 0 and 500 representing the grams of beans available.
+
+Data schemas are crucial for validation, tooling, and interoperability. So when you’re authoring a Thing Description, make sure to clearly describe your data to ensure it can be interpreted correctly.
 
 ### Summary
 
