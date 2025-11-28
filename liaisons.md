@@ -16,7 +16,7 @@ Current liaisons:
 > This is only a draft until a resolution is reached in both WG and CG. These will be documented via email.
 > The CG Charter MAY need changes to satisfy the liaison. Agreeing on this document implies agreeing on the corresponding CG Charter changes.
 
-> The content below, until the horizontal line, is composed by the CG based on inputs from the TPAC Joint Meeting, CG Internal Meeting, and Office Hours inputs. Please refer to [Original Input](#original-input) for the discussion results form W3C TPAC 2023.
+> The content below, until the horizontal line, is composed by the CG based on inputs from the TPAC Joint Meeting, CG Internal Meeting, and Office Hours inputs. Please refer to [Original Input](#original-input) for the discussion results from W3C TPAC 2023.
 
 The WoT WG liaison is categorized based on the nature of collaboration. 
 The categories below explain the scope of collaboration.
