@@ -57,10 +57,12 @@ However, numerous other validators exist. For further information, you can check
 
 ## Basic Validation Flow
 
-This is the basic validation flow that all libraries follow.
+[Figure 1](#fig-basic-validation-flow) shows the basic validation flow that all libraries follow.
 The library takes a schema for your JSON data and validates your data according to the schema. Outputs the validation result as a boolean.
 
-![basic validation flow](/img/8-JSON-Schema-3/basic-validation.png)
+<figure id="fig-basic-validation-flow">
+<img src="/img/8-JSON-Schema-3/basic-validation.png" alt="Basic Validation Flow" />
+<figcaption><strong>Figure 1.</strong> Basic validation flow.</figcaption> </figure>
 
 ## Javascript AJV
 
