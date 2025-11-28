@@ -19,7 +19,10 @@ In this section we will explore some of the Web of Things application domains an
 
 In smart homes, the ability to connect and manage multiple assets remotely over the network is highly beneficial. The interesting aspect of smart homes isn’t tied to a specific solution you buy, but rather is found in the ways WoT enables flexibility. A manufacturer can provide a Thing Description for their device, which lets anyone build and customize their own systems. By following these open standards, devices can communicate with each other across manufacturers, allowing for seamless integration. This approach also ensures that devices remain adaptable and private, and don’t become obsolete, as they can continuously support new use cases and technologies.
 
-![smart-home](/img/10-Application-Domains/smart-homes.png)
+<figure id="fig-smart-home">
+  <img src="/img/10-Application-Domains/smart-homes.png" alt="Smart home architecture overview" />
+  <figcaption><strong>Figure 1.</strong> Example of a smart home environment with interoperable devices.</figcaption>
+</figure>
 
 > This helps with various activities within the home, such as controlling lights, adjusting room temperature, managing home appliances, and enhancing security using smartphones. These capabilities optimize energy and resource consumption.
 
@@ -31,7 +34,10 @@ Now that we’ve covered the basics of smart homes, let’s take a closer look a
 
 A common pattern involves using a controller, locally and/or remotely, to interact with devices on the home network by consuming their Thing Description (TD). Devices are represented by TDs and typically act as servers, responding to commands from client controllers (for example, smartphones) for actions such as reading sensor values or actuating devices.
 
-![smart-home](/img/10-Application-Domains/smart-homes.png)
+<figure id="fig-smart-home-controller">
+  <img src="/img/10-Application-Domains/smart-homes-controller.png" alt="Smart home controller architecture" />
+  <figcaption><strong>Figure 2.</strong> Smart home example showing controller interaction with devices using TDs.</figcaption>
+</figure>
 
 #### Gateways
 
@@ -39,15 +45,21 @@ Gateways are another pattern commonly found in Smart Homes. They connect home ne
 
 A gateway can use the local TD of a device to provide web-level access management, allowing devices to be accessed and managed both locally and remotely over the web. In the local network, the device uses one protocol for control, while externally, another protocol is typically used to manage remote interactions. The gateways facilitate this communication between local devices and external controllers by adapting the TD's protocol.
 
-![gateway](/img/10-Application-Domains/gateway.png)
+<figure id="fig-gateway">
+  <img src="/img/10-Application-Domains/gateway.png" alt="Gateway architecture for smart homes" />
+  <figcaption><strong>Figure 3.</strong> Illustration of a gateway enabling local and remote access through protocol adaptation.</figcaption>
+</figure>
 
 :::tip
 The TD itself remains the same in structure — only the protocol binding details are adapted to match the communication method.
 :::
 
-Let's look at an example of a smart home. Here different devices — such as solar panels, thermostats, and security cameras — may all use different local protocols. Gateways unify these devices by reading their local TDs, translating their communication into internet-friendly protocols, and providing secure access. Through this setup, devices can remain operable in the local network while also becoming accessible to cloud servers and remote applications.
+Let's look at [Figure 4](#fig-smart-home-connection) for an example a smart home. Here different devices — such as solar panels, thermostats, and security cameras — may all use different local protocols. Gateways unify these devices by reading their local TDs, translating their communication into internet-friendly protocols, and providing secure access. Through this setup, devices can remain operable in the local network while also becoming accessible to cloud servers and remote applications.
 
-![smart-home-connection](/img/10-Application-Domains/smart-home-connection.png)
+<figure id="fig-smart-home-connection">
+  <img src="/img/10-Application-Domains/smart-home-connection.png" alt="Smart home connection flow" />
+  <figcaption><strong>Figure 4.</strong> Smart home gateway connection example.</figcaption>
+</figure>
 
 ## Smart Buildings
 
@@ -55,7 +67,10 @@ Smart buildings such as offices, schools, government facilities, shops, and hote
 
 > The features of these buildings mainly focus on comfort — like proper airflow — and safety — like fire alarms and security systems.
 
-![smart-building](/img/10-Application-Domains/smart-building.png)
+<figure id="fig-smart-building">
+  <img src="/img/10-Application-Domains/smart-building.png" alt="Smart building architecture" />
+  <figcaption><strong>Figure 5.</strong> Overview of a WoT-based smart building environment.</figcaption>
+</figure>
 
 They often use protocols like BACnet, Modbus, and KNX for local control, which are not typical in a smart home. WoT can enhance interoperability, allowing different systems to work together more seamlessly. Since a smart city consists of many smart buildings and additional infrastructure, smart buildings are a crucial step toward scaling up to a fully connected city.
 
@@ -67,7 +82,10 @@ WoT's ability to seamlessly integrate different domains - such as water manageme
 
 Additionally, WoT's use of open standards supports a wide range of protocols, making it adaptable to various architectures, whether client-server or publish-subscribe, with or without cloud involvement. This versatility allows smart cities to choose the best approach for their infrastructure.
 
-![smart-city](/img/10-Application-Domains/smart-city.png)
+<figure id="fig-smart-city">
+  <img src="/img/10-Application-Domains/smart-city.png" alt="Smart city architecture overview" />
+  <figcaption><strong>Figure 6.</strong> Example of a smart city built with WoT.</figcaption>
+</figure>
 
 ## What's More?
 
