@@ -1,65 +1,65 @@
-## Liaisons to the W3C WoT Community Group
+# Liaisons to the W3C WoT Community Group
 
-The liaisons of the W3C WoT CG are not explicitly outlined in the CG charter; however, they are documented in this document. 
-This markdown document details each liaison and explains the extent of its scope.
+The liaisons of the W3C WoT Community Group (CG) are not explicitly defined in the CG Charter.
+However, they are documented in this document.
+This document describes each liaison and defines the scope of responsibility.
 
-Current liaisons:
+Current liaison:
 
-- [Web of Things Working Group](#web-of-things-interest-and-working-group)
+- [Web of Things Working Group](#web-of-things-working-group)
 
-> [!NOTE] 
-> The key words MAY, MUST, MUST NOT, RECOMMENDED, SHOULD, and SHOULD NOT in this document are to be interpreted as described in [BCP 14](https://www.rfc-editor.org/info/bcp14) [RFC2119](https://www.rfc-editor.org/rfc/rfc2119) [RFC8174](https://www.rfc-editor.org/rfc/rfc8174) when, and only when, they appear in all capitals, as shown here. 
+## Web of Things Working Group
 
-### Web of Things Working Group
+In this section, WG refers to the Web of Things Working Group.
+CG refers to the Web of Things Community Group.
 
-> [!NOTE] 
-> This is only a draft until a resolution is reached in both WG and CG. These will be documented via email.
-> The CG Charter MAY need changes to satisfy the liaison. Agreeing on this document implies agreeing on the corresponding CG Charter changes.
+> [!NOTE]
+> This liaison is a draft until a resolution is reached in both the WG and CG.
+> Resolutions will be documented via email.
+> The CG Charter will need to be updated to satisfy this liaison.
+> Agreement on this document implies agreement on the corresponding CG Charter updates.
+> Until the revised CG Charter becomes active, this liaison remains in draft status.
 
-> The content below, until the horizontal line, is composed by the CG based on inputs from the TPAC Joint Meeting, CG Internal Meeting, and Office Hours inputs. Please refer to [Original Input](#original-input) for the discussion results from W3C TPAC 2023.
+This liaison defines the role of the CG with respect to the work of the WG.
+The CG has four primary roles: facilitating a low entry barrier, conducting outreach, organizing plugfests, and developing bindings.
 
-The WoT WG liaison is categorized based on the nature of collaboration. 
-The categories below explain the scope of collaboration.
+### Facilitating a Low Entry Barrier
 
-#### Binding Documents
+Because WG participation requires W3C membership, it is important to foster broader engagement and idea exchange on WoT-related topics.
+CG participants are able to freely exchange ideas on WoT-related topics, collaborate on non-normative CG reports, and experiment with implementations of WG deliverables.
+Additionally, the CG develops WoT tutorials to support newcomers in understanding WG reports, as well as open-source implementations of WoT.
 
-The CG CAN work on bindings and submit to the WoT Binding Registry managed by the WoT WG.
+### Outreach
 
-The following rules are provided for convenience but they are mandated by documents outside of this one:
+The CG uses communication channels administered by the CG co-chairs to reach a broad audience.
+This aligns with the low-entry-barrier objective.
+These channels include, but are not limited to:
 
-- The CG Bindings MUST adhere to the [W3C CLA](https://www.w3.org/community/about/process/cla/).
-- The CG Bindings MUST comply with the format and content requirements established by the [WoT Binding Registry](https://www.w3.org/TR/wot-binding-registry/). 
+- A Discord server where discussions take place and events are communicated to the community
+- A YouTube channel where tutorials and meetup videos are published
+- (Online) Community meetup events where implementers can share their experience with WoT
 
-#### Role of WoT CG
+### Bindings
 
-The role of the CG in this collaboration is categorized into three: facilitating a low entry barrier, engaging in outreach and bindings.
+The CG provides a venue to develop bindings for contributors who cannot join the WG.
+This is relevant when the _owner_ of a protocol or the WG is not willing or able to create a binding for a protocol of interest to a CG participant.
+This enables collaboration and supports the creation of public, stable URIs needed for registry submissions.
+By no means, the development of bindings is limited to CG participants.
 
-##### Ensuring a Low Entry for WoT Involvement
+The following requirements are mandated by external documents:
 
-Considering the existence of membership fees for WG participation, fostering more participants to exchange ideas on WoT-related topics becomes relevant.
+- The CG bindings must adhere to the [W3C CLA](https://www.w3.org/community/about/process/cla/) that each CG participant agrees to upon joining the CG.
+- The CG bindings must comply with the format and content requirements established by the [WoT Binding Registry](https://www.w3.org/TR/wot-binding-registry/).
 
-CG participants CAN actively and openly exchange ideas on WoT-related topics within the CG, collaborate on non-normative CG reports, and experiment with the implementations of the WG reports.
+### Plugfests
 
-##### Outreach
+The CG organizes WoT Plugfests and invites WG participants, external organizations, and individuals.
+The goal of Plugfests is to gather implementation experience, test interoperability between implementations, test new features of the WG specifications, and work on WoT bindings.
+These bindings may belong to the WG, CG, or other organizations.
+Ideally, WG participants are involved in the organization of Plugfests.
 
-The CG utilizes various channels under the CG co-chairs' administration to reach a broad audience interested in WoT, aligning with the low-entry barrier principle.
+Plugfests do not have the goal of creating an implementation report.
+Implementation reports are required for the publication of W3C Recommendations.
+This activity remains the responsibility of the WG.
 
-##### Bindings
-
-The CG provides a place to develop bindings for people who cannot join the WG.
-This is relevant if the "owner" of the protocol or the WG is not willing to write a binding for a protocol that a CG participant is interested in.
-This creates an environment for collaboration, as well as public and stable URIs needed for the registry submission.
-
-#### Plugfests
-
-The CG organizes WoT Plugfests and invites WoT WG participants and other organizations.
-The goal of the WoT Plugfest is to gather implementation experience, test interoperability between implementations, test new features of the WoT WG specifications and work on WoT Bindings, which can belong to WoT WG, WoT CG or other organizations.
-
-Each Plugfest has its own folder and a wiki page in the CG GitHub.
-
-#### Other events
-
-Joint meetings, such as Face to Face (F2F) and TPAC meetings, MAY be convened between the WoT WG and CG.
-
----
-
+Each Plugfest has its own folder and a wiki page in the CG GitHub repository.
