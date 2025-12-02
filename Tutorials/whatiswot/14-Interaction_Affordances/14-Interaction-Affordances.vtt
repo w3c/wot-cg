@@ -111,20 +111,20 @@ or "large".
 00:03:40.572 --> 00:03:52.491 
 Any interaction affordance can also have structured data, regardless of its type: here, the event lowOnWater includes a numeric value
 
-00:03:52.619 --> 00:04:03.584 
- Similarly, the property coffeeBeansLeft specifies a number between 0 and 500 - representing the grams of beans available.
+00:03:52.619 --> 00:04:04.477 
+ Similarly, the property coffeeBeansLeft specifies a number between 0 and 500, representing the grams of beans available.
 
-00:04:03.584 --> 00:04:13.454 
+00:04:04.477 --> 00:04:14.347 
  Data schemas are crucial for validation, tooling, and interoperability. So when
 you’re authoring a Thing Description, make sure to clearly
 
-00:04:13.454 --> 00:04:18.111 
+00:04:14.347 --> 00:04:19.004 
 describe your data
 to ensure it can be interpreted correctly.
 
-00:04:18.111 --> 00:04:25.714 
+00:04:19.004 --> 00:04:26.607 
 That wraps up this tutorial. In the next video, we’ll dive deeper into protocol bindings and learn exactly how to
 
-00:04:25.714 --> 00:04:27.886 
+00:04:26.607 --> 00:04:28.779 
 interact with a Thing over the network.
 
