@@ -6,7 +6,7 @@ sidebar_label: Introduction
 
 <iframe width="100%" height="400" src="https://www.youtube.com/embed/BPqDBu6fT-0?si=L-sz7baJzoAqjo3b" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-<a href = "https://github.com/w3c/wot-cg/blob/main/Tutorials/whatiswot/5-JSON_Schema/5-JSON-Schema.mp4">Click here if YouTube does not work go to our GitHub.</a>  
+If YouTube does not work, <a href = "https://github.com/w3c/wot-cg/blob/main/Tutorials/whatiswot/5-JSON_Schema/5-JSON-Schema.mp4">click here to watch from our GitHub repository.</a>  
 
 <br />
 <br />
