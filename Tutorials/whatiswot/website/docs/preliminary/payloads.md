@@ -6,7 +6,7 @@ sidebar_label: Payloads and Headers
 
 <iframe width="100%" height="400" src="https://www.youtube.com/embed/uooaqTpNtNw?si=vCoRygpQYoy3CXBe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-<a href = "https://github.com/w3c/wot-cg/blob/main/Tutorials/whatiswot/2-Payloads_and_Headers/2-Payloads_and_Headers.mp4">Click here if YouTube does not work go to our GitHub.</a>  
+If YouTube does not work, <a href = "https://github.com/w3c/wot-cg/blob/main/Tutorials/whatiswot/2-Payloads_and_Headers/2-Payloads_and_Headers.mp4">click here to watch from our GitHub repository.</a>  
 
 
 <br />
@@ -18,7 +18,10 @@ This is an introductory series that presents technologies and standards relevant
 
 In the Web of Things, smart devices typically exchange data with each other. Such data is sent via payloads, therefore it is essential to understand what payloads are and the headers that describe them. Thus, in this section, we will cover the topics of headers and the different types of payloads - including JSON, the most used one in the scope of WoT, and its importance.
 
-![payloads and headers](/img/tutorial/Payloads-And-Headers/payloadsandheaders.png)
+<figure id="fig-payloads-headers-overview">
+  <img src="/img/tutorial/Payloads-And-Headers/payloadsandheaders.png" alt="Relationship between payloads and headers" />
+  <figcaption><strong>Figure 1.</strong> Relationship between payloads and headers.</figcaption>
+</figure>
 
 ## What is a payload?
 
@@ -30,15 +33,21 @@ In computing, the payload is the part of transmitted data that is the actual int
 
 The header is part of a message that can and should be understood by the protocol stack. All the information that the payload should not contain, goes to the header.
 
-> Let's go back to our truck example. In that example, the header would be the label on the goods - indicating where they are being transported, what they are and etc.
+> Let's go back to our truck example. As seen in [Figure 2](#fig-truck-example), the header would be the label on the goods - indicating where they are being transported, what they are and etc.
 
-![truck with parcels example](/img/tutorial/Payloads-And-Headers/truck.png)
+<figure id="fig-truck-example">
+  <img src="/img/tutorial/Payloads-And-Headers/truck.png" alt="Truck and parcel header analogy" />
+  <figcaption><strong>Figure 2.</strong> Analogy showing headers as labels on transported goods.</figcaption>
+</figure>
 
 ## Header Example
 
 This is what an HTTP header can look like. A header can contain information like request context, response context, status and it can indicate payload type.
 
-![http header example](/img/tutorial/Payloads-And-Headers/httpheader.png)
+<figure id="fig-http-header-example">
+  <img src="/img/tutorial/Payloads-And-Headers/httpheader.png" alt="Example contents of an HTTP header" />
+  <figcaption><strong>Figure 3.</strong> Example contents of an HTTP header.</figcaption>
+</figure>
 
 ## Payload Types
 
@@ -46,9 +55,12 @@ There are different payload types: JSON, XML, CBOR, text and audio to name a few
 
 So let us show you an example of a **JSON payload**. 
 
-![json payload example](/img/tutorial/Payloads-And-Headers/jsonexample.png)
+<figure id="fig-json-payload-example">
+  <img src="/img/tutorial/Payloads-And-Headers/jsonexample.png" alt="Example of a JSON payload with sensor values" />
+  <figcaption><strong>Figure 4.</strong> Example of a JSON payload used by a temperature sensor.</figcaption>
+</figure>
 
-For this example we will take a look at a temperature sensor. The diagram helps to illustrate the payloads and their relationship to the sensor. The temperature payload is a single number and is being sent from the sensor. The configuration payload is a JSON object consisting of key/value pairs desiredUnit and updateInterval and is sent to the sensor.
+For this example we will take a look at a temperature sensor. [Figure 4](#fig-json-payload-example) helps to illustrate the payloads and their relationship to the sensor. The temperature payload is a single number and is being sent from the sensor. The configuration payload is a JSON object consisting of key/value pairs desiredUnit and updateInterval and is sent to the sensor.
 
 Temparature payload:
 
