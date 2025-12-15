@@ -6,15 +6,18 @@ sidebar_label: Introduction
 
 <iframe width="100%" height="400" src="https://www.youtube.com/embed/traPzBmeuSo?si=fxN3PdWKUdz9LXk8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-<a href = "https://github.com/w3c/wot-cg/blob/main/Tutorials/whatiswot/13-Thing_Description/13-Thing-Description.mp4">Click here if YouTube does not work go to our GitHub.</a>  
+If YouTube does not work, <a href = "https://github.com/w3c/wot-cg/blob/main/Tutorials/whatiswot/13-Thing_Description/13-Thing-Description.mp4">click here to watch from our GitHub repository.</a>  
 
 In this tutorial, we will provide a general overview of a fundamental concept in the Web of Things — the Thing Description, or TD. A TD acts as a unique blueprint for the respective Thing, offering a standardized way to describe its functionality and how a Consumer should interact with it.
 
 :::info
-A Consumer is any application or service that communicates with a Thing over the network using its Thing Description. It understands the TD and uses it to interact with the Thing.
+As shown in [Figure 1](#fig-consumer-definition), a Consumer is any application or service that communicates with a Thing over the network using its Thing Description. It understands the TD and uses it to interact with the Thing.
 :::
 
-![consumer-definition](/img/13-Thing-Description/consumer.png)
+<figure id="fig-consumer-definition">
+  <img src="/img/13-Thing-Description/consumer.png" alt="Consumer definition diagram" />
+  <figcaption><strong>Figure 1.</strong> The relationship between Consumer, Thing and Thing Description.</figcaption>
+</figure>
 
 Thing Descriptions are written using the JSON-LD format, making it readable by both machines and humans. To understand this better, let's take a look at a simple example — a smart coffee machine — and break down the components in its Thing Description:
 

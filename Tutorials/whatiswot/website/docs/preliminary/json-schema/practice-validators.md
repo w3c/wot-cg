@@ -6,7 +6,7 @@ sidebar_label: JSON Schema in Practice - Validators
 
 <iframe width="100%" height="400" src="https://www.youtube.com/embed/ZKoWLyaWuaw?si=Qo-mBPkp8-J33o7C" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-<a href = "https://github.com/w3c/wot-cg/blob/main/Tutorials/whatiswot/8-JSON_Schema_in_Practice_3/8-JSON-Schema-3.mp4">Click here if YouTube does not work go to our GitHub.</a>  
+If YouTube does not work, <a href = "https://github.com/w3c/wot-cg/blob/main/Tutorials/whatiswot/8-JSON_Schema_in_Practice_3/8-JSON-Schema-3.mp4">click here to watch from our GitHub repository.</a>  
 
 <br />
 <br />
@@ -57,10 +57,12 @@ However, numerous other validators exist. For further information, you can check
 
 ## Basic Validation Flow
 
-This is the basic validation flow that all libraries follow.
+[Figure 1](#fig-basic-validation-flow) shows the basic validation flow that all libraries follow.
 The library takes a schema for your JSON data and validates your data according to the schema. Outputs the validation result as a boolean.
 
-![basic validation flow](/img/8-JSON-Schema-3/basic-validation.png)
+<figure id="fig-basic-validation-flow">
+<img src="/img/8-JSON-Schema-3/basic-validation.png" alt="Basic Validation Flow" />
+<figcaption><strong>Figure 1.</strong> Basic validation flow.</figcaption> </figure>
 
 ## Javascript AJV
 

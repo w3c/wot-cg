@@ -6,7 +6,7 @@ sidebar_label: OSI Layers and Network Topologies
 
 <iframe width="100%" height="400" src="https://www.youtube.com/embed/QMNkZidA3UY?si=aB2BfW7BFBmAy34F" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-<a href = "https://github.com/w3c/wot-cg/blob/main/Tutorials/whatiswot/9-OSI_Layers/9-OSI-Layers.mp4">Click here if YouTube does not work go to our GitHub.</a>  
+If YouTube does not work, <a href = "https://github.com/w3c/wot-cg/blob/main/Tutorials/whatiswot/9-OSI_Layers/9-OSI-Layers.mp4">click here to watch from our GitHub repository.</a>  
 
 <br />
 <br />
@@ -76,7 +76,8 @@ Performing this, we were able to send the temperature data.
 
 In order for the thermometer to receive the data, it has to go through all the OSI layers but in reverse order. At the end of the process, we can observe the temperature change on the indicator.
 
-![layers](/img/tutorial/OSI-Layers/layers.png)
+<figure id="fig-osi-layers-summary">
+<img src="/img/tutorial/OSI-Layers/layers.png" alt="OSI layers overview from application to physical layer" /> <figcaption><strong>Figure 1.</strong> Summary of OSI layers.</figcaption></figure>
 
 ## Different Network Topologies
 
@@ -90,9 +91,11 @@ In all of these models, the underlying network technology remains largely consis
 
 ### Client-Server Model
 
-One of the most widely used topologies is the Client-Server Model. It consists of one server and one or more clients. In this model, the server is reactive, waiting for requests and responding to clients. Clients, on the other hand, are proactive in initiating requests.
+One of the most widely used topologies is the Client-Server Model shown in [Figure 2](#fig-server-client-model). It consists of one server and one or more clients. In this model, the server is reactive, waiting for requests and responding to clients. Clients, on the other hand, are proactive in initiating requests.
 
-![server-client-model](/img/9-OSI-Layers/server-client-model.png)
+<figure id="fig-server-client-model">
+<img src="/img/9-OSI-Layers/server-client-model.png" alt="Client-Server Model" />
+<figcaption><strong>Figure 2.</strong> Client–Server Model.</figcaption> </figure>
 
 Common protocols used in the Server-Client Model include HTTP, WebSocket, and CoAP.
 
@@ -102,7 +105,9 @@ If server and client are very tightly coupled, it is very hard one to evolve ind
 
 The Broker-Client Model is another significant topology. In this model, multiple clients connect to a central broker. While it's often referred to as Publisher-Subscriber, the term Broker-Client is more precise as PubSub can exist without a broker.
 
-![broker-client-model](/img/9-OSI-Layers/broker-client-model.png)
+<figure id="fig-broker-client-model">
+<img src="/img/9-OSI-Layers/broker-client-model.png" alt="Broker-Client Model" />
+<figcaption><strong>Figure 3.</strong> Broker–Client Model.</figcaption> </figure>
 
 The broker does not contain any application logic, it is simply a router that receives messages and sends them to clients that are listening.
 
@@ -112,8 +117,10 @@ Alternatively, multiple clients can send data to the broker, which then distribu
 
 ### Peer-to-Peer Model
 
-Lastly, we have the Peer-to-Peer Model, a true distributed system where there's no central point to retrieve data from. Each node in this model has equal functionality.
+Lastly, we have the Peer-to-Peer Model, a true distributed system where there's no central point to retrieve data from. As seen in [Figure 4](#fig-peer-to-peer-model), each node in this model has equal functionality.
 
 Examples of this model include BitTorrent and Bitcoin.
 
-![peer-to-peer-model](/img/9-OSI-Layers/peer-to-peer-model.png)
+<figure id="fig-peer-to-peer-model">
+<img src="/img/9-OSI-Layers/peer-to-peer-model.png" alt="Peer-to-peer topology" />
+<figcaption><strong>Figure 4.</strong> Peer-to-Peer Model.</figcaption> </figure>

@@ -6,7 +6,7 @@ sidebar_label: JSON in Practice
 
 <iframe width="100%" height="400" src="https://www.youtube.com/embed/bfvo4DAZG78?si=3NvJK6TDwLv82K3t" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-<a href = "https://github.com/w3c/wot-cg/blob/main/Tutorials/whatiswot/4-JSON_in_Practice/4-JSON_in_Practice.mp4">Click here if YouTube does not work go to our GitHub.</a>  
+If YouTube does not work, <a href = "https://github.com/w3c/wot-cg/blob/main/Tutorials/whatiswot/4-JSON_in_Practice/4-JSON_in_Practice.mp4">click here to watch from our GitHub repository.</a>  
 
 <br />
 <br />
@@ -28,7 +28,10 @@ Accepted types:
 - Boolean
 - Null
 
-![json array](/img/4-JSON-In-Practice/json-array.png)
+<figure id="fig-json-array">
+  <img src="/img/4-JSON-In-Practice/json-array.png" alt="Example of a JSON array" />
+  <figcaption><strong>Figure 1.</strong> Example of a JSON array.</figcaption>
+</figure>
 
 ### Nested objects
 
@@ -37,11 +40,17 @@ Nested objects are allowed in JSON. The “measurement” keyword is an example 
 Objects start and end with curly brackets. We are essentially defining keywords and mapping these keywords to values.
 In this example, we define the name and value pairs to describe the data sent by sensors.
 
-![nested object](/img/4-JSON-In-Practice/nested-object.png)
+<figure id="fig-nested-object">
+  <img src="/img/4-JSON-In-Practice/nested-object.png" alt="Example of a nested JSON object" />
+  <figcaption><strong>Figure 2.</strong> Example of a nested JSON object.</figcaption>
+</figure>
 
 Here is a JSON array in which all of its items are JSON objects:
 
-![json object array](/img/4-JSON-In-Practice/json-object-array.png)
+<figure id="fig-json-object-array">
+  <img src="/img/4-JSON-In-Practice/json-object-array.png" alt="JSON array containing multiple JSON objects" />
+  <figcaption><strong>Figure 3.</strong> JSON array containing multiple JSON objects.</figcaption>
+</figure>
 
 ## Common Mistakes
 
@@ -78,13 +87,19 @@ We should always pay attention to the type we want to use and use quotation mark
 
 Putting comments inside JSON documents is not valid in contrast to most of the programming languages.
 
-![comment](/img/4-JSON-In-Practice/comment.png)
+<figure id="fig-json-comment">
+  <img src="/img/4-JSON-In-Practice/comment.png" alt="Invalid JSON example showing a comment" />
+  <figcaption><strong>Figure 4.</strong> Invalid JSON comment.</figcaption>
+</figure>
 
 ### Trailing Commas
 
-Commas should not be used at the final name-value pair - that is why the left example is not valid. This is more difficult to see if you are using it inside of a Javascript editor rather than a JSON editor.
+Commas should not be used at the final name-value pair - that is why the left example of [Figure 5](#fig-json-js) is not valid. This is more difficult to see if you are using it inside of a Javascript editor rather than a JSON editor.
 
-![json js](/img/4-JSON-In-Practice/json-js.png)
+<figure id="fig-json-js">
+  <img src="/img/4-JSON-In-Practice/json-js.png" alt="Trailing comma example in JSON vs JavaScript" />
+  <figcaption><strong>Figure 5.</strong> Trailing comma example in JSON vs JavaScript.</figcaption>
+</figure>
 
 ### Programming Language Syntax
 
