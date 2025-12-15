@@ -5,6 +5,16 @@ This readme contains the links to minutes, presentation files and the recordings
 
 Note: Presentation files use the pattern `YEAR-MONTH-WoTCG-EVENTNAME-PRESENTERNAME.FILETYPE`.
 
+## Meetup 31
+
+- Name: Managing Device Descriptions with the Thing Model Catalog
+- Presenter(s): Ege Korkan
+- Date: 04 December 2025
+- [Presenter Slides](./31/2025_12_04-WoTCG-Meetup31-TMC-Siemens.pdf)
+- Intro Slides: [Google Slides](https://docs.google.com/presentation/d/1CP2MG7h40Y6WSnGVpnGJnmURlpPJz-PBZ2XLd53MGPE/edit?usp=sharing) | [PDF](./31/2025-12-WoTCG-Meetup31-AguzziKorkan.pdf)
+- [Video](https://youtu.be/CuZo1NGshiI)
+- [Minutes](./30/2025-11-20-minutes.md)
+
 ## Meetup 30
 
 - Name: Enabling IoT in buildings with BACnet and Web of Things
