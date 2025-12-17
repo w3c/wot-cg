@@ -1,4 +1,4 @@
-# Video 15: IoT Protocols in Thing Description
+# Video 15: Forms and Protocol Bindings
 
 ## Table of Contents
 
