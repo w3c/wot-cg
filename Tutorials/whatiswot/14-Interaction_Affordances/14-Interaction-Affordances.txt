@@ -4,7 +4,7 @@ In this video, we’re going to dive deeper into Thing Descriptions by exploring
 
 As we previously learned, a TD serves as a description of the possible interactions with a device or service, defined as Interaction Affordances.
 
- An Interaction Affordance is one of three types: a property, an action, or an event.
+An Interaction Affordance is one of three types: a property, an action, or an event.
 An affordance is defined not only by its semantic role, but by accompanying metadata, such as interaction metadata, made up of a data schema describing the input and output structure, and forms specifying protocol bindings.
 
 To understand this better, we'll expand on the example from the last video. This is a snippet of the interaction affordances of a smart coffee machine. How an affordance is actually activated — e.g., via a network request — will be covered in a later video.
@@ -50,9 +50,9 @@ In our example, the "brewCoffee" action expects an input object with a size prop
 
 Any interaction affordance can also have structured data, regardless of its type: here, the event lowOnWater includes a numeric value describing the remaining water in milliliters.
 
- Similarly, the property coffeeBeansLeft specifies a number between 0 and 500, representing the grams of beans available.
+Similarly, the property coffeeBeansLeft specifies a number between 0 and 500, representing the grams of beans available.
 
- Data schemas are crucial for validation, tooling, and interoperability. So when
+Data schemas are crucial for validation, tooling, and interoperability. So when
 you’re authoring a Thing Description, make sure to clearly describe your data
 to ensure it can be interpreted correctly.
 
