@@ -21,7 +21,7 @@ CG refers to the Web of Things Community Group.
 > Until the revised CG Charter becomes active, this liaison remains in draft status.
 
 This liaison defines the role of the CG with respect to the work of the WG.
-The CG has four primary roles: facilitating a low entry barrier, conducting outreach, organizing plugfests, and developing bindings.
+The CG has four primary roles: facilitating a low entry barrier, conducting outreach,  developing bindings, and organizing plugfests.
 
 ### Facilitating a Low Entry Barrier
 
