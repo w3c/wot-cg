@@ -25,7 +25,7 @@ The CG has four primary roles: facilitating a low entry barrier, conducting outr
 
 ### Facilitating a Low Entry Barrier
 
-Because WG participation requires W3C membership, it is important to foster broader engagement and idea exchange on WoT-related topics.
+The purpose of this liaison is to foster broader engagement and idea exchange on WoT-related topics.
 CG participants can freely exchange ideas on WoT-related topics, collaborate on non-normative CG reports, and experiment with implementations of WG deliverables.
 Additionally, the CG develops WoT tutorials to support newcomers in understanding WG reports, as well as open-source implementations of WoT.
 
