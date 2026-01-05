@@ -42,7 +42,6 @@ These channels include, but are not limited to:
 ### Bindings
 
 The CG provides a venue to develop bindings for contributors who cannot join the WG.
-This is relevant when the _owner_ of a protocol or the WG is not willing or able to create a binding for a protocol of interest to a CG participant.
 This enables collaboration and supports the creation of public, stable URIs needed for registry submissions.
 By no means is the development of bindings limited to CG participants.
 
