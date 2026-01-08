@@ -34,7 +34,7 @@ A form describes a single way to interact with an affordance over a specific pro
 
 Each form can declare one or more operations, using the `op` field. Operations describe what semantic action(s) the client can perform — for example: reading or writing a property, invoking an action, or subscribing to an event. These operation types are defined by the WoT specification and are independent of any specific protocol. You can find a full list on the TD specification.
 
-If `op` is omitted, default operations are inferred based on the affordance type. For example, a property form is assumed to support `readproperty` unless stated otherwise.
+If `op` is omitted, default operations are inferred based on the affordance type. For example, forms of a readable property are assumed to include the `readproperty` operation unless stated otherwise.
 
 #### Protocol and URI
 
