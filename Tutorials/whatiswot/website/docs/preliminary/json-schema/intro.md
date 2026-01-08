@@ -30,7 +30,7 @@ JSON Schema serves as a JSON document that describes and validates the structure
 Its main purpose is to provide guidance to senders, such as clients, on the expected format of their requests, while enabling receivers to automatically validate incoming payloads. Despite being JSON itself, JSON Schema serves as metadata.
 
 <figure id="fig-json-schema">
-<img src="/img/tutorial/JSON-Schema/schema.png" alt="JSON Schema overview" />
+<img src="../img/tutorial/JSON-Schema/schema.png" alt="JSON Schema overview" />
 <figcaption><strong>Figure 1.</strong> JSON Schema overview.</figcaption> </figure>
 
 For instance, a basic JSON Schema like "type": "array" specifies that it accepts an array type in other JSON documents. Similar specifications can be defined for other data types in JSON, such as:
@@ -43,7 +43,7 @@ For instance, a basic JSON Schema like "type": "array" specifies that it accepts
 During the validation process on the receiver's end, this schema ensures that the incoming data conforms to the specified structure. [Figure 2](#fig-json-schema-validation) serves as an example of how such validation can be implemented in JavaScript:
 
 <figure id="fig-json-schema-validation">
-<img src="/img/tutorial/JSON-Schema/schema.png" alt="Example of JSON Schema Validation" />
+<img src="/img/5-JSON-Schema/js-schema.png" alt="Example of JSON Schema Validation" />
 <figcaption><strong>Figure 2.</strong> JSON Schema validation in JavaScript.</figcaption> </figure>
 
 It can look different in other programming languages.
