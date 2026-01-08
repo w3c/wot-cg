@@ -18,7 +18,7 @@ const config = {
   // For GitHub pages deployment , it is often '/<projectName>/'
 
   // @ts-ignore
-  baseUrl: '/whatiswot/',
+  baseUrl: process.env.baseurl,
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.

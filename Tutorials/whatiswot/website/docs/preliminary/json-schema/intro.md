@@ -2,6 +2,8 @@
 sidebar_label: Introduction
 ---
 
+import useBaseUrl from '@docusaurus/useBaseUrl';
+
 # Introduction to JSON Schema
 
 <iframe width="100%" height="400" src="https://www.youtube.com/embed/BPqDBu6fT-0?si=L-sz7baJzoAqjo3b" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -30,7 +32,7 @@ JSON Schema serves as a JSON document that describes and validates the structure
 Its main purpose is to provide guidance to senders, such as clients, on the expected format of their requests, while enabling receivers to automatically validate incoming payloads. Despite being JSON itself, JSON Schema serves as metadata.
 
 <figure id="fig-json-schema">
-<img src="../img/tutorial/JSON-Schema/schema.png" alt="JSON Schema overview" />
+<img src={useBaseUrl('/img/tutorial/JSON-Schema/schema.png')} alt="JSON Schema overview" />
 <figcaption><strong>Figure 1.</strong> JSON Schema overview.</figcaption> </figure>
 
 For instance, a basic JSON Schema like "type": "array" specifies that it accepts an array type in other JSON documents. Similar specifications can be defined for other data types in JSON, such as:
