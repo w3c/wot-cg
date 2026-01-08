@@ -2,6 +2,8 @@
 sidebar_label: Smart Homes and Cities
 ---
 
+import useBaseUrl from '@docusaurus/useBaseUrl';
+
 # Smart Homes and Cities
 
 <iframe width="100%" height="400" src="https://www.youtube.com/embed/XR1vduVPtoA?si=FGshRSPSv95EqSAo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -20,7 +22,7 @@ In this section we will explore some of the Web of Things application domains an
 In smart homes, the ability to connect and manage multiple assets remotely over the network is highly beneficial. The interesting aspect of smart homes isn’t tied to a specific solution you buy, but rather is found in the ways WoT enables flexibility. A manufacturer can provide a Thing Description for their device, which lets anyone build and customize their own systems. By following these open standards, devices can communicate with each other across manufacturers, allowing for seamless integration. This approach also ensures that devices remain adaptable and private, and don’t become obsolete, as they can continuously support new use cases and technologies.
 
 <figure id="fig-smart-home">
-  <img src="/img/10-Application-Domains/smart-homes.png" alt="Smart home architecture overview" />
+  <img src={useBaseUrl('/img/10-Application-Domains/smart-homes.png')} alt="Smart home architecture overview" />
   <figcaption><strong>Figure 1.</strong> Example of a smart home environment with interoperable devices.</figcaption>
 </figure>
 
@@ -35,7 +37,7 @@ Now that we’ve covered the basics of smart homes, let’s take a closer look a
 A common pattern involves using a controller, locally and/or remotely, to interact with devices on the home network by consuming their Thing Description (TD). Devices are represented by TDs and typically act as servers, responding to commands from client controllers (for example, smartphones) for actions such as reading sensor values or actuating devices.
 
 <figure id="fig-smart-home-controller">
-  <img src="/img/10-Application-Domains/smart-homes-controller.png" alt="Smart home controller architecture" />
+  <img src={useBaseUrl('/img/10-Application-Domains/smart-homes-controller.png')} alt="Smart home controller architecture" />
   <figcaption><strong>Figure 2.</strong> Smart home example showing controller interaction with devices using TDs.</figcaption>
 </figure>
 
@@ -46,7 +48,7 @@ Gateways are another pattern commonly found in Smart Homes. They connect home ne
 A gateway can use the local TD of a device to provide web-level access management, allowing devices to be accessed and managed both locally and remotely over the web. In the local network, the device uses one protocol for control, while externally, another protocol is typically used to manage remote interactions. The gateways facilitate this communication between local devices and external controllers by adapting the TD's protocol.
 
 <figure id="fig-gateway">
-  <img src="/img/10-Application-Domains/gateway.png" alt="Gateway architecture for smart homes" />
+  <img src={useBaseUrl('/img/10-Application-Domains/gateway.png')} alt="Gateway architecture for smart homes" />
   <figcaption><strong>Figure 3.</strong> Illustration of a gateway enabling local and remote access through protocol adaptation.</figcaption>
 </figure>
 
@@ -57,7 +59,7 @@ The TD itself remains the same in structure — only the protocol binding detail
 Let's look at [Figure 4](#fig-smart-home-connection) for an example a smart home. Here different devices — such as solar panels, thermostats, and security cameras — may all use different local protocols. Gateways unify these devices by reading their local TDs, translating their communication into internet-friendly protocols, and providing secure access. Through this setup, devices can remain operable in the local network while also becoming accessible to cloud servers and remote applications.
 
 <figure id="fig-smart-home-connection">
-  <img src="/img/10-Application-Domains/smart-home-connection.png" alt="Smart home connection flow" />
+  <img src={useBaseUrl('/img/10-Application-Domains/smart-home-connection.png')} alt="Smart home connection flow" />
   <figcaption><strong>Figure 4.</strong> Smart home gateway connection example.</figcaption>
 </figure>
 
@@ -68,7 +70,7 @@ Smart buildings such as offices, schools, government facilities, shops, and hote
 > The features of these buildings mainly focus on comfort — like proper airflow — and safety — like fire alarms and security systems.
 
 <figure id="fig-smart-building">
-  <img src="/img/10-Application-Domains/smart-building.png" alt="Smart building architecture" />
+  <img src={useBaseUrl('/img/10-Application-Domains/smart-building.png')} alt="Smart building architecture" />
   <figcaption><strong>Figure 5.</strong> Overview of a WoT-based smart building environment.</figcaption>
 </figure>
 
@@ -83,7 +85,7 @@ WoT's ability to seamlessly integrate different domains - such as water manageme
 Additionally, WoT's use of open standards supports a wide range of protocols, making it adaptable to various architectures, whether client-server or publish-subscribe, with or without cloud involvement. This versatility allows smart cities to choose the best approach for their infrastructure.
 
 <figure id="fig-smart-city">
-  <img src="/img/10-Application-Domains/smart-city.png" alt="Smart city architecture overview" />
+  <img src={useBaseUrl('/img/10-Application-Domains/smart-city.png')} alt="Smart city architecture overview" />
   <figcaption><strong>Figure 6.</strong> Example of a smart city built with WoT.</figcaption>
 </figure>
 

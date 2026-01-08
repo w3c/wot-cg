@@ -2,6 +2,8 @@
 sidebar_label: Payloads and Headers
 ---
 
+import useBaseUrl from '@docusaurus/useBaseUrl';
+
 # Payloads and Headers
 
 <iframe width="100%" height="400" src="https://www.youtube.com/embed/uooaqTpNtNw?si=vCoRygpQYoy3CXBe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -19,7 +21,7 @@ This is an introductory series that presents technologies and standards relevant
 In the Web of Things, smart devices typically exchange data with each other. Such data is sent via payloads, therefore it is essential to understand what payloads are and the headers that describe them. Thus, in this section, we will cover the topics of headers and the different types of payloads - including JSON, the most used one in the scope of WoT, and its importance.
 
 <figure id="fig-payloads-headers-overview">
-  <img src="/img/tutorial/Payloads-And-Headers/payloadsandheaders.png" alt="Relationship between payloads and headers" />
+  <img src={useBaseUrl('/img/tutorial/Payloads-And-Headers/payloadsandheaders.png')} alt="Relationship between payloads and headers" />
   <figcaption><strong>Figure 1.</strong> Relationship between payloads and headers.</figcaption>
 </figure>
 
@@ -36,7 +38,7 @@ The header is part of a message that can and should be understood by the protoco
 > Let's go back to our truck example. As seen in [Figure 2](#fig-truck-example), the header would be the label on the goods - indicating where they are being transported, what they are and etc.
 
 <figure id="fig-truck-example">
-  <img src="/img/tutorial/Payloads-And-Headers/truck.png" alt="Truck and parcel header analogy" />
+  <img src={useBaseUrl('/img/tutorial/Payloads-And-Headers/truck.png')} alt="Truck and parcel header analogy" />
   <figcaption><strong>Figure 2.</strong> Analogy showing headers as labels on transported goods.</figcaption>
 </figure>
 
@@ -45,7 +47,7 @@ The header is part of a message that can and should be understood by the protoco
 This is what an HTTP header can look like. A header can contain information like request context, response context, status and it can indicate payload type.
 
 <figure id="fig-http-header-example">
-  <img src="/img/tutorial/Payloads-And-Headers/httpheader.png" alt="Example contents of an HTTP header" />
+  <img src={useBaseUrl('/img/tutorial/Payloads-And-Headers/httpheader.png')} alt="Example contents of an HTTP header" />
   <figcaption><strong>Figure 3.</strong> Example contents of an HTTP header.</figcaption>
 </figure>
 
@@ -56,7 +58,7 @@ There are different payload types: JSON, XML, CBOR, text and audio to name a few
 So let us show you an example of a **JSON payload**. 
 
 <figure id="fig-json-payload-example">
-  <img src="/img/tutorial/Payloads-And-Headers/jsonexample.png" alt="Example of a JSON payload with sensor values" />
+  <img src={useBaseUrl('/img/tutorial/Payloads-And-Headers/jsonexample.png')} alt="Example of a JSON payload with sensor values" />
   <figcaption><strong>Figure 4.</strong> Example of a JSON payload used by a temperature sensor.</figcaption>
 </figure>
 

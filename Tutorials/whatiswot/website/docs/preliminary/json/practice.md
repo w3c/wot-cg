@@ -2,6 +2,8 @@
 sidebar_label: JSON in Practice
 ---
 
+import useBaseUrl from '@docusaurus/useBaseUrl';
+
 # JSON in Practice
 
 <iframe width="100%" height="400" src="https://www.youtube.com/embed/bfvo4DAZG78?si=3NvJK6TDwLv82K3t" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -29,7 +31,7 @@ Accepted types:
 - Null
 
 <figure id="fig-json-array">
-  <img src="/img/4-JSON-In-Practice/json-array.png" alt="Example of a JSON array" />
+  <img src={useBaseUrl('/img/4-JSON-In-Practice/json-array.png')} alt="Example of a JSON array" />
   <figcaption><strong>Figure 1.</strong> Example of a JSON array.</figcaption>
 </figure>
 
@@ -41,14 +43,14 @@ Objects start and end with curly brackets. We are essentially defining keywords 
 In this example, we define the name and value pairs to describe the data sent by sensors.
 
 <figure id="fig-nested-object">
-  <img src="/img/4-JSON-In-Practice/nested-object.png" alt="Example of a nested JSON object" />
+  <img src={useBaseUrl('/img/4-JSON-In-Practice/nested-object.png')} alt="Example of a nested JSON object" />
   <figcaption><strong>Figure 2.</strong> Example of a nested JSON object.</figcaption>
 </figure>
 
 Here is a JSON array in which all of its items are JSON objects:
 
 <figure id="fig-json-object-array">
-  <img src="/img/4-JSON-In-Practice/json-object-array.png" alt="JSON array containing multiple JSON objects" />
+  <img src={useBaseUrl('/img/4-JSON-In-Practice/json-object-array.png')} alt="JSON array containing multiple JSON objects" />
   <figcaption><strong>Figure 3.</strong> JSON array containing multiple JSON objects.</figcaption>
 </figure>
 
@@ -88,7 +90,7 @@ We should always pay attention to the type we want to use and use quotation mark
 Putting comments inside JSON documents is not valid in contrast to most of the programming languages.
 
 <figure id="fig-json-comment">
-  <img src="/img/4-JSON-In-Practice/comment.png" alt="Invalid JSON example showing a comment" />
+  <img src={useBaseUrl('/img/4-JSON-In-Practice/comment.png')} alt="Invalid JSON example showing a comment" />
   <figcaption><strong>Figure 4.</strong> Invalid JSON comment.</figcaption>
 </figure>
 
@@ -97,7 +99,7 @@ Putting comments inside JSON documents is not valid in contrast to most of the p
 Commas should not be used at the final name-value pair - that is why the left example of [Figure 5](#fig-json-js) is not valid. This is more difficult to see if you are using it inside of a Javascript editor rather than a JSON editor.
 
 <figure id="fig-json-js">
-  <img src="/img/4-JSON-In-Practice/json-js.png" alt="Trailing comma example in JSON vs JavaScript" />
+  <img src={useBaseUrl('/img/4-JSON-In-Practice/json-js.png"')} alt="Trailing comma example in JSON vs JavaScript" />
   <figcaption><strong>Figure 5.</strong> Trailing comma example in JSON vs JavaScript.</figcaption>
 </figure>
 

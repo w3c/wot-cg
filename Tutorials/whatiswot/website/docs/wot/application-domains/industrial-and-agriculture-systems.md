@@ -2,6 +2,8 @@
 sidebar_label: Industrial and Agriculture Systems
 ---
 
+import useBaseUrl from '@docusaurus/useBaseUrl';
+
 # Industrial and Agriculture Systems
 
 <iframe width="100%" height="400" src="https://www.youtube.com/embed/5DK4v-6hF08?si=sU3Vn-Oym6bkrl43" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -19,7 +21,7 @@ TDs also enable a new way to build application logic — whether it's control lo
 > In factories, for example, devices from multiple manufacturers must work together seamlessly. WoT simplifies this by supporting old and new industrial protocols alike. As shown in [Figure 1](#fig-smart-factory), devices inside a factory may use different protocols such as Modbus, Profinet, MQTT, or OPC UA. Each device is described using a Thing Description (TD), which tells other systems exactly how to interact with it. A gateway then collects these TDs, adapts them to a usable protocol (e.g., MQTT), and forwards the information to external servers. This arrangement makes workflows easier to manage, as existing devices can interoperate without additional engineering effort and communication with servers remains secure and scalable.
 
 <figure id="fig-smart-factory">
-  <img src="/img/11-Architecture-Patterns/smart-factory.png" alt="Smart factory architecture with protocol gateways" />
+  <img src={useBaseUrl('/img/11-Architecture-Patterns/smart-factory.png')} alt="Smart factory architecture with protocol gateways" />
   <figcaption><strong>Figure 1.</strong> Example of a smart factory environment where devices use different industrial protocols.</figcaption>
 </figure>
 
@@ -32,7 +34,7 @@ Agriculture systems also come with their own sets of constraints. Often, devices
 > Farm owners often aim to automate a single, specific task, like soil monitoring, for example. WoT plays a crucial role as an interoperable interface here, allowing farm owners to integrate only the parts they need without committing to an all-encompassing solution. As shown in [Figure 2](#fig-smart-farm), if a farm owner later decides to expand, this can be done easily. By enabling flexibility and compatibility across different devices and systems, WoT makes it easier for farms to adopt new solutions at their own pace and budget.
 
 <figure id="fig-smart-farm">
-  <img src="/img/11-Architecture-Patterns/smart-farm.png" alt="Smart farm architecture with interoperable devices" />
+  <img src={useBaseUrl('/img/11-Architecture-Patterns/smart-farm.png')} alt="Smart farm architecture with interoperable devices" />
   <figcaption><strong>Figure 2.</strong> Example of an agriculture system using interoperable WoT-based devices.</figcaption>
 </figure>
 
@@ -41,7 +43,7 @@ Agriculture systems also come with their own sets of constraints. Often, devices
 Thanks to the interoperability of WoT, cross-domain collaborations are also made possible. In cross-domain collaborations, each system involves other systems in other domains. As different platforms and protocols can be used in WoT, information can be easily shared across domains.
 
 <figure id="fig-cross-domain">
-  <img src="/img/11-Architecture-Patterns/cross-domain.png" alt="Cross-domain collaboration diagram" />
+  <img src={useBaseUrl('/img/11-Architecture-Patterns/cross-domain.png')} alt="Cross-domain collaboration diagram" />
   <figcaption><strong>Figure 3.</strong> Example illustration of cross-domain collaboration across smart factory, smart city, industrial and agriculture domains.</figcaption>
 </figure>
 
@@ -57,7 +59,7 @@ To summarize, WoT provides numerous advantages across its applications:
 - It works with resource-constrained devices, edge or the cloud.
 
 <figure id="fig-summary">
-  <img src="/img/11-Architecture-Patterns/summary.png" alt="Summary visual for WoT applications" />
+  <img src={useBaseUrl('/img/11-Architecture-Patterns/summary.png')} alt="Summary visual for WoT applications" />
   <figcaption><strong>Figure 4.</strong> Summary of WoT characteristics across application domains.</figcaption>
 </figure>
 

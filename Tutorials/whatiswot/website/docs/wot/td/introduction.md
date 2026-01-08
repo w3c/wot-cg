@@ -2,6 +2,8 @@
 sidebar_label: Introduction
 ---
 
+import useBaseUrl from '@docusaurus/useBaseUrl';
+
 # Thing Description
 
 <iframe width="100%" height="400" src="https://www.youtube.com/embed/traPzBmeuSo?si=fxN3PdWKUdz9LXk8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -15,7 +17,7 @@ As shown in [Figure 1](#fig-consumer-definition), a Consumer is any application 
 :::
 
 <figure id="fig-consumer-definition">
-  <img src="/img/13-Thing-Description/consumer.png" alt="Consumer definition diagram" />
+  <img src={useBaseUrl('/img/13-Thing-Description/consumer.png')} alt="Consumer definition diagram" />
   <figcaption><strong>Figure 1.</strong> The relationship between Consumer, Thing and Thing Description.</figcaption>
 </figure>
 
