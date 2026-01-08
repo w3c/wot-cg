@@ -8,7 +8,7 @@
     - WoT Operations
     - Protocol and URI
     - Content Type
-    - Protocol Specific Vocabulary
+    - Protocol-Specific Vocabulary
 - Protocol Bindings in Practice
     - HTTP
     - CoAP
@@ -18,13 +18,13 @@
 
 ### Introduction
 
-In the previous tutorial, we explored Interaction Affordances - properties, actions and events, and how they describe what a Thing can do. In this video, we will focus on the next important question: How do those interactions actually happen over the network?
+In the previous tutorial, we explored Interaction Affordances — properties, actions, and events — and how they describe what a Thing can do. In this video, we will focus on the next important question: How do those interactions actually happen over the network?
 
 In the Web of Things, this is handled through protocol bindings. Protocol bindings define how a Consumer communicates with a Thing using concrete protocols like HTTP, CoAP, MQTT, etc.
 
 ### What are Protocol Bindings?
 
-A protocol binding maps an interaction affordance - such as reading a property or invoking an action, to a specific communication protocol and endpoint. By the end of this video, you'll understand how the Consumer knows where to send a request, which protocol to use, and how to encode the data.
+A protocol binding maps an interaction affordance — such as reading a property or invoking an action — to a specific communication protocol and endpoint, and the parameters required by the protocol. By the end of this video, you'll understand how the Consumer knows where to send a request, which protocol to use, and how to encode the data.
 
 ### Forms Structure
 
@@ -32,28 +32,29 @@ A form describes a single way to interact with an affordance over a specific pro
 
 #### WoT Operations
 
-Each form can declare one or more operations, using the `op` field. Operations describe what semantic action the client can perform - for example: reading or writing a property, invoking an action or subscribing to an event. These operation types are defined by the WoT specification and are independent of any specific protocol and you can find a full list on the TD specification page.
-If `op` is omitted, default operations are inferred based on the affordance type. For example, a property form is assumed to support readproperty unless stated otherwise.
+Each form can declare one or more operations, using the `op` field. Operations describe what semantic action(s) the client can perform — for example: reading or writing a property, invoking an action, or subscribing to an event. These operation types are defined by the WoT specification and are independent of any specific protocol. You can find a full list on the TD specification.
+
+If `op` is omitted, default operations are inferred based on the affordance type. For example, a property form is assumed to support `readproperty` unless stated otherwise.
 
 #### Protocol and URI
 
 The most important field in a form is `href`. The `href` is a URI that tells the client where to interact with the Thing and which protocol to use. The protocol is inferred directly from the URI scheme.
-- https:// -> HTTP
-- coap:// -> CoAP
-- mqtt:// -> MQTT
+- `https://` -> HTTP
+- `coap://` -> CoAP
+- `mqtt://` -> MQTT
 
 This design allows a Thing Description to stay protocol-agnostic while still enabling concrete interactions. A single affordance can expose multiple forms as well, offering the same interaction over different protocols.
 
 #### Content Type
 
 Forms can also specify a `contentType`, which tells the client how the payload is encoded. Common examples include:
-- application/json
-- application/cbor
-- text/plain
+- `application/json` -> JSON
+- `application/cbor` -> CBOR
+- `text/plain` -> TEXT
 
-This ensures that both the Thing and the Consumer agree on how data is serialized and parsed. If no content type is specified, protocol-specific defaults may apply, but explicitly defining it improves interoperability.
+This ensures that both the Thing and the Consumer agree on how data is serialized and parsed. If no content type is specified, protocol-specific defaults may apply, but explicitly declaring them improves interoperability.
 
-#### Protocol Specific Vocabulary
+#### Protocol-Specific Vocabulary
 
 While WoT aims to stay protocol-independent, forms allow protocol-specific extensions when needed. These are expressed through additional fields defined in protocol binding specifications.
 
@@ -103,7 +104,7 @@ Now that we understand the structure of forms, let's see how protocol bindings w
 
 #### HTTP
 
-HTTP follows a request–response model and integrates naturally with existing web infrastructure. In WoT, HTTP bindings are typically used for reading and writing properties, invoking actions and accessing Thing metadata. HTTP is a good choice when devices are web-connected and when interoperability with existing web services is important.
+HTTP follows a request–response model and integrates naturally with existing web infrastructure. In WoT, HTTP bindings are typically used for reading and writing properties, invoking actions, and accessing Thing metadata. HTTP is a good choice when devices are web-connected and when interoperability with existing web services is important.
 
 ```json
 "properties": {
@@ -156,7 +157,7 @@ Let's use CoAP to invoke the `brewCoffee` action:
 }
 ```
 
-This time, the form uses a `coap://` URI to indicate CoAP instead of HTML. From the Consumer's perspective, invoking the action works the same as with HTTP - the only difference is the underlying protocol, which is optimized for constrained devices.
+This time, the form uses a `coap://` URI to indicate CoAP instead of HTTP. From the Consumer's perspective, invoking the action works the same as with HTTP — the only difference is the underlying protocol, which is optimized for constrained devices.
 
 #### MQTT
 
