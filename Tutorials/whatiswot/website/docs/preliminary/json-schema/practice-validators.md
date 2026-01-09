@@ -2,6 +2,8 @@
 sidebar_label: JSON Schema in Practice - Validators
 ---
 
+import useBaseUrl from '@docusaurus/useBaseUrl';
+
 # JSON Schema in Practice - Validators
 
 <iframe width="100%" height="400" src="https://www.youtube.com/embed/ZKoWLyaWuaw?si=Qo-mBPkp8-J33o7C" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -61,7 +63,7 @@ However, numerous other validators exist. For further information, you can check
 The library takes a schema for your JSON data and validates your data according to the schema. Outputs the validation result as a boolean.
 
 <figure id="fig-basic-validation-flow">
-<img src="/img/8-JSON-Schema-3/basic-validation.png" alt="Basic Validation Flow" />
+<img src={useBaseUrl('/img/8-JSON-Schema-3/basic-validation.png')} alt="Basic Validation Flow" />
 <figcaption><strong>Figure 1.</strong> Basic validation flow.</figcaption> </figure>
 
 ## Javascript AJV
