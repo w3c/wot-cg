@@ -24,15 +24,15 @@ In the Web of Things, this is handled through protocol bindings. Protocol bindin
 
 ### What are Protocol Bindings?
 
-A protocol binding maps an interaction affordance — such as reading a property or invoking an action — to a specific communication protocol and endpoint, and the parameters required by the protocol. By the end of this video, you'll understand how the Consumer knows where to send a request, which protocol to use, and how to encode the data.
+A protocol binding maps an operation of an interaction affordance — such as reading a property or invoking an action — to a specific network message: communication protocol and endpoint, and the parameters required by the protocol. By the end of this video, you'll understand how the Consumer knows where to send a request, which protocol to use, and how to encode the data.
 
 ### Forms Structure
 
-A form describes a single way to interact with an affordance over a specific protocol. It can be thought of as a simple instruction to the Consumer: "To perform this type of operation on this interaction, send a request in this way to this address." Now let's break down the key parts of a form.
+A form describes a way to interact with an affordance over a specific protocol. It can be thought of as a simple instruction to the Consumer: "To perform this type of operation on this affordance, send a request in this way to this address." Now let's break down the key parts of a form.
 
 #### WoT Operations
 
-Each form can declare one or more operations, using the `op` field. Operations describe what semantic action(s) the client can perform — for example: reading or writing a property, invoking an action, or subscribing to an event. These operation types are defined by the WoT specification and are independent of any specific protocol. You can find a full list on the TD specification.
+Each form can declare one or more operations, using the `op` field. Operations describe what semantic action(s) the Consumer can perform — for example: reading or writing a property, invoking an action, or subscribing to an event. These operation types are defined by the WoT specification and are independent of any specific protocol. You can find a full list on the TD specification.
 
 If `op` is omitted, default operations are inferred based on the affordance type. For example, forms of a readable property are assumed to include the `readproperty` operation unless stated otherwise.
 
@@ -43,11 +43,11 @@ The most important field in a form is `href`. The `href` is a URI that tells the
 - `coap://` -> CoAP
 - `mqtt://` -> MQTT
 
-This design allows a Thing Description to stay protocol-agnostic while still enabling concrete interactions. A single affordance can expose multiple forms as well, offering the same interaction over different protocols.
+This design allows the Thing Description concept to stay protocol-agnostic while still enabling concrete protocol-level interactions. A single affordance can expose multiple forms as well, offering the same interaction over different protocols.
 
 #### Content Type
 
-Forms can also specify a `contentType`, which tells the client how the payload is encoded. Common examples include:
+Forms also specify a `contentType`, which tells the client how the payload is encoded. Common examples include:
 - `application/json` -> JSON
 - `application/cbor` -> CBOR
 - `text/plain` -> TEXT
