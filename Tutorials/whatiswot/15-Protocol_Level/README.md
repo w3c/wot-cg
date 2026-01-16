@@ -60,7 +60,9 @@ While WoT aims to stay protocol-independent, forms allow protocol-specific exten
 
 ### Protocol Bindings in Practice
 
-Now that we understand the structure of forms, let's see how protocol bindings work in practice. When a Consumer wants to interact with a Thing, it does not need any prior knowledge about the protocol being used. Instead, it reads the Thing Description, looks at the available forms, and selects one it understands.  Let's revisit our smart coffee machine example from the last video and fill out the forms for our interaction affordances so far.
+Now that we understand the structure of forms, let's see how protocol bindings work in practice. When you want to write a Consumer application, you don't need any prior knowledge about the protocol being used. Instead, the Consumer reads the Thing Description, looks at the available forms, and selects one it understands.
+
+We will now quickly show how forms can look and what they mean for the following protocols: HTTP, CoAP, MQTT, and Modbus. Let's revisit our smart coffee machine example from the last video and fill out the forms for our interaction affordances so far.
 
 ``` json
 {
@@ -104,8 +106,6 @@ Now that we understand the structure of forms, let's see how protocol bindings w
 
 #### HTTP
 
-HTTP follows a request–response model and integrates naturally with existing web infrastructure. In WoT, HTTP bindings are typically used for reading and writing properties, invoking actions, and accessing Thing metadata. HTTP is a good choice when devices are web-connected and when interoperability with existing web services is important.
-
 ```json
 "properties": {
   "coffeeBeansLeft": {
@@ -117,7 +117,8 @@ HTTP follows a request–response model and integrates naturally with existing w
       {
         "href": "https://coffee.example.com/properties/coffeeBeansLeft",
         "op": "readproperty",
-        "contentType": "application/json"
+        "contentType": "application/json",
+        "htv:methodName": "GET"
       }
     ]
   }
@@ -127,8 +128,6 @@ HTTP follows a request–response model and integrates naturally with existing w
 Here, the form tells the Consumer that it can read the property `coffeeBeansLeft` using HTTP and expects a JSON response. Because this is a readproperty operation, the Consumer knows to perform an HTTP GET request.
 
 #### CoAP
-
-CoAP is a lightweight protocol designed for constrained devices and low-power networks. It provides a similar interaction model to HTTP, but with much lower overhead, making it suitable for embedded systems and IoT deployments with limited resources.
 
 Let's use CoAP to invoke the `brewCoffee` action:
 
@@ -150,7 +149,8 @@ Let's use CoAP to invoke the `brewCoffee` action:
       {
         "href": "coap://coffee.example.com/actions/brewCoffee",
         "op": "invokeaction",
-        "contentType": "application/json"
+        "contentType": "application/cbor",
+        "cov:method": "POST"
       }
     ]
   }
@@ -165,6 +165,10 @@ This time, the form uses a `coap://` URI to indicate CoAP instead of HTTP. From 
 "events": {
   "lowOnWater": {
     "title": "Low Water Level",
+    "data": {
+      "type": "number",
+      "description": "Remaining water level in milliliters"
+    },
     "forms": [
       {
         "href": "mqtt://broker.example.com/coffee/events/lowOnWater",
@@ -176,13 +180,34 @@ This time, the form uses a `coap://` URI to indicate CoAP instead of HTTP. From 
 }
 ```
 
-MQTT is a lightweight, publish/subscribe messaging protocol that is ideal for connecting IoT devices and low-power hardware over constrained networks. Instead of direct requests, Consumers publish messages to topics or subscribe to receive updates.
+Here, the href points to an MQTT broker and topic. Instead of sending requests, the Consumer subscribes to the topic and receives event data asynchronously. The form then only describes how that data is delivered — in this case, via an MQTT broker.
 
 #### Modbus
 
 Modbus is a traditional industrial protocol widely used in automation and control systems. While it predates modern web technologies, WoT protocol bindings make it possible to expose Modbus-based devices through a standardized Thing Description. This allows legacy industrial equipment to be integrated into modern web-based systems, without changing the underlying protocol.
 
-WoT effectively acts as a semantic and interaction layer on top of Modbus, bridging the gap between industrial systems with web applications.
+```json
+...
+"base": "modbus+tcp://coffee-machine.example.com:502/1/",
+  "properties": {
+    "waterTankPresent": {
+      "title": "Water Tank Present",
+      "type": "boolean",
+      "description": "Indicates whether the water tank is correctly inserted",
+      "forms": [
+        {
+          "op": "readproperty",
+          "href": "10003",
+          "modv:function": "readDiscreteInput",
+          "contentType": "application/octet-stream"
+        }
+      ]
+    }
+  }
+...
+```
+
+For example, our coffee machine has a waterTankPresent property. The form points to the correct Modbus input, and the Consumer simply reads it — no need to know Modbus itself. This way we can treat a decades-old industrial protocol the same way we treat modern web protocols. WoT effectively acts as a semantic and interaction layer on top of Modbus, bridging the gap between industrial systems and web applications.
 
 ### Summary
 
