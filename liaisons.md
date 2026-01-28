@@ -41,9 +41,10 @@ These channels include, but are not limited to:
 
 ### Bindings
 
-The CG provides a venue to develop bindings for contributors who cannot join the WG.
-This enables collaboration and supports the creation of public, stable URIs needed for registry submissions.
-By no means is the development of bindings limited to CG participants.
+The CG participants can write binding documents that can be submitted to the Web of Things Binding Registry, whose current custodian is the WG.
+A binding developed in the CG shows community involvement and community adoption but does not make it a standard.
+A binding developed in the CG can be transferred to the WG following the [transition process](https://www.w3.org/guide/process/cg-transition.html).
+While archival systems can be used to generate stables URLs for a binding written in the CG, it is recommended to publish the stable version of binding as a final CG report.
 
 The following requirements are mandated by external documents:
 
