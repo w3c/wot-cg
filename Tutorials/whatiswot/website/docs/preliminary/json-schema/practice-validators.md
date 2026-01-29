@@ -25,7 +25,7 @@ Throughout this tutorial, we will mainly focus on validation with the JavaScript
 
 Here are some of the most popular validators in different programming languages.
 
-However, numerous other validators exist. For further information, you can check out the JSON Schema website (<https://json-schema.org/implementations.html#validator-rust>).
+However, numerous other validators exist. For further information, you can check out the JSON Schema website (<https://json-schema.org/tools>).
 
 ### json-everything
 
