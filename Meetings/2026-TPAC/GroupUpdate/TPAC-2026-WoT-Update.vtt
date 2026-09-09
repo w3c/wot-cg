@@ -1,0 +1,69 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:12.019 
+ This past year, the Web of Things at W3C took meaningful steps forward, thanks to a diverse community of
+
+00:00:12.019 --> 00:00:17.869 
+contributors across multiple groups. We'd like to share a few of the highlights with you.
+
+00:00:17.869 --> 00:00:24.292 
+ Thanks to the members of the working group, new features have arrived in the Web of Things standard.
+
+00:00:24.292 --> 00:00:33.093 
+ The Thing Description gained Common Definitions, which let you declare 
+shared protocol details once, instead of repeating them across
+
+00:00:33.093 --> 00:00:34.137 
+a description
+
+00:00:34.137 --> 00:00:42.593 
+ There is now also a binding registry, which opens the door for standardization work outside of W3C to contribute
+
+00:00:42.593 --> 00:00:51.469 
+- OPC UA Binding from OPC Foundation is one example of such a collaboration. Alongside it, new protocol bindings are
+
+00:00:51.469 --> 00:00:54.676 
+available and already in use in real-world systems.
+
+00:00:54.676 --> 00:01:01.955 
+A new charter is in place as well, starting September 2026 and setting the direction for the years ahead -
+
+00:01:01.955 --> 00:01:07.976 
+so if you're interested in standardization for the Internet of Things, this is a good moment to get involved.
+
+00:01:07.976 --> 00:01:22.879 
+ The community group held six meetups and expanded their tutorial library, where you can get hands-on with the Web
+
+00:01:22.879 --> 00:01:32.385 
+of Things yourself.
+
+00:01:32.385 --> 00:01:39.001 
+This year, the Web Thing Protocol Community Group released the first specification of the Web Thing Protocol.
+
+00:01:39.001 --> 00:01:46.334 
+It is the protocol built natively on the Thing Description model to work on top of WebSockets. Implementations are already
+
+00:01:46.334 --> 00:01:50.666 
+underway, and it's heading toward the Working Group for standardization.
+
+00:01:50.666 --> 00:01:55.707 
+The Web of Things is open source at heart, and it grows with every new contributor.
+
+00:01:55.707 --> 00:02:02.953 
+If you're interested in getting involved, a great place to start is the newly reworked website, which brings together all
+
+00:02:02.953 --> 00:02:05.156 
+relevant information in one place.
+
+00:02:05.156 --> 00:02:08.207 
+From there you can also reach each group individually.
+
+00:02:08.207 --> 00:02:18.509 
+ If you'd rather meet the groups face to face, we'll be at TPAC in Dublin, and in January at
+
+00:02:18.509 --> 00:02:26.416 
+the WoT Open Day and Hands-on, in Shenzhen, China - two chances to experience the technology in action yourself.
+
+00:02:26.416 --> 00:02:32.449 
+You can click the links in the description to participate, or connect with the community on GitHub and Discord.
+
