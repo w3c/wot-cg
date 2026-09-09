@@ -1,0 +1,26 @@
+ This past year, the Web of Things at W3C took meaningful steps forward, thanks to a diverse community of contributors across multiple groups. We'd like to share a few of the highlights with you.
+ Thanks to the members of the working group, new features have arrived in the Web of Things standard.
+
+ The Thing Description gained Common Definitions, which let you declare 
+shared protocol details once, instead of repeating them across a description
+
+ There is now also a binding registry, which opens the door for standardization work outside of W3C to contribute - OPC UA Binding from OPC Foundation is one example of such a collaboration. Alongside it, new protocol bindings are available and already in use in real-world systems.
+
+A new charter is in place as well, starting September 2026 and setting the direction for the years ahead - so if you're interested in standardization for the Internet of Things, this is a good moment to get involved.
+
+ The community group held six meetups and expanded their tutorial library, where you can get hands-on with the Web of Things yourself.
+
+This year, the Web Thing Protocol Community Group released the first specification of the Web Thing Protocol.
+
+It is the protocol built natively on the Thing Description model to work on top of WebSockets. Implementations are already underway, and it's heading toward the Working Group for standardization.
+
+The Web of Things is open source at heart, and it grows with every new contributor.
+
+If you're interested in getting involved, a great place to start is the newly reworked website, which brings together all relevant information in one place.
+
+From there you can also reach each group individually.
+
+ If you'd rather meet the groups face to face, we'll be at TPAC in Dublin, and in January at the WoT Open Day and Hands-on, in Shenzhen, China - two chances to experience the technology in action yourself.
+
+You can click the links in the description to participate, or connect with the community on GitHub and Discord.
+
